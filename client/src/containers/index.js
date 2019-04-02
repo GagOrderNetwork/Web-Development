@@ -1,38 +1,34 @@
-import React, { Component, PropTypes } from 'react';
-import { connect } from 'react-redux';
+import React from "react";
+import { Switch, Route } from "react-router-dom";
+import LiveApp from "./liveApp.js";
+import Welcome from "./welcome.js";
+import MyAccount from "./myAccount.js";
 
-import Player from '../components/player';
-import Guide from './guide';
-import VideoSidebar from './videoSidebar';
-
-export class App extends Component {
-  constructor (props) {
-    super(props);
+const routes = [
+  {
+    path: "/",
+    exact: true,
+    component: Welcome
+  },
+  {
+    path: "/live-tv",
+    component: LiveApp
+  },
+  {
+    path: "/my-account",
+    component: MyAccount
   }
+];
 
-  render () {
-    return (
-      <div className='app'>
-        <Player videoId={this.props.videoId} />
-        <Guide />
-        <VideoSidebar />
-      </div>
-    );
-  }
+const Routes = () => {
+  return (
+    <Switch>
+      {routes.map(routeData => {
+        const { path } = routeData;
+        return <Route key={path || "404"} {...routeData} />;
+      })}
+    </Switch>
+  );
 };
 
-App.PropTypes = {
-
-};
-
-function mapStateToProps (state) {
-  return {
-    videoId: state.player.videoId
-  };
-}
-
-function mapDispatchToProps (dispatch) {
-  return {};
-}
-
-export default connect(mapStateToProps, mapDispatchToProps)(App);
+export default Routes;

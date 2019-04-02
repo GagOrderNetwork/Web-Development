@@ -1,6 +1,6 @@
 .mars-guide {
   transition: width 250ms ease-in;
-  background: #252525;
+  background: #1b2727;
   bottom: 0;
   height: 50vh;
   margin: 0;
@@ -50,9 +50,9 @@
 
 .channel-info {
   display: flex;
-  color: #fff;
+  color: #eff4f5;
   cursor: pointer;
-  background: #115164;
+  background: #7992a3;
   box-shadow: inset 0 -1px 0 0 rgba(51, 51, 51, 0.33);
   height: 56px;
   position: relative;
@@ -65,7 +65,7 @@
     text-overflow: ellipsis;
     vertical-align: top;
     white-space: nowrap;
-    width: 190px
+    width: 190px;
   }
   .number {
     text-align: center;
@@ -82,8 +82,8 @@
   margin-bottom: 0px;
   padding: 0;
   .row {
-    background: #1e242c;
-    color: #49576c;
+    background: #9aa2ae;
+    color: #eff4f5;
     height: 56px;
     line-height: 56px;
   }
@@ -97,8 +97,8 @@
 }
 
 .category {
-  background-color: #313841;
-  color: #fafafa;
+  background-color: #77758b;
+  color: #eff4f5;
   height: 30px;
   line-height: 30px;
   font-size: 14px;
@@ -115,7 +115,7 @@
   box-shadow: inset 1px 1px 0 0 rgba(73, 87, 108, 0.27);
   cursor: pointer;
   &:hover {
-    background-color: #141B23;
+    background-color: #2f5d7a;
   }
   .inner-timeline {
     text-align: left;
@@ -127,5 +127,32 @@
     max-width: 100%;
     min-width: 20px;
     padding: 0px 20px;
+  }
+}
+
+@media (max-width: 812px) {
+  .mars-guide {
+    width: 100%;
+
+    .guide-scroller {
+      .guide-viewport {
+        .left {
+          width: 150px;
+        }
+        .right {
+          width: auto;
+        }
+      }
+    }
+
+    .episode {
+      width: 150px;
+    }
+  }
+}
+
+@media (max-width: 812px) and (orientation: landscape) {
+  .mars-guide {
+    display: none;
   }
 }

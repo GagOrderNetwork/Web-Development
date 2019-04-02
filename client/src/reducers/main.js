@@ -1,14 +1,14 @@
-import * as ACTIONS from '../constants/';
+import * as ACTIONS from "../constants/";
 
 const INITIAL_STATE = {
   episode: {
-    'videoId': '2O6PZx5KlIA',
-    'title': 'Game of Thrones S6E09 Explained',
-    'runtime': 30,
-    'start': 17,
-    'end': 18
+    videoId: "2O6PZx5KlIA",
+    title: "Jamie Scott from Graffiti6",
+    runtime: 30,
+    start: 17,
+    end: 18
   },
-  channel: { 'channelName': 'AltShiftX' }
+  channel: { channelName: "G-Soul" }
 };
 
 export default (state = INITIAL_STATE, action) => {

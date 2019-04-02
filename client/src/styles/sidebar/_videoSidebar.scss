@@ -3,7 +3,7 @@
   zoom: 1;
   -moz-transition: right 250ms ease-in;
   transition: right 250ms ease-in;
-  background: #516371;
+  background: #7992a3;
   bottom: 0;
   height: 50vh;
   line-height: 1.5em;
@@ -11,7 +11,7 @@
   right: 0;
   width: 214.4px;
   z-index: 5;
-  color: #fff;
+  color: #eff4f5;
   .header {
     font-size: 25px;
     height: 56px;
@@ -34,5 +34,11 @@
       margin: 15px 0;
       text-shadow: -1px 0 #000;
     }
+  }
+}
+
+@media (max-width: 812px) {
+  .video-sidebar {
+    display: none;
   }
 }

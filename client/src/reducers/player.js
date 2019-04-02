@@ -1,7 +1,7 @@
-import * as ACTIONS from '../constants/player';
+import * as ACTIONS from "../constants/player";
 
 const INITIAL_STATE = {
-  videoId: 'XxVg_s8xAms'
+  videoId: "rJ2R3BVJd-s"
 };
 
 export default (state = INITIAL_STATE, action) => {
