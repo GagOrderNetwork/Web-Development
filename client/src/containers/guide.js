@@ -28,13 +28,13 @@ export class Guide extends Component {
             <div className="guide-viewport">
               <ChannelListings
                 left="left"
+                updateVideo={this.props.updateVideo}
+                updateEpisode={this.props.updateEpisode}
                 categories={Object.keys(Data)}
                 data={Data}
               />
               <EpisodeListings
                 right="right"
-                updateVideo={this.props.updateVideo}
-                updateEpisode={this.props.updateEpisode}
                 categories={Object.keys(Data)}
                 data={Data}
               />

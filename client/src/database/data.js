@@ -44,8 +44,8 @@ const data = {
       image: "goo.gl/I91jY8",
       episodes: [
         {
-          videoId: "k8P10o1PIsE",
-          title: "The Whitest Kids U' Know interview",
+          videoId: "Ap9f-BR1M7k",
+          title: "Simon Tofield (Simon's Cat) Interview at the Brookline Booksmith",
           runtime: 30,
           start: 16,
           end: 17
@@ -225,8 +225,8 @@ const data = {
       image: "goo.gl/I91jY8",
       episodes: [
         {
-          videoId: "k8P10o1PIsE",
-          title: "The Whitest Kids U' Know interview",
+          videoId: "Ap9f-BR1M7k",
+          title: "Simon Tofield (Simon's Cat) Interview at the Brookline Booksmith",
           runtime: 30,
           start: 16,
           end: 17

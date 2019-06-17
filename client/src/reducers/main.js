@@ -2,11 +2,11 @@ import * as ACTIONS from "../constants/";
 
 const INITIAL_STATE = {
   episode: {
-    videoId: "2O6PZx5KlIA",
-    title: "Jamie Scott from Graffiti6",
+    videoId: "6i0-cK64gYo",
+    title: "BODEGA BAMZ INTERVIEW",
     runtime: 30,
-    start: 17,
-    end: 18
+    start: 16,
+    end: 17
   },
   channel: { channelName: "G-Soul" }
 };

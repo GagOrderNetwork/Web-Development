@@ -1,8 +1,9 @@
-import * as ACTIONS from '../constants/player';
+import * as ACTIONS from "../constants/player";
 
-export function updateVideo (videoId) {
+export function updateVideo(video) {
   return {
     type: ACTIONS.UPDATE_VIDEO,
-    videoId: videoId
+    video: video,
+    videoId: video[0].videoId
   };
-};
+}
