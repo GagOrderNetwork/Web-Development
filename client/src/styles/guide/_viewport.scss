@@ -52,7 +52,7 @@
   display: flex;
   color: #eff4f5;
   cursor: pointer;
-  background: #7992a3;
+  background: #4e78a0;
   box-shadow: inset 0 -1px 0 0 rgba(51, 51, 51, 0.33);
   height: 56px;
   position: relative;
@@ -101,7 +101,7 @@
 }
 
 .category {
-  background-color: #77758b;
+  background-color: #d2b48c;
   color: #eff4f5;
   height: 30px;
   line-height: 30px;
@@ -117,10 +117,7 @@
 .episode {
   overflow: hidden;
   box-shadow: inset 1px 1px 0 0 rgba(73, 87, 108, 0.27);
-  // cursor: pointer;
-  // &:hover {
-  //   background-color: #2f5d7a;
-  // }
+
   .inner-timeline {
     text-align: left;
     display: inline-block;

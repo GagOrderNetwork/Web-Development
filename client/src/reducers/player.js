@@ -35,7 +35,6 @@ const INITIAL_STATE = {
   videoId: "6i0-cK64gYo"
 };
 
-
 export default (state = INITIAL_STATE, action) => {
   switch (action.type) {
     case ACTIONS.UPDATE_VIDEO:
