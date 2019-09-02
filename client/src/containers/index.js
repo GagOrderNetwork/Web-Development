@@ -1,17 +1,12 @@
 import React from "react";
 import { Switch, Route } from "react-router-dom";
 import LiveApp from "./liveApp.js";
-import Welcome from "./welcome.js";
 import MyAccount from "./myAccount.js";
 
 const routes = [
   {
     path: "/",
     exact: true,
-    component: Welcome
-  },
-  {
-    path: "/live-tv",
     component: LiveApp
   },
   {

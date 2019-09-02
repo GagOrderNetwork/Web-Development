@@ -32,19 +32,24 @@ export class Player extends Component {
     return (
       <section className="video-main">
         <div className="video-header">
-          <NavLink to="/">
+          <a href="https://geauxnet.com">
             <div className="video-circle">
               <Logo />
             </div>
-          </NavLink>
+          </a>
+          {/*
           <div className="video-live">
-            <span> Live TV </span>
+            <a href="https://geauxnet.com">
+              <span> Live TV </span>
+            </a>
           </div>
+          
           <NavLink to="/my-account">
             <div className="video-circle">
               <span> Avatar </span>
             </div>
           </NavLink>
+          */}
         </div>
         <div className="video-player">
           <YouTube
