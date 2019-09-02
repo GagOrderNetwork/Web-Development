@@ -165,7 +165,7 @@
     .guide-scroller {
       .guide-viewport {
         .left {
-          width: 90px;
+          width: 75px;
         }
       }
     }
@@ -177,7 +177,12 @@
     }
 
     .episode {
-      width: 90px;
+      width: 75px;
+
+      .inner-timeline {
+        min-width: 600px;
+        padding: 0px 10px;
+      }
     }
   }
 }
