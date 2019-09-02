@@ -12,12 +12,14 @@ const Welcome = props => {
 
         <div className="welcome-LiveTv-buttons">
           <div className="welcome-LiveTv-button">
-            <span>Radio</span>
+            <a href="https://geauxnet.com">
+              <span>Home</span>
+            </a>
           </div>
           <div className="welcome-LiveTv">
             <NavLink to="/live-tv">
               <div className="welcome-LiveTv-button">
-                <span>Live TV</span>
+                <span>Geaux TV</span>
               </div>
             </NavLink>
           </div>
