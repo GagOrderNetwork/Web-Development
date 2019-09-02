@@ -138,7 +138,7 @@
     .guide-scroller {
       .guide-viewport {
         .left {
-          width: 150px;
+          width: 168px;
         }
         .right {
           width: auto;
@@ -147,7 +147,7 @@
     }
 
     .episode {
-      width: 150px;
+      width: 168px;
     }
   }
 }
@@ -155,5 +155,29 @@
 @media (max-width: 812px) and (orientation: landscape) {
   .mars-guide {
     display: none;
+  }
+}
+
+@media (max-width: 700px) {
+  .mars-guide {
+    width: 100%;
+
+    .guide-scroller {
+      .guide-viewport {
+        .left {
+          width: 90px;
+        }
+      }
+    }
+
+    .channel-info {
+      .channel-name {
+        display: none;
+      }
+    }
+
+    .episode {
+      width: 90px;
+    }
   }
 }
