@@ -7,32 +7,24 @@ const data = {
       image: "goo.gl/aNe2Yj",
       episodes: [
         {
-          videoId: "6i0-cK64gYo",
-          title: "BODEGA BAMZ INTERVIEW",
-          runtime: 30,
-          start: 16,
-          end: 17
+          videoId:
+            "https://youtube.com/embed/6i0-cK64gYo?rel=0&amp;autoplay=1&controls=0",
+          title: "BODEGA BAMZ INTERVIEW"
         },
         {
-          videoId: "p13XJByy6Lc",
-          title: "ZELOOPERZ INTERVIEW",
-          runtime: 30,
-          start: 17,
-          end: 18
+          videoId:
+            "https://youtube.com/embed/p13XJByy6Lc?rel=0&amp;autoplay=1&controls=0",
+          title: "ZELOOPERZ INTERVIEW"
         },
         {
-          videoId: "ycAtj4KPHtc",
-          title: "DENZEL CURRY INTERVIEW",
-          runtime: 30,
-          start: 18,
-          end: 19
+          videoId:
+            "https://youtube.com/embed/ycAtj4KPHtc?rel=0&amp;autoplay=1&controls=0",
+          title: "DENZEL CURRY INTERVIEW"
         },
         {
-          videoId: "PJj9aaPBqZY",
-          title: "HOLYCHILD INTERVIEW",
-          runtime: 30,
-          start: 20,
-          end: 23
+          videoId:
+            "https://youtube.com/embed/PJj9aaPBqZY?rel=0&amp;autoplay=1&controls=0",
+          title: "HOLYCHILD INTERVIEW"
         }
       ]
     },
@@ -42,32 +34,23 @@ const data = {
       image: "goo.gl/I91jY8",
       episodes: [
         {
-          videoId: "cv6JVmyAU80",
-          title: "Louie Bello - Someday (acapella)",
-          runtime: 30,
-          start: 16,
-          end: 17
+          videoId: "https://player.vimeo.com/video/169472004?autoplay=1",
+          title: "Noir et Blanc"
         },
         {
-          videoId: "6Hc8Z3QzKic",
-          title: "Amy WInehouse - Valerie (Cover)",
-          runtime: 30,
-          start: 17,
-          end: 18
+          videoId:
+            "https://youtube.com/embed/cv6JVmyAU80?rel=0&amp;autoplay=1&controls=0",
+          title: "Louie Bello - Someday (acapella)"
         },
         {
-          videoId: "uPz7UsQmsjM",
-          title: "De-Lor - Cruel (Acapella)",
-          runtime: 30,
-          start: 18,
-          end: 19
+          videoId:
+            "https://youtube.com/embed/uPz7UsQmsjM?rel=0&amp;autoplay=1&controls=0",
+          title: "De-Lor - Cruel (Acapella)"
         },
         {
-          videoId: "lGkYAKV3-2s",
-          title: "Sid Sriram - Limitless (Acapella)",
-          runtime: 30,
-          start: 20,
-          end: 23
+          videoId:
+            "https://youtube.com/embed/lGkYAKV3-2s?rel=0&amp;autoplay=1&controls=0",
+          title: "Sid Sriram - Limitless (Acapella)"
         }
       ]
     },
@@ -77,32 +60,24 @@ const data = {
       image: "goo.gl/I91jY8",
       episodes: [
         {
-          videoId: "FH4GUan5eA0",
-          title: "G-eazy - Hang Ten (Live)",
-          runtime: 30,
-          start: 16,
-          end: 17
+          videoId:
+            "https://youtube.com/embed/FH4GUan5eA0?rel=0&amp;autoplay=1&controls=0",
+          title: "G-eazy - Hang Ten (Live)"
         },
         {
-          videoId: "3Q8KJysuqFA",
-          title: "G-eazy - Endless Summer (Live)",
-          runtime: 30,
-          start: 17,
-          end: 18
+          videoId:
+            "https://youtube.com/embed/3Q8KJysuqFA?rel=0&amp;autoplay=1&controls=0",
+          title: "G-eazy - Endless Summer (Live)"
         },
         {
-          videoId: "M5cJvj06J9A",
-          title: "Aer - Feel I bring (Live)",
-          runtime: 30,
-          start: 18,
-          end: 19
+          videoId:
+            "https://youtube.com/embed/M5cJvj06J9A?rel=0&amp;autoplay=1&controls=0",
+          title: "Aer - Feel I bring (Live)"
         },
         {
-          videoId: "_e0RrrLGumQ",
-          title: "Aer - School (Live)",
-          runtime: 30,
-          start: 20,
-          end: 23
+          videoId:
+            "https://youtube.com/embed/_e0RrrLGumQ?rel=0&amp;autoplay=1&controls=0",
+          title: "Aer - School (Live)"
         }
       ]
     },
@@ -112,32 +87,24 @@ const data = {
       image: "goo.gl/aNe2Yj",
       episodes: [
         {
-          videoId: "ubnNSDlRvtM",
-          title: "Tomorrows Bad Seeds - Vices (Live)",
-          runtime: 30,
-          start: 16,
-          end: 17
+          videoId:
+            "https://youtube.com/embed/ubnNSDlRvtM?rel=0&amp;autoplay=1&controls=0",
+          title: "Tomorrows Bad Seeds - Vices (Live)"
         },
         {
-          videoId: "PJupwo149xI",
-          title: "Tomorrows Bad Seeds - Nice & Slow, Slow Down",
-          runtime: 30,
-          start: 17,
-          end: 18
+          videoId:
+            "https://youtube.com/embed/PJupwo149xI?rel=0&amp;autoplay=1&controls=0",
+          title: "Tomorrows Bad Seeds - Nice & Slow, Slow Down"
         },
         {
-          videoId: "MqUJFDrMIf0",
-          title: "Tomorrows Bad Seeds - Roundtrip (Live)",
-          runtime: 30,
-          start: 18,
-          end: 19
+          videoId:
+            "https://youtube.com/embed/MqUJFDrMIf0?rel=0&amp;autoplay=1&controls=0",
+          title: "Tomorrows Bad Seeds - Roundtrip (Live)"
         },
         {
-          videoId: "yN_Y3DW1ucE",
-          title: "Tomorrows Bad Seeds - Downlow (Live)",
-          runtime: 30,
-          start: 20,
-          end: 23
+          videoId:
+            "https://youtube.com/embed/yN_Y3DW1ucE?rel=0&amp;autoplay=1&controls=0",
+          title: "Tomorrows Bad Seeds - Downlow (Live)"
         }
       ]
     }
@@ -149,33 +116,25 @@ const data = {
       image: "goo.gl/I91jY8",
       episodes: [
         {
-          videoId: "Ap9f-BR1M7k",
+          videoId:
+            "https://youtube.com/embed/Ap9f-BR1M7k?rel=0&amp;autoplay=1&controls=0",
           title:
-            "Simon Tofield (Simon's Cat) Interview at the Brookline Booksmith",
-          runtime: 30,
-          start: 16,
-          end: 17
+            "Simon Tofield (Simon's Cat) Interview at the Brookline Booksmith"
         },
         {
-          videoId: "SL-Rbvb3ra0",
-          title: "The Louie Lenny Show: Louie Gets Robbed",
-          runtime: 30,
-          start: 17,
-          end: 18
+          videoId:
+            "https://youtube.com/embed/SL-Rbvb3ra0?rel=0&amp;autoplay=1&controls=0",
+          title: "The Louie Lenny Show: Louie Gets Robbed"
         },
         {
-          videoId: "KpCnproZCqs",
-          title: "Black Man WIth White Problems",
-          runtime: 30,
-          start: 18,
-          end: 19
+          videoId:
+            "https://youtube.com/embed/KpCnproZCqs?rel=0&amp;autoplay=1&controls=0",
+          title: "Black Man WIth White Problems"
         },
         {
-          videoId: "SwSZZ480VHA",
-          title: "Double Vision and Madi Vivian Interview",
-          runtime: 30,
-          start: 20,
-          end: 23
+          videoId:
+            "https://youtube.com/embed/SwSZZ480VHA?rel=0&amp;autoplay=1&controls=0",
+          title: "Double Vision and Madi Vivian Interview"
         }
       ]
     },
@@ -185,32 +144,24 @@ const data = {
       image: "goo.gl/I91jY8",
       episodes: [
         {
-          videoId: "Sm1PhZ6S8vU",
-          title: "Are You Black?",
-          runtime: 30,
-          start: 16,
-          end: 17
+          videoId:
+            "https://youtube.com/embed/Sm1PhZ6S8vU?rel=0&amp;autoplay=1&controls=0",
+          title: "Are You Black?"
         },
         {
-          videoId: "iclfAxdacgQ",
-          title: "CollegeFest 2012: Basketball commentary",
-          runtime: 30,
-          start: 17,
-          end: 18
+          videoId:
+            "https://youtube.com/embed/iclfAxdacgQ?rel=0&amp;autoplay=1&controls=0",
+          title: "CollegeFest 2012: Basketball commentary"
         },
         {
-          videoId: "nChsO4OgjZo",
-          title: "Louie Bello Interview",
-          runtime: 30,
-          start: 18,
-          end: 19
+          videoId:
+            "https://youtube.com/embed/nChsO4OgjZo?rel=0&amp;autoplay=1&controls=0",
+          title: "Louie Bello Interview"
         },
         {
-          videoId: "ic4qxOUZaNc",
-          title: "Gag Order Radio interview with Asher Roth",
-          runtime: 30,
-          start: 20,
-          end: 23
+          videoId:
+            "https://youtube.com/embed/ic4qxOUZaNc?rel=0&amp;autoplay=1&controls=0",
+          title: "Gag Order Radio interview with Asher Roth"
         }
       ]
     },
@@ -220,32 +171,24 @@ const data = {
       image: "goo.gl/aNe2Yj",
       episodes: [
         {
-          videoId: "x0it-N2PIHE",
-          title: "Ashley Sofia - Soulmate",
-          runtime: 30,
-          start: 16,
-          end: 17
+          videoId:
+            "https://youtube.com/embed/x0it-N2PIHE?rel=0&amp;autoplay=1&controls=0",
+          title: "Ashley Sofia - Soulmate"
         },
         {
-          videoId: "5al9ju5cSTU",
-          title: "Ashley Sofia - Pull Me Up",
-          runtime: 30,
-          start: 17,
-          end: 18
+          videoId:
+            "https://youtube.com/embed/5al9ju5cSTU?rel=0&amp;autoplay=1&controls=0",
+          title: "Ashley Sofia - Pull Me Up"
         },
         {
-          videoId: "YUfhWWcqhH8",
-          title: "Passafire - Carousel (Live)",
-          runtime: 30,
-          start: 18,
-          end: 19
+          videoId:
+            "https://youtube.com/embed/YUfhWWcqhH8?rel=0&amp;autoplay=1&controls=0",
+          title: "Passafire - Carousel (Live)"
         },
         {
-          videoId: "4zQATGP7VGs",
-          title: "G-eazy Interview",
-          runtime: 30,
-          start: 20,
-          end: 23
+          videoId:
+            "https://youtube.com/embed/4zQATGP7VGs?rel=0&amp;autoplay=1&controls=0",
+          title: "G-eazy Interview"
         }
       ]
     },
@@ -255,32 +198,24 @@ const data = {
       image: "goo.gl/I91jY8",
       episodes: [
         {
-          videoId: "kWu-_gu9hSg",
-          title: "Creepy Santa Clause!",
-          runtime: 30,
-          start: 16,
-          end: 17
+          videoId:
+            "https://youtube.com/embed/kWu-_gu9hSg?rel=0&amp;autoplay=1&controls=0",
+          title: "Creepy Santa Clause!"
         },
         {
-          videoId: "IbE9N-6LB3I",
-          title: "Maye Star Interview",
-          runtime: 30,
-          start: 17,
-          end: 18
+          videoId:
+            "https://youtube.com/embed/IbE9N-6LB3I?rel=0&amp;autoplay=1&controls=0",
+          title: "Maye Star Interview"
         },
         {
-          videoId: "4DlCl7WAqho",
-          title: "Spits Nelson Interview",
-          runtime: 30,
-          start: 18,
-          end: 19
+          videoId:
+            "https://youtube.com/embed/4DlCl7WAqho?rel=0&amp;autoplay=1&controls=0",
+          title: "Spits Nelson Interview"
         },
         {
-          videoId: "aipe4uwbDq0",
-          title: "DJ Choppa Dunks Interview",
-          runtime: 30,
-          start: 20,
-          end: 23
+          videoId:
+            "https://youtube.com/embed/aipe4uwbDq0?rel=0&amp;autoplay=1&controls=0",
+          title: "DJ Choppa Dunks Interview"
         }
       ]
     }
@@ -292,32 +227,24 @@ const data = {
       image: "goo.gl/I91jY8",
       episodes: [
         {
-          videoId: "go3SaMCgexg",
-          title: "Rage617 & Relentless freestyle",
-          runtime: 30,
-          start: 16,
-          end: 17
+          videoId:
+            "https://youtube.com/embed/go3SaMCgexg?rel=0&amp;autoplay=1&controls=0",
+          title: "Rage617 & Relentless freestyle"
         },
         {
-          videoId: "McoBRgdChCE",
-          title: "TimeFlies Interview with Gag Order radio Part 1",
-          runtime: 30,
-          start: 17,
-          end: 18
+          videoId:
+            "https://youtube.com/embed/McoBRgdChCE?rel=0&amp;autoplay=1&controls=0",
+          title: "TimeFlies Interview with Gag Order radio Part 1"
         },
         {
-          videoId: "0B05uq_cj6Q",
-          title: "G-eazy - Outsider (Live)",
-          runtime: 30,
-          start: 18,
-          end: 19
+          videoId:
+            "https://youtube.com/embed/0B05uq_cj6Q?rel=0&amp;autoplay=1&controls=0",
+          title: "G-eazy - Outsider (Live)"
         },
         {
-          videoId: "3cSrVjifw84",
-          title: "Tayyib Ali Interview",
-          runtime: 30,
-          start: 20,
-          end: 23
+          videoId:
+            "https://youtube.com/embed/3cSrVjifw84?rel=0&amp;autoplay=1&controls=0",
+          title: "Tayyib Ali Interview"
         }
       ]
     },
@@ -327,32 +254,24 @@ const data = {
       image: "goo.gl/I91jY8",
       episodes: [
         {
-          videoId: "g9iuF8a_cnk",
-          title: "Yuna Interview",
-          runtime: 30,
-          start: 16,
-          end: 17
+          videoId:
+            "https://youtube.com/embed/g9iuF8a_cnk?rel=0&amp;autoplay=1&controls=0",
+          title: "Yuna Interview"
         },
         {
-          videoId: "xVanqL9s6yY",
-          title: "SID SRIRAM INTERVIEW",
-          runtime: 30,
-          start: 17,
-          end: 18
+          videoId:
+            "https://youtube.com/embed/xVanqL9s6yY?rel=0&amp;autoplay=1&controls=0",
+          title: "SID SRIRAM INTERVIEW"
         },
         {
-          videoId: "i_C9OG7mViQ",
-          title: "Iyadonna Update!",
-          runtime: 30,
-          start: 18,
-          end: 19
+          videoId:
+            "https://youtube.com/embed/i_C9OG7mViQ?rel=0&amp;autoplay=1&controls=0",
+          title: "Iyadonna Update!"
         },
         {
-          videoId: "N0_8FpHdNM8",
-          title: "DO THE CARLTON!!",
-          runtime: 30,
-          start: 20,
-          end: 23
+          videoId:
+            "https://youtube.com/embed/N0_8FpHdNM8?rel=0&amp;autoplay=1&controls=0",
+          title: "DO THE CARLTON!!"
         }
       ]
     },
@@ -362,33 +281,25 @@ const data = {
       image: "goo.gl/I91jY8",
       episodes: [
         {
-          videoId: "Ap9f-BR1M7k",
+          videoId:
+            "https://youtube.com/embed/Ap9f-BR1M7k?rel=0&amp;autoplay=1&controls=0",
           title:
-            "Simon Tofield (Simon's Cat) Interview at the Brookline Booksmith",
-          runtime: 30,
-          start: 16,
-          end: 17
+            "Simon Tofield (Simon's Cat) Interview at the Brookline Booksmith"
         },
         {
-          videoId: "SL-Rbvb3ra0",
-          title: "The Louie Lenny Show: Louie Gets Robbed",
-          runtime: 30,
-          start: 17,
-          end: 18
+          videoId:
+            "https://youtube.com/embed/SL-Rbvb3ra0?rel=0&amp;autoplay=1&controls=0",
+          title: "The Louie Lenny Show: Louie Gets Robbed"
         },
         {
-          videoId: "KpCnproZCqs",
-          title: "Black Man WIth White Problems",
-          runtime: 30,
-          start: 18,
-          end: 19
+          videoId:
+            "https://youtube.com/embed/KpCnproZCqs?rel=0&amp;autoplay=1&controls=0",
+          title: "Black Man WIth White Problems"
         },
         {
-          videoId: "SwSZZ480VHA",
-          title: "Double Vision and Madi Vivian Interview",
-          runtime: 30,
-          start: 20,
-          end: 23
+          videoId:
+            "https://youtube.com/embed/SwSZZ480VHA?rel=0&amp;autoplay=1&controls=0",
+          title: "Double Vision and Madi Vivian Interview"
         }
       ]
     },
@@ -398,33 +309,25 @@ const data = {
       image: "goo.gl/I91jY8",
       episodes: [
         {
-          videoId: "Hi6UDdMN6uM",
-          title: "bloopers from Grandpa",
-          runtime: 30,
-          start: 16,
-          end: 17
+          videoId:
+            "https://youtube.com/embed/Hi6UDdMN6uM?rel=0&amp;autoplay=1&controls=0",
+          title: "bloopers from Grandpa"
         },
         {
-          videoId: "SW0-MetWBzU",
-          title: "Sharp Turn Ahead calls via Skype",
-          runtime: 30,
-          start: 17,
-          end: 18
+          videoId:
+            "https://youtube.com/embed/SW0-MetWBzU?rel=0&amp;autoplay=1&controls=0",
+          title: "Sharp Turn Ahead calls via Skype"
         },
         {
-          videoId: "EBDU3UjyaYE",
-          title: "B.o.B INTERVIEW (Discusses JOHN DOE, KANYE, NO GENRE 2)",
-          runtime: 30,
-          start: 18,
-          end: 19
+          videoId:
+            "https://youtube.com/embed/EBDU3UjyaYE?rel=0&amp;autoplay=1&controls=0",
+          title: "B.o.B INTERVIEW (Discusses JOHN DOE, KANYE, NO GENRE 2)"
         },
         {
-          videoId: "cKB7PbT849s",
+          videoId:
+            "https://youtube.com/embed/cKB7PbT849s?rel=0&amp;autoplay=1&controls=0",
           title:
-            "MEG MYERS INTERVIEW (TALKS ABOUT MAKE A SHADOW EP, LA LIFE, PUPPIES, BEING HAPPY)",
-          runtime: 30,
-          start: 20,
-          end: 23
+            "MEG MYERS INTERVIEW (TALKS ABOUT MAKE A SHADOW EP, LA LIFE, PUPPIES, BEING HAPPY)"
         }
       ]
     }
@@ -436,32 +339,24 @@ const data = {
       image: "goo.gl/aNe2Yj",
       episodes: [
         {
-          videoId: "6i0-cK64gYo",
-          title: "BODEGA BAMZ INTERVIEW",
-          runtime: 30,
-          start: 16,
-          end: 17
+          videoId:
+            "https://youtube.com/embed/6i0-cK64gYo?rel=0&amp;autoplay=1&controls=0",
+          title: "BODEGA BAMZ INTERVIEW"
         },
         {
-          videoId: "p13XJByy6Lc",
-          title: "ZELOOPERZ INTERVIEW",
-          runtime: 30,
-          start: 17,
-          end: 18
+          videoId:
+            "https://youtube.com/embed/p13XJByy6Lc?rel=0&amp;autoplay=1&controls=0",
+          title: "ZELOOPERZ INTERVIEW"
         },
         {
-          videoId: "ycAtj4KPHtc",
-          title: "DENZEL CURRY INTERVIEW",
-          runtime: 30,
-          start: 18,
-          end: 19
+          videoId:
+            "https://youtube.com/embed/ycAtj4KPHtc?rel=0&amp;autoplay=1&controls=0",
+          title: "DENZEL CURRY INTERVIEW"
         },
         {
-          videoId: "PJj9aaPBqZY",
-          title: "HOLYCHILD INTERVIEW",
-          runtime: 30,
-          start: 20,
-          end: 23
+          videoId:
+            "https://youtube.com/embed/PJj9aaPBqZY?rel=0&amp;autoplay=1&controls=0",
+          title: "HOLYCHILD INTERVIEW"
         }
       ]
     },
@@ -471,32 +366,24 @@ const data = {
       image: "goo.gl/I91jY8",
       episodes: [
         {
-          videoId: "go3SaMCgexg",
-          title: "Rage617 & Relentless freestyle",
-          runtime: 30,
-          start: 16,
-          end: 17
+          videoId:
+            "https://youtube.com/embed/go3SaMCgexg?rel=0&amp;autoplay=1&controls=0",
+          title: "Rage617 & Relentless freestyle"
         },
         {
-          videoId: "McoBRgdChCE",
-          title: "TimeFlies Interview with Gag Order radio Part 1",
-          runtime: 30,
-          start: 17,
-          end: 18
+          videoId:
+            "https://youtube.com/embed/McoBRgdChCE?rel=0&amp;autoplay=1&controls=0",
+          title: "TimeFlies Interview with Gag Order radio Part 1"
         },
         {
-          videoId: "0B05uq_cj6Q",
-          title: "G-eazy - Outsider (Live)",
-          runtime: 30,
-          start: 18,
-          end: 19
+          videoId:
+            "https://youtube.com/embed/0B05uq_cj6Q?rel=0&amp;autoplay=1&controls=0",
+          title: "G-eazy - Outsider (Live)"
         },
         {
-          videoId: "3cSrVjifw84",
-          title: "Tayyib Ali Interview",
-          runtime: 30,
-          start: 20,
-          end: 23
+          videoId:
+            "https://youtube.com/embed/3cSrVjifw84?rel=0&amp;autoplay=1&controls=0",
+          title: "Tayyib Ali Interview"
         }
       ]
     },
@@ -506,34 +393,26 @@ const data = {
       image: "goo.gl/aNe2Yj",
       episodes: [
         {
-          videoId: "K9bLGTym6TI",
+          videoId:
+            "https://youtube.com/embed/K9bLGTym6TI?rel=0&amp;autoplay=1&controls=0",
           title:
-            "Asher Roth and Vic from Kids These Days Interview outside the Brighton Music Hall",
-          runtime: 30,
-          start: 16,
-          end: 17
+            "Asher Roth and Vic from Kids These Days Interview outside the Brighton Music Hall"
         },
         {
-          videoId: "_t7tQWHib8A",
+          videoId:
+            "https://youtube.com/embed/_t7tQWHib8A?rel=0&amp;autoplay=1&controls=0",
           title:
-            "G-eazy Interview (talks about Warp Tour, the album critics and upcoming features)",
-          runtime: 30,
-          start: 17,
-          end: 18
+            "G-eazy Interview (talks about Warp Tour, the album critics and upcoming features)"
         },
         {
-          videoId: "eXzAqBHvccA",
-          title: "Na Palm Interview at CollegeFest 2012",
-          runtime: 30,
-          start: 18,
-          end: 19
+          videoId:
+            "https://youtube.com/embed/eXzAqBHvccA?rel=0&amp;autoplay=1&controls=0",
+          title: "Na Palm Interview at CollegeFest 2012"
         },
         {
-          videoId: "KoNEtkhSFSk",
-          title: "AJR Interview Boston",
-          runtime: 30,
-          start: 20,
-          end: 23
+          videoId:
+            "https://youtube.com/embed/KoNEtkhSFSk?rel=0&amp;autoplay=1&controls=0",
+          title: "AJR Interview Boston"
         }
       ]
     },
@@ -543,36 +422,28 @@ const data = {
       image: "goo.gl/I91jY8",
       episodes: [
         {
-          videoId: "U2_oTq_44-8",
+          videoId:
+            "https://youtube.com/embed/U2_oTq_44-8?rel=0&amp;autoplay=1&controls=0",
           title:
-            "ROCKIE FRESH INTERVIEW (Talks about Tour with G-eazy, debut album, Puma, and MMG)",
-          runtime: 30,
-          start: 16,
-          end: 17
+            "ROCKIE FRESH INTERVIEW (Talks about Tour with G-eazy, debut album, Puma, and MMG)"
         },
         {
-          videoId: "sjbct1rc2-E",
+          videoId:
+            "https://youtube.com/embed/sjbct1rc2-E?rel=0&amp;autoplay=1&controls=0",
           title:
-            "LOVELIFE INTERVIEW (Talks about Music Strategy, Touring with The Neighbourhood, Meaning of logo)",
-          runtime: 30,
-          start: 17,
-          end: 18
+            "LOVELIFE INTERVIEW (Talks about Music Strategy, Touring with The Neighbourhood, Meaning of logo)"
         },
         {
-          videoId: "KSmDog8Apho",
+          videoId:
+            "https://youtube.com/embed/KSmDog8Apho?rel=0&amp;autoplay=1&controls=0",
           title:
-            "The Maine Interview (Talks about double headling with Anberlin, Halloween show, Being Unsigned)",
-          runtime: 30,
-          start: 18,
-          end: 19
+            "The Maine Interview (Talks about double headling with Anberlin, Halloween show, Being Unsigned)"
         },
         {
-          videoId: "kM_VZlDYNig",
+          videoId:
+            "https://youtube.com/embed/kM_VZlDYNig?rel=0&amp;autoplay=1&controls=0",
           title:
-            "QuESt INTERVIEW (Talks about Car Accidents, NEATO, the Logic tour, Hip-hop Album of June and Kanye)",
-          runtime: 30,
-          start: 20,
-          end: 23
+            "QuESt INTERVIEW (Talks about Car Accidents, NEATO, the Logic tour, Hip-hop Album of June and Kanye)"
         }
       ]
     }
@@ -584,36 +455,28 @@ const data = {
       image: "goo.gl/aNe2Yj",
       episodes: [
         {
-          videoId: "IGXE7ajZe4U",
+          videoId:
+            "https://youtube.com/embed/IGXE7ajZe4U?rel=0&amp;autoplay=1&controls=0",
           title:
-            "Oddisee Interview at the Middle East Club in Boston (talks about DC, albums and original tracks)",
-          runtime: 30,
-          start: 16,
-          end: 17
+            "Oddisee Interview at the Middle East Club in Boston (talks about DC, albums and original tracks)"
         },
         {
-          videoId: "qHaT83hXob4",
+          videoId:
+            "https://youtube.com/embed/qHaT83hXob4?rel=0&amp;autoplay=1&controls=0",
           title:
-            "Mario Jose Interview (talks Pentatonix , Carrie Underwood, his EP, and more)",
-          runtime: 30,
-          start: 17,
-          end: 18
+            "Mario Jose Interview (talks Pentatonix , Carrie Underwood, his EP, and more)"
         },
         {
-          videoId: "nP5MTOTbFvI",
+          videoId:
+            "https://youtube.com/embed/nP5MTOTbFvI?rel=0&amp;autoplay=1&controls=0",
           title:
-            "Seether Interview (John Humphrey, the drummer, talks about brands, bands and his family)",
-          runtime: 30,
-          start: 18,
-          end: 19
+            "Seether Interview (John Humphrey, the drummer, talks about brands, bands and his family)"
         },
         {
-          videoId: "NybdAhY0aZY",
+          videoId:
+            "https://youtube.com/embed/NybdAhY0aZY?rel=0&amp;autoplay=1&controls=0",
           title:
-            "Justin Lawrence Hoyt Skype Interview into the studio with Gag Order Radio Show",
-          runtime: 30,
-          start: 20,
-          end: 23
+            "Justin Lawrence Hoyt Skype Interview into the studio with Gag Order Radio Show"
         }
       ]
     },
@@ -623,33 +486,25 @@ const data = {
       image: "goo.gl/I91jY8",
       episodes: [
         {
-          videoId: "Hi6UDdMN6uM",
-          title: "bloopers from Grandpa",
-          runtime: 30,
-          start: 16,
-          end: 17
+          videoId:
+            "https://youtube.com/embed/Hi6UDdMN6uM?rel=0&amp;autoplay=1&controls=0",
+          title: "bloopers from Grandpa"
         },
         {
-          videoId: "SW0-MetWBzU",
-          title: "Sharp Turn Ahead calls via Skype",
-          runtime: 30,
-          start: 17,
-          end: 18
+          videoId:
+            "https://youtube.com/embed/SW0-MetWBzU?rel=0&amp;autoplay=1&controls=0",
+          title: "Sharp Turn Ahead calls via Skype"
         },
         {
-          videoId: "EBDU3UjyaYE",
-          title: "B.o.B INTERVIEW (Discusses JOHN DOE, KANYE, NO GENRE 2)",
-          runtime: 30,
-          start: 18,
-          end: 19
+          videoId:
+            "https://youtube.com/embed/EBDU3UjyaYE?rel=0&amp;autoplay=1&controls=0",
+          title: "B.o.B INTERVIEW (Discusses JOHN DOE, KANYE, NO GENRE 2)"
         },
         {
-          videoId: "cKB7PbT849s",
+          videoId:
+            "https://youtube.com/embed/cKB7PbT849s?rel=0&amp;autoplay=1&controls=0",
           title:
-            "MEG MYERS INTERVIEW (TALKS ABOUT MAKE A SHADOW EP, LA LIFE, PUPPIES, BEING HAPPY)",
-          runtime: 30,
-          start: 20,
-          end: 23
+            "MEG MYERS INTERVIEW (TALKS ABOUT MAKE A SHADOW EP, LA LIFE, PUPPIES, BEING HAPPY)"
         }
       ]
     },
@@ -659,35 +514,27 @@ const data = {
       image: "goo.gl/I91jY8",
       episodes: [
         {
-          videoId: "Sgcx3Nbfi0",
+          videoId:
+            "https://youtube.com/embed/Sgcx3Nbfi0?rel=0&amp;autoplay=1&controls=0",
           title:
-            "Big Tim Kellams calls via Skype into the Gag Order Radio Show studio",
-          runtime: 30,
-          start: 16,
-          end: 17
+            "Big Tim Kellams calls via Skype into the Gag Order Radio Show studio"
         },
         {
-          videoId: "cfP6ED8gneQ",
+          videoId:
+            "https://youtube.com/embed/cfP6ED8gneQ?rel=0&amp;autoplay=1&controls=0",
           title:
-            "Jarell Perry Interview at the Brighton Music Hall in Boston (talks about Yuna and more)",
-          runtime: 30,
-          start: 17,
-          end: 18
+            "Jarell Perry Interview at the Brighton Music Hall in Boston (talks about Yuna and more)"
         },
         {
-          videoId: "imM6MP-_IWo",
+          videoId:
+            "https://youtube.com/embed/imM6MP-_IWo?rel=0&amp;autoplay=1&controls=0",
           title:
-            "SoMo Interview (Talks about doing covers, touring, falling on stage, the fans and more)",
-          runtime: 30,
-          start: 18,
-          end: 19
+            "SoMo Interview (Talks about doing covers, touring, falling on stage, the fans and more)"
         },
         {
-          videoId: "m9bw4JnsKfE",
-          title: "Bonnie Holliday calls in via Skype",
-          runtime: 30,
-          start: 20,
-          end: 23
+          videoId:
+            "https://youtube.com/embed/m9bw4JnsKfE?rel=0&amp;autoplay=1&controls=0",
+          title: "Bonnie Holliday calls in via Skype"
         }
       ]
     },
@@ -697,34 +544,26 @@ const data = {
       image: "goo.gl/aNe2Yj",
       episodes: [
         {
-          videoId: "tAz2qth0yYw",
-          title: "Grandpa Learns Computers",
-          runtime: 30,
-          start: 16,
-          end: 17
+          videoId:
+            "https://youtube.com/embed/tAz2qth0yYw?rel=0&amp;autoplay=1&controls=0",
+          title: "Grandpa Learns Computers"
         },
         {
-          videoId: "CMOVsJVDA5M",
-          title: "Reel Big Fish Interview at the Royal in Boston",
-          runtime: 30,
-          start: 17,
-          end: 18
+          videoId:
+            "https://youtube.com/embed/CMOVsJVDA5M?rel=0&amp;autoplay=1&controls=0",
+          title: "Reel Big Fish Interview at the Royal in Boston"
         },
         {
-          videoId: "o08NvbqB4B0",
+          videoId:
+            "https://youtube.com/embed/o08NvbqB4B0?rel=0&amp;autoplay=1&controls=0",
           title:
-            "LUCY ROSE INTERVIEW (talks about fans, SXSW, the Shivers concept and more)",
-          runtime: 30,
-          start: 18,
-          end: 19
+            "LUCY ROSE INTERVIEW (talks about fans, SXSW, the Shivers concept and more)"
         },
         {
-          videoId: "Z2UL0rXwJVw",
+          videoId:
+            "https://youtube.com/embed/Z2UL0rXwJVw?rel=0&amp;autoplay=1&controls=0",
           title:
-            "Jillian Jensen stopped by the studio to play us a new, unreleased track!",
-          runtime: 30,
-          start: 20,
-          end: 23
+            "Jillian Jensen stopped by the studio to play us a new, unreleased track!"
         }
       ]
     }
