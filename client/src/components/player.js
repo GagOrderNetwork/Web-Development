@@ -1,6 +1,7 @@
 import React, { Component, PropTypes } from "react";
 import { connect } from "react-redux";
 
+import YouTube from "react-youtube";
 import { NavLink } from "react-router-dom";
 import Logo from "./logo.js";
 
@@ -18,27 +19,15 @@ export class Player extends Component {
     const videoIds = this.props.video.map(video => {
       return video.videoId;
     });
-
-    const videoEnded = () => {
-      this.setState(() => {
-        return { currentVideoIndex: currentVideoIndex + 1 };
-      });
-    };
-
-    setTimeout(videoEnded, 300000);
-
-    const video_props = {
-      src: videoIds[currentVideoIndex],
-      title: "Geaux Network Tv",
-      frameBorder: 0,
-      webkitallowfullscreen: "true",
-      mozallowfullscreen: "true",
-      allowFullScreen: true,
-      allow: "autoplay"
-    };
-
     console.log(this.state);
-    console.log(videoIds[currentVideoIndex]);
+    console.log(videoIds);
+
+    const opts = {
+      playerVars: {
+        controls: 0,
+        disablekb: 1
+      }
+    };
 
     return (
       <section className="video-main">
@@ -63,7 +52,7 @@ export class Player extends Component {
           */}
         </div>
         <div className="video-player">
-          {/*<YouTube
+          <YouTube
             opts={opts}
             onReady={event => event.target.playVideo()}
             onStateChange={event => event.target.playVideo()}
@@ -73,8 +62,7 @@ export class Player extends Component {
               });
             }}
             videoId={videoIds[currentVideoIndex]}
-          />*/}
-          <iframe {...video_props} />
+          />
         </div>
       </section>
     );
@@ -86,7 +74,7 @@ Player.PropTypes = {};
 function mapStateToProps(state) {
   return {
     video: state.player.video,
-    videoId: state.player.videoId
+    videoId: state.videoId
   };
 }
 

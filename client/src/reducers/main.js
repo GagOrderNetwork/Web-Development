@@ -2,13 +2,13 @@ import * as ACTIONS from "../constants/";
 
 const INITIAL_STATE = {
   episode: {
-    videoId: "6i0-cK64gYo",
-    title: "BODEGA BAMZ INTERVIEW",
+    videoId: "D6-2KFlXbAw",
+    title: "Geaux Interviews",
     runtime: 30,
     start: 16,
     end: 17
   },
-  channel: { channelName: "G-Soul" }
+  channel: { channelName: "Geaux Network" }
 };
 
 export default (state = INITIAL_STATE, action) => {

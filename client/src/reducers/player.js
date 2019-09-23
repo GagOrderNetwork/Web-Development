@@ -3,32 +3,28 @@ import * as ACTIONS from "../constants/player";
 const INITIAL_STATE = {
   video: [
     {
-      videoId:
-        "https://youtube.com/embed/6i0-cK64gYo?rel=0&amp;autoplay=1&controls=0",
-      title: "BODEGA BAMZ INTERVIEW",
+      videoId: "D6-2KFlXbAw",
+      title: "Geaux Interviews",
       runtime: 30,
       start: 16,
       end: 17
     },
     {
-      videoId:
-        "https://youtube.com/embed/p13XJByy6Lc?rel=0&amp;autoplay=1&controls=0",
+      videoId: "p13XJByy6Lc",
       title: "ZELOOPERZ INTERVIEW",
       runtime: 30,
       start: 17,
       end: 18
     },
     {
-      videoId:
-        "https://youtube.com/embed/ycAtj4KPHtc?rel=0&amp;autoplay=1&controls=0",
+      videoId: "ycAtj4KPHtc",
       title: "DENZEL CURRY INTERVIEW",
       runtime: 30,
       start: 18,
       end: 19
     },
     {
-      videoId:
-        "https://youtube.com/embed/PJj9aaPBqZY?rel=0&amp;autoplay=1&controls=0",
+      videoId: "PJj9aaPBqZY",
       title: "HOLYCHILD INTERVIEW",
       runtime: 30,
       start: 20,
@@ -36,7 +32,7 @@ const INITIAL_STATE = {
     }
   ],
 
-  videoId: "6i0-cK64gYo"
+  videoId: "D6-2KFlXbAw"
 };
 
 export default (state = INITIAL_STATE, action) => {
