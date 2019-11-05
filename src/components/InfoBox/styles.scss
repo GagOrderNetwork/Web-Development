@@ -1,0 +1,30 @@
+.gn-info_box {
+  height: 100%;
+  background-color: #1b4861;
+  box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.4);
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: sticky;
+  top: 0;
+
+  .gn-info_box-channel_info {
+    text-align: center;
+    color: white;
+  }
+
+  > span {
+    color: white;
+    padding: 10px 5px;
+  }
+
+  .gn-info_box-logo {
+    display: block;
+    text-align: center;
+  }
+
+  @media (max-width: 700px) {
+    display: none;
+  }
+}

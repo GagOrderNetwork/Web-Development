@@ -1,0 +1,17 @@
+.gn-nav {
+  display: flex;
+  justify-content: center;
+  background-color: black;
+  padding: 5px;
+
+  img {
+    height: 40px;
+    border-radius: 10px;
+  }
+
+  @media (max-width: 700px) {
+    img {
+      height: 30px;
+    }
+  }
+}

@@ -1,0 +1,43 @@
+.gn-tv {
+  font-family: Arial, Helvetica, sans-serif;
+
+  .gn-player-video {
+    height: 66vh;
+  }
+
+  .gn-tv-guide {
+    display: flex;
+    height: 28vh;
+    overflow-y: scroll;
+    background-color: #808080;
+
+    .gn-episode_list {
+      flex: 1;
+    }
+  }
+
+  .gn-channel_list {
+    margin-right: 5px;
+  }
+
+  @media (max-width: 700px) {
+    .gn-player-video {
+      height: 45vh;
+    }
+
+    .gn-tv-guide {
+      height: 48vh;
+    }
+  }
+
+  @media (max-width: 700px) and (orientation: landscape) {
+    .gn-player-video {
+      height: 100vh;
+    }
+
+    .gn-tv-guide,
+    .gn-nav {
+      display: none;
+    }
+  }
+}

@@ -1,0 +1,21 @@
+.gn-channel {
+  height: 35px;
+  line-height: 35px;
+  color: #eff4f5;
+  background-color: #4e78a0;
+  box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.4);
+  margin: 5px 0;
+
+  &:hover {
+    background-color: #1b4861;
+    color: white;
+  }
+
+  > span {
+    padding: 0 5px;
+  }
+
+  @media (max-width: 700px) {
+    font-size: 12px;
+  }
+}

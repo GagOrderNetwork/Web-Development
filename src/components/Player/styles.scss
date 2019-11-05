@@ -1,0 +1,21 @@
+html {
+  background-color: #4e78a0;
+}
+
+.gn-player {
+  padding: 0 50px;
+  background-color: #4e78a0;
+  border-bottom: 2px solid black;
+
+  .gn-player-video {
+    iframe {
+      height: 100%;
+      width: 100%;
+      pointer-events: none;
+    }
+  }
+
+  @media (max-width: 700px) {
+    padding: 0;
+  }
+}

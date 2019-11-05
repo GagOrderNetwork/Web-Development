@@ -1,0 +1,11 @@
+# output
+dist
+
+# Dependency directory
+node_modules
+
+# Optional npm cache directory
+.npm
+
+.serverless
+.DS_Store
