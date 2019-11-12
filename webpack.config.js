@@ -3,7 +3,7 @@ const webpack = require("webpack");
 const pkg = require("./package.json");
 
 module.exports = {
-  entry: "./src/index.js",
+  entry: [path.resolve(__dirname, "./src/index.js")],
   mode: "development",
   module: {
     rules: [
@@ -47,6 +47,7 @@ module.exports = {
     publicPath: "http://localhost:3000/dist/",
     filename: "bundle.js"
   },
+
   devServer: {
     contentBase: path.join(__dirname, "public/"),
     port: 3000,

@@ -1,6 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import Routes from "./pages/Routes";
+import TV from "./pages/TV";
 import { createStore } from "redux";
 import { Provider } from "react-redux";
 
@@ -28,7 +29,7 @@ const store = createStore(reducer);
 
 const App = () => (
   <Provider store={store}>
-    <Routes />
+    <TV />
   </Provider>
 );
 
