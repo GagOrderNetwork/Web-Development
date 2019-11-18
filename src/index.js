@@ -29,7 +29,7 @@ const store = createStore(reducer);
 
 const App = () => (
   <Provider store={store}>
-    <TV />
+    <Routes />
   </Provider>
 );
 
