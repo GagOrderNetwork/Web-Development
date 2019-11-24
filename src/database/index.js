@@ -34,16 +34,6 @@ const data = {
       ]
     },
     {
-      number: 404,
-      channelName: "BGN",
-      episodes: [
-        {
-          videoId: "dp8PhLsUcFE?",
-          title: "Bloomberg Blobal News"
-        }
-      ]
-    },
-    {
       number: 103,
       channelName: "Al Jazeera",
       episodes: [
@@ -348,16 +338,6 @@ const data = {
         {
           videoId: "nA9UZF-SZoQ?",
           title: "Space and Universe"
-        }
-      ]
-    },
-    {
-      number: 701,
-      channelName: "ABC News",
-      episodes: [
-        {
-          videoId: "dNCI18p9wSw?",
-          title: "ABC News Live"
         }
       ]
     },
