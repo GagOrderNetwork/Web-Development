@@ -6,7 +6,7 @@ const data = {
       channelName: "Geaux Info",
       episodes: [
         {
-          videoId: "4mD8MGU4pfw?",
+          videoId: "UPel-zutWbo?",
           title: "GeauxInfo"
         }
       ]
@@ -18,7 +18,7 @@ const data = {
       channelName: "Getting Started",
       episodes: [
         {
-          videoId: "3rxFMcYQI9c?",
+          videoId: "b4fXAqMoA-4?",
           title: "GeauxBusiness"
         }
       ]
@@ -35,11 +35,11 @@ const data = {
     },
     {
       number: 404,
-      channelName: "SpaceX",
+      channelName: "BGN",
       episodes: [
         {
-          videoId: "UkPyUUOT1dg?",
-          title: "Boca Chica Starship Construction and Launch Facility"
+          videoId: "dp8PhLsUcFE?",
+          title: "Bloomberg Blobal News"
         }
       ]
     },
@@ -85,11 +85,11 @@ const data = {
     },
     {
       number: 107,
-      channelName: "Australia News Live",
+      channelName: "Bollywood Updates",
       episodes: [
         {
-          videoId: "nu3iXDR7iXo?",
-          title: "ABC News"
+          videoId: "xkGrg40I3r8?",
+          title: "Bollywood Masala"
         }
       ]
     },
@@ -117,7 +117,7 @@ const data = {
   "Fashion/Lifestyle": [
     {
       number: 200,
-      channelName: "HSN Live",
+      channelName: "HSN",
       episodes: [
         {
           videoId: "1ph8qQnjXts?",
@@ -157,11 +157,11 @@ const data = {
     },
     {
       number: 204,
-      channelName: "JTV",
+      channelName: "HSN2",
       episodes: [
         {
-          videoId: "VWcFIxOaOLg?",
-          title: "Jewelry Television Live"
+          videoId: "1pepSUbkLVI?",
+          title: "HSN2 Live"
         }
       ]
     },
@@ -179,11 +179,11 @@ const data = {
   Kids: [
     {
       number: 300,
-      channelName: "Toys",
+      channelName: "Paw Patrol",
       episodes: [
         {
-          videoId: "SZXRgEL94_I?",
-          title: "KunKun Play Superhero Rescue Toys Car Fun Playtime"
+          videoId: "9syVO1WoGVY?",
+          title: "Rescue Episode Marathon"
         }
       ]
     },
@@ -192,18 +192,18 @@ const data = {
       channelName: "FunFunFun",
       episodes: [
         {
-          videoId: "8-sX2YAGJV8?",
-          title: "Kidtoons"
+          videoId: "sP6J0a4JIWw?",
+          title: "Dolly and Friends"
         }
       ]
     },
     {
       number: 302,
-      channelName: "Kid Tales",
+      channelName: "Cat Tales",
       episodes: [
         {
-          videoId: "tYqFztmDggQ?",
-          title: "Ben and Holly's Little Kingdom"
+          videoId: "PbP0_yYXcHU?",
+          title: "Talking Tom and Friends"
         }
       ]
     },
@@ -219,11 +219,11 @@ const data = {
     },
     {
       number: 304,
-      channelName: "Ben 10 LIVE",
+      channelName: "CLASSIC CARTOONS",
       episodes: [
         {
-          videoId: "ExFEBETaHuo?",
-          title: "Play with all the alien toys | Ben 10 Toys | Toy Play"
+          videoId: "ECFSzTKAfV4?",
+          title: "TOM & JERRY, LOONEY TUNES AND SCOOBY-DOO"
         }
       ]
     },
@@ -264,8 +264,8 @@ const data = {
       channelName: "Geaux Chill",
       episodes: [
         {
-          videoId: "WN47-WT7tjY?",
-          title: "Calming Music, Meditation"
+          videoId: "kdtkyYid7YA?",
+          title: "Chillout Music | EDM 2019"
         }
       ]
     },
@@ -301,16 +301,26 @@ const data = {
     },
     {
       number: 622,
-      channelName: "GRR!",
+      channelName: "Piano Time!",
       episodes: [
         {
-          videoId: "57w9CvHdomY?",
-          title: "Gangsta Rap Radio"
+          videoId: "y7e-GC6oGhg?",
+          title: "Study Music, Relaxing Music"
         }
       ]
     }
   ],
   "Science, Sports, and Stuff": [
+    {
+      number: 697,
+      channelName: "G.T.R.",
+      episodes: [
+        {
+          videoId: "UQtoEBo4G4Q?",
+          title: "Geaux Tech Reviews"
+        }
+      ]
+    },
     {
       number: 699,
       channelName: "Geaux Tech",
@@ -353,11 +363,11 @@ const data = {
     },
     {
       number: 702,
-      channelName: "Nature One",
+      channelName: "TWiT",
       episodes: [
         {
-          videoId: "c4C1c4z8hTQ?",
-          title: "Brooks Falls - Katmai National Park, Alaska-Explore.org"
+          videoId: "co86qsGnIdY?",
+          title: "Tech Podcast"
         }
       ]
     },
@@ -386,7 +396,7 @@ const data = {
       channelName: "G.O. On Geaux",
       episodes: [
         {
-          videoId: "GzWYt99LTRI?",
+          videoId: "T1Qu6I6YLEo?",
           title: "GeauxInterviews"
         }
       ]

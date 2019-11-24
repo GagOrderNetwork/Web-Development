@@ -1,8 +1,11 @@
 # output
 dist
+.firebaserc
+.firebase.json
 
 # Dependency directory
 node_modules
+.firebase
 
 # Optional npm cache directory
 .npm
