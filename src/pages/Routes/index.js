@@ -17,7 +17,7 @@ const routes = [
     component: CreateAccount
   },
   {
-    path: "/tv",
+    path: "/player",
     component: TV
   },
   {

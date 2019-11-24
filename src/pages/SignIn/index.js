@@ -16,7 +16,7 @@ class SignIn extends React.Component {
             <div className="gn-sign_in-link">Sign In</div>
           </Link>
         */}
-          <Link to="/tv">
+          <Link to="/player">
             <div className="gn-sign_in-link">Continue as Guest</div>
           </Link>
         </div>
