@@ -18,7 +18,7 @@ const data = {
       channelName: "Getting Started",
       episodes: [
         {
-          videoId: "b4fXAqMoA-4?",
+          videoId: "oSxyNcPse6o?",
           title: "GeauxBusiness"
         }
       ]
@@ -38,7 +38,7 @@ const data = {
       channelName: "Al Jazeera",
       episodes: [
         {
-          videoId: "U4GUp8rVUNI?",
+          videoId: "RjIjKNcr_fk?",
           title: "Al Jazeera Live"
         }
       ]
@@ -58,8 +58,8 @@ const data = {
       channelName: "Bitcoin Live",
       episodes: [
         {
-          videoId: "9MkFI8PT_LE?",
-          title: "Live Bitcoin Trading 24/7"
+          videoId: "Az9VsAlPwws?",
+          title: "Live Bitcoin Trading - Tom Crown"
         }
       ]
     },
@@ -78,7 +78,7 @@ const data = {
       channelName: "Bollywood Updates",
       episodes: [
         {
-          videoId: "xkGrg40I3r8?",
+          videoId: "9Vkpa4jlCvQ?",
           title: "Bollywood Masala"
         }
       ]
@@ -164,6 +164,56 @@ const data = {
           title: "QVC Japan"
         }
       ]
+    },
+    {
+      number: 206,
+      channelName: "Geaux Tutorial",
+      episodes: [
+        {
+          videoId: "videoseries?list=PLS7PdlYEvYYM4Q9A4G-NNAPZ7Fl7SiXBj&",
+          title: "Natural Hair Advice"
+        }
+      ]
+    },
+    {
+      number: 207,
+      channelName: "Home Decor",
+      episodes: [
+        {
+          videoId: "videoseries?list=PLS7PdlYEvYYM5fkeGzSSlU3x1MC9mobCj&",
+          title: "DIY Home Decor"
+        }
+      ]
+    },
+    {
+      number: 208,
+      channelName: "Geaux Thrifting",
+      episodes: [
+        {
+          videoId: "videoseries?list=PLS7PdlYEvYYMrFVh9Cn4o48hTrCtR1pPy&",
+          title: "Thrift Flip"
+        }
+      ]
+    },
+    {
+      number: 209,
+      channelName: "Beaute 101",
+      episodes: [
+        {
+          videoId: "videoseries?list=PLS7PdlYEvYYNOc0A38gOM1MWXp3hG-I-8&",
+          title: "Beaute"
+        }
+      ]
+    },
+    {
+      number: 210,
+      channelName: "Geauxing Home",
+      episodes: [
+        {
+          videoId: "videoseries?list=PLS7PdlYEvYYOFe1mXqR39oXbKcpYupNNx&",
+          title: "HomeTalk"
+        }
+      ]
     }
   ],
   Kids: [
@@ -182,8 +232,8 @@ const data = {
       channelName: "FunFunFun",
       episodes: [
         {
-          videoId: "sP6J0a4JIWw?",
-          title: "Dolly and Friends"
+          videoId: "ZY5oov1_jbo?",
+          title: "LARVA OFFICIAL"
         }
       ]
     },
@@ -298,6 +348,16 @@ const data = {
           title: "Study Music, Relaxing Music"
         }
       ]
+    },
+    {
+      number: 709,
+      channelName: "Geauxing Seasonal",
+      episodes: [
+        {
+          videoId: "MJLB4Qv38vM?",
+          title: "Winter Wonderland"
+        }
+      ]
     }
   ],
   "Science, Sports, and Stuff": [
@@ -318,16 +378,6 @@ const data = {
         {
           videoId: "videoseries?list=PLKEbmWOXwpBREqf2dgNleCuCJPe7a7irX&",
           title: "G.T.P"
-        }
-      ]
-    },
-    {
-      number: 698,
-      channelName: "Geaux Tutorial",
-      episodes: [
-        {
-          videoId: "videoseries?list=PLS7PdlYEvYYM4Q9A4G-NNAPZ7Fl7SiXBj&",
-          title: "Natural Hair Advice"
         }
       ]
     },
@@ -356,8 +406,8 @@ const data = {
       channelName: "Nature Two",
       episodes: [
         {
-          videoId: "wVLfgu9KtBQ?",
-          title: "Mississippi River Flyway Cam powered by EXPLORE.org"
+          videoId: "F109TZt3nRc?",
+          title: "MTropical Reef Camera powered by EXPLORE.org"
         }
       ]
     },
@@ -376,7 +426,7 @@ const data = {
       channelName: "G.O. On Geaux",
       episodes: [
         {
-          videoId: "T1Qu6I6YLEo?",
+          videoId: "teF2-cOTIh4?",
           title: "GeauxInterviews"
         }
       ]

@@ -7,11 +7,16 @@ class Player extends React.Component {
     super(props);
   }
 
+  componentDidMount() {
+    const player = document.getElementById("player");
+    // player.playVideo();
+  }
+
   render() {
     const video_props = {
       src: `https://www.youtube.com/embed/${
         this.props.videoId
-      }rel=0&autoplay=1&controls=0`,
+      }rel=0&autoplay=1&controls=0&enablejsapi=1`,
       title: "Geaux Network Tv",
       frameBorder: 0,
       allowFullScreen: true,
@@ -21,7 +26,7 @@ class Player extends React.Component {
     return (
       <div className="gn-player">
         <div className="gn-player-video">
-          <iframe {...video_props} />
+          <iframe id="player" {...video_props} />
         </div>
       </div>
     );
