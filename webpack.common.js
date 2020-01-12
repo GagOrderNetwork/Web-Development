@@ -16,7 +16,6 @@ module.exports = {
           {
             loader: "babel-loader",
             options: {
-              presets: pkg.babel.presets,
               compact: false
             }
           }

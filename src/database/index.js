@@ -58,7 +58,7 @@ const data = {
       channelName: "Bitcoin Live",
       episodes: [
         {
-          videoId: "Az9VsAlPwws?",
+          videoId: "Jlot28Q90HU?",
           title: "Live Bitcoin Trading - Tom Crown"
         }
       ]
@@ -68,8 +68,8 @@ const data = {
       channelName: "CNA",
       episodes: [
         {
-          videoId: "JvZVnBn6zEI?",
-          title: "CNA Singapore News"
+          videoId: "U_XsRZXL2Ic?",
+          title: "Breaking news, top stories"
         }
       ]
     },
@@ -78,7 +78,7 @@ const data = {
       channelName: "Bollywood Updates",
       episodes: [
         {
-          videoId: "9Vkpa4jlCvQ?",
+          videoId: "3nLvKGYDaOc?",
           title: "Bollywood Masala"
         }
       ]
@@ -222,7 +222,7 @@ const data = {
       channelName: "Paw Patrol",
       episodes: [
         {
-          videoId: "9syVO1WoGVY?",
+          videoId: "urlRgfwOSIQ?",
           title: "Rescue Episode Marathon"
         }
       ]
@@ -396,7 +396,7 @@ const data = {
       channelName: "TWiT",
       episodes: [
         {
-          videoId: "co86qsGnIdY?",
+          videoId: "VLdakuogviE?",
           title: "Tech Podcast"
         }
       ]

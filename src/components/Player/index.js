@@ -1,32 +1,64 @@
 import "./styles.scss";
 import React from "react";
+import { findDOMNode } from "react-dom";
 import { Link } from "react-router-dom";
+import ReactPlayer from "react-player";
+import screenfull from "screenfull";
 
 class Player extends React.Component {
   constructor(props) {
     super(props);
   }
 
-  componentDidMount() {
-    const player = document.getElementById("player");
-    // player.playVideo();
-  }
+  state = {
+    volume: 0.8
+  };
+
+  handleVolumeChange = e => {
+    this.setState({ volume: parseFloat(e.target.value) });
+  };
+
+  handleClickFullscreen = () => {
+    screenfull.request(findDOMNode(this.player));
+  };
+
+  ref = player => {
+    this.player = player;
+  };
 
   render() {
-    const video_props = {
-      src: `https://www.youtube.com/embed/${
-        this.props.videoId
-      }rel=0&autoplay=1&controls=0&enablejsapi=1`,
-      title: "Geaux Network Tv",
-      frameBorder: 0,
-      allowFullScreen: true,
-      allow: "autoplay; encrypted-media"
-    };
+    const src = `https://www.youtube.com/watch?v=${this.props.videoId}`;
 
     return (
       <div className="gn-player">
         <div className="gn-player-video">
-          <iframe id="player" {...video_props} />
+          <ReactPlayer
+            className="react-player"
+            url={src}
+            playing
+            ref={this.ref}
+            width={"100%"}
+            height={"64vh"}
+            volume={this.state.volume}
+          />
+        </div>
+        <div className="gn-player-controls">
+          <div className="gn-player-volume">
+            <label>Volume:</label>
+            <input
+              type="range"
+              min={0}
+              max={1}
+              step="any"
+              value={this.state.volume}
+              onChange={this.handleVolumeChange}
+            />
+          </div>
+          <input
+            onClick={this.handleClickFullscreen}
+            type="button"
+            value="Fullscreen"
+          />
         </div>
       </div>
     );
@@ -34,7 +66,6 @@ class Player extends React.Component {
 }
 
 export { Player };
-
 //
 // `https://www.youtube.com/embed/${
 //   this.props.videoId
