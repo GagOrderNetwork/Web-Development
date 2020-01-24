@@ -18,7 +18,7 @@ const data = {
       channelName: "Getting Started",
       episodes: [
         {
-          videoId: "oSxyNcPse6o?",
+          videoId: "DHdmC-WJlxg?",
           title: "GeauxBusiness"
         }
       ]
@@ -38,7 +38,7 @@ const data = {
       channelName: "Al Jazeera",
       episodes: [
         {
-          videoId: "RjIjKNcr_fk?",
+          videoId: "WisZM9CMlTo?",
           title: "Al Jazeera Live"
         }
       ]
@@ -75,11 +75,11 @@ const data = {
     },
     {
       number: 107,
-      channelName: "Bollywood Updates",
+      channelName: "SpanishPod101",
       episodes: [
         {
-          videoId: "3nLvKGYDaOc?",
-          title: "Bollywood Masala"
+          videoId: "lLxHcnOitWs?",
+          title: "Learn Spanish"
         }
       ]
     },
@@ -259,10 +259,10 @@ const data = {
     },
     {
       number: 304,
-      channelName: "CLASSIC CARTOONS",
+      channelName: "WB Kids",
       episodes: [
         {
-          videoId: "ECFSzTKAfV4?",
+          videoId: "933-mhry0Bc?",
           title: "TOM & JERRY, LOONEY TUNES AND SCOOBY-DOO"
         }
       ]
@@ -426,7 +426,7 @@ const data = {
       channelName: "G.O. On Geaux",
       episodes: [
         {
-          videoId: "teF2-cOTIh4?",
+          videoId: "z-oH98-wimc?",
           title: "GeauxInterviews"
         }
       ]
