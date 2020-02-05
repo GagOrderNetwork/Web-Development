@@ -6,7 +6,7 @@ const data = {
       channelName: "Geaux Info",
       episodes: [
         {
-          videoId: "UPel-zutWbo?",
+          videoId: "RKfLEpI9QZg?",
           title: "GeauxInfo"
         }
       ]
@@ -18,7 +18,7 @@ const data = {
       channelName: "Getting Started",
       episodes: [
         {
-          videoId: "DHdmC-WJlxg?",
+          videoId: "8Xin6dXAmLs?",
           title: "GeauxBusiness"
         }
       ]
@@ -167,7 +167,7 @@ const data = {
     },
     {
       number: 206,
-      channelName: "Geaux Tutorial",
+      channelName: "Naturalista",
       episodes: [
         {
           videoId: "videoseries?list=PLS7PdlYEvYYM4Q9A4G-NNAPZ7Fl7SiXBj&",
@@ -366,7 +366,7 @@ const data = {
       channelName: "G.T.R.",
       episodes: [
         {
-          videoId: "UQtoEBo4G4Q?",
+          videoId: "YqlHSHtVxQI?",
           title: "Geaux Tech Reviews"
         }
       ]
@@ -426,7 +426,7 @@ const data = {
       channelName: "G.O. On Geaux",
       episodes: [
         {
-          videoId: "z-oH98-wimc?",
+          videoId: "vw0Zp_HBGqg?",
           title: "GeauxInterviews"
         }
       ]

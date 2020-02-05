@@ -13,7 +13,7 @@ if (process.env.NODE_ENV !== "production") {
 const initialState = {
   channelName: "GeauxInfo",
   channelNumber: 411,
-  videoId: "UPel-zutWbo?"
+  videoId: "RKfLEpI9QZg?"
 };
 
 function reducer(state = initialState, action) {
