@@ -75,11 +75,11 @@ const data = {
     },
     {
       number: 107,
-      channelName: "SpanishPod101",
+      channelName: "BD News",
       episodes: [
         {
-          videoId: "lLxHcnOitWs?",
-          title: "Learn Spanish"
+          videoId: "KgiwN7ddb2U?",
+          title: "Bangladesh News"
         }
       ]
     },
@@ -222,7 +222,7 @@ const data = {
       channelName: "Paw Patrol",
       episodes: [
         {
-          videoId: "urlRgfwOSIQ?",
+          videoId: "XWMwQkiRrGI?",
           title: "Rescue Episode Marathon"
         }
       ]
@@ -348,16 +348,6 @@ const data = {
           title: "Study Music, Relaxing Music"
         }
       ]
-    },
-    {
-      number: 709,
-      channelName: "Geauxing Seasonal",
-      episodes: [
-        {
-          videoId: "MJLB4Qv38vM?",
-          title: "Winter Wonderland"
-        }
-      ]
     }
   ],
   "Science, Sports, and Stuff": [
@@ -396,7 +386,7 @@ const data = {
       channelName: "TWiT",
       episodes: [
         {
-          videoId: "VLdakuogviE?",
+          videoId: "PUihQudaFEg?",
           title: "Tech Podcast"
         }
       ]
