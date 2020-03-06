@@ -6,7 +6,7 @@ const data = {
       channelName: "Geaux Info",
       episodes: [
         {
-          videoId: "RKfLEpI9QZg?",
+          videoId: "9VDsg2qfW84?",
           title: "GeauxInfo"
         }
       ]
@@ -18,7 +18,7 @@ const data = {
       channelName: "Getting Started",
       episodes: [
         {
-          videoId: "8Xin6dXAmLs?",
+          videoId: "BMBx-CNJMtA?",
           title: "GeauxBusiness"
         }
       ]
@@ -58,8 +58,8 @@ const data = {
       channelName: "Bitcoin Live",
       episodes: [
         {
-          videoId: "Jlot28Q90HU?",
-          title: "Live Bitcoin Trading - Tom Crown"
+          videoId: "upO55GM2D4Y?",
+          title: "Live Bitcoin 24/7/365"
         }
       ]
     },
@@ -219,11 +219,11 @@ const data = {
   Kids: [
     {
       number: 300,
-      channelName: "Paw Patrol",
+      channelName: "KND",
       episodes: [
         {
-          videoId: "XWMwQkiRrGI?",
-          title: "Rescue Episode Marathon"
+          videoId: "pYdNEOAP9YQ?",
+          title: "Kids Next Door"
         }
       ]
     },
@@ -262,8 +262,8 @@ const data = {
       channelName: "WB Kids",
       episodes: [
         {
-          videoId: "933-mhry0Bc?",
-          title: "TOM & JERRY, LOONEY TUNES AND SCOOBY-DOO"
+          videoId: "BRkQ-ZGiNbc?",
+          title: " Classic TOM & JERRY"
         }
       ]
     },
@@ -282,7 +282,7 @@ const data = {
       channelName: "Toon Room",
       episodes: [
         {
-          videoId: "gXARGZF1Wp4?",
+          videoId: "IP3pYoc2SBc?",
           title: "Mr.Bean"
         }
       ]
@@ -324,8 +324,8 @@ const data = {
       channelName: "Pop Music",
       episodes: [
         {
-          videoId: "yixlb8qMTmA?",
-          title: "Pop Music Live"
+          videoId: "5gEQa8HDxks?",
+          title: "Epidemic Pop Music"
         }
       ]
     },
@@ -356,7 +356,7 @@ const data = {
       channelName: "G.T.R.",
       episodes: [
         {
-          videoId: "YqlHSHtVxQI?",
+          videoId: "OuJg0DVLM4A?",
           title: "Geaux Tech Reviews"
         }
       ]
@@ -386,7 +386,7 @@ const data = {
       channelName: "TWiT",
       episodes: [
         {
-          videoId: "PUihQudaFEg?",
+          videoId: "-OarnAOKKZA?",
           title: "Tech Podcast"
         }
       ]
@@ -416,7 +416,7 @@ const data = {
       channelName: "G.O. On Geaux",
       episodes: [
         {
-          videoId: "vw0Zp_HBGqg?",
+          videoId: "-tIhFtraO7A?",
           title: "GeauxInterviews"
         }
       ]
