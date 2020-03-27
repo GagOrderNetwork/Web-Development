@@ -55,11 +55,11 @@ const data = {
     },
     {
       number: 105,
-      channelName: "Bitcoin Live",
+      channelName: "SKY News",
       episodes: [
         {
-          videoId: "upO55GM2D4Y?",
-          title: "Live Bitcoin 24/7/365"
+          videoId: "9Auq9mYxFEE?",
+          title: "Sky News"
         }
       ]
     },
@@ -269,21 +269,11 @@ const data = {
     },
     {
       number: 305,
-      channelName: "Good Kids",
+      channelName: "Paw Patrol",
       episodes: [
         {
-          videoId: "QougB4t6TWU?",
-          title: "Booba"
-        }
-      ]
-    },
-    {
-      number: 306,
-      channelName: "Toon Room",
-      episodes: [
-        {
-          videoId: "IP3pYoc2SBc?",
-          title: "Mr.Bean"
+          videoId: "KaMgAmoolNs?",
+          title: "Mighty Pups"
         }
       ]
     }
@@ -291,11 +281,11 @@ const data = {
   Music: [
     {
       number: 617,
-      channelName: "Geaux Dancing",
+      channelName: "Tropical House",
       episodes: [
         {
-          videoId: "UX1cdPqW5M8?",
-          title: "Geaux Dancing"
+          videoId: "jnGUs3jCb_I?",
+          title: "Tropical House"
         }
       ]
     },
@@ -321,11 +311,11 @@ const data = {
     },
     {
       number: 620,
-      channelName: "Pop Music",
+      channelName: "Lofi Wave",
       episodes: [
         {
-          videoId: "5gEQa8HDxks?",
-          title: "Epidemic Pop Music"
+          videoId: "Cnudi0bQxG0?",
+          title: "Quarantine and Chill"
         }
       ]
     },
@@ -383,11 +373,11 @@ const data = {
     },
     {
       number: 702,
-      channelName: "TWiT",
+      channelName: "EXPLORE.org",
       episodes: [
         {
-          videoId: "-OarnAOKKZA?",
-          title: "Tech Podcast"
+          videoId: "UmclL6funN8?",
+          title: "Decoran Eagles"
         }
       ]
     },
