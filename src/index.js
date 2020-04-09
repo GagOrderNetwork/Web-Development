@@ -13,7 +13,7 @@ if (process.env.NODE_ENV !== "production") {
 const initialState = {
   channelName: "GeauxInfo",
   channelNumber: 411,
-  videoId: "9VDsg2qfW84?"
+  videoId: "https://www.dailymotion.com/video/x7t6quu"
 };
 
 function reducer(state = initialState, action) {

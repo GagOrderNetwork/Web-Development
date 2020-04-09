@@ -27,14 +27,12 @@ class Player extends React.Component {
   };
 
   render() {
-    const src = `https://www.youtube.com/watch?v=${this.props.videoId}`;
-
     return (
       <div className="gn-player">
         <div className="gn-player-video">
           <ReactPlayer
             className="react-player"
-            url={src}
+            url={this.props.videoId}
             playing
             ref={this.ref}
             width={"100%"}

@@ -6,7 +6,7 @@ const data = {
       channelName: "Geaux Info",
       episodes: [
         {
-          videoId: "9VDsg2qfW84?",
+          videoId: "https://www.dailymotion.com/video/x7t6quu",
           title: "GeauxInfo"
         }
       ]
@@ -18,7 +18,7 @@ const data = {
       channelName: "Getting Started",
       episodes: [
         {
-          videoId: "BMBx-CNJMtA?",
+          videoId: "https://www.youtube.com/watch?v=BMBx-CNJMtA?",
           title: "GeauxBusiness"
         }
       ]
@@ -28,7 +28,7 @@ const data = {
       channelName: "DW News",
       episodes: [
         {
-          videoId: "NvqKZHpKs-g?",
+          videoId: "https://www.youtube.com/watch?v=NvqKZHpKs-g?",
           title: "DW News Live"
         }
       ]
@@ -38,7 +38,7 @@ const data = {
       channelName: "Al Jazeera",
       episodes: [
         {
-          videoId: "WisZM9CMlTo?",
+          videoId: "https://www.youtube.com/watch?v=WisZM9CMlTo?",
           title: "Al Jazeera Live"
         }
       ]
@@ -48,7 +48,7 @@ const data = {
       channelName: "ABC7",
       episodes: [
         {
-          videoId: "IukZ7gOGPj8?",
+          videoId: "https://www.youtube.com/watch?v=IukZ7gOGPj8?",
           title: "ABC 7 SW Florida"
         }
       ]
@@ -58,7 +58,7 @@ const data = {
       channelName: "SKY News",
       episodes: [
         {
-          videoId: "9Auq9mYxFEE?",
+          videoId: "https://www.youtube.com/watch?v=9Auq9mYxFEE?",
           title: "Sky News"
         }
       ]
@@ -68,7 +68,7 @@ const data = {
       channelName: "CNA",
       episodes: [
         {
-          videoId: "U_XsRZXL2Ic?",
+          videoId: "https://www.youtube.com/watch?v=U_XsRZXL2Ic?",
           title: "Breaking news, top stories"
         }
       ]
@@ -78,7 +78,7 @@ const data = {
       channelName: "BD News",
       episodes: [
         {
-          videoId: "KgiwN7ddb2U?",
+          videoId: "https://www.youtube.com/watch?v=KgiwN7ddb2U?",
           title: "Bangladesh News"
         }
       ]
@@ -88,7 +88,7 @@ const data = {
       channelName: "FranceInfo",
       episodes: [
         {
-          videoId: "wwNZKfBLAsc?",
+          videoId: "https://www.youtube.com/watch?v=wwNZKfBLAsc?",
           title: "France Info"
         }
       ]
@@ -98,7 +98,7 @@ const data = {
       channelName: "ABN Telugu",
       episodes: [
         {
-          videoId: "VMAwgDJIsM0?",
+          videoId: "https://www.youtube.com/watch?v=VMAwgDJIsM0?",
           title: "ABN Telugu Latest News"
         }
       ]
@@ -110,7 +110,7 @@ const data = {
       channelName: "HSN",
       episodes: [
         {
-          videoId: "1ph8qQnjXts?",
+          videoId: "https://www.youtube.com/watch?v=1ph8qQnjXts?",
           title: "HSN Live"
         }
       ]
@@ -120,7 +120,7 @@ const data = {
       channelName: "QVC",
       episodes: [
         {
-          videoId: "2v9ytGk5KhI?",
+          videoId: "https://www.youtube.com/watch?v=2v9ytGk5KhI?",
           title: "QVC LIVE STREAM"
         }
       ]
@@ -130,7 +130,7 @@ const data = {
       channelName: "QVC2 Live",
       episodes: [
         {
-          videoId: "_v_wMS-uACE?",
+          videoId: "https://www.youtube.com/watch?v=_v_wMS-uACE?",
           title: "QVC2 Live"
         }
       ]
@@ -140,7 +140,7 @@ const data = {
       channelName: "QVC3 Live",
       episodes: [
         {
-          videoId: "Qt2c93O1p_c?",
+          videoId: "https://www.youtube.com/watch?v=Qt2c93O1p_c?",
           title: "QVC3 Live"
         }
       ]
@@ -150,7 +150,7 @@ const data = {
       channelName: "HSN2",
       episodes: [
         {
-          videoId: "1pepSUbkLVI?",
+          videoId: "https://www.youtube.com/watch?v=1pepSUbkLVI?",
           title: "HSN2 Live"
         }
       ]
@@ -160,7 +160,7 @@ const data = {
       channelName: "QVC Japan",
       episodes: [
         {
-          videoId: "wMo3F5IouNs?",
+          videoId: "https://www.youtube.com/watch?v=wMo3F5IouNs?",
           title: "QVC Japan"
         }
       ]
@@ -170,7 +170,8 @@ const data = {
       channelName: "Naturalista",
       episodes: [
         {
-          videoId: "videoseries?list=PLS7PdlYEvYYM4Q9A4G-NNAPZ7Fl7SiXBj&",
+          videoId:
+            "https://www.youtube.com/watch?v=videoseries?list=PLS7PdlYEvYYM4Q9A4G-NNAPZ7Fl7SiXBj&",
           title: "Natural Hair Advice"
         }
       ]
@@ -180,7 +181,8 @@ const data = {
       channelName: "Home Decor",
       episodes: [
         {
-          videoId: "videoseries?list=PLS7PdlYEvYYM5fkeGzSSlU3x1MC9mobCj&",
+          videoId:
+            "https://www.youtube.com/watch?v=videoseries?list=PLS7PdlYEvYYM5fkeGzSSlU3x1MC9mobCj&",
           title: "DIY Home Decor"
         }
       ]
@@ -190,7 +192,8 @@ const data = {
       channelName: "Geaux Thrifting",
       episodes: [
         {
-          videoId: "videoseries?list=PLS7PdlYEvYYMrFVh9Cn4o48hTrCtR1pPy&",
+          videoId:
+            "https://www.youtube.com/watch?v=videoseries?list=PLS7PdlYEvYYMrFVh9Cn4o48hTrCtR1pPy&",
           title: "Thrift Flip"
         }
       ]
@@ -200,7 +203,8 @@ const data = {
       channelName: "Beaute 101",
       episodes: [
         {
-          videoId: "videoseries?list=PLS7PdlYEvYYNOc0A38gOM1MWXp3hG-I-8&",
+          videoId:
+            "https://www.youtube.com/watch?v=videoseries?list=PLS7PdlYEvYYNOc0A38gOM1MWXp3hG-I-8&",
           title: "Beaute"
         }
       ]
@@ -210,7 +214,8 @@ const data = {
       channelName: "Geauxing Home",
       episodes: [
         {
-          videoId: "videoseries?list=PLS7PdlYEvYYOFe1mXqR39oXbKcpYupNNx&",
+          videoId:
+            "https://www.youtube.com/watch?v=videoseries?list=PLS7PdlYEvYYOFe1mXqR39oXbKcpYupNNx&",
           title: "HomeTalk"
         }
       ]
@@ -219,11 +224,11 @@ const data = {
   Kids: [
     {
       number: 300,
-      channelName: "KND",
+      channelName: "The Fairly OddParents",
       episodes: [
         {
-          videoId: "pYdNEOAP9YQ?",
-          title: "Kids Next Door"
+          videoId: "https://www.youtube.com/watch?v=TqYQ-Xc2X94?",
+          title: "The Fairly OddParents 24/7"
         }
       ]
     },
@@ -232,7 +237,7 @@ const data = {
       channelName: "FunFunFun",
       episodes: [
         {
-          videoId: "ZY5oov1_jbo?",
+          videoId: "https://www.youtube.com/watch?v=ZY5oov1_jbo?",
           title: "LARVA OFFICIAL"
         }
       ]
@@ -242,7 +247,7 @@ const data = {
       channelName: "Cat Tales",
       episodes: [
         {
-          videoId: "PbP0_yYXcHU?",
+          videoId: "https://www.youtube.com/watch?v=PbP0_yYXcHU?",
           title: "Talking Tom and Friends"
         }
       ]
@@ -252,7 +257,7 @@ const data = {
       channelName: "Caillou",
       episodes: [
         {
-          videoId: "4bvh4npvgyA?",
+          videoId: "https://www.youtube.com/watch?v=4bvh4npvgyA?",
           title: "It's Caillou"
         }
       ]
@@ -262,7 +267,7 @@ const data = {
       channelName: "WB Kids",
       episodes: [
         {
-          videoId: "BRkQ-ZGiNbc?",
+          videoId: "https://www.youtube.com/watch?v=BRkQ-ZGiNbc?",
           title: " Classic TOM & JERRY"
         }
       ]
@@ -272,7 +277,7 @@ const data = {
       channelName: "Paw Patrol",
       episodes: [
         {
-          videoId: "KaMgAmoolNs?",
+          videoId: "https://www.youtube.com/watch?v=KaMgAmoolNs?",
           title: "Mighty Pups"
         }
       ]
@@ -284,7 +289,7 @@ const data = {
       channelName: "Tropical House",
       episodes: [
         {
-          videoId: "jnGUs3jCb_I?",
+          videoId: "https://www.youtube.com/watch?v=jnGUs3jCb_I?",
           title: "Tropical House"
         }
       ]
@@ -294,8 +299,8 @@ const data = {
       channelName: "Geaux Chill",
       episodes: [
         {
-          videoId: "kdtkyYid7YA?",
-          title: "Chillout Music | EDM 2019"
+          videoId: "https://www.youtube.com/watch?v=5qap5aO4i9A?",
+          title: "lofi hip hop radio"
         }
       ]
     },
@@ -304,7 +309,7 @@ const data = {
       channelName: "Issa Vibe (13+)",
       episodes: [
         {
-          videoId: "L9Q1HUdUMp0?",
+          videoId: "https://www.youtube.com/watch?v=L9Q1HUdUMp0?",
           title: "R&B / Hip-Hop Radio"
         }
       ]
@@ -314,7 +319,7 @@ const data = {
       channelName: "Lofi Wave",
       episodes: [
         {
-          videoId: "Cnudi0bQxG0?",
+          videoId: "https://www.youtube.com/watch?v=Cnudi0bQxG0?",
           title: "Quarantine and Chill"
         }
       ]
@@ -324,7 +329,7 @@ const data = {
       channelName: "The Jazz Lounge",
       episodes: [
         {
-          videoId: "-7_ZuR7gFgc?",
+          videoId: "https://www.youtube.com/watch?v=-7_ZuR7gFgc?",
           title: "Jazz All Day Long"
         }
       ]
@@ -334,7 +339,7 @@ const data = {
       channelName: "Piano Time!",
       episodes: [
         {
-          videoId: "y7e-GC6oGhg?",
+          videoId: "https://www.youtube.com/watch?v=y7e-GC6oGhg?",
           title: "Study Music, Relaxing Music"
         }
       ]
@@ -346,7 +351,7 @@ const data = {
       channelName: "G.T.R.",
       episodes: [
         {
-          videoId: "OuJg0DVLM4A?",
+          videoId: "https://www.youtube.com/watch?v=OuJg0DVLM4A?",
           title: "Geaux Tech Reviews"
         }
       ]
@@ -356,7 +361,8 @@ const data = {
       channelName: "Geaux Tech",
       episodes: [
         {
-          videoId: "videoseries?list=PLKEbmWOXwpBREqf2dgNleCuCJPe7a7irX&",
+          videoId:
+            "https://www.youtube.com/watch?v=videoseries?list=PLKEbmWOXwpBREqf2dgNleCuCJPe7a7irX&",
           title: "G.T.P"
         }
       ]
@@ -366,7 +372,7 @@ const data = {
       channelName: "étoile",
       episodes: [
         {
-          videoId: "nA9UZF-SZoQ?",
+          videoId: "https://www.youtube.com/watch?v=nA9UZF-SZoQ?",
           title: "Space and Universe"
         }
       ]
@@ -376,7 +382,7 @@ const data = {
       channelName: "EXPLORE.org",
       episodes: [
         {
-          videoId: "UmclL6funN8?",
+          videoId: "https://www.youtube.com/watch?v=UmclL6funN8?",
           title: "Decoran Eagles"
         }
       ]
@@ -386,7 +392,7 @@ const data = {
       channelName: "Nature Two",
       episodes: [
         {
-          videoId: "F109TZt3nRc?",
+          videoId: "https://www.youtube.com/watch?v=F109TZt3nRc?",
           title: "MTropical Reef Camera powered by EXPLORE.org"
         }
       ]
@@ -396,7 +402,7 @@ const data = {
       channelName: "Future Of",
       episodes: [
         {
-          videoId: "GyBgbzdkiH8?",
+          videoId: "https://www.youtube.com/watch?v=GyBgbzdkiH8?",
           title: "Science, News, Earth 2050"
         }
       ]
@@ -406,7 +412,7 @@ const data = {
       channelName: "G.O. On Geaux",
       episodes: [
         {
-          videoId: "-tIhFtraO7A?",
+          videoId: "https://www.youtube.com/watch?v=-tIhFtraO7A?",
           title: "GeauxInterviews"
         }
       ]
