@@ -18,7 +18,7 @@ const data = {
       channelName: "Getting Started",
       episodes: [
         {
-          videoId: "https://www.youtube.com/watch?v=BMBx-CNJMtA?",
+          videoId: "https://www.dailymotion.com/video/x7tb1xo",
           title: "GeauxBusiness"
         }
       ]
@@ -351,7 +351,7 @@ const data = {
       channelName: "G.T.R.",
       episodes: [
         {
-          videoId: "https://www.youtube.com/watch?v=OuJg0DVLM4A?",
+          videoId: "https://www.dailymotion.com/video/x7tb1y4",
           title: "Geaux Tech Reviews"
         }
       ]
@@ -412,7 +412,7 @@ const data = {
       channelName: "G.O. On Geaux",
       episodes: [
         {
-          videoId: "https://www.youtube.com/watch?v=-tIhFtraO7A?",
+          videoId: "https://www.dailymotion.com/video/x7tb1xt",
           title: "GeauxInterviews"
         }
       ]
