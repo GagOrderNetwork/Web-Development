@@ -6,7 +6,7 @@ const data = {
       channelName: "Geaux Info",
       episodes: [
         {
-          videoId: "https://www.dailymotion.com/video/x7tcep2",
+          videoId: "https://www.dailymotion.com/video/x7t6quu",
           title: "GeauxInfo"
         }
       ]
@@ -18,11 +18,7 @@ const data = {
       channelName: "Getting Started",
       episodes: [
         {
-<<<<<<< HEAD
-          videoId: "https://dai.ly/x7tb1xo",
-=======
           videoId: "https://www.dailymotion.com/video/x7tb1xo",
->>>>>>> db42ab5b4da87c6113af310ac39fcb27e4be98ac
           title: "GeauxBusiness"
         }
       ]
@@ -365,11 +361,7 @@ const data = {
       channelName: "G.T.R.",
       episodes: [
         {
-<<<<<<< HEAD
-          videoId: "https://dai.ly/x7tb1y4",
-=======
           videoId: "https://www.dailymotion.com/video/x7tb1y4",
->>>>>>> db42ab5b4da87c6113af310ac39fcb27e4be98ac
           title: "Geaux Tech Reviews"
         }
       ]
@@ -440,11 +432,7 @@ const data = {
       channelName: "G.O. On Geaux",
       episodes: [
         {
-<<<<<<< HEAD
-          videoId: "https://dai.ly/x7tb1xt",
-=======
           videoId: "https://www.dailymotion.com/video/x7tb1xt",
->>>>>>> db42ab5b4da87c6113af310ac39fcb27e4be98ac
           title: "GeauxInterviews"
         }
       ]
