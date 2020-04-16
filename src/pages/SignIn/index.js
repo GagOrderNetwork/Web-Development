@@ -12,6 +12,7 @@ class SignIn extends React.Component {
           <Link to="/create-account">
             <div className="gn-sign_in-link">Create Account</div>
           </Link>
+
           <Link to="/">
             <div className="gn-sign_in-link">Sign In</div>
           </Link>
