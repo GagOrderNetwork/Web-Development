@@ -6,7 +6,7 @@ const data = {
       channelName: "Geaux Info",
       episodes: [
         {
-          videoId: "https://www.dailymotion.com/video/x7t6quu",
+          videoId: "https://www.dailymotion.com/video/x7tcep2",
           title: "GeauxInfo"
         }
       ]
@@ -18,7 +18,7 @@ const data = {
       channelName: "Getting Started",
       episodes: [
         {
-          videoId: "https://www.youtube.com/watch?v=BMBx-CNJMtA?",
+          videoId: "https://dai.ly/x7tb1xo",
           title: "GeauxBusiness"
         }
       ]
@@ -335,6 +335,16 @@ const data = {
       ]
     },
     {
+      number: 617,
+      channelName: "StewShowcase",
+      episodes: [
+        {
+          videoId: "https://dai.ly/x7tae7z",
+          title: "The Stew Showcase"
+        }
+      ]
+    },
+    {
       number: 622,
       channelName: "Piano Time!",
       episodes: [
@@ -351,11 +361,21 @@ const data = {
       channelName: "G.T.R.",
       episodes: [
         {
-          videoId: "https://www.youtube.com/watch?v=OuJg0DVLM4A?",
+          videoId: "https://dai.ly/x7tb1y4",
           title: "Geaux Tech Reviews"
         }
       ]
     },
+     {
+          number: 698,
+          channelName: "Geaux Fantasy",
+          episodes: [
+            {
+              videoId: "https://dai.ly/x7tb1xc",
+              title: "The works of Moon Ferguson"
+            }
+          ]
+        },
     {
       number: 699,
       channelName: "Geaux Tech",
@@ -363,7 +383,7 @@ const data = {
         {
           videoId:
             "https://www.youtube.com/watch?v=videoseries?list=PLKEbmWOXwpBREqf2dgNleCuCJPe7a7irX&",
-          title: "G.T.P"
+          title: "Future Technology"
         }
       ]
     },
@@ -412,7 +432,7 @@ const data = {
       channelName: "G.O. On Geaux",
       episodes: [
         {
-          videoId: "https://www.youtube.com/watch?v=-tIhFtraO7A?",
+          videoId: "https://dai.ly/x7tb1xt",
           title: "GeauxInterviews"
         }
       ]
