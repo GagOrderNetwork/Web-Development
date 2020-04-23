@@ -85,11 +85,11 @@ const data = {
     },
     {
       number: 108,
-      channelName: "FranceInfo",
+      channelName: "France24",
       episodes: [
         {
           videoId: "https://www.youtube.com/watch?v=wwNZKfBLAsc?",
-          title: "France Info"
+          title: "France News 24/7"
         }
       ]
     },
@@ -101,8 +101,28 @@ const data = {
           videoId: "https://www.youtube.com/watch?v=VMAwgDJIsM0?",
           title: "ABN Telugu Latest News"
         }
+       ]
+      },
+      {
+        number: 110,
+        channelName: "Russian 24 News",
+        episodes: [
+          {
+            videoId: "https://www.youtube.com/watch?v=8T9SFZDP60Q",
+            title: "новости 24 часа"
+          }
+        ]
+    },
+    {
+      number: 110,
+      channelName: "Мир 24. Прямая трансляция",
+      episodes: [
+        {
+          videoId: "https://www.youtube.com/watch?v=fc6IJmpMcEQ",
+          title: "Прямой эфир телеканала МИР 24"
+        }
       ]
-    }
+  }
   ],
   "Fashion/Lifestyle": [
     {
@@ -254,6 +274,16 @@ const data = {
     },
     {
       number: 303,
+      channelName: "Mother Goose Club",
+      episodes: [
+        {
+          videoId: "https://www.youtube.com/watch?v=OaJL4e3eOzI",
+          title: "Mother Goose Club + More"
+        }
+      ]
+    },
+    {
+      number: 304,
       channelName: "Caillou",
       episodes: [
         {
@@ -263,7 +293,7 @@ const data = {
       ]
     },
     {
-      number: 304,
+      number: 305,
       channelName: "WB Kids",
       episodes: [
         {
@@ -273,7 +303,7 @@ const data = {
       ]
     },
     {
-      number: 305,
+      number: 306,
       channelName: "Paw Patrol",
       episodes: [
         {
@@ -285,7 +315,7 @@ const data = {
   ],
   Music: [
     {
-      number: 617,
+      number: 400,
       channelName: "Tropical House",
       episodes: [
         {
@@ -295,7 +325,7 @@ const data = {
       ]
     },
     {
-      number: 619,
+      number: 401,
       channelName: "Geaux Chill",
       episodes: [
         {
@@ -305,7 +335,7 @@ const data = {
       ]
     },
     {
-      number: 112,
+      number: 402,
       channelName: "Issa Vibe (13+)",
       episodes: [
         {
@@ -315,7 +345,7 @@ const data = {
       ]
     },
     {
-      number: 620,
+      number: 403,
       channelName: "Lofi Wave",
       episodes: [
         {
@@ -325,7 +355,7 @@ const data = {
       ]
     },
     {
-      number: 621,
+      number: 404,
       channelName: "The Jazz Lounge",
       episodes: [
         {
@@ -335,7 +365,7 @@ const data = {
       ]
     },
     {
-      number: 617,
+      number: 405,
       channelName: "StewShowcase",
       episodes: [
         {
@@ -344,8 +374,18 @@ const data = {
         }
       ]
     },
-    {
-      number: 622,
+      {
+        number: 406,
+        channelName: "G.O. On Geaux",
+        episodes: [
+          {
+            videoId: "https://www.dailymotion.com/video/x7tb1xt",
+            title: "GeauxInterviews"
+        }
+      ]
+    },
+      {
+      number: 407,
       channelName: "Piano Time!",
       episodes: [
         {
@@ -355,19 +395,19 @@ const data = {
       ]
     }
   ],
-  "Science, Sports, and Stuff": [
+  "Science & Fantasy": [
     {
-      number: 697,
-      channelName: "G.T.R.",
+      number: 500,
+      channelName: "Everything Tech",
       episodes: [
         {
           videoId: "https://www.dailymotion.com/video/x7tb1y4",
-          title: "Geaux Tech Reviews"
+          title: "Everything Tech"
         }
       ]
     },
      {
-          number: 698,
+          number: 501,
           channelName: "Geaux Fantasy",
           episodes: [
             {
@@ -377,7 +417,7 @@ const data = {
           ]
         },
     {
-      number: 699,
+      number: 502,
       channelName: "Geaux Tech",
       episodes: [
         {
@@ -388,7 +428,7 @@ const data = {
       ]
     },
     {
-      number: 700,
+      number: 503,
       channelName: "étoile",
       episodes: [
         {
@@ -398,27 +438,7 @@ const data = {
       ]
     },
     {
-      number: 702,
-      channelName: "EXPLORE.org",
-      episodes: [
-        {
-          videoId: "https://www.youtube.com/watch?v=UmclL6funN8?",
-          title: "Decoran Eagles"
-        }
-      ]
-    },
-    {
-      number: 703,
-      channelName: "Nature Two",
-      episodes: [
-        {
-          videoId: "https://www.youtube.com/watch?v=F109TZt3nRc?",
-          title: "MTropical Reef Camera powered by EXPLORE.org"
-        }
-      ]
-    },
-    {
-      number: 704,
+      number: 504,
       channelName: "Future Of",
       episodes: [
         {
@@ -426,17 +446,79 @@ const data = {
           title: "Science, News, Earth 2050"
         }
       ]
-    },
+    }
+  ],
+  "Explore.org": [
     {
-      number: 706,
-      channelName: "G.O. On Geaux",
+      number: 600,
+      channelName: "Santa Monica Beach Cam",
       episodes: [
         {
-          videoId: "https://www.dailymotion.com/video/x7tb1xt",
-          title: "GeauxInterviews"
+          videoId: "https://www.youtube.com/watch?v=OWbI6WtlI-k",
+          title: "Santa Monica Beach Cam powered by EXPLORE.org"
         }
       ]
-    }
+    },
+    {
+      number: 601,
+      channelName: "Aquarium of the Pacific",
+      episodes: [
+        {
+          videoId: "https://www.youtube.com/watch?v=F109TZt3nRc?",
+          title: "Tropical Reef Camera powered by EXPLORE.org"
+        }
+      ]
+    },
+      {
+        number: 602,
+        channelName: "Raptor Resource Project",
+        episodes: [
+          {
+            videoId: "https://www.youtube.com/watch?v=UmclL6funN8?",
+            title: "Decoran Eagles powered by EXPLORE.org"
+          }
+        ]
+      },
+      {
+        number: 603,
+        channelName: "Guide Dogs of America",
+        episodes: [
+          {
+            videoId: "https://www.youtube.com/watch?v=f12EgkREedY",
+            title: "Guide Dogs Mobility Cam powered by EXPLORE.org"
+          }
+        ]
+      },
+      {
+        number: 604,
+        channelName: "Warrior Canine Connection",
+        episodes: [
+          {
+            videoId: "https://www.youtube.com/watch?v=G0IBqtO1K28",
+            title: "Nursery at Warrior Canine Connection powered by Explore.org"
+          }
+        ]
+      },
+      {
+        number: 605,
+        channelName: "Big Cat Rescue",
+        episodes: [
+          {
+            videoId: "https://www.youtube.com/watch?v=8chd0qHhMWQ",
+            title: "Big Cat Rescue powered by EXPLORE.org"
+          }
+        ]
+      },
+      {
+        number: 605,
+        channelName: "Kitten Rescue",
+        episodes: [
+          {
+            videoId: "https://www.youtube.com/watch?v=9Iup70E0Ig0",
+            title: "Kitten Rescue Cat Cam powered by EXPLORE.org"
+          }
+        ]
+      },
   ]
 };
 
