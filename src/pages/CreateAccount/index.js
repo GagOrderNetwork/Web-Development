@@ -26,6 +26,7 @@ class CreateAccount extends React.Component {
       lastName: event.target.value
     });
   };
+
   onChangeEmail = event => {
     this.setState({
       email: event.target.value
@@ -39,7 +40,7 @@ class CreateAccount extends React.Component {
   };
 
   next = () => {
-    this.props.history.push(`/player`);
+    this.props.history.push(`/`);
   };
 
   onSubmit = event => {
@@ -55,7 +56,7 @@ class CreateAccount extends React.Component {
     console.log(user);
 
     axios
-      .post("http://161.35.53.74:5000/users/add", user)
+      .post("https://161.35.53.74:443/users/add", user)
       .then(res => {
         console.log(res.data);
         this.next();
@@ -70,22 +71,22 @@ class CreateAccount extends React.Component {
           <h2>Create Account</h2>
           <form onSubmit={this.onSubmit}>
             <input
-              placeholder="firstName:"
+              placeholder="First Name:"
               onChange={this.onChangeFirstName}
               type="text"
             />
             <input
-              placeholder="lastName:"
+              placeholder="Last Name:"
               onChange={this.onChangeLastName}
               type="text"
             />
             <input
-              placeholder="email:"
+              placeholder="Email:"
               onChange={this.onChangeEmail}
               type="text"
             />
             <input
-              placeholder="password:"
+              placeholder="Password:"
               onChange={this.onChangePassword}
               type="password"
             />

@@ -101,17 +101,17 @@ const data = {
           videoId: "https://www.youtube.com/watch?v=VMAwgDJIsM0?",
           title: "ABN Telugu Latest News"
         }
-       ]
-      },
-      {
-        number: 110,
-        channelName: "Russian 24 News",
-        episodes: [
-          {
-            videoId: "https://www.youtube.com/watch?v=8T9SFZDP60Q",
-            title: "новости 24 часа"
-          }
-        ]
+      ]
+    },
+    {
+      number: 110,
+      channelName: "Russian 24 News",
+      episodes: [
+        {
+          videoId: "https://www.youtube.com/watch?v=8T9SFZDP60Q",
+          title: "новости 24 часа"
+        }
+      ]
     },
     {
       number: 110,
@@ -122,7 +122,7 @@ const data = {
           title: "Прямой эфир телеканала МИР 24"
         }
       ]
-  }
+    }
   ],
   "Fashion/Lifestyle": [
     {
@@ -374,17 +374,17 @@ const data = {
         }
       ]
     },
-      {
-        number: 406,
-        channelName: "G.O. On Geaux",
-        episodes: [
-          {
-            videoId: "https://www.dailymotion.com/video/x7tb1xt",
-            title: "GeauxInterviews"
+    {
+      number: 406,
+      channelName: "G.O. On Geaux",
+      episodes: [
+        {
+          videoId: "https://www.dailymotion.com/video/x7tb1xt",
+          title: "GeauxInterviews"
         }
       ]
     },
-      {
+    {
       number: 407,
       channelName: "Piano Time!",
       episodes: [
@@ -406,16 +406,16 @@ const data = {
         }
       ]
     },
-     {
-          number: 501,
-          channelName: "Geaux Fantasy",
-          episodes: [
-            {
-              videoId: "https://dai.ly/x7tb1xc",
-              title: "The works of Moon Ferguson"
-            }
-          ]
-        },
+    {
+      number: 501,
+      channelName: "Geaux Fantasy",
+      episodes: [
+        {
+          videoId: "https://dai.ly/x7tb1xc",
+          title: "The works of Moon Ferguson"
+        }
+      ]
+    },
     {
       number: 502,
       channelName: "Geaux Tech",
@@ -469,56 +469,56 @@ const data = {
         }
       ]
     },
-      {
-        number: 602,
-        channelName: "Raptor Resource Project",
-        episodes: [
-          {
-            videoId: "https://www.youtube.com/watch?v=UmclL6funN8?",
-            title: "Decoran Eagles powered by EXPLORE.org"
-          }
-        ]
-      },
-      {
-        number: 603,
-        channelName: "Guide Dogs of America",
-        episodes: [
-          {
-            videoId: "https://www.youtube.com/watch?v=f12EgkREedY",
-            title: "Guide Dogs Mobility Cam powered by EXPLORE.org"
-          }
-        ]
-      },
-      {
-        number: 604,
-        channelName: "Warrior Canine Connection",
-        episodes: [
-          {
-            videoId: "https://www.youtube.com/watch?v=G0IBqtO1K28",
-            title: "Nursery at Warrior Canine Connection powered by Explore.org"
-          }
-        ]
-      },
-      {
-        number: 605,
-        channelName: "Big Cat Rescue",
-        episodes: [
-          {
-            videoId: "https://www.youtube.com/watch?v=8chd0qHhMWQ",
-            title: "Big Cat Rescue powered by EXPLORE.org"
-          }
-        ]
-      },
-      {
-        number: 605,
-        channelName: "Kitten Rescue",
-        episodes: [
-          {
-            videoId: "https://www.youtube.com/watch?v=9Iup70E0Ig0",
-            title: "Kitten Rescue Cat Cam powered by EXPLORE.org"
-          }
-        ]
-      },
+    {
+      number: 602,
+      channelName: "Raptor Resource Project",
+      episodes: [
+        {
+          videoId: "https://www.youtube.com/watch?v=UmclL6funN8?",
+          title: "Decoran Eagles powered by EXPLORE.org"
+        }
+      ]
+    },
+    {
+      number: 603,
+      channelName: "Guide Dogs of America",
+      episodes: [
+        {
+          videoId: "https://www.youtube.com/watch?v=f12EgkREedY",
+          title: "Guide Dogs Mobility Cam powered by EXPLORE.org"
+        }
+      ]
+    },
+    {
+      number: 604,
+      channelName: "Warrior Canine Connection",
+      episodes: [
+        {
+          videoId: "https://www.youtube.com/watch?v=G0IBqtO1K28",
+          title: "Nursery at Warrior Canine Connection powered by Explore.org"
+        }
+      ]
+    },
+    {
+      number: 605,
+      channelName: "Big Cat Rescue",
+      episodes: [
+        {
+          videoId: "https://www.youtube.com/watch?v=8chd0qHhMWQ",
+          title: "Big Cat Rescue powered by EXPLORE.org"
+        }
+      ]
+    },
+    {
+      number: 605,
+      channelName: "Kitten Rescue",
+      episodes: [
+        {
+          videoId: "https://www.youtube.com/watch?v=9Iup70E0Ig0",
+          title: "Kitten Rescue Cat Cam powered by EXPLORE.org"
+        }
+      ]
+    }
   ]
 };
 
