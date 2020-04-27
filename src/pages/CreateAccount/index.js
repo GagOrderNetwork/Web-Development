@@ -56,7 +56,7 @@ class CreateAccount extends React.Component {
     console.log(user);
 
     axios
-      .post("https://161.35.53.74:443/users/add", user)
+      .post("https://www.geaux.tech/users/add", user)
       .then(res => {
         console.log(res.data);
         this.next();

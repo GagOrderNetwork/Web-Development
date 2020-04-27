@@ -18,7 +18,7 @@ class SignIn extends React.Component {
 
   componentDidMount() {
     axios
-      .get("https://161.35.53.74:443/users/")
+      .get("https://www.geaux.tech/users/")
       .then(res => {
         this.users = res.data;
         console.log(this.users);
@@ -57,7 +57,6 @@ class SignIn extends React.Component {
       <div className="gn-sign_in">
         <img src={Logo} />
         <div className="gn-sign_in-container">
-          {/*
           <form onSubmit={this.onSubmit}>
             <input
               placeholder="Email"
@@ -76,10 +75,8 @@ class SignIn extends React.Component {
             <div className="gn-sign_in-link">Create Account</div>
           </Link>
 
-          */}
-
           <Link to="/player">
-            <div className="gn-sign_in-link">Continue as Guest</div>
+            <div className="gn-sign_in-guest-link">Continue as Guest</div>
           </Link>
         </div>
       </div>
