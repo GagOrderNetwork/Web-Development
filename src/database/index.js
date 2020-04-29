@@ -38,7 +38,7 @@ const data = {
       channelName: "Al Jazeera",
       episodes: [
         {
-          videoId: "https://www.youtube.com/watch?v=WisZM9CMlTo?",
+          videoId: "https://www.youtube.com/watch?v=30qZjexZ8bQ",
           title: "Al Jazeera Live"
         }
       ]
@@ -578,7 +578,7 @@ const data = {
       ]
     }
   ],
-  "Explore.org": [
+  "Explore on the Geaux": [
     {
       number: 600,
       channelName: "Santa Monica Beach Cam",
