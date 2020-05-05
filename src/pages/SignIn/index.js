@@ -10,7 +10,8 @@ class SignIn extends React.Component {
 
     this.state = {
       email: "",
-      password: ""
+      password: "",
+      error: ""
     };
   }
 
@@ -27,15 +28,12 @@ class SignIn extends React.Component {
       .catch(err => console.log("Error: " + err));
   }
 
-  onChangeEmail = event => {
+  handleChange = event => {
+    const isCheckbox = event.target.type === "checkbox";
     this.setState({
-      email: event.target.value
-    });
-  };
-
-  onChangePassword = event => {
-    this.setState({
-      password: event.target.value
+      [event.target.name]: isCheckbox
+        ? event.target.checked
+        : event.target.value
     });
   };
 
@@ -49,7 +47,13 @@ class SignIn extends React.Component {
 
     if (user) {
       this.props.history.push(`/player?${user._id}`);
+      this.setState({ error: "" });
+      return;
     }
+
+    this.setState({
+      error: "There was an error login into your account. Please try again!"
+    });
   };
 
   render() {
@@ -58,15 +62,20 @@ class SignIn extends React.Component {
         <img src={Logo} />
         <div className="gn-sign_in-container">
           <form onSubmit={this.onSubmit}>
+            <div> {this.state.error}</div>
             <input
               placeholder="Email"
-              onChange={this.onChangeEmail}
-              type="text"
+              onChange={this.handleChange}
+              type="email"
+              name="email"
+              value={this.state.email}
             />
             <input
               placeholder="Password"
-              onChange={this.onChangePassword}
+              onChange={this.handleChange}
               type="password"
+              name="password"
+              value={this.state.password}
             />
             <button type="submit">Sign In</button>
           </form>

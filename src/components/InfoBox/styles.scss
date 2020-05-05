@@ -1,13 +1,5 @@
 .gn-info_box {
-  height: 100%;
-  background-color: #1b4861;
-  box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.4);
-  width: 200px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  position: sticky;
-  top: 0;
+  display: none;
 
   .gn-info_box-channel_info {
     text-align: center;
@@ -24,7 +16,15 @@
     text-align: center;
   }
 
-  @media screen and (max-width: 700px) {
-    display: none;
+  @media (min-width: 700px) {
+    height: 100%;
+    background-color: #1b4861;
+    box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.4);
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: sticky;
+    top: 0;
   }
 }
