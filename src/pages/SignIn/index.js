@@ -40,9 +40,11 @@ class SignIn extends React.Component {
   onSubmit = event => {
     event.preventDefault();
 
+    const formatEmail = this.state.emai.toLowerCase();
+
     const user = this.users.find(
       user =>
-        user.email === this.state.email && user.password === this.state.password
+        user.email === formatEmail && user.password === this.state.password
     );
 
     if (user) {
@@ -62,7 +64,6 @@ class SignIn extends React.Component {
         <img src={Logo} />
         <div className="gn-sign_in-container">
           <form onSubmit={this.onSubmit}>
-            <div> {this.state.error}</div>
             <input
               placeholder="Email"
               onChange={this.handleChange}
@@ -77,6 +78,7 @@ class SignIn extends React.Component {
               name="password"
               value={this.state.password}
             />
+            <div className="gn-sign_in-error"> {this.state.error}</div>
             <button type="submit">Sign In</button>
           </form>
 

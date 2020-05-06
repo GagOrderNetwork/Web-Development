@@ -115,12 +115,14 @@ class CreateAccount extends React.Component {
     event.preventDefault();
 
     const isValid = this.validate();
+    const formatEmail = this.state.email.toLowerCase();
+    console.log(formatEmail);
 
     if (isValid) {
       const user = {
         firstName: this.state.firstName,
         lastName: this.state.lastName,
-        email: this.state.email,
+        email: formatEmail,
         password: this.state.password
       };
 
