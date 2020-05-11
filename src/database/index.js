@@ -16,7 +16,7 @@ const data = {
       channelName: "Geaux Spotlight",
       episodes: [
         {
-          videoId: "https://www.dailymotion.com/video/x7tgh7h",
+          videoId: "https://www.dailymotion.com/video/x7tuc2j",
           title: "Creator Showcase"
         }
       ]
@@ -160,6 +160,16 @@ const data = {
         {
           videoId: "https://www.youtube.com/watch?v=fc6IJmpMcEQ",
           title: "телеканал МИР 24"
+        }
+      ]
+    },
+    {
+      number: 115,
+      channelName: "Vesti FM Online 24/7",
+      episodes: [
+        {
+          videoId: "https://www.youtube.com/watch?v=zUIE8CGN8Ok",
+          title: "Вести ФМ онлайн: Прямой эфир"
         }
       ]
     }
