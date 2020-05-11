@@ -10,6 +10,16 @@ const data = {
           title: "GeauxInfo"
         }
       ]
+    },
+    {
+      number: 412,
+      channelName: "Geaux Spotlight",
+      episodes: [
+        {
+          videoId: "https://www.dailymotion.com/video/x7tgh7h",
+          title: "Creator Showcase"
+        }
+      ]
     }
   ],
   "News/Business": [
@@ -124,6 +134,16 @@ const data = {
       ]
     },
     {
+      number: 112,
+      channelName: "Arzamas Academy",
+      episodes: [
+        {
+          videoId: "https://www.dailymotion.com/video/x7tsc6y",
+          title: "Arzamas.academy"
+        }
+      ]
+    },
+    {
       number: 113,
       channelName: "Russia 24 News",
       episodes: [
@@ -144,7 +164,7 @@ const data = {
       ]
     }
   ],
-  "Fashion/Lifestyle": [
+  "Health/Lifestyle": [
     {
       number: 200,
       channelName: "HSN",
@@ -251,6 +271,28 @@ const data = {
     },
     {
       number: 210,
+      channelName: "24 Hour Fitness Live Stream",
+      episodes: [
+        {
+          videoId:
+            "https://www.youtube.com/watch?v=JcUIdC3SwDY",
+          title: "24 Hour Fitness Live Stream"
+        }
+      ]
+    },
+    {
+      number: 211,
+      channelName: "GeauxGaming (13+)",
+      episodes: [
+        {
+          videoId:
+            "https://www.dailymotion.com/video/x7tb31h",
+          title: "Geauxing Gaming"
+        }
+      ]
+    },
+    {
+      number: 212,
       channelName: "Geauxing Home",
       episodes: [
         {
@@ -322,16 +364,6 @@ const data = {
         }
       ]
     },
-    {
-      number: 306,
-      channelName: "Paw Patrol",
-      episodes: [
-        {
-          videoId: "https://www.youtube.com/watch?v=KaMgAmoolNs?",
-          title: "Mighty Pups"
-        }
-      ]
-    }
   ],
   Music: [
     {
@@ -585,7 +617,7 @@ const data = {
       episodes: [
         {
           videoId: "https://www.youtube.com/watch?v=OWbI6WtlI-k",
-          title: "Santa Monica Beach Cam powered by EXPLORE.org"
+          title: "Santa Monica Beach Cam by EXPLORE.org"
         }
       ]
     },
@@ -595,7 +627,7 @@ const data = {
       episodes: [
         {
           videoId: "https://www.youtube.com/watch?v=F109TZt3nRc?",
-          title: "Tropical Reef Camera powered by EXPLORE.org"
+          title: "Tropical Reef Camera EXPLORE.org"
         }
       ]
     },
@@ -605,7 +637,7 @@ const data = {
       episodes: [
         {
           videoId: "https://www.youtube.com/watch?v=UmclL6funN8?",
-          title: "Decoran Eagles powered by EXPLORE.org"
+          title: "Decoran Eagles EXPLORE.org"
         }
       ]
     },
@@ -615,7 +647,7 @@ const data = {
       episodes: [
         {
           videoId: "https://www.youtube.com/watch?v=f12EgkREedY",
-          title: "Guide Dogs Mobility Cam powered by EXPLORE.org"
+          title: "Guide Dogs Mobility Cam EXPLORE.org"
         }
       ]
     },
@@ -625,7 +657,7 @@ const data = {
       episodes: [
         {
           videoId: "https://www.youtube.com/watch?v=G0IBqtO1K28",
-          title: "Nursery at Warrior Canine Connection powered by Explore.org"
+          title: "Nursery at Warrior Canine Connection Explore.org"
         }
       ]
     },
@@ -635,20 +667,50 @@ const data = {
       episodes: [
         {
           videoId: "https://www.youtube.com/watch?v=8chd0qHhMWQ",
-          title: "Big Cat Rescue powered by EXPLORE.org"
+          title: "Big Cat Rescue EXPLORE.org"
         }
       ]
     },
     {
-      number: 605,
+      number: 606,
       channelName: "Kitten Rescue",
       episodes: [
         {
           videoId: "https://www.youtube.com/watch?v=9Iup70E0Ig0",
-          title: "Kitten Rescue Cat Cam powered by EXPLORE.org"
+          title: "Kitten Rescue Cat Cam EXPLORE.org"
         }
       ]
-    }
+    },
+    {
+      number: 607,
+      channelName: "Aquarium of the Pacific",
+      episodes: [
+        {
+          videoId: "https://www.youtube.com/watch?v=LvfaMv9nbJc",
+          title: "Shark Lagoon Cam EXPLORE.org"
+        }
+      ]
+    },
+    {
+      number: 608,
+      channelName: "OrcaLab",
+      episodes: [
+        {
+          videoId: "https://www.youtube.com/watch?v=5jcU2MVkEy8",
+          title: "Underwater Cam EXPLORE.org"
+        }
+      ]
+    },
+    {
+      number: 609,
+      channelName: "Donkey Hill",
+      episodes: [
+        {
+          videoId: "https://www.youtube.com/watch?v=FUkxWre2yRU",
+          title: "Donkey Hill Cam EXPLORE.org"
+        }
+      ]
+    },
   ]
 };
 
