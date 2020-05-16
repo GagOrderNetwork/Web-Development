@@ -45,11 +45,11 @@ const data = {
     },
     {
       number: 103,
-      channelName: "Al Jazeera",
+      channelName: "EbruTV",
       episodes: [
         {
-          videoId: "https://www.youtube.com/watch?v=30qZjexZ8bQ",
-          title: "Al Jazeera Live"
+          videoId: "https://www.dailymotion.com/video/x67n3k1",
+          title: "EbruTV Kenya Live"
         }
       ]
     },
@@ -130,6 +130,16 @@ const data = {
         {
           videoId: "https://www.dailymotion.com/video/x5crdro",
           title: "DaIi TV"
+        }
+      ]
+    },
+    {
+      number: 111,
+      channelName: "KTN Farmers TV",
+      episodes: [
+        {
+          videoId: "https://www.dailymotion.com/video/x7opfez",
+          title: "KTN Farmers TV Live Stream"
         }
       ]
     },
@@ -314,16 +324,6 @@ const data = {
     }
   ],
   Kids: [
-    {
-      number: 300,
-      channelName: "The Fairly OddParents",
-      episodes: [
-        {
-          videoId: "https://www.youtube.com/watch?v=TqYQ-Xc2X94?",
-          title: "The Fairly OddParents 24/7"
-        }
-      ]
-    },
     {
       number: 301,
       channelName: "FunFunFun",
