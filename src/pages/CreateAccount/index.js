@@ -2,187 +2,109 @@ import "./styles.scss";
 import React from "react";
 import { Link } from "react-router-dom";
 import axios from "axios";
+import { Formik, Form } from "formik";
+import Logo from "./geauxlogo.jpg";
+import * as Yup from "yup";
 
-const initialState = {
+import { FormikField } from "../../components/FormikField";
+import { AppBar, Toolbar } from "@material-ui/core";
+import { passwordSchema } from "../../util/schema/password.js";
+
+const initialValues = {
   firstName: "",
   lastName: "",
   email: "",
   password: "",
-  errors: {
-    firstName: "",
-    lastName: "",
-    email: "",
-    password: ""
-  }
 };
+
+const SignupSchema = Yup.object().shape({
+  firstName: Yup.string()
+    .required("Required")
+    .max(50, "Cannot exceed ${max} characters")
+    .matches(/^((?![<>;"/\\/]+).)*$/, 'Invalid characters: <>;\\"/'),
+  lastName: Yup.string()
+    .required("Required")
+    .max(50, "Cannot exceed ${max} characters")
+    .matches(/^((?![<>;"/\\/]+).)*$/, 'Invalid characters: <>;\\"/'),
+  email: Yup.string().required("Required"),
+  password: passwordSchema.notOneOf(
+    [Yup.ref("email")],
+    "Password cannot be the same as email"
+  ),
+});
 
 class CreateAccount extends React.Component {
   constructor(props) {
     super(props);
 
-    this.state = initialState;
+    this.state = { error: "" };
   }
-
-  handleChange = event => {
-    const isCheckbox = event.target.type === "checkbox";
-    this.setState({
-      [event.target.name]: isCheckbox
-        ? event.target.checked
-        : event.target.value
-    });
-  };
 
   next = () => {
     this.props.history.push(`/`);
   };
 
-  validate = () => {
-    let firstNameError = "";
-    let lastNameError = "";
-    let emailError = "";
-    let passwordError = "";
+  onSubmit = (values) => {
+    const formatEmail = values.email.toLowerCase();
 
-    const LOWER = new RegExp(/[a-z]/);
-    const UPPER = new RegExp(/[A-Z]/);
-    const NUMBER = new RegExp(/\d/);
-    const SYMBOL = new RegExp(/[^a-z0-9]/i);
+    const user = {
+      firstName: values.firstName,
+      lastName: values.lastName,
+      email: formatEmail,
+      password: values.password,
+    };
 
-    function validCharacters(val = "") {
-      // Minimum_length = "8"
-      if (val.length < 8) {
-        return false;
-      }
-      // Require_lowercase = "true"
-      if (LOWER.test(val) === false) {
-        return false;
-      }
-      // Require_numbers = "true"
-      if (NUMBER.test(val) === false) {
-        return false;
-      }
-      // Require_symbols = "true"
-      if (SYMBOL.test(val) === false) {
-        return false;
-      }
-      // Require_uppercase = "true"
-      if (UPPER.test(val) === false) {
-        return false;
-      }
-      // Checks passed
-      return true;
-    }
+    debugger;
 
-    if (
-      this.state.firstName.length < 3 ||
-      this.state.firstName.length >= 50 ||
-      this.state.firstName.includes("@") ||
-      this.state.firstName.includes(";")
-    ) {
-      firstNameError = "Invalid First Name";
-    }
-
-    if (
-      this.state.lastName.length < 3 ||
-      this.state.lastName.length >= 50 ||
-      this.state.lastName.includes("@") ||
-      this.state.lastName.includes(";")
-    ) {
-      lastNameError = "Invalid Last Name";
-    }
-
-    if (this.state.email.includes("/")) {
-      emailError = "Invalid Email";
-    }
-
-    if (!validCharacters(this.state.password)) {
-      passwordError = "Invalid Password";
-    }
-
-    if (firstNameError || lastNameError || emailError || passwordError) {
-      this.setState({
-        errors: { firstName: firstNameError },
-        errors: { lastName: lastNameError },
-        errors: { email: emailError },
-        errors: { password: passwordError }
-      });
-      return false;
-    }
-
-    return true;
-  };
-
-  onSubmit = event => {
-    event.preventDefault();
-
-    const isValid = this.validate();
-    const formatEmail = this.state.email.toLowerCase();
-    console.log(formatEmail);
-
-    if (isValid) {
-      const user = {
-        firstName: this.state.firstName,
-        lastName: this.state.lastName,
-        email: formatEmail,
-        password: this.state.password
-      };
-
-      axios
-        .post("https://www.geaux.tech/users/add", user)
-        .then(res => {
-          console.log(res.data);
-          this.next();
-        })
-        .catch(err => console.log("Error: " + err));
-
-      // clear form
-      this.setState({ initialState });
-    }
+    axios
+      .post("https://www.geaux.tech/users/add", user)
+      .then((res) => {
+        console.log(res.data);
+        this.next();
+      })
+      .catch((err) => console.log((error: err)));
   };
 
   render() {
     return (
       <div className="gn-create_account">
-        <div className="gn-create_account-content">
-          <h2>Create Account</h2>
-          <form onSubmit={this.onSubmit}>
-            <input
-              name="firstName"
-              placeholder="First Name:"
-              onChange={this.handleChange}
-              type="text"
-              value={this.state.firstName}
-            />
-            <div className="gn-form-error">{this.state.errors.firsttName}</div>
-            <input
-              name="lastName"
-              placeholder="Last Name:"
-              onChange={this.handleChange}
-              type="text"
-              value={this.state.lastName}
-            />
-            <div className="gn-form-error">{this.state.errors.lastName}</div>
-            <input
-              name="email"
-              placeholder="Email:"
-              onChange={this.handleChange}
-              type="email"
-              value={this.state.email}
-            />
-            <div className="gn-form-error">{this.state.errors.email}</div>
-            <input
-              name="password"
-              placeholder="Password:"
-              onChange={this.handleChange}
-              type="password"
-              value={this.state.password}
-            />
-            <div className="gn-form-error">{this.state.errors.password}</div>
-            <button type="submit">Submit</button>
-            <Link to="/">
-              <div className="gn-create_account-back-button">Back</div>
-            </Link>
-          </form>
+        <AppBar position="static">
+          <Toolbar>
+            {" "}
+            <img src={Logo} /> Geaux Network{" "}
+          </Toolbar>
+        </AppBar>
+        <div className="gn-formik_form-signup">
+          <h2>Create your account!</h2>
+          <Formik
+            initialValues={initialValues}
+            onSubmit={this.onSubmit}
+            validationSchema={SignupSchema}
+          >
+            {({ dirty, isValid }) => {
+              return (
+                <Form>
+                  <FormikField label="First Name" name="firstName" />
+                  <FormikField label="Last Name" name="lastName" />
+                  <FormikField label="Email" name="email" type="email" />
+                  <FormikField
+                    label="Password"
+                    name="password"
+                    type="password"
+                  />
+                  <div className="gn-sign_up-error"> {this.state.error}</div>
+
+                  <button disabled={!dirty || !isValid} type="sumbit">
+                    Submit{" "}
+                  </button>
+                </Form>
+              );
+            }}
+          </Formik>
         </div>
+        <Link to="/">
+          <div className="gn-create_account-back-button">Back</div>
+        </Link>
       </div>
     );
   }

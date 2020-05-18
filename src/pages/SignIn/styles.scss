@@ -4,73 +4,68 @@ body {
 
 .gn-sign_in {
   background-color: #4e78a0;
-  height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 
-  .gn-sign_in-container {
-    margin-top: 20px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+  .gn-sign_in-link {
+    border: 1px solid black;
+    border-radius: 5px;
+    height: 50px;
+    width: 100%;
+    background-color: #eff4f5;
+    color: black;
+    text-align: center;
+    font-size: 18px;
+    line-height: 50px;
+    width: 300px;
 
-    .gn-sign_in-link {
-      border: 1px solid black;
-      border-radius: 5px;
-      height: 50px;
-      width: 100%;
-      background-color: #eff4f5;
-      color: black;
-      text-align: center;
-      font-size: 18px;
-      line-height: 50px;
-
-      &:hover {
-        background-color: gray;
-        color: white;
-      }
-    }
-
-    .gn-sign_in-error {
+    &:hover {
+      background-color: gray;
       color: white;
-      font-size: 25px;
-      margin: 10px auto;
-    }
-
-    .gn-sign_in-guest-link {
-      margin-top: 5px;
-      color: white;
-      text-align: center;
-    }
-
-    a {
-      text-decoration: none;
-    }
-
-    form {
-      display: flex;
-      flex-direction: column;
-
-      button {
-        margin: 10px 0 50px;
-        height: 50px;
-        font-size: 24px;
-        background-color: white;
-      }
-
-      input {
-        margin: 5px 0;
-        height: 50px;
-        width: 600px;
-      }
     }
   }
 
+  .gn-sign_in-error {
+    color: red;
+    margin: 25px 0;
+  }
+
+  .gn-sign_in-guest-link {
+    margin-top: 5px;
+    color: white;
+    text-align: center;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  button {
+    display: block;
+    border-radius: 5px;
+    height: 25px;
+    width: 100px;
+    margin: 20px auto 0;
+    font-size: 18px;
+  }
+
   img {
-    height: 600px;
+    height: 50px;
     width: auto;
-    border-radius: 20%;
+  }
+
+  .gn-formik_form-signin {
+    width: 310px;
+    padding: 30px 50px;
+    background-color: white;
+    margin: 60px auto;
+    border-radius: 10px;
+    box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.4);
+  }
+
+  .MuiAppBar-colorPrimary {
+    background-color: black;
   }
 }

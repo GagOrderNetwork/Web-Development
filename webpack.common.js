@@ -5,7 +5,7 @@ const HtmlWebpackPlugin = require("html-webpack-plugin");
 
 module.exports = {
   entry: {
-    app: "./src/index.js"
+    app: "./src/index.js",
   },
   module: {
     rules: [
@@ -16,18 +16,18 @@ module.exports = {
           {
             loader: "babel-loader",
             options: {
-              compact: false
-            }
-          }
-        ]
+              compact: false,
+            },
+          },
+        ],
       },
       {
         test: /\.(png|jpe?g|gif)$/i,
         use: [
           {
-            loader: "file-loader"
-          }
-        ]
+            loader: "file-loader",
+          },
+        ],
       },
       {
         test: /\.s[ac]ss$/i,
@@ -37,20 +37,20 @@ module.exports = {
           // Translates CSS into CommonJS
           "css-loader",
           // Compiles Sass to CSS
-          "sass-loader"
-        ]
-      }
-    ]
+          "sass-loader",
+        ],
+      },
+    ],
   },
   plugins: [
     // new CleanWebpackPlugin(['dist/*']) for < v2 versions of CleanWebpackPlugin
     new CleanWebpackPlugin(),
     new HtmlWebpackPlugin({
-      title: "Geaux Network"
-    })
+      title: "Geaux Network",
+    }),
   ],
   output: {
     filename: "main.js",
-    path: path.resolve(__dirname, "dist/src/")
-  }
+    path: path.resolve(__dirname, "dist/src/"),
+  },
 };
