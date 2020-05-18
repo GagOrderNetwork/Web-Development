@@ -9,9 +9,9 @@ body {
   button {
     display: block;
     border-radius: 5px;
-    height: 25px;
-    width: 100px;
-    margin: 20px auto 0;
+    height: 30px;
+    width: 150px;
+    margin: 30px auto 0;
     font-size: 18px;
   }
 
@@ -44,8 +44,17 @@ body {
     width: auto;
   }
 
+  h1 {
+    text-align: center;
+  }
+
+  p {
+    text-align: center;
+    font-size: large;
+  }
+
   .gn-formik_form-signup {
-    width: 310px;
+    width: 610px;
     padding: 30px 50px;
     background-color: white;
     margin: 60px auto;

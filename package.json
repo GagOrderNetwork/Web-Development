@@ -1,6 +1,6 @@
 {
   "name": "geaux-network",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Geaux Network TV",
   "main": "index.js",
   "scripts": {

@@ -68,6 +68,7 @@ class SignIn extends React.Component {
             <img src={Logo} /> Geaux Network{" "}
           </Toolbar>
         </AppBar>
+        <h1>Just Geaux with it! 🎉</h1>
         <div className="gn-formik_form-signin">
           <h2>Sign In</h2>
           <Formik

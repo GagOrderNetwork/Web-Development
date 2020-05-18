@@ -74,6 +74,10 @@ class CreateAccount extends React.Component {
             <img src={Logo} /> Geaux Network{" "}
           </Toolbar>
         </AppBar>
+        <h1>Join the Family!</h1>
+        <p>
+          There will be benefits offered to members! Sign up and stay tuned.
+        </p>
         <div className="gn-formik_form-signup">
           <h2>Create your account!</h2>
           <Formik
