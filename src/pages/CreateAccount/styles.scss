@@ -11,7 +11,6 @@ body {
     border-radius: 5px;
     height: 30px;
     width: 150px;
-    margin: 30px auto 0;
     font-size: 18px;
   }
 
@@ -23,6 +22,7 @@ body {
   .gn-sign_up-error {
     color: red;
     margin: 25px 0;
+    text-align: center;
   }
 
   .gn-create_account-back-button {
@@ -64,5 +64,26 @@ body {
 
   .MuiAppBar-colorPrimary {
     background-color: black;
+  }
+
+  @media (max-width: 720px) {
+    .gn-formik_form-signup {
+      width: 275px;
+      height: auto;
+      padding: 15px 20px;
+      margin: 30px auto;
+    }
+
+    .gn-create_account-back-button {
+      margin: 30px auto;
+    }
+
+    button {
+      margin: auto;
+    }
+
+    p {
+      font-size: medium;
+    }
   }
 }

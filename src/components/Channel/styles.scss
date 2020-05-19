@@ -16,7 +16,9 @@
     padding: 0 5px;
   }
 
-  @media (min-width: 700px) {
-    font-size: 18px;
+  @media (max-width: 720px) {
+    span {
+      font-size: 12px;
+    }
   }
 }

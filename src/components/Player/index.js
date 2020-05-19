@@ -1,9 +1,11 @@
 import "./styles.scss";
 import React from "react";
 import { findDOMNode } from "react-dom";
-import { Link } from "react-router-dom";
 import ReactPlayer from "react-player";
 import screenfull from "screenfull";
+import { Button } from "@material-ui/core";
+import { Grid, Slider } from "@material-ui/core";
+import { VolumeDown, VolumeUp } from "@material-ui/icons";
 
 class Player extends React.Component {
   constructor(props) {
@@ -11,10 +13,10 @@ class Player extends React.Component {
   }
 
   state = {
-    volume: 0.8
+    volume: 0.8,
   };
 
-  handleVolumeChange = e => {
+  handleVolumeChange = (e) => {
     this.setState({ volume: parseFloat(e.target.value) });
   };
 
@@ -22,7 +24,7 @@ class Player extends React.Component {
     screenfull.request(findDOMNode(this.player));
   };
 
-  ref = player => {
+  ref = (player) => {
     this.player = player;
   };
 
@@ -36,12 +38,12 @@ class Player extends React.Component {
             playing
             ref={this.ref}
             width={"100%"}
-            height={"64vh"}
             volume={this.state.volume}
           />
         </div>
         <div className="gn-player-controls">
           <div className="gn-player-volume">
+            {/*
             <label>Volume:</label>
             <input
               type="range"
@@ -51,12 +53,27 @@ class Player extends React.Component {
               value={this.state.volume}
               onChange={this.handleVolumeChange}
             />
+            */}
+            <Grid container spacing={2}>
+              <Grid item xs>
+                <VolumeDown />
+              </Grid>
+              <Grid item>
+                <input
+                  type="range"
+                  min={0}
+                  max={1}
+                  step="any"
+                  value={this.state.volume}
+                  onChange={this.handleVolumeChange}
+                />
+              </Grid>
+              <Grid item xs>
+                <VolumeUp />
+              </Grid>
+            </Grid>
           </div>
-          <input
-            onClick={this.handleClickFullscreen}
-            type="button"
-            value="Fullscreen"
-          />
+          <Button onClick={this.handleClickFullscreen}>Fullscreen</Button>
         </div>
       </div>
     );

@@ -47,6 +47,10 @@ module.exports = {
     new CleanWebpackPlugin(),
     new HtmlWebpackPlugin({
       title: "Geaux Network",
+      'meta': {
+        'viewport': 'width=device-width, initial-scale=1',
+       'http-equiv': "Content-Security-Policy",  'content': "default-src 'self'"
+      }
     }),
   ],
   output: {

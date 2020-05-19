@@ -3,7 +3,7 @@
 
   .gn-tv-guide {
     display: flex;
-    height: 30vh;
+    height: 28vh;
     overflow-y: scroll;
     background-color: #808080;
 
@@ -14,19 +14,20 @@
 
   .gn-channel_list {
     margin-right: 5px;
+    flex: 1;
   }
 
-  @media screen and (max-width: 700px) {
+  @media (max-width: 720px) {
     .gn-player-video {
-      height: 45vh;
+      height: 30vh;
     }
 
     .gn-tv-guide {
-      height: 48vh;
+      height: 61vh;
     }
   }
 
-  @media screen and (max-width: 700px) and (orientation: landscape) {
+  @media (max-width: 720px) and (orientation: landscape) {
     .gn-player-video {
       height: 100vh;
     }

@@ -14,9 +14,41 @@ html {
     display: flex;
     justify-content: space-between;
     padding: 0 10px;
+
+    button {
+      line-height: 20px;
+      font-size: small;
+      padding: 0px 5px;
+      color: blanchedalmond;
+    }
+
+    input {
+      margin-top: 4px;
+    }
   }
 
-  @media screen and (max-width: 700px) {
+  .gn-player-volume {
+    padding-top: 6px;
+  }
+
+  .react-player {
+    height: 64vh !important;
+  }
+
+  @media screen and (max-width: 720px) {
     padding: 0;
+    .react-player {
+      height: 30vh !important;
+    }
+
+    .gn-player-controls {
+      button {
+        height: 35px;
+      }
+
+      label {
+        line-height: 35px;
+      }
+    }
   }
 }
