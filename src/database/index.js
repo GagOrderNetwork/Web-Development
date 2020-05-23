@@ -74,16 +74,6 @@ const data = {
       ]
     },
     {
-      number: 106,
-      channelName: "CNA",
-      episodes: [
-        {
-          videoId: "https://www.youtube.com/watch?v=U_XsRZXL2Ic?",
-          title: "Breaking news, top stories"
-        }
-      ]
-    },
-    {
       number: 107,
       channelName: "BD News",
       episodes: [
@@ -325,16 +315,6 @@ const data = {
   ],
   Kids: [
     {
-      number: 301,
-      channelName: "FunFunFun",
-      episodes: [
-        {
-          videoId: "https://www.youtube.com/watch?v=ZY5oov1_jbo?",
-          title: "LARVA OFFICIAL"
-        }
-      ]
-    },
-    {
       number: 302,
       channelName: "Cat Tales",
       episodes: [
@@ -351,16 +331,6 @@ const data = {
         {
           videoId: "https://www.youtube.com/watch?v=OaJL4e3eOzI",
           title: "Mother Goose Club + More"
-        }
-      ]
-    },
-    {
-      number: 304,
-      channelName: "Caillou",
-      episodes: [
-        {
-          videoId: "https://www.youtube.com/watch?v=4bvh4npvgyA?",
-          title: "It's Caillou"
         }
       ]
     },
