@@ -44,6 +44,16 @@ const data = {
       ]
     },
     {
+      number: 102,
+      channelName: "Dubai TV",
+      episodes: [
+        {
+          videoId: "https://www.youtube.com/watch?v=1X0OYu8NMOo",
+          title: "DubaiTV Live 24/7"
+        }
+      ]
+    },
+    {
       number: 103,
       channelName: "EbruTV",
       episodes: [
@@ -144,6 +154,16 @@ const data = {
       ]
     },
     {
+      number: 112,
+      channelName: "RT Arabic",
+      episodes: [
+        {
+          videoId: "https://www.youtube.com/watch?v=3AokIYKBz8I",
+          title: "RT Arabic 24/7"
+        }
+      ]
+    },
+    {
       number: 113,
       channelName: "Russia 24 News",
       episodes: [
@@ -186,16 +206,6 @@ const data = {
       ]
     },
     {
-      number: 201,
-      channelName: "QVC",
-      episodes: [
-        {
-          videoId: "https://www.youtube.com/watch?v=2v9ytGk5KhI?",
-          title: "QVC LIVE STREAM"
-        }
-      ]
-    },
-    {
       number: 202,
       channelName: "QVC2 Live",
       episodes: [
@@ -222,16 +232,6 @@ const data = {
         {
           videoId: "https://www.youtube.com/watch?v=1pepSUbkLVI?",
           title: "HSN2 Live"
-        }
-      ]
-    },
-    {
-      number: 205,
-      channelName: "QVC Japan",
-      episodes: [
-        {
-          videoId: "https://www.youtube.com/watch?v=wMo3F5IouNs?",
-          title: "QVC Japan"
         }
       ]
     },
@@ -285,7 +285,7 @@ const data = {
       episodes: [
         {
           videoId:
-            "https://www.youtube.com/watch?v=JcUIdC3SwDY",
+            "https://www.youtube.com/watch?v=lUmndCZZkyA",
           title: "24 Hour Fitness Live Stream"
         }
       ]
@@ -298,6 +298,17 @@ const data = {
           videoId:
             "https://www.dailymotion.com/video/x7tb31h",
           title: "Geauxing Gaming"
+        }
+      ]
+    },
+    {
+      number: 211,
+      channelName: "beIN Sports",
+      episodes: [
+        {
+          videoId:
+            "https://www.youtube.com/watch?v=hlkHbBcWVzo",
+          title: "beIN Sports HD 24/7"
         }
       ]
     },
@@ -457,7 +468,7 @@ const data = {
       ]
     },
     {
-      number: 409,
+      number: 410,
       channelName: "Best Radio 1 (13+)",
       episodes: [
         {
@@ -467,7 +478,7 @@ const data = {
       ]
     },
     {
-      number: 409,
+      number: 411,
       channelName: "DOOM Metal Music",
       episodes: [
         {
@@ -487,7 +498,7 @@ const data = {
       ]
     },
     {
-      number: 409,
+      number: 412,
       channelName: "Rolling Venice",
       episodes: [
         {
@@ -507,7 +518,7 @@ const data = {
       ]
     },
     {
-      number: 409,
+      number: 413,
       channelName: "Relaxing Underwater Music",
       episodes: [
         {
@@ -517,7 +528,27 @@ const data = {
       ]
     },
     {
-      number: 410,
+      number: 414,
+      channelName: "The World",
+      episodes: [
+        {
+          videoId: "hhttps://www.youtube.com/watch?v=JlqrHo-Rsi0",
+          title: "EarthTV"
+        }
+      ]
+    },
+    {
+      number: 415,
+      channelName: "Calming Music with nature",
+      episodes: [
+        {
+          videoId: "https://www.youtube.com/watch?v=P7d1H83IcjE",
+          title: "World's Most Beautiful Places"
+        }
+      ]
+    },
+    {
+      number: 416,
       channelName: "Native American Flute & Rain",
       episodes: [
         {
@@ -556,6 +587,17 @@ const data = {
           videoId:
             "https://www.youtube.com/watch?v=videoseries?list=PLKEbmWOXwpBREqf2dgNleCuCJPe7a7irX&",
           title: "Future Technology"
+        }
+      ]
+    },
+    {
+      number: 502,
+      channelName: "CAB View",
+      episodes: [
+        {
+          videoId:
+            "https://www.youtube.com/watch?v=_9ZVqdmaBvs",
+          title: "Bergan Line, Norwary"
         }
       ]
     },
