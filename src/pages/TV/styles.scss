@@ -8,14 +8,15 @@
     background-color: #808080;
 
     .gn-episode_list {
+      flex: 2;
+    }
+
+    .gn-channel_list {
+      margin-right: 5px;
       flex: 1;
     }
   }
 
-  .gn-channel_list {
-    margin-right: 5px;
-    flex: 1;
-  }
 
   @media (max-width: 720px) {
     .gn-player-video {
@@ -23,7 +24,11 @@
     }
 
     .gn-tv-guide {
-      height: 61vh;
+      height: 60vh;
+
+      .gn-episode_list {
+        flex: 1;
+      }
     }
   }
 
@@ -35,6 +40,18 @@
     .gn-tv-guide,
     .gn-nav {
       display: none;
+    }
+  }
+
+  @media (max-width: 361px) {
+    .gn-tv-guide {
+      height: 59vh;
+    }
+  }
+
+  @media (max-width: 321px) {
+    .gn-tv-guide {
+      height: 57vh;
     }
   }
 }

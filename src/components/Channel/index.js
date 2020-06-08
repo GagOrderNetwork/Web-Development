@@ -1,12 +1,12 @@
 import "./styles.scss";
 import React from "react";
-import { Link } from "react-router-dom";
 import { connect } from "react-redux";
+import { Card } from "@material-ui/core";
 
 class Channel extends React.Component {
   render() {
     return (
-      <div
+      <Card
         className="gn-channel"
         onClick={() =>
           this.props.dispatch({
@@ -19,7 +19,7 @@ class Channel extends React.Component {
       >
         <span>{this.props.channelNumber}</span>
         <span>{this.props.channelName}</span>
-      </div>
+      </Card>
     );
   }
 }

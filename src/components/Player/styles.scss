@@ -51,4 +51,10 @@ html {
       }
     }
   }
+
+  @media (max-width: 321px) {
+    .gn-player-volume {
+    display: none;
+    }
+  }
 }

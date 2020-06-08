@@ -1,11 +1,14 @@
 .gn-channel {
   height: 35px;
   line-height: 35px;
-  color: #eff4f5;
-  background-color: #4e78a0;
   box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.4);
   margin: 5px 0;
   padding-right: 5px;
+
+  &.MuiPaper-root {
+    background-color: #4e78a0;
+    color: #eff4f5;
+  }
 
   &:hover {
     background-color: #1b4861;
