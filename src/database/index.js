@@ -281,17 +281,6 @@ const data = {
     },
     {
       number: 208,
-      channelName: "24 Hour Fitness Live Stream",
-      episodes: [
-        {
-          videoId:
-            "https://www.youtube.com/watch?v=UtI-OiLIvmM",
-          title: "24 Hour Fitness Live Stream"
-        }
-      ]
-    },
-    {
-      number: 209,
       channelName: "GeauxGaming (13+)",
       episodes: [
         {
@@ -302,7 +291,7 @@ const data = {
       ]
     },
     {
-      number: 210,
+      number: 209,
       channelName: "beIN Sports",
       episodes: [
         {
@@ -314,7 +303,7 @@ const data = {
     },
 
     {
-      number: 212,
+      number: 210,
       channelName: "Geauxing Home",
       episodes: [
         {
@@ -338,6 +327,36 @@ const data = {
     },
     {
       number: 301,
+      channelName: "PAW Patrol",
+      episodes: [
+        {
+          videoId: "https://www.youtube.com/watch?v=mF9QMYaaZzo",
+          title: "Ultimate Rescue 24/7"
+        }
+      ]
+    },
+    {
+      number: 302,
+      channelName: "Kids Songs",
+      episodes: [
+        {
+          videoId: "https://www.youtube.com/watch?v=VyPDo5dieZU",
+          title: "Dave and Ava"
+        }
+      ]
+    },
+    {
+      number: 303,
+      channelName: "GeauxKids",
+      episodes: [
+        {
+          videoId: "https://www.dailymotion.com/video/x7tb1xt",
+          title: "GeauxKids 24/7"
+        }
+      ]
+    },
+    {
+      number: 304,
       channelName: "WB Kids",
       episodes: [
         {
@@ -348,16 +367,6 @@ const data = {
     },
   ],
   Music: [
-    {
-      number: 400,
-      channelName: "Tropical House",
-      episodes: [
-        {
-          videoId: "https://www.youtube.com/watch?v=jnGUs3jCb_I?",
-          title: "Tropical House"
-        }
-      ]
-    },
     {
       number: 401,
       channelName: "Geaux Chill",
@@ -408,18 +417,9 @@ const data = {
         }
       ]
     },
+
     {
       number: 406,
-      channelName: "G.O. On Geaux",
-      episodes: [
-        {
-          videoId: "https://www.dailymotion.com/video/x7tb1xt",
-          title: "GeauxInterviews"
-        }
-      ]
-    },
-    {
-      number: 407,
       channelName: "Shuffle Dance Music 2020",
       episodes: [
         {
@@ -429,7 +429,7 @@ const data = {
       ]
     },
     {
-      number: 408,
+      number: 407,
       channelName: "BritAsia TV Live",
       episodes: [
         {
@@ -439,7 +439,7 @@ const data = {
       ]
     },
     {
-      number: 409,
+      number: 408,
       channelName: "K-POP IDOL",
       episodes: [
         {
@@ -449,7 +449,7 @@ const data = {
       ]
     },
     {
-      number: 410,
+      number: 409,
       channelName: "Roots Reggae Radio (13+)",
       episodes: [
         {
@@ -459,7 +459,7 @@ const data = {
       ]
     },
     {
-      number: 411,
+      number: 410,
       channelName: "Best Radio 1 (13+)",
       episodes: [
         {
@@ -469,7 +469,7 @@ const data = {
       ]
     },
     {
-      number: 412,
+      number: 411,
       channelName: "DOOM Metal Music",
       episodes: [
         {
@@ -479,7 +479,7 @@ const data = {
       ]
     },
     {
-      number: 413,
+      number: 412,
       channelName: "Best Turkish Music",
       episodes: [
         {
@@ -489,7 +489,7 @@ const data = {
       ]
     },
     {
-      number: 414,
+      number: 413,
       channelName: "Rolling Venice",
       episodes: [
         {
@@ -499,7 +499,7 @@ const data = {
       ]
     },
     {
-      number: 415,
+      number: 414,
       channelName: "ISS Live Stream",
       episodes: [
         {
@@ -509,7 +509,7 @@ const data = {
       ]
     },
     {
-      number: 416,
+      number: 415,
       channelName: "Relaxing Underwater Music",
       episodes: [
         {
@@ -519,7 +519,7 @@ const data = {
       ]
     },
     {
-      number: 417,
+      number: 416,
       channelName: "The World",
       episodes: [
         {
@@ -529,7 +529,7 @@ const data = {
       ]
     },
     {
-      number: 418,
+      number: 417,
       channelName: "Calming Music with nature",
       episodes: [
         {
@@ -539,7 +539,7 @@ const data = {
       ]
     },
     {
-      number: 419,
+      number: 418,
       channelName: "Native American Flute & Rain",
       episodes: [
         {
@@ -583,17 +583,6 @@ const data = {
     },
     {
       number: 503,
-      channelName: "CAB View",
-      episodes: [
-        {
-          videoId:
-            "https://www.youtube.com/watch?v=_9ZVqdmaBvs",
-          title: "Bergan Line, Norwary"
-        }
-      ]
-    },
-    {
-      number: 504,
       channelName: "Live Cab View",
       episodes: [
         {
@@ -604,7 +593,7 @@ const data = {
       ]
     },
     {
-      number: 505,
+      number: 504,
       channelName: "étoile",
       episodes: [
         {
@@ -614,7 +603,7 @@ const data = {
       ]
     },
     {
-      number: 506,
+      number: 505,
       channelName: "NASA TV",
       episodes: [
         {
@@ -624,7 +613,7 @@ const data = {
       ]
     },
     {
-      number: 507,
+      number: 506,
       channelName: "YTN Science",
       episodes: [
         {
