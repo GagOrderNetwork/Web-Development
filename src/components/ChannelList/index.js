@@ -18,6 +18,7 @@ class ChannelList extends React.Component {
                       videoId={d.episodes[0].videoId}
                       channelName={d.channelName}
                       channelNumber={d.number}
+                      channelIcon={d.channelIcon}
                     />
                   );
                 })}

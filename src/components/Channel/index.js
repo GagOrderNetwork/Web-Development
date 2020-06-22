@@ -13,11 +13,13 @@ class Channel extends React.Component {
             type: "CHANGE_VIDEO",
             channelName: this.props.channelName,
             channelNumber: this.props.channelNumber,
+            channelIcon: this.props.channelIcon || '',
             videoId: this.props.videoId
           })
         }
       >
         <span>{this.props.channelNumber}</span>
+        <img src={this.props.channelIcon} />
         <span>{this.props.channelName}</span>
       </Card>
     );

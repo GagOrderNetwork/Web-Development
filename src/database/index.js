@@ -1,4 +1,7 @@
 // Mock Database with some JSON data
+import arzamas from "../assets/icons/arzamas.jpg";
+import stewshowcase from "../assets/icons/stewshowcase.png";
+
 const data = {
   Info: [
     {
@@ -146,6 +149,7 @@ const data = {
     {
       number: 113,
       channelName: "Arzamas Academy",
+      channelIcon: arzamas,
       episodes: [
         {
           videoId: "https://www.dailymotion.com/video/x7tsc6y",
@@ -410,6 +414,7 @@ const data = {
     {
       number: 405,
       channelName: "StewShowcase (13+)",
+      channelIcon: stewshowcase,
       episodes: [
         {
           videoId: "https://dai.ly/x7tae7z",
