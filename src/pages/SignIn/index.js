@@ -35,7 +35,6 @@ class SignIn extends React.Component {
       .get("https://www.geaux.tech/users/")
       .then((res) => {
         this.users = res.data;
-        console.log(this.users);
         return this.users;
       })
       .catch((err) => console.log("Error: " + err));

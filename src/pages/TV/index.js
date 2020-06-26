@@ -8,15 +8,14 @@ import InfoBox from "../../components/InfoBox";
 import { Player } from "../../components/Player";
 import { Nav } from "../../components/Nav";
 import { data } from "../../database";
+import { getVideoId } from "../../services/channelInfo";
+
+const mapStateProps = (state) => ({
+  videoId: getVideoId(state),
+});
 
 class TV extends React.Component {
   render() {
-    const onClick = event => {
-      console.log(event);
-      debugger;
-      this.setState({ currentVideo: event.target.episodes[0].videoId });
-    };
-
     const tvData = Object.entries(data);
 
     return (
@@ -32,10 +31,6 @@ class TV extends React.Component {
     );
   }
 }
-
-const mapStateProps = state => ({
-  videoId: state.videoId
-});
 
 export default connect(mapStateProps)(TV);
 

@@ -57,12 +57,14 @@ class CreateAccount extends React.Component {
     axios
       .post("https://www.geaux.tech/users/add", user)
       .then((res) => {
-        console.log(res.data);
         this.next();
       })
-      .catch((error) => { 
-        if (error.response.data.includes('email', 18)) {
-          this.setState({error: "Account was not created. Email already exist. Please go back and Sign in!"});
+      .catch((error) => {
+        if (error.response.data.includes("email", 18)) {
+          this.setState({
+            error:
+              "Account was not created. Email already exist. Please go back and Sign in!",
+          });
         }
       });
   };
