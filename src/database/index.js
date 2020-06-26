@@ -1,12 +1,25 @@
 // Mock Database with some JSON data
-import arzamas from "../assets/icons/arzamas.jpg";
-import stewshowcase from "../assets/icons/stewshowcase.png";
+import africanews from "../assets/icons/Africanews.png";
+import arzamas from "../assets/icons/arzamas.png";
+import beatclublogo from "../assets/icons/beatclublogo.png";
+import dubaitvnews from "../assets/icons/dubaitvnews.png";
+import dwnews from "../assets/icons/dwnews.png";
+import farmers from "../assets/icons/farmers.png";
+import franceinfo from "../assets/icons/franceinfo.png";
+import gaming from "../assets/icons/gaming.png";
+import gx from "../assets/icons/gx.png";
+import r24 from "../assets/icons/R24.png";
+import rtarabic from "../assets/icons/RTArabic.png";
+import skynews from "../assets/icons/skynewslogo.png";
+import tech from "../assets/icons/tech.png";
+import vestifm from "../assets/icons/vestifm.png";
 
 const data = {
   Info: [
     {
       number: 411,
       channelName: "Geaux Info",
+      channelIcon: gx,
       episodes: [
         {
           videoId: "https://www.dailymotion.com/video/x7t6quu",
@@ -39,6 +52,7 @@ const data = {
     {
       number: 102,
       channelName: "DW News",
+      channelIcon: dwnews,
       episodes: [
         {
           videoId: "https://www.youtube.com/watch?v=NvqKZHpKs-g?",
@@ -49,6 +63,7 @@ const data = {
     {
       number: 103,
       channelName: "Dubai TV",
+      channelIcon: dubaitvnews,
       episodes: [
         {
           videoId: "https://www.youtube.com/watch?v=1X0OYu8NMOo",
@@ -79,6 +94,7 @@ const data = {
     {
       number: 106,
       channelName: "SKY News",
+      channelIcon: skynews,
       episodes: [
         {
           videoId: "https://www.youtube.com/watch?v=9Auq9mYxFEE?",
@@ -108,17 +124,19 @@ const data = {
     },
     {
       number: 109,
-      channelName: "France24",
+      channelName: "FranceInfo",
+      channelIcon: franceinfo,
       episodes: [
         {
           videoId: "https://www.youtube.com/watch?v=wwNZKfBLAsc?",
-          title: "France News 24/7"
+          title: "FranceInfo 24/7"
         }
       ]
     },
     {
       number: 110,
       channelName: "Africanews",
+      channelIcon: africanews,
       episodes: [
         {
           videoId: "https://www.dailymotion.com/video/x6i7vf8",
@@ -139,6 +157,7 @@ const data = {
     {
       number: 112,
       channelName: "KTN Farmers TV",
+      channelIcon: farmers,
       episodes: [
         {
           videoId: "https://www.dailymotion.com/video/x7opfez",
@@ -160,6 +179,7 @@ const data = {
     {
       number: 114,
       channelName: "RT Arabic",
+      channelIcon: rtarabic,
       episodes: [
         {
           videoId: "https://www.youtube.com/watch?v=3AokIYKBz8I",
@@ -170,6 +190,7 @@ const data = {
     {
       number: 115,
       channelName: "Russia 24 News",
+      channelIcon: r24,
       episodes: [
         {
           videoId: "https://www.youtube.com/watch?v=8T9SFZDP60Q",
@@ -178,18 +199,9 @@ const data = {
       ]
     },
     {
-      number: 116,
-      channelName: "World 24 Russian News",
-      episodes: [
-        {
-          videoId: "https://www.youtube.com/watch?v=fc6IJmpMcEQ",
-          title: "телеканал МИР 24"
-        }
-      ]
-    },
-    {
       number: 117,
       channelName: "Vesti FM Online 24/7",
+      channelIcon: vestifm,
       episodes: [
         {
           videoId: "https://www.youtube.com/watch?v=zUIE8CGN8Ok",
@@ -206,16 +218,6 @@ const data = {
         {
           videoId: "https://www.youtube.com/watch?v=1ph8qQnjXts?",
           title: "HSN Live"
-        }
-      ]
-    },
-    {
-      number: 201,
-      channelName: "HSN2",
-      episodes: [
-        {
-          videoId: "https://www.youtube.com/watch?v=1pepSUbkLVI?",
-          title: "HSN2 Live"
         }
       ]
     },
@@ -286,6 +288,7 @@ const data = {
     {
       number: 208,
       channelName: "GeauxGaming (13+)",
+      channelIcon: gaming,
       episodes: [
         {
           videoId:
@@ -392,16 +395,6 @@ const data = {
       ]
     },
     {
-      number: 403,
-      channelName: "Anime Piano Music",
-      episodes: [
-        {
-          videoId: "https://www.youtube.com/watch?v=y4FnQ0Siw5g",
-          title: "Anime Themed Piano Music"
-        }
-      ]
-    },
-    {
       number: 404,
       channelName: "The Jazz Lounge",
       episodes: [
@@ -414,7 +407,7 @@ const data = {
     {
       number: 405,
       channelName: "StewShowcase (13+)",
-      channelIcon: stewshowcase,
+      channelIcon: beatclublogo,
       episodes: [
         {
           videoId: "https://dai.ly/x7tae7z",
@@ -558,6 +551,7 @@ const data = {
     {
       number: 500,
       channelName: "Everything Tech",
+      channelIcon: tech,
       episodes: [
         {
           videoId: "https://www.dailymotion.com/video/x7tb1y4",
