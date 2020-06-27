@@ -1,10 +1,11 @@
 import { combineReducers } from "redux";
 import { createSelector } from "reselect";
+import gx from "../../assets/icons/gx.png";
 
 const initialState = {
   channelName: "GeauxInfo",
   channelNumber: 411,
-  channelIcon: "",
+  channelIcon: gx,
   videoId: "https://www.dailymotion.com/video/x7t6quu",
 };
 
