@@ -5,9 +5,15 @@ import axios from "axios";
 import Logo from "./geauxlogo.jpg";
 import { Formik, Form } from "formik";
 import * as Yup from "yup";
+import { connect } from "react-redux";
+import { setUserId } from "../../services/userProfile";
 
 import { FormikField } from "../../components/FormikField";
 import { AppBar, Toolbar } from "@material-ui/core";
+
+const mapDispatchProps = {
+  setUserId,
+};
 
 const initialValues = {
   password: "",
@@ -48,6 +54,7 @@ class SignIn extends React.Component {
     );
 
     if (user) {
+      this.props.setUserId({ userId: user._id });
       this.props.history.push(`/player?${user._id}`);
       this.setState({ error: "" });
       return;
@@ -106,4 +113,4 @@ class SignIn extends React.Component {
   }
 }
 
-export { SignIn };
+export default connect(null, mapDispatchProps)(SignIn);

@@ -31,6 +31,15 @@ html {
     padding-top: 6px;
   }
 
+  .gn-player-shopping_cart {
+    padding-top: 4px;
+
+    svg {
+      color: white;
+      //#85bb65;
+    }
+  }
+
   .react-player {
     height: 64vh !important;
   }
@@ -54,7 +63,7 @@ html {
 
   @media (max-width: 321px) {
     .gn-player-volume {
-    display: none;
+      display: none;
     }
   }
 }

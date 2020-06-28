@@ -9,9 +9,11 @@ import { Player } from "../../components/Player";
 import { Nav } from "../../components/Nav";
 import { data } from "../../database";
 import { getVideoId } from "../../services/channelInfo";
+import { getUserId } from "../../services/userProfile";
 
 const mapStateProps = (state) => ({
   videoId: getVideoId(state),
+  userId: getUserId(state),
 });
 
 class TV extends React.Component {
@@ -20,7 +22,7 @@ class TV extends React.Component {
 
     return (
       <div className="gn-tv">
-        <Player videoId={this.props.videoId} />
+        <Player userId={this.props.userId} videoId={this.props.videoId} />
         <div className="gn-tv-guide">
           <ChannelList data={tvData} />
           <EpisodeList data={tvData} />

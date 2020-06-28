@@ -2,10 +2,14 @@
   display: flex;
   justify-content: center;
   background-color: black;
-  padding: 5px;
+  padding: 5px 5px 5px 120px;
 
   img {
     height: 25px;
     border-radius: 10px;
+  }
+
+  @media (max-width: 720px) {
+    padding: 5px;
   }
 }

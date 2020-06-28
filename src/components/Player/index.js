@@ -3,9 +3,12 @@ import React from "react";
 import { findDOMNode } from "react-dom";
 import ReactPlayer from "react-player";
 import screenfull from "screenfull";
+
 import { Button } from "@material-ui/core";
+import { If } from "../If";
 import { Grid, Slider } from "@material-ui/core";
 import { VolumeDown, VolumeUp } from "@material-ui/icons";
+import ShoppingCartIcon from "@material-ui/icons/ShoppingCart";
 
 class Player extends React.Component {
   constructor(props) {
@@ -43,17 +46,6 @@ class Player extends React.Component {
         </div>
         <div className="gn-player-controls">
           <div className="gn-player-volume">
-            {/*
-            <label>Volume:</label>
-            <input
-              type="range"
-              min={0}
-              max={1}
-              step="any"
-              value={this.state.volume}
-              onChange={this.handleVolumeChange}
-            />
-            */}
             <Grid container spacing={2}>
               <Grid item xs>
                 <VolumeDown />
@@ -73,6 +65,11 @@ class Player extends React.Component {
               </Grid>
             </Grid>
           </div>
+          <If test={this.props.userId}>
+            <div className="gn-player-shopping_cart">
+              <ShoppingCartIcon />
+            </div>
+          </If>
           <Button onClick={this.handleClickFullscreen}>Fullscreen</Button>
         </div>
       </div>
@@ -81,7 +78,7 @@ class Player extends React.Component {
 }
 
 export { Player };
-//
+
 // `https://www.youtube.com/embed/${
 //   this.props.videoId
 // }rel=0&autoplay=1&controls=0`
