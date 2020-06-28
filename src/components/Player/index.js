@@ -10,6 +10,8 @@ import { Grid, Slider } from "@material-ui/core";
 import { VolumeDown, VolumeUp } from "@material-ui/icons";
 import ShoppingCartIcon from "@material-ui/icons/ShoppingCart";
 
+import { productData } from "./productData";
+
 class Player extends React.Component {
   constructor(props) {
     super(props);
@@ -31,9 +33,34 @@ class Player extends React.Component {
     this.player = player;
   };
 
+  onClick = (info) => {
+    this.props.setProduct(info);
+  };
+
   render() {
+    const productInfo =
+      productData.find((info) => info.videoId === this.props.videoId) || {};
+
     return (
       <div className="gn-player">
+        <If test={this.props.userId && productInfo.videoId}>
+          <div className="gn-player-clickable">
+            <If test={this.props}>
+              <div
+                className="gn-player-product-one"
+                onClick={this.onClick(productInfo.productOne)}
+              />
+              <div
+                className="gn-player-product-two"
+                onClick={this.onClick(productInfo.productTwo)}
+              />
+              <div
+                className="gn-player-product-three"
+                onClick={this.onClick(productInfo.productThree)}
+              />
+            </If>
+          </div>
+        </If>
         <div className="gn-player-video">
           <ReactPlayer
             className="react-player"

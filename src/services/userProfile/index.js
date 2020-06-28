@@ -3,13 +3,16 @@ import { createSelector } from "reselect";
 
 const initialState = {
   userId: "",
+  userProducts: {},
 };
 
 /* ACTION TYPES */
 const SET_ID = "SET_ID";
+const ADD_PRODUCT = "ADD_PRODUCT";
 
 /* ACTION CREATORS */
 export const setUserId = (info) => ({ type: SET_ID, info });
+export const setUserProduct = (info) => ({ type: ADD_PRODUCT, info });
 
 /* ROOT REDUCER */
 export const userProfile = combineReducers({
@@ -23,7 +26,15 @@ function userInfo(state = initialState, action) {
     case "SET_ID":
       return {
         userId: action.info.userId,
+        userProducts: state.userProducts,
       };
+      break;
+    case "ADD_PRODUCT":
+      return {
+        userId: state.userId,
+        userProducts: action.info.product,
+      };
+      break;
     default:
       return state;
   }

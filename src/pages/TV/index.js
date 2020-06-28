@@ -9,12 +9,16 @@ import { Player } from "../../components/Player";
 import { Nav } from "../../components/Nav";
 import { data } from "../../database";
 import { getVideoId } from "../../services/channelInfo";
-import { getUserId } from "../../services/userProfile";
+import { getUserId, setUserProduct } from "../../services/userProfile";
 
 const mapStateProps = (state) => ({
   videoId: getVideoId(state),
   userId: getUserId(state),
 });
+
+const mapDispatchProps = {
+  setUserProduct,
+};
 
 class TV extends React.Component {
   render() {
@@ -22,7 +26,11 @@ class TV extends React.Component {
 
     return (
       <div className="gn-tv">
-        <Player userId={this.props.userId} videoId={this.props.videoId} />
+        <Player
+          setProduct={setUserProduct}
+          userId={this.props.userId}
+          videoId={this.props.videoId}
+        />
         <div className="gn-tv-guide">
           <ChannelList data={tvData} />
           <EpisodeList data={tvData} />
@@ -34,6 +42,6 @@ class TV extends React.Component {
   }
 }
 
-export default connect(mapStateProps)(TV);
+export default connect(mapStateProps, mapDispatchProps)(TV);
 
 // "videoseries?list=RDMMFEUaB2jV_kM&"
