@@ -1,18 +1,36 @@
 // Mock Database with some JSON data
 import africanews from "../assets/icons/Africanews.png";
 import arzamas from "../assets/icons/arzamas.png";
+import bean from "../assets/icons/bean.png";
 import beatclublogo from "../assets/icons/beatclublogo.png";
+import beaute from "../assets/icons/beaute.png";
+import bloomht from "../assets/icons/bloomht.png";
+import daaitv from "../assets/icons/daaitv.png";
 import dubaitvnews from "../assets/icons/dubaitvnews.png";
 import dwnews from "../assets/icons/dwnews.png";
+import ebrutv from "../assets/icons/ebrutv.png";
 import farmers from "../assets/icons/farmers.png";
 import franceinfo from "../assets/icons/franceinfo.png";
 import gaming from "../assets/icons/gaming.png";
 import gx from "../assets/icons/gx.png";
+import hsn from "../assets/icons/hsn.png";
+import jazeera from "../assets/icons/jazeera.png";
+import liverpooltv from "../assets/icons/liverpooltv.png";
+import mathnews from "../assets/icons/mathnews.png";
+import pawpatrol from "../assets/icons/pawpatrol.png";
+import qvc2 from "../assets/icons/QVC2.png";
+import qvc3 from "../assets/icons/QVC3.png";
 import r24 from "../assets/icons/R24.png";
 import rtarabic from "../assets/icons/RTArabic.png";
 import skynews from "../assets/icons/skynewslogo.png";
+import somoytv from "../assets/icons/Somoytv.png";
+import suchtv from "../assets/icons/suchtv.png";
 import tech from "../assets/icons/tech.png";
+import tomfriends from "../assets/icons/tomfriends.png";
+import tvnet from "../assets/icons/tvnet.png";
 import vestifm from "../assets/icons/vestifm.png";
+
+
 
 const data = {
   Info: [
@@ -50,6 +68,28 @@ const data = {
       ]
     },
     {
+      number: 101,
+      channelName: "Bloomberg HT",
+      channelIcon: bloomht,
+      episodes: [
+        {
+          videoId: "https://www.youtube.com/watch?v=uVvzcXNhhVg",
+          title: "Bloomberg HT Canli Yayin 24/7"
+        }
+      ]
+    },
+    {
+      number: 101,
+      channelName: "TVNet Canli Yayin",
+      channelIcon: tvnet,
+      episodes: [
+        {
+          videoId: "https://www.youtube.com/watch?v=Cn7I6iBJ6nY",
+          title: "Türkiye'nin yeni medya ekranı"
+        }
+      ]
+    },
+    {
       number: 102,
       channelName: "DW News",
       channelIcon: dwnews,
@@ -72,8 +112,31 @@ const data = {
       ]
     },
     {
+      number: 103,
+      channelName: "Mathrubhumi News",
+      channelIcon: mathnews,
+      episodes: [
+        {
+          videoId: "https://www.youtube.com/watch?v=irF-4N_fHjs",
+          title: "മലയാളം: മാതൃഭൂമി ന്യൂസ്"
+        }
+      ]
+    },
+    {
+      number: 103,
+      channelName: "Al Jazeera English",
+      channelIcon: jazeera,
+      episodes: [
+        {
+          videoId: "https://www.youtube.com/watch?v=2EppLNonncc&",
+          title: "Al Jazeera English Live 24/7"
+        }
+      ]
+    },
+    {
       number: 104,
       channelName: "EbruTV",
+      channelIcon: ebrutv,
       episodes: [
         {
           videoId: "https://www.dailymotion.com/video/x67n3k1",
@@ -84,6 +147,7 @@ const data = {
     {
       number: 105,
       channelName: "Liverpool TV",
+      channelIcon: liverpooltv,
       episodes: [
         {
           videoId: "https://www.dailymotion.com/video/x702gf3",
@@ -104,17 +168,19 @@ const data = {
     },
     {
       number: 107,
-      channelName: "BD News",
+      channelName: "Somoy TV",
+      channelIcon: somoytv,
       episodes: [
         {
           videoId: "https://www.youtube.com/watch?v=KgiwN7ddb2U?",
-          title: "Bangladesh News"
+          title: "Somoy TV Bangladesh Live 24/7"
         }
       ]
     },
     {
       number: 108,
       channelName: "Such TV News",
+      channelIcon: suchtv,
       episodes: [
         {
           videoId: "https://www.dailymotion.com/video/x72hrde",
@@ -147,6 +213,7 @@ const data = {
     {
       number: 111,
       channelName: "DaAi World Live",
+      channelIcon: daaitv,
       episodes: [
         {
           videoId: "https://www.dailymotion.com/video/x5crdro",
@@ -214,6 +281,7 @@ const data = {
     {
       number: 200,
       channelName: "HSN",
+      channelIcon: hsn,
       episodes: [
         {
           videoId: "https://www.youtube.com/watch?v=1ph8qQnjXts?",
@@ -224,6 +292,7 @@ const data = {
     {
       number: 202,
       channelName: "QVC2 Live",
+      channelIcon: qvc2,
       episodes: [
         {
           videoId: "https://www.youtube.com/watch?v=_v_wMS-uACE?",
@@ -234,6 +303,7 @@ const data = {
     {
       number: 203,
       channelName: "QVC3 Live",
+      channelIcon: qvc3,
       episodes: [
         {
           videoId: "https://www.youtube.com/watch?v=Qt2c93O1p_c?",
@@ -277,6 +347,7 @@ const data = {
     {
       number: 207,
       channelName: "Beaute 101",
+      channelIcon: beaute,
       episodes: [
         {
           videoId:
@@ -298,18 +369,6 @@ const data = {
       ]
     },
     {
-      number: 209,
-      channelName: "beIN Sports",
-      episodes: [
-        {
-          videoId:
-            "https://www.youtube.com/watch?v=hlkHbBcWVzo",
-          title: "beIN Sports HD 24/7"
-        }
-      ]
-    },
-
-    {
       number: 210,
       channelName: "Geauxing Home",
       episodes: [
@@ -324,7 +383,19 @@ const data = {
   Kids: [
     {
       number: 300,
+      channelName: "Mr. Bean",
+      channelIcon: bean,
+      episodes: [
+        {
+          videoId: "https://www.youtube.com/watch?v=Ue0xaq1Q-B4",
+          title: "Best of Mr. Bean"
+        }
+      ]
+    },
+    {
+      number: 301,
       channelName: "Cat Tales",
+      channelIcon: tomfriends,
       episodes: [
         {
           videoId: "https://www.youtube.com/watch?v=PbP0_yYXcHU?",
@@ -333,8 +404,19 @@ const data = {
       ]
     },
     {
-      number: 301,
+      number: 302,
+      channelName: "Booba",
+      episodes: [
+        {
+          videoId: "https://www.youtube.com/watch?v=XK8METRgK_U",
+          title: "Booba 24/7"
+        }
+      ]
+    },
+    {
+      number: 303,
       channelName: "PAW Patrol",
+      channelIcon: pawpatrol,
       episodes: [
         {
           videoId: "https://www.youtube.com/watch?v=mF9QMYaaZzo",
@@ -343,7 +425,7 @@ const data = {
       ]
     },
     {
-      number: 302,
+      number: 304,
       channelName: "Kids Songs",
       episodes: [
         {
@@ -353,7 +435,7 @@ const data = {
       ]
     },
     {
-      number: 303,
+      number: 305,
       channelName: "GeauxKids",
       episodes: [
         {
@@ -363,7 +445,7 @@ const data = {
       ]
     },
     {
-      number: 304,
+      number: 306,
       channelName: "WB Kids",
       episodes: [
         {
@@ -391,6 +473,16 @@ const data = {
         {
           videoId: "https://www.youtube.com/watch?v=L9Q1HUdUMp0?",
           title: "R&B / Hip-Hop Radio"
+        }
+      ]
+    },
+    {
+      number: 403,
+      channelName: "NCM Music Radio",
+      episodes: [
+        {
+          videoId: "https://www.youtube.com/watch?v=Oxj2EAr256Y&",
+          title: "NCM Live Stream"
         }
       ]
     },
@@ -433,6 +525,16 @@ const data = {
         {
           videoId: "https://www.dailymotion.com/video/x6s18p8",
           title: "UK and overseas music"
+        }
+      ]
+    },
+    {
+      number: 407,
+      channelName: "Makkah Live",
+      episodes: [
+        {
+          videoId: "https://www.youtube.com/watch?v=QCM2gY65-g8",
+          title: "بث مباشر || قناة القرآن الكريم"
         }
       ]
     },
