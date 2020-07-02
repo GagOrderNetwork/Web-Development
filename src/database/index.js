@@ -1,14 +1,21 @@
 // Mock Database with some JSON data
 import africanews from "../assets/icons/Africanews.png";
+
 import arzamas from "../assets/icons/arzamas.png";
+import balogo from "../assets/icons/balogo.png";
 import bean from "../assets/icons/bean.png";
 import beatclublogo from "../assets/icons/beatclublogo.png";
 import beaute from "../assets/icons/beaute.png";
 import bloomht from "../assets/icons/bloomht.png";
+import booba from "../assets/icons/booba.jpg";
+import br1 from "../assets/icons/br1.png";
 import daaitv from "../assets/icons/daaitv.png";
+import daveava from "../assets/icons/daveava.png";
 import dubaitvnews from "../assets/icons/dubaitvnews.png";
 import dwnews from "../assets/icons/dwnews.png";
+import earthtv from "../assets/icons/earth-tv.png";
 import ebrutv from "../assets/icons/ebrutv.png";
+import explore from "../assets/icons/explore.png";
 import farmers from "../assets/icons/farmers.png";
 import franceinfo from "../assets/icons/franceinfo.png";
 import gaming from "../assets/icons/gaming.png";
@@ -17,6 +24,9 @@ import hsn from "../assets/icons/hsn.png";
 import jazeera from "../assets/icons/jazeera.png";
 import liverpooltv from "../assets/icons/liverpooltv.png";
 import mathnews from "../assets/icons/mathnews.png";
+import nasa1 from "../assets/icons/nasa1.png";
+import nasa2 from "../assets/icons/nasa2.png";
+import paldoga from "../assets/icons/paldoga.png";
 import pawpatrol from "../assets/icons/pawpatrol.png";
 import qvc2 from "../assets/icons/QVC2.png";
 import qvc3 from "../assets/icons/QVC3.png";
@@ -29,13 +39,13 @@ import tech from "../assets/icons/tech.png";
 import tomfriends from "../assets/icons/tomfriends.png";
 import tvnet from "../assets/icons/tvnet.png";
 import vestifm from "../assets/icons/vestifm.png";
-
+import ytnscience from "../assets/icons/ytnscience.png";
 
 
 const data = {
   Info: [
     {
-      number: 411,
+      number: 1,
       channelName: "Geaux Info",
       channelIcon: gx,
       episodes: [
@@ -46,7 +56,7 @@ const data = {
       ]
     },
     {
-      number: 412,
+      number: 2,
       channelName: "Geaux Spotlight",
       episodes: [
         {
@@ -68,7 +78,7 @@ const data = {
       ]
     },
     {
-      number: 101,
+      number: 102,
       channelName: "Bloomberg HT",
       channelIcon: bloomht,
       episodes: [
@@ -79,18 +89,18 @@ const data = {
       ]
     },
     {
-      number: 101,
-      channelName: "TVNet Canli Yayin",
+      number: 103,
+      channelName: "TVNet",
       channelIcon: tvnet,
       episodes: [
         {
           videoId: "https://www.youtube.com/watch?v=Cn7I6iBJ6nY",
-          title: "Türkiye'nin yeni medya ekranı"
+          title: "Türkiye'nin yeni medya ekranı Canli Yayin"
         }
       ]
     },
     {
-      number: 102,
+      number: 104,
       channelName: "DW News",
       channelIcon: dwnews,
       episodes: [
@@ -101,18 +111,7 @@ const data = {
       ]
     },
     {
-      number: 103,
-      channelName: "Dubai TV",
-      channelIcon: dubaitvnews,
-      episodes: [
-        {
-          videoId: "https://www.youtube.com/watch?v=1X0OYu8NMOo",
-          title: "DubaiTV Live 24/7"
-        }
-      ]
-    },
-    {
-      number: 103,
+      number: 105,
       channelName: "Mathrubhumi News",
       channelIcon: mathnews,
       episodes: [
@@ -123,7 +122,7 @@ const data = {
       ]
     },
     {
-      number: 103,
+      number: 106,
       channelName: "Al Jazeera English",
       channelIcon: jazeera,
       episodes: [
@@ -134,7 +133,7 @@ const data = {
       ]
     },
     {
-      number: 104,
+      number: 107,
       channelName: "EbruTV",
       channelIcon: ebrutv,
       episodes: [
@@ -145,7 +144,7 @@ const data = {
       ]
     },
     {
-      number: 105,
+      number: 108,
       channelName: "Liverpool TV",
       channelIcon: liverpooltv,
       episodes: [
@@ -156,7 +155,7 @@ const data = {
       ]
     },
     {
-      number: 106,
+      number: 109,
       channelName: "SKY News",
       channelIcon: skynews,
       episodes: [
@@ -167,7 +166,7 @@ const data = {
       ]
     },
     {
-      number: 107,
+      number: 110,
       channelName: "Somoy TV",
       channelIcon: somoytv,
       episodes: [
@@ -178,7 +177,7 @@ const data = {
       ]
     },
     {
-      number: 108,
+      number: 111,
       channelName: "Such TV News",
       channelIcon: suchtv,
       episodes: [
@@ -189,7 +188,7 @@ const data = {
       ]
     },
     {
-      number: 109,
+      number: 112,
       channelName: "FranceInfo",
       channelIcon: franceinfo,
       episodes: [
@@ -200,7 +199,7 @@ const data = {
       ]
     },
     {
-      number: 110,
+      number: 113,
       channelName: "Africanews",
       channelIcon: africanews,
       episodes: [
@@ -211,7 +210,7 @@ const data = {
       ]
     },
     {
-      number: 111,
+      number: 114,
       channelName: "DaAi World Live",
       channelIcon: daaitv,
       episodes: [
@@ -222,7 +221,7 @@ const data = {
       ]
     },
     {
-      number: 112,
+      number: 115,
       channelName: "KTN Farmers TV",
       channelIcon: farmers,
       episodes: [
@@ -233,7 +232,7 @@ const data = {
       ]
     },
     {
-      number: 113,
+      number: 116,
       channelName: "Arzamas Academy",
       channelIcon: arzamas,
       episodes: [
@@ -244,7 +243,7 @@ const data = {
       ]
     },
     {
-      number: 114,
+      number: 117,
       channelName: "RT Arabic",
       channelIcon: rtarabic,
       episodes: [
@@ -255,7 +254,7 @@ const data = {
       ]
     },
     {
-      number: 115,
+      number: 118,
       channelName: "Russia 24 News",
       channelIcon: r24,
       episodes: [
@@ -266,7 +265,7 @@ const data = {
       ]
     },
     {
-      number: 117,
+      number: 119,
       channelName: "Vesti FM Online 24/7",
       channelIcon: vestifm,
       episodes: [
@@ -290,7 +289,7 @@ const data = {
       ]
     },
     {
-      number: 202,
+      number: 201,
       channelName: "QVC2 Live",
       channelIcon: qvc2,
       episodes: [
@@ -301,7 +300,7 @@ const data = {
       ]
     },
     {
-      number: 203,
+      number: 202,
       channelName: "QVC3 Live",
       channelIcon: qvc3,
       episodes: [
@@ -312,7 +311,7 @@ const data = {
       ]
     },
     {
-      number: 204,
+      number: 203,
       channelName: "Naturalista",
       episodes: [
         {
@@ -323,7 +322,7 @@ const data = {
       ]
     },
     {
-      number: 205,
+      number: 204,
       channelName: "Home Decor",
       episodes: [
         {
@@ -334,7 +333,7 @@ const data = {
       ]
     },
     {
-      number: 206,
+      number: 205,
       channelName: "Geaux Thrifting",
       episodes: [
         {
@@ -345,7 +344,7 @@ const data = {
       ]
     },
     {
-      number: 207,
+      number: 206,
       channelName: "Beaute 101",
       channelIcon: beaute,
       episodes: [
@@ -357,7 +356,7 @@ const data = {
       ]
     },
     {
-      number: 208,
+      number: 207,
       channelName: "GeauxGaming (13+)",
       channelIcon: gaming,
       episodes: [
@@ -369,7 +368,7 @@ const data = {
       ]
     },
     {
-      number: 210,
+      number: 208,
       channelName: "Geauxing Home",
       episodes: [
         {
@@ -406,6 +405,7 @@ const data = {
     {
       number: 302,
       channelName: "Booba",
+      channelIcon: booba,
       episodes: [
         {
           videoId: "https://www.youtube.com/watch?v=XK8METRgK_U",
@@ -427,10 +427,11 @@ const data = {
     {
       number: 304,
       channelName: "Kids Songs",
+      channelIcon: daveava,
       episodes: [
         {
           videoId: "https://www.youtube.com/watch?v=VyPDo5dieZU",
-          title: "Dave and Ava"
+          title: "Dave and Ava Nursery Rhymes"
         }
       ]
     },
@@ -457,7 +458,7 @@ const data = {
   ],
   Music: [
     {
-      number: 401,
+      number: 400,
       channelName: "Geaux Chill",
       episodes: [
         {
@@ -467,7 +468,7 @@ const data = {
       ]
     },
     {
-      number: 402,
+      number: 401,
       channelName: "Issa Vibe (13+)",
       episodes: [
         {
@@ -477,7 +478,7 @@ const data = {
       ]
     },
     {
-      number: 403,
+      number: 402,
       channelName: "NCM Music Radio",
       episodes: [
         {
@@ -487,7 +488,7 @@ const data = {
       ]
     },
     {
-      number: 404,
+      number: 403,
       channelName: "The Jazz Lounge",
       episodes: [
         {
@@ -497,7 +498,7 @@ const data = {
       ]
     },
     {
-      number: 405,
+      number: 404,
       channelName: "StewShowcase (13+)",
       channelIcon: beatclublogo,
       episodes: [
@@ -509,7 +510,7 @@ const data = {
     },
 
     {
-      number: 406,
+      number: 405,
       channelName: "Shuffle Dance Music 2020",
       episodes: [
         {
@@ -519,8 +520,9 @@ const data = {
       ]
     },
     {
-      number: 407,
+      number: 406,
       channelName: "BritAsia TV Live",
+      channelIcon: balogo,
       episodes: [
         {
           videoId: "https://www.dailymotion.com/video/x6s18p8",
@@ -561,6 +563,7 @@ const data = {
     {
       number: 410,
       channelName: "Best Radio 1 (13+)",
+      channelIcon: br1,
       episodes: [
         {
           videoId: "https://www.youtube.com/watch?v=kGKkUN50R0c",
@@ -581,6 +584,7 @@ const data = {
     {
       number: 412,
       channelName: "Best Turkish Music",
+      channelIcon: paldoga,
       episodes: [
         {
           videoId: "https://www.youtube.com/watch?v=xtMgvRYIQU8",
@@ -601,6 +605,7 @@ const data = {
     {
       number: 414,
       channelName: "ISS Live Stream",
+      channelIcon: nasa2,
       episodes: [
         {
           videoId: "https://www.youtube.com/watch?v=EEIk7gwjgIM",
@@ -621,6 +626,7 @@ const data = {
     {
       number: 416,
       channelName: "The World",
+      channelIcon: earthtv,
       episodes: [
         {
           videoId: "hhttps://www.youtube.com/watch?v=JlqrHo-Rsi0",
@@ -706,6 +712,7 @@ const data = {
     {
       number: 505,
       channelName: "NASA TV",
+      channelIcon: nasa1,
       episodes: [
         {
           videoId: "https://www.youtube.com/watch?v=21X5lGlDOfg",
@@ -716,6 +723,7 @@ const data = {
     {
       number: 506,
       channelName: "YTN Science",
+      channelIcon: ytnscience,
       episodes: [
         {
           videoId: "https://www.youtube.com/watch?v=GyBgbzdkiH8?",
@@ -728,6 +736,7 @@ const data = {
     {
       number: 600,
       channelName: "Santa Monica Beach Cam",
+      channelIcon: explore,
       episodes: [
         {
           videoId: "https://www.youtube.com/watch?v=OWbI6WtlI-k",
@@ -738,6 +747,7 @@ const data = {
     {
       number: 601,
       channelName: "Aquarium of the Pacific",
+      channelIcon: explore,
       episodes: [
         {
           videoId: "https://www.youtube.com/watch?v=F109TZt3nRc?",
@@ -748,6 +758,7 @@ const data = {
     {
       number: 602,
       channelName: "Raptor Resource Project",
+      channelIcon: explore,
       episodes: [
         {
           videoId: "https://www.youtube.com/watch?v=UmclL6funN8?",
@@ -758,6 +769,7 @@ const data = {
     {
       number: 603,
       channelName: "Guide Dogs of America",
+      channelIcon: explore,
       episodes: [
         {
           videoId: "https://www.youtube.com/watch?v=f12EgkREedY",
@@ -768,6 +780,7 @@ const data = {
     {
       number: 604,
       channelName: "Warrior Canine Connection",
+      channelIcon: explore,
       episodes: [
         {
           videoId: "https://www.youtube.com/watch?v=G0IBqtO1K28",
@@ -778,6 +791,7 @@ const data = {
     {
       number: 605,
       channelName: "Big Cat Rescue",
+      channelIcon: explore,
       episodes: [
         {
           videoId: "https://www.youtube.com/watch?v=8chd0qHhMWQ",
@@ -788,6 +802,7 @@ const data = {
     {
       number: 606,
       channelName: "Kitten Rescue",
+      channelIcon: explore,
       episodes: [
         {
           videoId: "https://www.youtube.com/watch?v=9Iup70E0Ig0",
@@ -798,6 +813,7 @@ const data = {
     {
       number: 607,
       channelName: "Aquarium of the Pacific",
+      channelIcon: explore,
       episodes: [
         {
           videoId: "https://www.youtube.com/watch?v=LvfaMv9nbJc",
@@ -808,6 +824,7 @@ const data = {
     {
       number: 608,
       channelName: "OrcaLab",
+      channelIcon: explore,
       episodes: [
         {
           videoId: "https://www.youtube.com/watch?v=5jcU2MVkEy8",
@@ -818,6 +835,7 @@ const data = {
     {
       number: 609,
       channelName: "Wolong Grove",
+      channelIcon: explore,
       episodes: [
         {
           videoId: "https://www.youtube.com/watch?v=Gm3bQVANtVo",
@@ -828,6 +846,7 @@ const data = {
     {
       number: 610,
       channelName: "Donkey Hill",
+      channelIcon: explore,
       episodes: [
         {
           videoId: "https://www.youtube.com/watch?v=FUkxWre2yRU",
