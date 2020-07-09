@@ -2,14 +2,14 @@ import "./styles.scss";
 import React from "react";
 import { Link } from "react-router-dom";
 import axios from "axios";
-import Logo from "./geauxlogo.jpg";
 import { Formik, Form } from "formik";
 import * as Yup from "yup";
 import { connect } from "react-redux";
 import { setUserId } from "../../services/userProfile";
 
 import { FormikField } from "../../components/FormikField";
-import { AppBar, Toolbar } from "@material-ui/core";
+
+import { MainNav } from "../../components/MainNav";
 
 const mapDispatchProps = {
   setUserId,
@@ -68,13 +68,7 @@ class SignIn extends React.Component {
   render() {
     return (
       <div className="gn-sign_in">
-        <AppBar position="static">
-          <Toolbar>
-            {" "}
-            <img src={Logo} /> Geaux Network{" "}
-          </Toolbar>
-        </AppBar>
-        <h1>Just Geaux with it! 🎉</h1>
+        <MainNav />
         <div className="gn-formik_form-signin">
           <h2>Sign In</h2>
           <Formik
@@ -103,10 +97,6 @@ class SignIn extends React.Component {
 
         <Link to="/create-account">
           <div className="gn-sign_in-link">Create Account</div>
-        </Link>
-
-        <Link to="/player">
-          <div className="gn-sign_in-guest-link">Continue as Guest</div>
         </Link>
       </div>
     );

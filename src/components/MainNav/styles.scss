@@ -1,0 +1,32 @@
+.gn-main_nav {
+  height: 128px;
+  background-color: black;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  .gn-main_nav-logo {
+    flex: 0 0 auto;
+    padding-left: 20px;
+
+    img {
+      height: 100px;
+      width: auto;
+    }
+  }
+
+  .gn-main_nav-links {
+    flex: 0 0 426px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-right: 20px;
+
+    a {
+      font-size: 17px;
+      text-decoration: none;
+      color: white;
+    }
+  }
+}

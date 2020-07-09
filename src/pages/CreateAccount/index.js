@@ -3,11 +3,10 @@ import React from "react";
 import { Link } from "react-router-dom";
 import axios from "axios";
 import { Formik, Form } from "formik";
-import Logo from "./geauxlogo.jpg";
 import * as Yup from "yup";
 
 import { FormikField } from "../../components/FormikField";
-import { AppBar, Toolbar } from "@material-ui/core";
+import { MainNav } from "../../components/MainNav";
 import { passwordSchema } from "../../util/schema/password.js";
 
 const initialValues = {
@@ -72,12 +71,7 @@ class CreateAccount extends React.Component {
   render() {
     return (
       <div className="gn-create_account">
-        <AppBar position="static">
-          <Toolbar>
-            {" "}
-            <img src={Logo} /> Geaux Network{" "}
-          </Toolbar>
-        </AppBar>
+        <MainNav />
         <h1>Join the Family!</h1>
         <p>
           There will be benefits offered to members! Sign up and stay tuned.
