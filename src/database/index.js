@@ -16,6 +16,7 @@ import dwnews from "../assets/icons/dwnews.png";
 import earthtv from "../assets/icons/earth-tv.png";
 import ebrutv from "../assets/icons/ebrutv.png";
 import explore from "../assets/icons/explore.png";
+import falloutradio from "../assets/icons/falloutradio.png";
 import farmers from "../assets/icons/farmers.png";
 import franceinfo from "../assets/icons/franceinfo.png";
 import gaming from "../assets/icons/gaming.png";
@@ -34,11 +35,9 @@ import r24 from "../assets/icons/R24.png";
 import rtarabic from "../assets/icons/RTArabic.png";
 import skynews from "../assets/icons/skynewslogo.png";
 import somoytv from "../assets/icons/Somoytv.png";
-import suchtv from "../assets/icons/suchtv.png";
 import tech from "../assets/icons/tech.png";
 import tomfriends from "../assets/icons/tomfriends.png";
 import tvnet from "../assets/icons/tvnet.png";
-import vestifm from "../assets/icons/vestifm.png";
 import ytnscience from "../assets/icons/ytnscience.png";
 
 
@@ -177,17 +176,6 @@ const data = {
       ]
     },
     {
-      number: 111,
-      channelName: "Such TV News",
-      channelIcon: suchtv,
-      episodes: [
-        {
-          videoId: "https://www.dailymotion.com/video/x72hrde",
-          title: "Pakistan News"
-        }
-      ]
-    },
-    {
       number: 112,
       channelName: "FranceInfo",
       channelIcon: franceinfo,
@@ -264,17 +252,6 @@ const data = {
         }
       ]
     },
-    {
-      number: 119,
-      channelName: "Vesti FM Online 24/7",
-      channelIcon: vestifm,
-      episodes: [
-        {
-          videoId: "https://www.youtube.com/watch?v=zUIE8CGN8Ok",
-          title: "Вести ФМ онлайн: Прямой эфир"
-        }
-      ]
-    }
   ],
   "Health/Lifestyle": [
     {
@@ -653,7 +630,28 @@ const data = {
           title: "Relaxing Meditation Sleep Music"
         }
       ]
-    }
+    },
+    {
+      number: 419,
+      channelName: "Fallout76 Appalachia Radio ",
+      channelIcon: falloutradio,
+      episodes: [
+        {
+          videoId: "https://www.youtube.com/watch?v=iZZ-y_z6zLQ",
+          title: "24/7 Old World Radio"
+        }
+      ]
+    },
+    {
+      number: 420,
+      channelName: "Gaming Music Mix",
+      episodes: [
+        {
+          videoId: "https://www.youtube.com/watch?v=eosLoIMzW7E",
+          title: "24/7 Live Stream EDM Gaming Music"
+        }
+      ]
+    },
   ],
   "Science & Fantasy": [
     {
