@@ -1,6 +1,5 @@
 // Mock Database with some JSON data
 import africanews from "../assets/icons/Africanews.png";
-
 import arzamas from "../assets/icons/arzamas.png";
 import balogo from "../assets/icons/balogo.png";
 import bean from "../assets/icons/bean.png";
@@ -22,7 +21,6 @@ import franceinfo from "../assets/icons/franceinfo.png";
 import gaming from "../assets/icons/gaming.png";
 import gx from "../assets/icons/gx.png";
 import hsn from "../assets/icons/hsn.png";
-import jazeera from "../assets/icons/jazeera.png";
 import liverpooltv from "../assets/icons/liverpooltv.png";
 import mathnews from "../assets/icons/mathnews.png";
 import nasa1 from "../assets/icons/nasa1.png";
@@ -117,17 +115,6 @@ const data = {
         {
           videoId: "https://www.youtube.com/watch?v=irF-4N_fHjs",
           title: "മലയാളം: മാതൃഭൂമി ന്യൂസ്"
-        }
-      ]
-    },
-    {
-      number: 106,
-      channelName: "Al Jazeera English",
-      channelIcon: jazeera,
-      episodes: [
-        {
-          videoId: "https://www.youtube.com/watch?v=2EppLNonncc&",
-          title: "Al Jazeera English Live 24/7"
         }
       ]
     },
@@ -414,11 +401,11 @@ const data = {
     },
     {
       number: 305,
-      channelName: "GeauxKids",
+      channelName: "Ubungo Kids",
       episodes: [
         {
           videoId: "https://www.dailymotion.com/video/x7tb1xt",
-          title: "GeauxKids 24/7"
+          title: "Ubungo Kids 24/7"
         }
       ]
     },
@@ -694,6 +681,17 @@ const data = {
           videoId:
             "https://www.youtube.com/watch?v=lu1AVjJUCBo",
           title: "Train cab View 24/7"
+        }
+      ]
+    },
+    {
+      number: 503,
+      channelName: "LAX Airport",
+      episodes: [
+        {
+          videoId:
+            "https://www.youtube.com/watch?v=6ZEF3-4FYNI",
+          title: "Real Time Virtual Airport"
         }
       ]
     },
