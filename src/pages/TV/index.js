@@ -27,7 +27,7 @@ class TV extends React.Component {
     return (
       <div className="gn-tv">
         <Player
-          setProduct={setUserProduct}
+          setUserProduct={this.props.setUserProduct}
           userId={this.props.userId}
           videoId={this.props.videoId}
         />

@@ -3,7 +3,7 @@ import { createSelector } from "reselect";
 
 const initialState = {
   userId: "",
-  userProducts: {},
+  userProducts: [],
 };
 
 /* ACTION TYPES */
@@ -17,6 +17,7 @@ export const setUserProduct = (info) => ({ type: ADD_PRODUCT, info });
 /* ROOT REDUCER */
 export const userProfile = combineReducers({
   userInfo,
+  userProducts,
 });
 
 /* OTHER REDUCERS */
@@ -26,13 +27,26 @@ function userInfo(state = initialState, action) {
     case "SET_ID":
       return {
         userId: action.info.userId,
-        userProducts: state.userProducts,
       };
       break;
+    default:
+      return state;
+  }
+}
+
+function userProducts(state = initialState, action) {
+  switch (action.type) {
     case "ADD_PRODUCT":
+      if (
+        !state.userProducts.find(
+          (x) => x.prod.name === action.info.product.prod.name
+        )
+      ) {
+        state.userProducts.push(action.info.product);
+      }
+
       return {
-        userId: state.userId,
-        userProducts: action.info.product,
+        userProducts: state.userProducts,
       };
       break;
     default:
@@ -51,3 +65,10 @@ export const getUserInfo = createSelector(
 export const getUserId = createSelector(getUserInfo, (info) => {
   return info.userId;
 });
+
+export const getProductInfo = createSelector(
+  (state) => state && state.userProfile,
+  (info) => {
+    return info.userProducts || [];
+  }
+);

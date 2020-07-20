@@ -55,7 +55,7 @@ class SignIn extends React.Component {
 
     if (user) {
       this.props.setUserId({ userId: user._id });
-      this.props.history.push(`/player?${user._id}`);
+      this.props.history.push(`/player`);
       this.setState({ error: "" });
       return;
     }
