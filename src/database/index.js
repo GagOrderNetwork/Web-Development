@@ -2,7 +2,6 @@
 import africanews from "../assets/icons/Africanews.png";
 import arzamas from "../assets/icons/arzamas.png";
 import balogo from "../assets/icons/balogo.png";
-import bean from "../assets/icons/bean.png";
 import beatclublogo from "../assets/icons/beatclublogo.png";
 import beaute from "../assets/icons/beaute.png";
 import bloomht from "../assets/icons/bloomht.png";
@@ -25,6 +24,8 @@ import liverpooltv from "../assets/icons/liverpooltv.png";
 import mathnews from "../assets/icons/mathnews.png";
 import nasa1 from "../assets/icons/nasa1.png";
 import nasa2 from "../assets/icons/nasa2.png";
+import ndtv from "../assets/icons/ndtv.png";
+import newsone from "../assets/icons/newsone.png";
 import paldoga from "../assets/icons/paldoga.png";
 import pawpatrol from "../assets/icons/pawpatrol.png";
 import qvc2 from "../assets/icons/QVC2.png";
@@ -35,7 +36,7 @@ import skynews from "../assets/icons/skynewslogo.png";
 import somoytv from "../assets/icons/Somoytv.png";
 import tech from "../assets/icons/tech.png";
 import tomfriends from "../assets/icons/tomfriends.png";
-import tvnet from "../assets/icons/tvnet.png";
+import ubongo from "../assets/icons/Ubongo.png";
 import ytnscience from "../assets/icons/ytnscience.png";
 
 
@@ -87,12 +88,12 @@ const data = {
     },
     {
       number: 103,
-      channelName: "TVNet",
-      channelIcon: tvnet,
+      channelName: "NDTV India",
+      channelIcon: ndtv,
       episodes: [
         {
-          videoId: "https://www.youtube.com/watch?v=Cn7I6iBJ6nY",
-          title: "Türkiye'nin yeni medya ekranı Canli Yayin"
+          videoId: "https://www.youtube.com/watch?v=l9ViEIip9q4",
+          title: "NDTV News in Hindi"
         }
       ]
     },
@@ -208,6 +209,17 @@ const data = {
     },
     {
       number: 116,
+      channelName: "NewsOne",
+      channelIcon: newsone,
+      episodes: [
+        {
+          videoId: "https://www.youtube.com/watch?v=3e0FsU1N6OQ",
+          title: "Наживо останні новини світу та України"
+        }
+      ]
+    },
+    {
+      number: 117,
       channelName: "Arzamas Academy",
       channelIcon: arzamas,
       episodes: [
@@ -218,7 +230,7 @@ const data = {
       ]
     },
     {
-      number: 117,
+      number: 118,
       channelName: "RT Arabic",
       channelIcon: rtarabic,
       episodes: [
@@ -229,7 +241,7 @@ const data = {
       ]
     },
     {
-      number: 118,
+      number: 119,
       channelName: "Russia 24 News",
       channelIcon: r24,
       episodes: [
@@ -345,17 +357,6 @@ const data = {
   ],
   Kids: [
     {
-      number: 300,
-      channelName: "Mr. Bean",
-      channelIcon: bean,
-      episodes: [
-        {
-          videoId: "https://www.youtube.com/watch?v=Ue0xaq1Q-B4",
-          title: "Best of Mr. Bean"
-        }
-      ]
-    },
-    {
       number: 301,
       channelName: "Cat Tales",
       channelIcon: tomfriends,
@@ -402,6 +403,7 @@ const data = {
     {
       number: 305,
       channelName: "Ubungo Kids",
+      channelIcon: ubongo,
       episodes: [
         {
           videoId: "https://www.dailymotion.com/video/x7tb1xt",
@@ -631,7 +633,7 @@ const data = {
     },
     {
       number: 420,
-      channelName: "Gaming Music Mix",
+      channelName: "Gaming Music Mix (13+)",
       episodes: [
         {
           videoId: "https://www.youtube.com/watch?v=eosLoIMzW7E",
