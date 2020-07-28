@@ -15,7 +15,6 @@ import earthtv from "../assets/icons/earth-tv.png";
 import ebrutv from "../assets/icons/ebrutv.png";
 import explore from "../assets/icons/explore.png";
 import falloutradio from "../assets/icons/falloutradio.png";
-import farmers from "../assets/icons/farmers.png";
 import franceinfo from "../assets/icons/franceinfo.png";
 import gaming from "../assets/icons/gaming.png";
 import gx from "../assets/icons/gx.png";
@@ -58,7 +57,7 @@ const data = {
       channelName: "Geaux Spotlight",
       episodes: [
         {
-          videoId: "https://www.dailymotion.com/video/x7tuc2j",
+          videoId: "ttps://www.dailymotion.com/video/x7tuc2j",
           title: "Creator Showcase"
         }
       ]
@@ -198,17 +197,6 @@ const data = {
     },
     {
       number: 115,
-      channelName: "KTN Farmers TV",
-      channelIcon: farmers,
-      episodes: [
-        {
-          videoId: "https://www.dailymotion.com/video/x7opfez",
-          title: "KTN Farmers TV Live Stream"
-        }
-      ]
-    },
-    {
-      number: 116,
       channelName: "NewsOne",
       channelIcon: newsone,
       episodes: [
@@ -219,7 +207,7 @@ const data = {
       ]
     },
     {
-      number: 117,
+      number: 116,
       channelName: "Arzamas Academy",
       channelIcon: arzamas,
       episodes: [
@@ -230,7 +218,7 @@ const data = {
       ]
     },
     {
-      number: 118,
+      number: 117,
       channelName: "RT Arabic",
       channelIcon: rtarabic,
       episodes: [
@@ -241,7 +229,7 @@ const data = {
       ]
     },
     {
-      number: 119,
+      number: 118,
       channelName: "Russia 24 News",
       channelIcon: r24,
       episodes: [
@@ -477,7 +465,7 @@ const data = {
 
     {
       number: 405,
-      channelName: "Shuffle Dance Music 2020",
+      channelName: "Shuffle Dance Music 2020 (13+)",
       episodes: [
         {
           videoId: "https://www.youtube.com/watch?v=qWf-FPFmVw0",
@@ -672,17 +660,6 @@ const data = {
           videoId:
             "https://www.youtube.com/watch?v=videoseries?list=PLKEbmWOXwpBREqf2dgNleCuCJPe7a7irX&",
           title: "Future Technology"
-        }
-      ]
-    },
-    {
-      number: 503,
-      channelName: "Live Cab View",
-      episodes: [
-        {
-          videoId:
-            "https://www.youtube.com/watch?v=lu1AVjJUCBo",
-          title: "Train cab View 24/7"
         }
       ]
     },
