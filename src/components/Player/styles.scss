@@ -48,6 +48,15 @@ html {
     pointer-events: none;
   }
 
+  .gn-player-video-iframe {
+    pointer-events: none;
+
+    iframe {
+      width: 100%;
+      height: 63.5vh;
+    }
+  }
+
   .gn-player-controls {
     display: flex;
     justify-content: space-between;
@@ -77,6 +86,12 @@ html {
     padding: 0;
     .react-player {
       height: 30vh !important;
+    }
+
+    .gn-player-video-iframe {
+      iframe {
+        height: 29.5vh;
+      }
     }
 
     .gn-player-controls {

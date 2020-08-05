@@ -9,7 +9,6 @@ import { If } from "../If";
 import { Grid, Slider } from "@material-ui/core";
 import { VolumeDown, VolumeUp } from "@material-ui/icons";
 import ShoppingCartModal from "../../components/ShoppingCartModal";
-import ShoppingCartIcon from "@material-ui/icons/ShoppingCart";
 
 import { productData } from "./productData";
 
@@ -72,16 +71,27 @@ class Player extends React.Component {
             />
           </div>
         </If>
-        <div className="gn-player-video">
-          <ReactPlayer
-            className="react-player"
-            url={this.props.videoId}
-            playing
-            ref={this.ref}
-            width={"100%"}
-            volume={this.state.volume}
-          />
-        </div>
+        <If
+          test={!this.props.videoId.includes("https://play.webvideocore.net/")}
+        >
+          <div className="gn-player-video">
+            <ReactPlayer
+              className="react-player"
+              url={this.props.videoId}
+              playing
+              ref={this.ref}
+              width={"100%"}
+              volume={this.state.volume}
+            />
+          </div>
+        </If>
+        <If
+          test={this.props.videoId.includes("https://play.webvideocore.net/")}
+        >
+          <div className="gn-player-video-iframe">
+            <iframe src={this.props.videoId} />
+          </div>
+        </If>
         <div className="gn-player-controls">
           <div className="gn-player-volume">
             <Grid container spacing={2}>
