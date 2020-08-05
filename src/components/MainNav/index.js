@@ -12,6 +12,7 @@ class MainNav extends React.Component {
           </div>
         </a>
         <div className="gn-main_nav-links">
+          <a href="https://geaux.tv/">Home</a>
           <a href="https://geaux.tv/about">About</a>
           <a href="https://geaux.tv/contentcreators">Content Creators</a>
           <a href="https://geaux.tv/advertise">Advertisers</a>

@@ -8,7 +8,7 @@ class Nav extends React.Component {
   render() {
     return (
       <div className="gn-nav">
-        <a href="https://www.geauxnet.com">
+        <a href="https://geaux.tv/">
           <img src={house} />
         </a>
       </div>

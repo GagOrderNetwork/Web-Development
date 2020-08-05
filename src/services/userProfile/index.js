@@ -72,3 +72,7 @@ export const getProductInfo = createSelector(
     return info.userProducts || [];
   }
 );
+
+export const getUserProducts = createSelector(getProductInfo, (info) => {
+  return info.userProducts;
+});

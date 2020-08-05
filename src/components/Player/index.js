@@ -42,8 +42,6 @@ class Player extends React.Component {
     const productInfo =
       productData.find((info) => info.videoId === this.props.videoId) || {};
 
-    console.log("Props", this.props);
-
     return (
       <div className="gn-player">
         <If test={this.props.userId && productInfo.videoId}>
@@ -107,7 +105,7 @@ class Player extends React.Component {
           </div>
           <If test={this.props.userId}>
             <div className="gn-player-shopping_cart">
-              <ShoppingCartIcon />
+              <ShoppingCartModal />
             </div>
           </If>
           <Button onClick={this.handleClickFullscreen}>Fullscreen</Button>
