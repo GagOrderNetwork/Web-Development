@@ -16,7 +16,6 @@ import ebrutv from "../assets/icons/ebrutv.png";
 import explore from "../assets/icons/explore.png";
 import falloutradio from "../assets/icons/falloutradio.png";
 import franceinfo from "../assets/icons/franceinfo.png";
-import gaming from "../assets/icons/gaming.png";
 import gx from "../assets/icons/gx.png";
 import hsn from "../assets/icons/hsn.png";
 import liverpooltv from "../assets/icons/liverpooltv.png";
@@ -36,6 +35,7 @@ import somoytv from "../assets/icons/Somoytv.png";
 import tech from "../assets/icons/tech.png";
 import tomfriends from "../assets/icons/tomfriends.png";
 import ubongo from "../assets/icons/Ubongo.png";
+import xset from "../assets/icons/xset.png";
 import ytnscience from "../assets/icons/ytnscience.png";
 
 const data = {
@@ -320,17 +320,6 @@ const data = {
     },
     {
       number: 207,
-      channelName: "GeauxGaming (13+)",
-      channelIcon: gaming,
-      episodes: [
-        {
-          videoId: "https://www.dailymotion.com/video/x7tb31h",
-          title: "Geauxing Gaming",
-        },
-      ],
-    },
-    {
-      number: 208,
       channelName: "Geauxing Home",
       episodes: [
         {
@@ -397,16 +386,6 @@ const data = {
         },
       ],
     },
-    {
-      number: 306,
-      channelName: "WB Kids",
-      episodes: [
-        {
-          videoId: "https://www.youtube.com/watch?v=BRkQ-ZGiNbc?",
-          title: " Classic TOM & JERRY",
-        },
-      ],
-    },
   ],
   Music: [
     {
@@ -421,7 +400,7 @@ const data = {
     },
     {
       number: 401,
-      channelName: "Issa Vibe (13+)",
+      channelName: "Issa Vibe (16+)",
       episodes: [
         {
           videoId: "https://www.youtube.com/watch?v=L9Q1HUdUMp0?",
@@ -440,18 +419,8 @@ const data = {
       ],
     },
     {
-      number: 403,
-      channelName: "The Jazz Lounge",
-      episodes: [
-        {
-          videoId: "https://www.youtube.com/watch?v=-7_ZuR7gFgc?",
-          title: "Jazz All Day Long",
-        },
-      ],
-    },
-    {
       number: 404,
-      channelName: "StewShowcase (13+)",
+      channelName: "StewShowcase (16+)",
       channelIcon: beatclublogo,
       episodes: [
         {
@@ -463,7 +432,7 @@ const data = {
 
     {
       number: 405,
-      channelName: "Shuffle Dance Music 2020 (13+)",
+      channelName: "Shuffle Dance Music (16+)",
       episodes: [
         {
           videoId: "https://www.youtube.com/watch?v=qWf-FPFmVw0",
@@ -504,7 +473,7 @@ const data = {
     },
     {
       number: 409,
-      channelName: "Roots Reggae Radio (13+)",
+      channelName: "Roots Reggae Radio (16+)",
       episodes: [
         {
           videoId: "https://www.youtube.com/watch?v=u6kdx-Q61l0",
@@ -514,7 +483,7 @@ const data = {
     },
     {
       number: 410,
-      channelName: "Best Radio 1 (13+)",
+      channelName: "Best Radio 1 (16+)",
       channelIcon: br1,
       episodes: [
         {
@@ -619,7 +588,7 @@ const data = {
     },
     {
       number: 420,
-      channelName: "Gaming Music Mix (13+)",
+      channelName: "Gaming Music Mix (16+)",
       episodes: [
         {
           videoId: "https://www.youtube.com/watch?v=eosLoIMzW7E",
@@ -628,9 +597,20 @@ const data = {
       ],
     },
   ],
-  "Science & Fantasy": [
+  "Science & Tech": [
     {
       number: 500,
+      channelName: "XSET (16+)",
+      channelIcon: xset,
+      episodes: [
+        {
+          videoId: "https://www.dailymotion.com/video/x7vje0k",
+          title: "XSET Gaming",
+        },
+      ],
+    },
+    {
+      number: 501,
       channelName: "Everything Tech",
       channelIcon: tech,
       episodes: [
@@ -641,7 +621,7 @@ const data = {
       ],
     },
     {
-      number: 501,
+      number: 502,
       channelName: "Geaux Fantasy",
       episodes: [
         {
@@ -651,7 +631,7 @@ const data = {
       ],
     },
     {
-      number: 502,
+      number: 503,
       channelName: "Geaux Tech",
       episodes: [
         {
@@ -662,7 +642,7 @@ const data = {
       ],
     },
     {
-      number: 503,
+      number: 504,
       channelName: "LAX Airport",
       episodes: [
         {
@@ -672,7 +652,7 @@ const data = {
       ],
     },
     {
-      number: 504,
+      number: 505,
       channelName: "étoile",
       episodes: [
         {
@@ -682,7 +662,7 @@ const data = {
       ],
     },
     {
-      number: 505,
+      number: 506,
       channelName: "NASA TV",
       channelIcon: nasa1,
       episodes: [
@@ -693,7 +673,7 @@ const data = {
       ],
     },
     {
-      number: 506,
+      number: 507,
       channelName: "YTN Science",
       channelIcon: ytnscience,
       episodes: [
@@ -823,17 +803,6 @@ const data = {
         {
           videoId: "https://www.youtube.com/watch?v=FUkxWre2yRU",
           title: "Donkey Hill Cam EXPLORE.org",
-        },
-      ],
-    },
-    {
-      number: 3,
-      channelName: "Geaux Intro",
-      episodes: [
-        {
-          videoId:
-            "https://play.webvideocore.net/popplayer.php?it=2haeqtw5m9ic&is",
-          title: "Geaux Intro",
         },
       ],
     },
