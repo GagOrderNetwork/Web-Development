@@ -683,6 +683,27 @@ const data = {
         },
       ],
     },
+    {
+      number: 508,
+      channelName: "WTC",
+      episodes: [
+        {
+          videoId:
+            "https://www.wim.tv/embed/?cast=c6d90fc6-12f1-45fa-a89b-1ad6be6b7308",
+          title: "Channel Wim",
+        },
+      ],
+    },
+    // {
+    //   number: 508,
+    //   channelName: "Geaux TPM",
+    //   episodes: [
+    //     {
+    //       videoId: "https://youtu.be/pBKGDuGq4Ng",
+    //       title: "Geaux TPM",
+    //     },
+    //   ],
+    // },
   ],
   "Explore on the Geaux": [
     {

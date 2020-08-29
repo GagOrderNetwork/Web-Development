@@ -71,9 +71,7 @@ class Player extends React.Component {
             />
           </div>
         </If>
-        <If
-          test={!this.props.videoId.includes("https://play.webvideocore.net/")}
-        >
+        <If test={!this.props.videoId.includes("https://www.wim.tv/")}>
           <div className="gn-player-video">
             <ReactPlayer
               className="react-player"
@@ -85,11 +83,13 @@ class Player extends React.Component {
             />
           </div>
         </If>
-        <If
-          test={this.props.videoId.includes("https://play.webvideocore.net/")}
-        >
+        <If test={this.props.videoId.includes("https://www.wim.tv/")}>
           <div className="gn-player-video-iframe">
-            <iframe src={this.props.videoId} />
+            <iframe
+              src={this.props.videoId}
+              allow="autoplay"
+              allowfullscreen=""
+            />
           </div>
         </If>
         <div className="gn-player-controls">

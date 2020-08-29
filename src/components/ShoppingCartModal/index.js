@@ -43,7 +43,7 @@ class ShoppingCartModal extends React.Component {
               {this.props.productInfo.map((product, index) => (
                 <div key={index + product.prod.name.substring(2)}>
                   <div className="gn-shopping_cart_modal-products">
-                    <p>Name:{product.prod.name}</p>
+                    <p>Name: {product.prod.name}</p>
                     <p className="gn-product-price">
                       Price: {product.prod.price}{" "}
                     </p>
