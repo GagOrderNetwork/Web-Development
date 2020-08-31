@@ -683,17 +683,7 @@ const data = {
         },
       ],
     },
-    {
-      number: 508,
-      channelName: "WTC",
-      episodes: [
-        {
-          videoId:
-            "https://www.wim.tv/embed/?cast=c6d90fc6-12f1-45fa-a89b-1ad6be6b7308",
-          title: "Channel Wim",
-        },
-      ],
-    },
+
     // {
     //   number: 508,
     //   channelName: "Geaux TPM",
@@ -736,17 +726,6 @@ const data = {
         {
           videoId: "https://www.youtube.com/watch?v=UmclL6funN8?",
           title: "Decoran Eagles EXPLORE.org",
-        },
-      ],
-    },
-    {
-      number: 603,
-      channelName: "Guide Dogs of America",
-      channelIcon: explore,
-      episodes: [
-        {
-          videoId: "https://www.youtube.com/watch?v=f12EgkREedY",
-          title: "Guide Dogs Mobility Cam EXPLORE.org",
         },
       ],
     },
@@ -824,6 +803,39 @@ const data = {
         {
           videoId: "https://www.youtube.com/watch?v=FUkxWre2yRU",
           title: "Donkey Hill Cam EXPLORE.org",
+        },
+      ],
+    },
+    {
+      number: 999,
+      channelName: "Info Wim Test",
+      episodes: [
+        {
+          videoId:
+            "https://www.wim.tv/embed/?cast=c6d90fc6-12f1-45fa-a89b-1ad6be6b7308&autostart=true",
+          title: "Info Wim Test",
+        },
+      ],
+    },
+    {
+      number: 999,
+      channelName: "Xset Wim Test",
+      episodes: [
+        {
+          videoId:
+            "https://www.wim.tv/embed/?cast=debbd410-0460-46c2-96d9-f9ec23b310d9&autostart=true",
+          title: "Xset Wim Test",
+        },
+      ],
+    },
+    {
+      number: 999,
+      channelName: "Juju Wim Test",
+      episodes: [
+        {
+          videoId:
+            "https://www.wim.tv/embed/?cast=a9ae014d-6c64-4260-a3bd-3cc6dd04fec1&autostart=true",
+          title: "Juju Wim Test",
         },
       ],
     },
