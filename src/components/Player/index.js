@@ -89,6 +89,7 @@ class Player extends React.Component {
               src={this.props.videoId}
               allow="autoplay"
               allowfullscreen=""
+              ref={this.ref}
             />
           </div>
         </If>

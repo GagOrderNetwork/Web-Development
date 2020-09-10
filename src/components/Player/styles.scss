@@ -47,10 +47,15 @@ html {
 
   .gn-player-video-iframe {
     pointer-events: none;
+    height: 64vh;
+    background-color: black;
 
     iframe {
-      width: 100%;
-      height: 63.5vh;
+      width: 63.75%;
+      height: 100%;
+      display: block;
+      margin: auto;
+      border: 0;
     }
   }
 
