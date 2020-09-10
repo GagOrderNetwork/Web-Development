@@ -17,6 +17,7 @@ import explore from "../assets/icons/explore.png";
 import falloutradio from "../assets/icons/falloutradio.png";
 import franceinfo from "../assets/icons/franceinfo.png";
 import gx from "../assets/icons/gx.png";
+import hometeam from "../assets/icons/hometeam.png";
 import hsn from "../assets/icons/hsn.png";
 import liverpooltv from "../assets/icons/liverpooltv.png";
 import mathnews from "../assets/icons/mathnews.png";
@@ -313,7 +314,7 @@ const data = {
       episodes: [
         {
           videoId:
-            "https://www.youtube.com/watch?v=videoseries?list=PLS7PdlYEvYYNOc0A38gOM1MWXp3hG-I-8&",
+            "https://www.wim.tv/embed/?cast=59a5d503-8874-43be-837e-297524a57e9d&autostart=true",
           title: "Beaute",
         },
       ],
@@ -604,7 +605,7 @@ const data = {
       channelIcon: xset,
       episodes: [
         {
-          videoId: "https://www.dailymotion.com/video/x7vje0k",
+          videoId: "https://www.wim.tv/embed/?cast=debbd410-0460-46c2-96d9-f9ec23b310d9&autostart=true",
           title: "XSET Gaming",
         },
       ],
@@ -615,17 +616,17 @@ const data = {
       channelIcon: tech,
       episodes: [
         {
-          videoId: "https://www.dailymotion.com/video/x7tb1y4",
+          videoId: "https://www.wim.tv/embed/?cast=cb4d1b62-5f9d-41f0-807c-8c0d2a07fe4c&autostart=true",
           title: "Everything Tech",
         },
       ],
     },
     {
       number: 502,
-      channelName: "Geaux Fantasy",
+      channelName: "Juju: The Web Series",
       episodes: [
         {
-          videoId: "https://dai.ly/x7tb1xc",
+          videoId: "https://www.wim.tv/embed/?cast=a9ae014d-6c64-4260-a3bd-3cc6dd04fec1&autostart=true",
           title: "The works of Moon Ferguson",
         },
       ],
@@ -683,17 +684,17 @@ const data = {
         },
       ],
     },
-
-    // {
-    //   number: 508,
-    //   channelName: "Geaux TPM",
-    //   episodes: [
-    //     {
-    //       videoId: "https://youtu.be/pBKGDuGq4Ng",
-    //       title: "Geaux TPM",
-    //     },
-    //   ],
-    // },
+    {
+      number: 508,
+      channelName: "Hometeam History",
+      channelIcon: hometeam,
+      episodes: [
+        {
+          videoId: "https://www.wim.tv/embed/?cast=b4468c68-25b7-4a49-8612-dcd74445516a&autostart=true",
+          title: "African History, culture and worldview",
+        },
+      ],
+    },
   ],
   "Explore on the Geaux": [
     {
@@ -803,39 +804,6 @@ const data = {
         {
           videoId: "https://www.youtube.com/watch?v=FUkxWre2yRU",
           title: "Donkey Hill Cam EXPLORE.org",
-        },
-      ],
-    },
-    {
-      number: 999,
-      channelName: "Info Wim Test",
-      episodes: [
-        {
-          videoId:
-            "https://www.wim.tv/embed/?cast=c6d90fc6-12f1-45fa-a89b-1ad6be6b7308&autostart=true",
-          title: "Info Wim Test",
-        },
-      ],
-    },
-    {
-      number: 999,
-      channelName: "Xset Wim Test",
-      episodes: [
-        {
-          videoId:
-            "https://www.wim.tv/embed/?cast=debbd410-0460-46c2-96d9-f9ec23b310d9&autostart=true",
-          title: "Xset Wim Test",
-        },
-      ],
-    },
-    {
-      number: 999,
-      channelName: "Juju Wim Test",
-      episodes: [
-        {
-          videoId:
-            "https://www.wim.tv/embed/?cast=a9ae014d-6c64-4260-a3bd-3cc6dd04fec1&autostart=true",
-          title: "Juju Wim Test",
         },
       ],
     },
