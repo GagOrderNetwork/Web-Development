@@ -91,8 +91,10 @@ html {
     }
 
     .gn-player-video-iframe {
+      height: 30vh;
+
       iframe {
-        height: 29.5vh;
+        width: 94%;
       }
     }
 
