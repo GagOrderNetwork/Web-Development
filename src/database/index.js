@@ -8,7 +8,6 @@ import bloomht from "../assets/icons/bloomht.png";
 import booba from "../assets/icons/booba.jpg";
 import br1 from "../assets/icons/br1.png";
 import daaitv from "../assets/icons/daaitv.png";
-import daveava from "../assets/icons/daveava.png";
 import dubaitvnews from "../assets/icons/dubaitvnews.png";
 import dwnews from "../assets/icons/dwnews.png";
 import earthtv from "../assets/icons/earth-tv.png";
@@ -26,7 +25,6 @@ import nasa2 from "../assets/icons/nasa2.png";
 import ndtv from "../assets/icons/ndtv.png";
 import newsone from "../assets/icons/newsone.png";
 import paldoga from "../assets/icons/paldoga.png";
-import pawpatrol from "../assets/icons/pawpatrol.png";
 import qvc2 from "../assets/icons/QVC2.png";
 import qvc3 from "../assets/icons/QVC3.png";
 import r24 from "../assets/icons/R24.png";
@@ -47,7 +45,7 @@ const data = {
       channelIcon: gx,
       episodes: [
         {
-          videoId: "https://www.dailymotion.com/video/x7t6quu",
+          videoId: "https://www.wim.tv/embed/?cast=c6d90fc6-12f1-45fa-a89b-1ad6be6b7308&autostart=true",
           title: "GeauxInfo",
         },
       ],
@@ -57,8 +55,18 @@ const data = {
       channelName: "Geaux Spotlight",
       episodes: [
         {
-          videoId: "https://www.dailymotion.com/video/x7tuc2j",
+          videoId: "https://www.wim.tv/embed/?cast=2ea00799-3b7a-4fb1-8e9e-276eb83edc6a&autostart=true",
           title: "Creator Showcase",
+        },
+      ],
+    },
+    {
+      number: 3,
+      channelName: "Geaux Shorts",
+      episodes: [
+        {
+          videoId: "https://www.wim.tv/embed/?cast=f3e73191-573d-4320-8203-f3f870229e42&autostart=true",
+          title: "Various Short films",
         },
       ],
     },
@@ -356,28 +364,6 @@ const data = {
     },
     {
       number: 303,
-      channelName: "PAW Patrol",
-      channelIcon: pawpatrol,
-      episodes: [
-        {
-          videoId: "https://www.youtube.com/watch?v=mF9QMYaaZzo",
-          title: "Ultimate Rescue 24/7",
-        },
-      ],
-    },
-    {
-      number: 304,
-      channelName: "Kids Songs",
-      channelIcon: daveava,
-      episodes: [
-        {
-          videoId: "https://www.youtube.com/watch?v=VyPDo5dieZU",
-          title: "Dave and Ava Nursery Rhymes",
-        },
-      ],
-    },
-    {
-      number: 305,
       channelName: "Ubungo Kids",
       channelIcon: ubongo,
       episodes: [
@@ -459,16 +445,6 @@ const data = {
         {
           videoId: "https://www.youtube.com/watch?v=QCM2gY65-g8",
           title: "بث مباشر || قناة القرآن الكريم",
-        },
-      ],
-    },
-    {
-      number: 408,
-      channelName: "K-POP IDOL",
-      episodes: [
-        {
-          videoId: "https://www.youtube.com/watch?v=lbRN7gJm4lo",
-          title: "실시간 온라인 전용 아이돌 채널",
         },
       ],
     },
@@ -623,11 +599,11 @@ const data = {
     },
     {
       number: 502,
-      channelName: "Juju: The Web Series",
+      channelName: "Geaux Fantasy",
       episodes: [
         {
           videoId: "https://www.wim.tv/embed/?cast=a9ae014d-6c64-4260-a3bd-3cc6dd04fec1&autostart=true",
-          title: "The works of Moon Ferguson",
+          title: "JuJu: The Web Series",
         },
       ],
     },
@@ -639,16 +615,6 @@ const data = {
           videoId:
             "https://www.youtube.com/watch?v=videoseries?list=PLKEbmWOXwpBREqf2dgNleCuCJPe7a7irX&",
           title: "Future Technology",
-        },
-      ],
-    },
-    {
-      number: 504,
-      channelName: "LAX Airport",
-      episodes: [
-        {
-          videoId: "https://www.youtube.com/watch?v=6ZEF3-4FYNI",
-          title: "Real Time Virtual Airport",
         },
       ],
     },
