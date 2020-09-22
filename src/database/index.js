@@ -105,17 +105,6 @@ const data = {
       ],
     },
     {
-      number: 104,
-      channelName: "DW News",
-      channelIcon: dwnews,
-      episodes: [
-        {
-          videoId: "https://www.youtube.com/watch?v=NvqKZHpKs-g?",
-          title: "DW News Live",
-        },
-      ],
-    },
-    {
       number: 105,
       channelName: "Mathrubhumi News",
       channelIcon: mathnews,
@@ -581,7 +570,7 @@ const data = {
       channelIcon: xset,
       episodes: [
         {
-          videoId: "https://www.wim.tv/embed/?cast=debbd410-0460-46c2-96d9-f9ec23b310d9&autostart=true",
+          videoId: "https://dai.ly/x7wdujr",
           title: "XSET Gaming",
         },
       ],
