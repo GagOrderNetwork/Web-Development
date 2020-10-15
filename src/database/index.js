@@ -396,12 +396,11 @@ const data = {
     },
     {
       number: 404,
-      channelName: "StewShowcase (16+)",
-      channelIcon: beatclublogo,
+      channelName: "Geaux HipHop (16+)",
       episodes: [
         {
           videoId: "https://dai.ly/x7tae7z",
-          title: "The Stew Showcase",
+          title: "HipHop",
         },
       ],
     },
