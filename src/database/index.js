@@ -116,17 +116,6 @@ const data = {
       ],
     },
     {
-      number: 107,
-      channelName: "EbruTV",
-      channelIcon: ebrutv,
-      episodes: [
-        {
-          videoId: "https://www.dailymotion.com/video/x67n3k1",
-          title: "EbruTV Kenya Live",
-        },
-      ],
-    },
-    {
       number: 108,
       channelName: "Liverpool TV",
       channelIcon: liverpooltv,
@@ -225,17 +214,6 @@ const data = {
         },
       ],
     },
-    {
-      number: 118,
-      channelName: "Russia 24 News",
-      channelIcon: r24,
-      episodes: [
-        {
-          videoId: "https://www.youtube.com/watch?v=8T9SFZDP60Q",
-          title: "новости России и мира",
-        },
-      ],
-    },
   ],
   "Health/Lifestyle": [
     {
@@ -318,6 +296,28 @@ const data = {
     },
     {
       number: 207,
+      channelName: "Geaux Travel",
+      episodes: [
+        {
+          videoId:
+            "https://www.wim.tv/embed/?cast=896831c2-7621-4bd1-b524-9221f2a40375&autostart=true",
+          title: "Travel Far and Wide",
+        },
+      ],
+    },
+      {
+        number: 208,
+        channelName: " DIY Art",
+        episodes: [
+          {
+            videoId:
+              "https://www.wim.tv/embed/?cast=99fa84b4-ac13-469c-bba7-07d54c1faab4&autostart=true",
+            title: "DIY Art",
+          },
+        ],
+  },
+    {
+      number: 209,
       channelName: "Geauxing Home",
       episodes: [
         {
@@ -423,16 +423,6 @@ const data = {
         {
           videoId: "https://www.dailymotion.com/video/x6s18p8",
           title: "UK and overseas music",
-        },
-      ],
-    },
-    {
-      number: 407,
-      channelName: "Makkah Live",
-      episodes: [
-        {
-          videoId: "https://www.youtube.com/watch?v=QCM2gY65-g8",
-          title: "بث مباشر || قناة القرآن الكريم",
         },
       ],
     },
