@@ -105,6 +105,17 @@ const data = {
       ],
     },
     {
+      number: 103,
+      channelName: "NDTV",
+      channelIcon: ndtv,
+      episodes: [
+        {
+          videoId: "https://www.youtube.com/watch?v=AFNUeUed8Ro",
+          title: "NDTV News in English",
+        },
+      ],
+    },
+    {
       number: 105,
       channelName: "Mathrubhumi News",
       channelIcon: mathnews,
@@ -200,6 +211,16 @@ const data = {
         {
           videoId: "https://www.dailymotion.com/video/x7tsc6y",
           title: "Arzamas.academy",
+        },
+      ],
+    },
+    {
+      number: 116,
+      channelName: "NBC2",
+      episodes: [
+        {
+          videoId: "https://www.youtube.com/watch?v=tPeUHECNLKs",
+          title: "NBC2 Florida Live Stream ",
         },
       ],
     },
@@ -353,6 +374,16 @@ const data = {
     },
     {
       number: 303,
+      channelName: "Peppa Pig",
+      episodes: [
+        {
+          videoId: "https://www.youtube.com/watch?v=L7HnoG2db6I",
+          title: "Peppa Pig 24/7",
+        },
+      ],
+    },
+    {
+      number: 304,
       channelName: "Ubungo Kids",
       channelIcon: ubongo,
       episodes: [
@@ -417,7 +448,7 @@ const data = {
     },
     {
       number: 406,
-      channelName: "BritAsia TV Live",
+      channelName: "BritAsia TV Live (16+)",
       channelIcon: balogo,
       episodes: [
         {
@@ -543,6 +574,26 @@ const data = {
     },
     {
       number: 420,
+      channelName: "Trance Music Mix ",
+      episodes: [
+        {
+          videoId: "https://www.youtube.com/watch?v=WYetg3AuLE4",
+          title: "Uplifting Trance Radio 24/7",
+        },
+      ],
+    },
+    {
+      number: 421,
+      channelName: "Revere Worship",
+      episodes: [
+        {
+          videoId: "https://www.youtube.com/watch?v=JEK03-EzyHk",
+          title: "Revere Worship 27/7 Live Stream",
+        },
+      ],
+    },
+    {
+      number: 422,
       channelName: "Gaming Music Mix (16+)",
       episodes: [
         {
