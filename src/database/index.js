@@ -70,6 +70,16 @@ const data = {
         },
       ],
     },
+    {
+      number: 4,
+      channelName: "Live Fireplace",
+      episodes: [
+        {
+          videoId: "https://www.youtube.com/watch?v=kOnIAoqQkd4&ab_channel=CatTrumpet",
+          title: "Fireplace with sounds 24/7",
+        },
+      ],
+    },
   ],
   "News/Business": [
     {
@@ -101,17 +111,6 @@ const data = {
         {
           videoId: "https://www.youtube.com/watch?v=l9ViEIip9q4",
           title: "NDTV News in Hindi",
-        },
-      ],
-    },
-    {
-      number: 103,
-      channelName: "NDTV",
-      channelIcon: ndtv,
-      episodes: [
-        {
-          videoId: "https://www.youtube.com/watch?v=AFNUeUed8Ro",
-          title: "NDTV News in English",
         },
       ],
     },
@@ -211,16 +210,6 @@ const data = {
         {
           videoId: "https://www.dailymotion.com/video/x7tsc6y",
           title: "Arzamas.academy",
-        },
-      ],
-    },
-    {
-      number: 116,
-      channelName: "NBC2",
-      episodes: [
-        {
-          videoId: "https://www.youtube.com/watch?v=tPeUHECNLKs",
-          title: "NBC2 Florida Live Stream ",
         },
       ],
     },
@@ -691,9 +680,32 @@ const data = {
       ],
     },
   ],
-  "Explore on the Geaux": [
+
+  "Sports & Activities": [
     {
       number: 600,
+      channelName: "Motor Sports Italiano",
+      episodes: [
+        {
+          videoId: "https://www.wim.tv/embed/?cast=98755cb8-6595-4037-8c4c-790e6ec1b586&autostart=true",
+          title: "Italian Sports",
+        },
+      ],
+    },
+    {
+      number: 600,
+      channelName: "SelfieTV.IT",
+      episodes: [
+        {
+          videoId: "https://www.wim.tv/embed/?cast=099a5381-23af-40e6-821f-58aa38bdfd8b&autostart=true",
+          title: "Palinsesto Comunicare Produzioni",
+        },
+      ],
+    },
+  ],
+  "Explore on the Geaux": [
+    {
+      number: 700,
       channelName: "Santa Monica Beach Cam",
       channelIcon: explore,
       episodes: [
@@ -704,7 +716,7 @@ const data = {
       ],
     },
     {
-      number: 601,
+      number: 701,
       channelName: "Aquarium of the Pacific",
       channelIcon: explore,
       episodes: [
@@ -715,7 +727,7 @@ const data = {
       ],
     },
     {
-      number: 602,
+      number: 702,
       channelName: "Raptor Resource Project",
       channelIcon: explore,
       episodes: [
@@ -726,7 +738,7 @@ const data = {
       ],
     },
     {
-      number: 604,
+      number: 704,
       channelName: "Warrior Canine Connection",
       channelIcon: explore,
       episodes: [
@@ -737,7 +749,7 @@ const data = {
       ],
     },
     {
-      number: 605,
+      number: 705,
       channelName: "Big Cat Rescue",
       channelIcon: explore,
       episodes: [
@@ -748,7 +760,7 @@ const data = {
       ],
     },
     {
-      number: 606,
+      number: 706,
       channelName: "Kitten Rescue",
       channelIcon: explore,
       episodes: [
@@ -759,7 +771,7 @@ const data = {
       ],
     },
     {
-      number: 607,
+      number: 707,
       channelName: "Aquarium of the Pacific",
       channelIcon: explore,
       episodes: [
@@ -770,7 +782,7 @@ const data = {
       ],
     },
     {
-      number: 608,
+      number: 708,
       channelName: "OrcaLab",
       channelIcon: explore,
       episodes: [
@@ -781,7 +793,7 @@ const data = {
       ],
     },
     {
-      number: 609,
+      number: 709,
       channelName: "Wolong Grove",
       channelIcon: explore,
       episodes: [
@@ -792,7 +804,7 @@ const data = {
       ],
     },
     {
-      number: 610,
+      number: 710,
       channelName: "Donkey Hill",
       channelIcon: explore,
       episodes: [
