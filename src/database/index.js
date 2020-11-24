@@ -83,6 +83,16 @@ const data = {
   ],
   "News/Business": [
     {
+      number: 100,
+      channelName: "HYPE",
+      episodes: [
+        {
+          videoId: "https://www.dailymotion.com/video/x7wsg9r",
+          title: "HYPE VC",
+        },
+      ],
+    },
+    {
       number: 101,
       channelName: "Getting Started",
       episodes: [
@@ -111,6 +121,16 @@ const data = {
         {
           videoId: "https://www.youtube.com/watch?v=l9ViEIip9q4",
           title: "NDTV News in Hindi",
+        },
+      ],
+    },
+    {
+      number: 104,
+      channelName: "JapaNews24",
+      episodes: [
+        {
+          videoId: "https://www.youtube.com/watch?v=coYw-eVU0Ks&ab_channel=ANNnewsCH",
+          title: "ANNnewsCH",
         },
       ],
     },
@@ -208,7 +228,7 @@ const data = {
       channelIcon: arzamas,
       episodes: [
         {
-          videoId: "https://www.dailymotion.com/video/x7tsc6y",
+          videoId: "https://www.wim.tv/embed/?cast=25862b63-bdbc-4651-9b60-53091882cfe8&autostart=true",
           title: "Arzamas.academy",
         },
       ],
@@ -363,16 +383,26 @@ const data = {
     },
     {
       number: 303,
-      channelName: "Peppa Pig",
+      channelName: "ABCD Sing with Leo",
       episodes: [
         {
-          videoId: "https://www.youtube.com/watch?v=L7HnoG2db6I",
-          title: "Peppa Pig 24/7",
+          videoId: "https://www.youtube.com/watch?v=JqAs4X48Mb4&ab_channel=FirstToons",
+          title: "Songs for babies & nursery rhymes 24/7",
         },
       ],
     },
     {
       number: 304,
+      channelName: "Talking Tom Heroes",
+      episodes: [
+        {
+          videoId: "https://www.youtube.com/watch?v=keIt6LJEC44&ab_channel=TalkingTomHeroes",
+          title: "Talking Tom Heroes 24/7",
+        },
+      ],
+    },
+    {
+      number: 305,
       channelName: "Ubungo Kids",
       channelIcon: ubongo,
       episodes: [
@@ -406,11 +436,21 @@ const data = {
     },
     {
       number: 402,
-      channelName: "NCM Music Radio",
+      channelName: "Space Ambient Music",
       episodes: [
         {
-          videoId: "https://www.youtube.com/watch?v=Oxj2EAr256Y&",
-          title: "NCM Live Stream",
+          videoId: "https://www.youtube.com/watch?v=tNkZsRW7h2c&ab_channel=RelaxationAmbientMusic",
+          title: "Space Ambient Music 24/7",
+        },
+      ],
+    },
+    {
+      number: 403,
+      channelName: "Synthwave",
+      episodes: [
+        {
+          videoId: "https://www.youtube.com/watch?v=QSJz-cpquos&ab_channel=tpyxaart",
+          title: "Retro Electro Radio",
         },
       ],
     },
@@ -447,23 +487,43 @@ const data = {
       ],
     },
     {
-      number: 409,
-      channelName: "Roots Reggae Radio (16+)",
+      number: 407,
+      channelName: "Game Chops",
       episodes: [
         {
-          videoId: "https://www.youtube.com/watch?v=u6kdx-Q61l0",
-          title: "24/7 Reggae Music",
+          videoId: "https://www.youtube.com/watch?v=P1k4jGwhKF0&ab_channel=GameChops",
+          title: "Video Game Study Lounge Music",
         },
       ],
     },
     {
-      number: 410,
+      number: 408,
+      channelName: "Frequenzy",
+      episodes: [
+        {
+          videoId: "https://www.youtube.com/watch?v=1itSqkbXIlU&ab_channel=FREQUENZY",
+          title: "Indie Tunes by Frequenzy",
+        },
+      ],
+    },
+    {
+      number: 409,
       channelName: "Best Radio 1 (16+)",
       channelIcon: br1,
       episodes: [
         {
           videoId: "https://www.youtube.com/watch?v=kGKkUN50R0c",
           title: "Radio Pop Music",
+        },
+      ],
+    },
+    {
+      number: 410,
+      channelName: "Fimbul Radio",
+      episodes: [
+        {
+          videoId: "https://www.youtube.com/watch?v=2snGxzABIWo&ab_channel=Danheim",
+          title: "Viking Music 24/7",
         },
       ],
     },
@@ -500,12 +560,11 @@ const data = {
     },
     {
       number: 414,
-      channelName: "ISS Live Stream",
-      channelIcon: nasa2,
+      channelName: "Earth Views",
       episodes: [
         {
-          videoId: "https://www.youtube.com/watch?v=EEIk7gwjgIM",
-          title: "ISS with calming music",
+          videoId: "https://www.youtube.com/watch?v=XBPjVzSoepo&ab_channel=SpaceVideos",
+          title: "Earth From Space in ISS",
         },
       ],
     },
@@ -563,11 +622,21 @@ const data = {
     },
     {
       number: 420,
-      channelName: "Trance Music Mix ",
+      channelName: "Trance Music Mix",
       episodes: [
         {
           videoId: "https://www.youtube.com/watch?v=WYetg3AuLE4",
           title: "Uplifting Trance Radio 24/7",
+        },
+      ],
+    },
+    {
+      number: 420,
+      channelName: "Vocal Trance Radio",
+      episodes: [
+        {
+          videoId: "https://www.youtube.com/watch?v=C6_ql03n-vQ&ab_channel=RazNitzanMusic",
+          title: "Uplifting Vocal Trance Radio 24/7",
         },
       ],
     },
@@ -622,17 +691,6 @@ const data = {
         {
           videoId: "https://www.wim.tv/embed/?cast=a9ae014d-6c64-4260-a3bd-3cc6dd04fec1&autostart=true",
           title: "JuJu: The Web Series",
-        },
-      ],
-    },
-    {
-      number: 503,
-      channelName: "Geaux Tech",
-      episodes: [
-        {
-          videoId:
-            "https://www.youtube.com/watch?v=videoseries?list=PLKEbmWOXwpBREqf2dgNleCuCJPe7a7irX&",
-          title: "Future Technology",
         },
       ],
     },
@@ -738,6 +796,17 @@ const data = {
       ],
     },
     {
+      number: 703,
+      channelName: "Brooke Falls",
+      channelIcon: explore,
+      episodes: [
+        {
+          videoId: "https://www.youtube.com/watch?v=IcWTPFnqOLo&ab_channel=ExploreLiveNatureCams",
+          title: "Katmai National Park EXPLORE.org",
+        },
+      ],
+    },
+    {
       number: 704,
       channelName: "Warrior Canine Connection",
       channelIcon: explore,
@@ -789,6 +858,17 @@ const data = {
         {
           videoId: "https://www.youtube.com/watch?v=5jcU2MVkEy8",
           title: "Underwater Cam EXPLORE.org",
+        },
+      ],
+    },
+    {
+      number: 708,
+      channelName: "Homosassa Springs",
+      channelIcon: explore,
+      episodes: [
+        {
+          videoId: "https://www.youtube.com/watch?v=Uy1KnGEVpTA&ab_channel=ExploreOceans",
+          title: "Underwater Manatess EXPLORE.org",
         },
       ],
     },
