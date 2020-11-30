@@ -2,23 +2,26 @@
 import africanews from "../assets/icons/Africanews.png";
 import arzamas from "../assets/icons/arzamas.png";
 import balogo from "../assets/icons/balogo.png";
-import beatclublogo from "../assets/icons/beatclublogo.png";
 import beaute from "../assets/icons/beaute.png";
 import bloomht from "../assets/icons/bloomht.png";
 import booba from "../assets/icons/booba.jpg";
 import br1 from "../assets/icons/br1.png";
 import daaitv from "../assets/icons/daaitv.png";
-import dubaitvnews from "../assets/icons/dubaitvnews.png";
-import dwnews from "../assets/icons/dwnews.png";
 import earthtv from "../assets/icons/earth-tv.png";
 import ebrutv from "../assets/icons/ebrutv.png";
 import explore from "../assets/icons/explore.png";
 import falloutradio from "../assets/icons/falloutradio.png";
 import franceinfo from "../assets/icons/franceinfo.png";
+import frequenzy from "../assets/icons/frequenzy.png";
+import gamechops from "../assets/icons/GameChops.png";
 import gx from "../assets/icons/gx.png";
 import hometeam from "../assets/icons/hometeam.png";
 import hsn from "../assets/icons/hsn.png";
+import hype from "../assets/icons/HYPE.png";
+import japanews from "../assets/icons/japanews.png";
+import juju from "../assets/icons/juju.png";
 import liverpooltv from "../assets/icons/liverpooltv.png";
+import lofi from "../assets/icons/lofi.png";
 import mathnews from "../assets/icons/mathnews.png";
 import nasa1 from "../assets/icons/nasa1.png";
 import nasa2 from "../assets/icons/nasa2.png";
@@ -27,12 +30,13 @@ import newsone from "../assets/icons/newsone.png";
 import paldoga from "../assets/icons/paldoga.png";
 import qvc2 from "../assets/icons/QVC2.png";
 import qvc3 from "../assets/icons/QVC3.png";
-import r24 from "../assets/icons/R24.png";
+import revere from "../assets/icons/revere.png";
 import rtarabic from "../assets/icons/RTArabic.png";
 import skynews from "../assets/icons/skynewslogo.png";
 import somoytv from "../assets/icons/Somoytv.png";
 import tech from "../assets/icons/tech.png";
 import tomfriends from "../assets/icons/tomfriends.png";
+import tomheroes from "../assets/icons/tomheroes.png";
 import ubongo from "../assets/icons/Ubongo.png";
 import xset from "../assets/icons/xset.png";
 import ytnscience from "../assets/icons/ytnscience.png";
@@ -85,6 +89,7 @@ const data = {
     {
       number: 100,
       channelName: "HYPE",
+      channelIcon: hype,
       episodes: [
         {
           videoId: "https://www.dailymotion.com/video/x7wsg9r",
@@ -127,6 +132,7 @@ const data = {
     {
       number: 104,
       channelName: "JapaNews24",
+      channelIcon: japanews,
       episodes: [
         {
           videoId: "https://www.youtube.com/watch?v=coYw-eVU0Ks&ab_channel=ANNnewsCH",
@@ -382,18 +388,9 @@ const data = {
       ],
     },
     {
-      number: 303,
-      channelName: "ABCD Sing with Leo",
-      episodes: [
-        {
-          videoId: "https://www.youtube.com/watch?v=JqAs4X48Mb4&ab_channel=FirstToons",
-          title: "Songs for babies & nursery rhymes 24/7",
-        },
-      ],
-    },
-    {
       number: 304,
       channelName: "Talking Tom Heroes",
+      channelIcon: tomheroes,
       episodes: [
         {
           videoId: "https://www.youtube.com/watch?v=keIt6LJEC44&ab_channel=TalkingTomHeroes",
@@ -416,11 +413,12 @@ const data = {
   Music: [
     {
       number: 400,
-      channelName: "Geaux Chill",
+      channelName: "Lofi Hip Hop",
+      channelIcon: lofi,
       episodes: [
         {
           videoId: "https://www.youtube.com/watch?v=5qap5aO4i9A?",
-          title: "lofi hip hop radio",
+          title: "lofi hip hop radio 24/7",
         },
       ],
     },
@@ -477,7 +475,7 @@ const data = {
     },
     {
       number: 406,
-      channelName: "BritAsia TV Live (16+)",
+      channelName: "BritAsia TV (16+)",
       channelIcon: balogo,
       episodes: [
         {
@@ -489,6 +487,7 @@ const data = {
     {
       number: 407,
       channelName: "Game Chops",
+      channelIcon: gamechops,
       episodes: [
         {
           videoId: "https://www.youtube.com/watch?v=P1k4jGwhKF0&ab_channel=GameChops",
@@ -499,6 +498,7 @@ const data = {
     {
       number: 408,
       channelName: "Frequenzy",
+      channelIcon: frequenzy,
       episodes: [
         {
           videoId: "https://www.youtube.com/watch?v=1itSqkbXIlU&ab_channel=FREQUENZY",
@@ -591,7 +591,7 @@ const data = {
     },
     {
       number: 417,
-      channelName: "Calming Music with nature",
+      channelName: "Calming Nature Music",
       episodes: [
         {
           videoId: "https://www.youtube.com/watch?v=P7d1H83IcjE",
@@ -643,6 +643,7 @@ const data = {
     {
       number: 421,
       channelName: "Revere Worship",
+      channelIcon: revere,
       episodes: [
         {
           videoId: "https://www.youtube.com/watch?v=JEK03-EzyHk",
@@ -687,6 +688,7 @@ const data = {
     {
       number: 502,
       channelName: "Geaux Fantasy",
+      channelIcon: juju,
       episodes: [
         {
           videoId: "https://www.wim.tv/embed/?cast=a9ae014d-6c64-4260-a3bd-3cc6dd04fec1&autostart=true",
