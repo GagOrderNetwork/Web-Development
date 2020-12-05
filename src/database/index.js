@@ -152,7 +152,7 @@ const data = {
       ],
     },
     {
-      number: 108,
+      number: 106,
       channelName: "Liverpool TV",
       channelIcon: liverpooltv,
       episodes: [
@@ -163,7 +163,7 @@ const data = {
       ],
     },
     {
-      number: 109,
+      number: 107,
       channelName: "SKY News",
       channelIcon: skynews,
       episodes: [
@@ -174,7 +174,7 @@ const data = {
       ],
     },
     {
-      number: 110,
+      number: 108,
       channelName: "Somoy TV",
       channelIcon: somoytv,
       episodes: [
@@ -185,7 +185,7 @@ const data = {
       ],
     },
     {
-      number: 112,
+      number: 109,
       channelName: "FranceInfo",
       channelIcon: franceinfo,
       episodes: [
@@ -196,7 +196,7 @@ const data = {
       ],
     },
     {
-      number: 113,
+      number: 110,
       channelName: "Africanews",
       channelIcon: africanews,
       episodes: [
@@ -207,7 +207,7 @@ const data = {
       ],
     },
     {
-      number: 114,
+      number: 111,
       channelName: "DaAi World Live",
       channelIcon: daaitv,
       episodes: [
@@ -218,7 +218,7 @@ const data = {
       ],
     },
     {
-      number: 115,
+      number: 112,
       channelName: "NewsOne",
       channelIcon: newsone,
       episodes: [
@@ -229,7 +229,7 @@ const data = {
       ],
     },
     {
-      number: 116,
+      number: 113,
       channelName: "Arzamas Academy",
       channelIcon: arzamas,
       episodes: [
@@ -240,7 +240,7 @@ const data = {
       ],
     },
     {
-      number: 117,
+      number: 114,
       channelName: "RT Arabic",
       channelIcon: rtarabic,
       episodes: [
@@ -251,9 +251,55 @@ const data = {
       ],
     },
   ],
-  "Health/Lifestyle": [
+  Kids: [
     {
       number: 200,
+      channelName: "Cat Tales",
+      channelIcon: tomfriends,
+      episodes: [
+        {
+          videoId: "https://www.youtube.com/watch?v=PbP0_yYXcHU?",
+          title: "Talking Tom and Friends",
+        },
+      ],
+    },
+    {
+      number: 201,
+      channelName: "Booba",
+      channelIcon: booba,
+      episodes: [
+        {
+          videoId: "https://www.youtube.com/watch?v=XK8METRgK_U",
+          title: "Booba 24/7",
+        },
+      ],
+    },
+    {
+      number: 202,
+      channelName: "Talking Tom Heroes",
+      channelIcon: tomheroes,
+      episodes: [
+        {
+          videoId: "https://www.youtube.com/watch?v=keIt6LJEC44&ab_channel=TalkingTomHeroes",
+          title: "Talking Tom Heroes 24/7",
+        },
+      ],
+    },
+    {
+      number: 203,
+      channelName: "Ubungo Kids",
+      channelIcon: ubongo,
+      episodes: [
+        {
+          videoId: "https://www.dailymotion.com/video/x7tb1xt",
+          title: "Ubungo Kids 24/7",
+        },
+      ],
+    },
+  ],
+  "Health/Lifestyle": [
+    {
+      number: 300,
       channelName: "HSN",
       channelIcon: hsn,
       episodes: [
@@ -264,7 +310,7 @@ const data = {
       ],
     },
     {
-      number: 201,
+      number: 301,
       channelName: "QVC2 Live",
       channelIcon: qvc2,
       episodes: [
@@ -275,7 +321,7 @@ const data = {
       ],
     },
     {
-      number: 202,
+      number: 302,
       channelName: "QVC3 Live",
       channelIcon: qvc3,
       episodes: [
@@ -286,7 +332,7 @@ const data = {
       ],
     },
     {
-      number: 203,
+      number: 303,
       channelName: "Naturalista",
       episodes: [
         {
@@ -297,7 +343,7 @@ const data = {
       ],
     },
     {
-      number: 204,
+      number: 304,
       channelName: "Home Decor",
       episodes: [
         {
@@ -308,7 +354,7 @@ const data = {
       ],
     },
     {
-      number: 205,
+      number: 305,
       channelName: "Geaux Thrifting",
       episodes: [
         {
@@ -319,7 +365,7 @@ const data = {
       ],
     },
     {
-      number: 206,
+      number: 306,
       channelName: "Beaute 101",
       channelIcon: beaute,
       episodes: [
@@ -331,7 +377,7 @@ const data = {
       ],
     },
     {
-      number: 207,
+      number: 307,
       channelName: "Geaux Travel",
       episodes: [
         {
@@ -342,7 +388,7 @@ const data = {
       ],
     },
       {
-        number: 208,
+        number: 308,
         channelName: " DIY Art",
         episodes: [
           {
@@ -351,9 +397,9 @@ const data = {
             title: "DIY Art",
           },
         ],
-  },
+    },
     {
-      number: 209,
+      number: 309,
       channelName: "Geauxing Home",
       episodes: [
         {
@@ -364,52 +410,7 @@ const data = {
       ],
     },
   ],
-  Kids: [
-    {
-      number: 301,
-      channelName: "Cat Tales",
-      channelIcon: tomfriends,
-      episodes: [
-        {
-          videoId: "https://www.youtube.com/watch?v=PbP0_yYXcHU?",
-          title: "Talking Tom and Friends",
-        },
-      ],
-    },
-    {
-      number: 302,
-      channelName: "Booba",
-      channelIcon: booba,
-      episodes: [
-        {
-          videoId: "https://www.youtube.com/watch?v=XK8METRgK_U",
-          title: "Booba 24/7",
-        },
-      ],
-    },
-    {
-      number: 304,
-      channelName: "Talking Tom Heroes",
-      channelIcon: tomheroes,
-      episodes: [
-        {
-          videoId: "https://www.youtube.com/watch?v=keIt6LJEC44&ab_channel=TalkingTomHeroes",
-          title: "Talking Tom Heroes 24/7",
-        },
-      ],
-    },
-    {
-      number: 305,
-      channelName: "Ubungo Kids",
-      channelIcon: ubongo,
-      episodes: [
-        {
-          videoId: "https://www.dailymotion.com/video/x7tb1xt",
-          title: "Ubungo Kids 24/7",
-        },
-      ],
-    },
-  ],
+
   Music: [
     {
       number: 400,
@@ -631,7 +632,7 @@ const data = {
       ],
     },
     {
-      number: 420,
+      number: 421,
       channelName: "Vocal Trance Radio",
       episodes: [
         {
@@ -641,7 +642,7 @@ const data = {
       ],
     },
     {
-      number: 421,
+      number: 422,
       channelName: "Revere Worship",
       channelIcon: revere,
       episodes: [
@@ -652,7 +653,7 @@ const data = {
       ],
     },
     {
-      number: 422,
+      number: 423,
       channelName: "Gaming Music Mix (16+)",
       episodes: [
         {
@@ -697,7 +698,7 @@ const data = {
       ],
     },
     {
-      number: 505,
+      number: 503,
       channelName: "étoile",
       episodes: [
         {
@@ -707,7 +708,7 @@ const data = {
       ],
     },
     {
-      number: 506,
+      number: 504,
       channelName: "NASA TV",
       channelIcon: nasa1,
       episodes: [
@@ -718,7 +719,7 @@ const data = {
       ],
     },
     {
-      number: 507,
+      number: 505,
       channelName: "YTN Science",
       channelIcon: ytnscience,
       episodes: [
@@ -729,7 +730,7 @@ const data = {
       ],
     },
     {
-      number: 508,
+      number: 506,
       channelName: "Hometeam History",
       channelIcon: hometeam,
       episodes: [
@@ -753,7 +754,7 @@ const data = {
       ],
     },
     {
-      number: 600,
+      number: 601,
       channelName: "SelfieTV.IT",
       episodes: [
         {
@@ -763,7 +764,7 @@ const data = {
       ],
     },
   ],
-  "Explore on the Geaux": [
+  "Explore.org": [
     {
       number: 700,
       channelName: "Santa Monica Beach Cam",
@@ -864,7 +865,7 @@ const data = {
       ],
     },
     {
-      number: 708,
+      number: 709,
       channelName: "Homosassa Springs",
       channelIcon: explore,
       episodes: [
@@ -875,7 +876,7 @@ const data = {
       ],
     },
     {
-      number: 709,
+      number: 710,
       channelName: "Wolong Grove",
       channelIcon: explore,
       episodes: [
@@ -886,7 +887,7 @@ const data = {
       ],
     },
     {
-      number: 710,
+      number: 711,
       channelName: "Donkey Hill",
       channelIcon: explore,
       episodes: [
