@@ -1,3 +1,20 @@
 .gn-formik_field {
-  margin: 25px auto;
+  margin: 80px auto;
+  width: 100%;
+
+  .MuiInputLabel-root {
+    color: white;
+
+    &.Mui-focused {
+      color: white;
+    }
+  }
+
+  .MuiInputBase-root {
+    border-bottom: 4px solid #1777a3;
+  }
+
+  .MuiInputBase-input {
+    color: white;
+  }
 }

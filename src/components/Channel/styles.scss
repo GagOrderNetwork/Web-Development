@@ -1,27 +1,45 @@
+@import url("https://fonts.googleapis.com/css?family=Lucida:200,400,400i,700&display=swap");
+
 .gn-channel {
-  height: 35px;
-  line-height: 35px;
-  box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.4);
-  margin: 5px 0;
-  padding-right: 5px;
+  color: white;
+  display: flex;
+  align-items: center;
 
-  &.MuiPaper-root {
-    background-color: #4e78a0;
-    color: #eff4f5;
+  .gn-channel-card {
+    height: 80px;
+
+    margin: 5px;
+    padding-right: 5px;
+    font: 400 21px Lucida, sans-serif;
+    line-height: 80px;
+    background-image: linear-gradient(
+      to bottom,
+      rgba(8, 137, 223, 0.25),
+      rgba(0, 0, 0, 0.25)
+    );
+
+    &.MuiPaper-root {
+      color: #eff4f5;
+      flex: 1 1 auto;
+      background-color: unset;
+    }
+
+    &:hover {
+      background-image: linear-gradient(
+        to bottom,
+        rgba(21, 184, 229, 0.25),
+        rgba(0, 0, 0, 0.25)
+      );
+    }
+
+    img {
+      height: 20px;
+      vertical-align: text-bottom;
+    }
   }
 
-  &:hover {
-    background-color: #1b4861;
-    color: white;
-  }
-
-  img {
-    height: 20px;
-    vertical-align: text-bottom;
-  }
-
-  > span {
-    padding: 0 5px;
+  span {
+    margin-left: 5px;
   }
 
   @media (max-width: 720px) {

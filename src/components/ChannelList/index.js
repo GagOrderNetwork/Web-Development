@@ -9,7 +9,6 @@ class ChannelList extends React.Component {
         {this.props.data.map((datum, key) => {
           return (
             <div key={key}>
-              <div className="gn-channel_list-info">{datum[0]}</div>
               <div>
                 {datum[1].map((d, key) => {
                   return (

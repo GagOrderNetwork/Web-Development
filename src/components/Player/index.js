@@ -5,10 +5,10 @@ import ReactPlayer from "react-player";
 import screenfull from "screenfull";
 
 import { Button } from "@material-ui/core";
+import { classMap } from "../../util/classMap";
 import { If } from "../If";
 import { Grid, Slider } from "@material-ui/core";
-import { VolumeDown, VolumeUp } from "@material-ui/icons";
-import ShoppingCartModal from "../../components/ShoppingCartModal";
+import { Fullscreen, VolumeDown, VolumeUp } from "@material-ui/icons";
 
 import { productData } from "./productData";
 
@@ -18,6 +18,7 @@ class Player extends React.Component {
   }
 
   state = {
+    showVolume: false,
     volume: 0.8,
   };
 
@@ -37,9 +38,18 @@ class Player extends React.Component {
     this.props.setUserProduct(info);
   };
 
+  toggleVolume = () => {
+    this.setState({ showVolume: !this.state.showVolume });
+  };
+
   render() {
     const productInfo =
       productData.find((info) => info.videoId === this.props.videoId) || {};
+
+    const classes = classMap({
+      "gn-player-volume-slider": true,
+      "gn-player-volume-slider-visible": this.state.showVolume,
+    });
 
     return (
       <div className="gn-player">
@@ -95,31 +105,32 @@ class Player extends React.Component {
         </If>
         <div className="gn-player-controls">
           <div className="gn-player-volume">
-            <Grid container spacing={2}>
+            {/* <Grid container spacing={2}>
               <Grid item xs>
                 <VolumeDown />
               </Grid>
-              <Grid item>
-                <input
-                  type="range"
-                  min={0}
-                  max={1}
-                  step="any"
-                  value={this.state.volume}
-                  onChange={this.handleVolumeChange}
-                />
-              </Grid>
-              <Grid item xs>
-                <VolumeUp />
-              </Grid>
-            </Grid>
-          </div>
-          <If test={this.props.userId}>
-            <div className="gn-player-shopping_cart">
-              <ShoppingCartModal />
+              <Grid item> */}
+            <div className="gn-player-volume-icon" onClick={this.toggleVolume}>
+              <VolumeUp />
             </div>
-          </If>
-          <Button onClick={this.handleClickFullscreen}>Fullscreen</Button>
+            <div className={classes}>
+              <input
+                type="range"
+                min={0}
+                max={1}
+                step="any"
+                value={this.state.volume}
+                onChange={this.handleVolumeChange}
+              />
+            </div>
+            {/* </Grid>
+              <Grid item xs> */}
+            {/* </Grid>
+            </Grid> */}
+          </div>
+          <Button onClick={this.handleClickFullscreen}>
+            <Fullscreen />
+          </Button>
         </div>
       </div>
     );

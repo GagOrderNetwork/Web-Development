@@ -2,7 +2,7 @@ import "./styles.scss";
 import React from "react";
 import { Link } from "react-router-dom";
 import axios from "axios";
-import { Formik, Form } from "formik";
+import { Formik, Form, Field } from "formik";
 import * as Yup from "yup";
 
 import { FormikField } from "../../components/FormikField";
@@ -14,6 +14,8 @@ const initialValues = {
   lastName: "",
   email: "",
   password: "",
+  confirm_password: "",
+  accept: false,
 };
 
 const SignupSchema = Yup.object().shape({
@@ -29,6 +31,16 @@ const SignupSchema = Yup.object().shape({
   password: passwordSchema.notOneOf(
     [Yup.ref("email")],
     "Password cannot be the same as email"
+  ),
+  confirm_password: Yup.mixed().test(
+    "match",
+    "Passwords do not match",
+    function () {
+      return this.parent.password === this.parent.confirmPassword;
+    }
+  ),
+  accept: Yup.string().required(
+    "You must accept the Terms & Conditions and Privacy Policy"
   ),
 });
 
@@ -72,18 +84,17 @@ class CreateAccount extends React.Component {
     return (
       <div className="gn-create_account">
         <MainNav />
-        <h1>Join the Family!</h1>
-        <p>
-          There will be benefits offered to members! Sign up and stay tuned.
-        </p>
+        <h1>
+          Stream Free TV <br /> That connects with the real you
+        </h1>
+
         <div className="gn-formik_form-signup">
-          <h2>Create your account!</h2>
           <Formik
             initialValues={initialValues}
             onSubmit={this.onSubmit}
             validationSchema={SignupSchema}
           >
-            {({ dirty, isValid }) => {
+            {() => {
               return (
                 <Form>
                   <FormikField label="First Name" name="firstName" />
@@ -94,19 +105,30 @@ class CreateAccount extends React.Component {
                     name="password"
                     type="password"
                   />
+                  <FormikField
+                    label="Confirm Password"
+                    name="confirm_password"
+                    type="password"
+                  />
+                  <div className="gn-formik_form_terms">
+                    <Field type="checkbox" name="accept" />
+                    <span>I agree to the Terms & Conditions</span>
+                  </div>
                   <div className="gn-sign_up-error"> {this.state.error}</div>
 
-                  <button disabled={!dirty || !isValid} type="sumbit">
-                    Submit{" "}
-                  </button>
+                  <div className="gn-sign_up-buttons">
+                    <Link to="/">
+                      <div className="gn-create_account-sign_in-button">
+                        Sign In
+                      </div>
+                    </Link>
+                    <button type="sumbit">Sign Up - Free </button>
+                  </div>
                 </Form>
               );
             }}
           </Formik>
         </div>
-        <Link to="/">
-          <div className="gn-create_account-back-button">Back</div>
-        </Link>
       </div>
     );
   }

@@ -1,22 +1,25 @@
-.gn-episode_list {
-  .gn-episode_list-blank {
-    height: 25px;
-    background-color: #1b4861;
-  }
+@import url("https://fonts.googleapis.com/css?family=Lucida:200,400,400i,700&display=swap");
 
+.gn-episode_list {
   .gn-episode_list-episodes {
     color: #eff4f5;
-    height: 35px;
-    line-height: 35px;
-    background-color: #4e78a0;
-    box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.4);
     display: flex;
     flex-wrap: nowrap;
-    margin: 5px 0;
 
     span {
       padding: 0 10px;
       overflow: hidden;
+      border-radius: 8px;
+      font: 400 21px Lucida, sans-serif;
+      height: 80px;
+      line-height: 80px;
+      width: 150px;
+      margin: 5px;
+      background-image: linear-gradient(
+        to bottom,
+        rgba(0, 126, 243, 0.25),
+        rgba(0, 0, 0, 0.25)
+      );
     }
   }
 

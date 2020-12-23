@@ -4,29 +4,29 @@ body {
   margin: 0;
 }
 
-.gn-sign_in {
-  .gn-sign_in-link {
+.gn-reset_password {
+  .gn-reset_password-link {
     color: #1777a3;
     display: inline-block;
     margin-left: 4px;
   }
 
-  .gn-sign_in-link-text {
-    color: white;
-    font: 400 28px Lucida, sans-serif;
-    text-align: center;
-    margin: 0 10px;
-  }
-
-  .gn-sign_in-error {
-    color: red;
+  .gn-reset_password-error {
+    color: yellow;
     margin: 25px 0;
   }
 
   h2 {
     color: white;
     font: 400 60px Lucida, sans-serif;
-    margin: 0 auto 150px;
+    margin: 0 auto 40px;
+    text-align: center;
+  }
+
+  p {
+    color: white;
+    font: 400 28px Lucida, sans-serif;
+    margin: 0 auto 20px;
     text-align: center;
   }
 
@@ -51,7 +51,7 @@ body {
     width: auto;
   }
 
-  .gn-formik_form-signin {
+  .gn-formik_form-reset-password {
     max-width: 989px;
     padding: 30px 50px;
     margin: 0 auto 60px;
@@ -73,7 +73,7 @@ body {
       margin: 30px auto;
     }
 
-    .gn-sign_in-link {
+    .gn-reset_password-link {
       height: 40px;
       line-height: 40px;
       width: 200px;

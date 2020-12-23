@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css?family=Lucida:200,400,400i,700&display=swap");
+
+.gn-shopping_cart {
+  padding-top: 4px;
+
+  &.gn-shopping_cart-full {
+    svg {
+      color: #85bb65;
+    }
+  }
+
+  .gn-shopping_cart-icon {
+    position: relative;
+  }
+
+  .gn-shopping_cart-container {
+    position: absolute;
+    display: none;
+    background-color: black;
+    padding: 10px;
+
+    h4 {
+      font: 400 21px Lucida, sans-serif;
+      text-align: center;
+      color: white;
+    }
+    p {
+      font: 400 18px Lucida, sans-serif;
+      color: white;
+      text-align: center;
+    }
+  }
+
+  .gn-shopping_cart-container-open {
+    display: block;
+  }
+
+  svg {
+    height: 80px;
+    width: auto;
+    color: #1777a3;
+  }
+
+  @media (max-width: 720px) {
+    svg {
+      height: 50px;
+    }
+  }
+}

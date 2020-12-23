@@ -11,11 +11,11 @@ class InfoBox extends React.Component {
   render() {
     return (
       <div className="gn-info_box">
-        <div className="gn-info_box-channel_info">
-          <span> {this.props.channelInfo.channelNumber}</span>
-          <span> {this.props.channelInfo.channelName} </span>
-        </div>
         <img src={this.props.channelInfo.channelIcon} />
+        <div className="gn-info_box-channel_info">
+          <span> {this.props.channelInfo.channelName} </span>
+          <span> {this.props.channelInfo.channelNumber}</span>
+        </div>
       </div>
     );
   }

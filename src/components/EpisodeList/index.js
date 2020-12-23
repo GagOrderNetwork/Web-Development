@@ -8,7 +8,6 @@ class EpisodeList extends React.Component {
         {this.props.data.map((datum, key) => {
           return (
             <div key={key}>
-              <div className="gn-episode_list-blank" />
               <div>
                 {datum[1].map((d, key) => {
                   return (

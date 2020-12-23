@@ -1,17 +1,21 @@
+@import url("https://fonts.googleapis.com/css?family=Lucida:200,400,400i,700&display=swap");
+
 body {
   margin: 0;
 }
 
 .gn-create_account {
   height: 100vh;
-  background-color: #4e78a0;
 
   button {
-    display: block;
-    border-radius: 5px;
-    height: 30px;
-    width: 150px;
-    font-size: 18px;
+    border-radius: 8px;
+    height: 58px;
+    width: 298px;
+    margin: 30px 0 0;
+    background-color: #1777a3;
+    border: 1px solid #1777a3;
+    font: 400 21px Lucida, sans-serif;
+    color: white;
   }
 
   a {
@@ -25,18 +29,18 @@ body {
     text-align: center;
   }
 
-  .gn-create_account-back-button {
-    border-radius: 5px;
-    background-color: white;
-    width: 150px;
-    margin: 25px auto 0;
-    font-size: 25px;
+  .gn-create_account-sign_in-button {
+    border-radius: 8px;
+    height: 58px;
+    width: 298px;
+    margin: 30px auto 0;
+    background-color: #1777a3;
+    border: 1px solid #1777a3;
+    font: 400 21px Lucida, sans-serif;
+    color: white;
     text-align: center;
-
-    &:hover {
-      background-color: gray;
-      color: white;
-    }
+    display: block;
+    line-height: 58px;
   }
 
   img {
@@ -46,6 +50,8 @@ body {
 
   h1 {
     text-align: center;
+    color: white;
+    font: 400 48px Lucida, sans-serif;
   }
 
   p {
@@ -53,13 +59,36 @@ body {
     font-size: large;
   }
 
+  .gn-sign_up-buttons {
+    display: flex;
+    justify-content: space-around;
+  }
+
   .gn-formik_form-signup {
-    width: 610px;
-    padding: 30px 50px;
-    background-color: white;
-    margin: 60px auto;
+    max-width: 989px;
+    padding: 0 50px 30px;
+    background-color: black;
+    margin: 0 auto;
     border-radius: 10px;
-    box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.4);
+  }
+
+  .MuiFormHelperText-root {
+    color: white;
+    font: 400 18px Lucida, sans-serif;
+  }
+
+  .gn-formik_form_terms {
+    color: white;
+    font: 400 28px Lucida, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    input {
+      height: 35px;
+      width: 35px;
+      margin-right: 8px;
+    }
   }
 
   .MuiAppBar-colorPrimary {
@@ -74,7 +103,7 @@ body {
       margin: 30px auto;
     }
 
-    .gn-create_account-back-button {
+    .gn-create_account-sign_in-button {
       margin: 30px auto;
     }
 

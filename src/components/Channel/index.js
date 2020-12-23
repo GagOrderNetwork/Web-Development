@@ -3,6 +3,7 @@ import React from "react";
 import { connect } from "react-redux";
 import { Card } from "@material-ui/core";
 import { setVideoInfo } from "../../services/channelInfo";
+import { If } from "../If";
 
 const mapDispatchProps = {
   setVideoInfo,
@@ -20,11 +21,15 @@ class Channel extends React.Component {
 
   render() {
     return (
-      <Card className="gn-channel" onClick={this.onClick}>
+      <div className="gn-channel">
         <span>{this.props.channelNumber}</span>
-        <img src={this.props.channelIcon} />
-        <span>{this.props.channelName}</span>
-      </Card>
+        <Card className="gn-channel-card" onClick={this.onClick}>
+          <img src={this.props.channelIcon} />
+          <If test={!this.props.channelIcon}>
+            <span>{this.props.channelName}</span>
+          </If>
+        </Card>
+      </div>
     );
   }
 }

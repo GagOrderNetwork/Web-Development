@@ -70,13 +70,13 @@ class SignIn extends React.Component {
       <div className="gn-sign_in">
         <MainNav />
         <div className="gn-formik_form-signin">
-          <h2>Sign In</h2>
+          <h2>Welcome Back!</h2>
           <Formik
             initialValues={initialValues}
             onSubmit={this.onSubmit}
             validationSchema={SigninSchema}
           >
-            {({ dirty, isValid }) => {
+            {() => {
               return (
                 <Form>
                   <FormikField label="Email" name="email" type="email" />
@@ -86,18 +86,26 @@ class SignIn extends React.Component {
                     type="password"
                   />
                   <div className="gn-sign_in-error"> {this.state.error}</div>
-                  <button disabled={!dirty || !isValid} type="sumbit">
-                    Submit{" "}
-                  </button>
+                  <button type="sumbit">Sign In</button>
                 </Form>
               );
             }}
           </Formik>
         </div>
-
-        <Link to="/create-account">
-          <div className="gn-sign_in-link">Create Account</div>
-        </Link>
+        <div className="gn-sign_in-link-text">
+          Forgot Password?
+          <Link to="/reset-password">
+            {" "}
+            <div className="gn-sign_in-link">Click Here</div>
+          </Link>
+        </div>
+        <div className="gn-sign_in-link-text">
+          Don't have an account?
+          <Link to="/create-account">
+            {" "}
+            <div className="gn-sign_in-link">Sign Up</div>
+          </Link>
+        </div>
       </div>
     );
   }

@@ -1,9 +1,9 @@
 html {
-  background-color: #4e78a0;
+  background-color: black;
 }
 
 .gn-player {
-  background-color: #4e78a0;
+  // background-color: #4e78a0;
   border-bottom: 2px solid black;
 
   // For shopping cart items
@@ -47,11 +47,11 @@ html {
 
   .gn-player-video-iframe {
     pointer-events: none;
-    height: 64vh;
+    height: 57vh;
     background-color: black;
 
     iframe {
-      width: 63.75%;
+      width: 56.75%;
       height: 100%;
       display: block;
       margin: auto;
@@ -62,13 +62,11 @@ html {
   .gn-player-controls {
     display: flex;
     justify-content: space-between;
-    padding: 0 10px;
+    padding: 0 10px 0 25px;
 
     button {
-      line-height: 20px;
-      font-size: small;
-      padding: 0px 5px;
-      color: blanchedalmond;
+      height: 28px;
+      color: white;
     }
 
     input {
@@ -78,10 +76,24 @@ html {
 
   .gn-player-volume {
     padding-top: 6px;
+    color: white;
+    position: relative;
+  }
+
+  .gn-player-volume-slider {
+    position: absolute;
+    display: none;
+    transform: rotate(270deg);
+    top: -75px;
+    left: -52px;
+  }
+
+  .gn-player-volume-slider-visible {
+    display: block;
   }
 
   .react-player {
-    height: 64vh !important;
+    height: 57vh !important;
   }
 
   @media screen and (max-width: 720px) {

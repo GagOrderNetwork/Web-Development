@@ -1,22 +1,19 @@
 .gn-tv {
-  font-family: Arial, Helvetica, sans-serif;
+  // .gn-tv-guide {
+  //   display: flex;
+  //   height: 28vh;
+  //   overflow-y: scroll;
+  //   background-color: #808080;
 
-  .gn-tv-guide {
-    display: flex;
-    height: 28vh;
-    overflow-y: scroll;
-    background-color: #808080;
+  //   .gn-episode_list {
+  //     flex: 2;
+  //   }
 
-    .gn-episode_list {
-      flex: 2;
-    }
-
-    .gn-channel_list {
-      margin-right: 5px;
-      flex: 1;
-    }
-  }
-
+  //   .gn-channel_list {
+  //     margin-right: 5px;
+  //     flex: 1;
+  //   }
+  // }
 
   @media (max-width: 720px) {
     .gn-player-video {
@@ -24,7 +21,7 @@
     }
 
     .gn-tv-guide {
-      height: 60vh;
+      height: 57vh;
 
       .gn-episode_list {
         flex: 1;
@@ -46,12 +43,6 @@
   @media (max-width: 361px) {
     .gn-tv-guide {
       height: 59vh;
-    }
-  }
-
-  @media (max-width: 321px) {
-    .gn-tv-guide {
-      height: 57vh;
     }
   }
 }

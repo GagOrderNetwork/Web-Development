@@ -1,11 +1,12 @@
 .gn-info_box {
   display: flex;
   height: 100%;
-  background-color: #1b4861;
-  box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.4);
+  background-color: rgba(0, 145, 255, 0.29);
+  padding: 10px;
+  border-radius: 8px;
+  border: solid 3px rgba(0, 0, 0, 0.1);
   width: 200px;
   flex-direction: column;
-  justify-content: center;
   position: sticky;
   top: 0;
 
@@ -21,7 +22,7 @@
 
   img {
     width: 150px;
-    margin: 20px auto;
+    margin: 0 auto;
   }
 
   @media (max-width: 720px) {

@@ -4,6 +4,7 @@ import { BrowserRouter, Switch, Route } from "react-router-dom";
 import { CreateAccount } from "../CreateAccount";
 import { NotFound } from "../NotFound";
 import SignIn from "../SignIn";
+import ResetPassword from "../ResetPassword";
 import TV from "../TV";
 
 const routes = [
@@ -19,6 +20,10 @@ const routes = [
   {
     path: "/player",
     component: TV,
+  },
+  {
+    path: "/reset-password",
+    component: ResetPassword,
   },
   {
     // Catch-all must be last
