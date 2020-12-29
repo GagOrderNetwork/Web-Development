@@ -6,6 +6,7 @@ import { Formik, Form } from "formik";
 import * as Yup from "yup";
 import { connect } from "react-redux";
 import { setUserId } from "../../services/userProfile";
+import { PasswordTooltip } from "../../components/PasswordTooltip";
 
 import { FormikField } from "../../components/FormikField";
 
@@ -31,6 +32,7 @@ class SignIn extends React.Component {
 
     this.state = {
       error: "",
+      passwordFocused: false,
     };
   }
 
@@ -65,6 +67,10 @@ class SignIn extends React.Component {
     });
   };
 
+  onPasswordFocus = () => this.setState({ passwordFocused: true });
+
+  onPasswordBlur = () => this.setState({ passwordFocused: false });
+
   render() {
     return (
       <div className="gn-sign_in">
@@ -76,15 +82,23 @@ class SignIn extends React.Component {
             onSubmit={this.onSubmit}
             validationSchema={SigninSchema}
           >
-            {() => {
+            {(props) => {
               return (
                 <Form>
                   <FormikField label="Email" name="email" type="email" />
-                  <FormikField
-                    label="Password"
-                    name="password"
-                    type="password"
-                  />
+                  <div className="gn-sign_in-password">
+                    <FormikField
+                      label="Password"
+                      name="password"
+                      type="password"
+                      onBlur={this.onPasswordBlur}
+                      onFocus={this.onPasswordFocus}
+                    />
+                    <PasswordTooltip
+                      isFocused={this.state.passwordFocused}
+                      password={props.values.password}
+                    />
+                  </div>
                   <div className="gn-sign_in-error"> {this.state.error}</div>
                   <button type="sumbit">Sign In</button>
                 </Form>

@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 import axios from "axios";
 import { Formik, Form, Field } from "formik";
 import * as Yup from "yup";
+import { PasswordTooltip } from "../../components/PasswordTooltip";
 
 import { FormikField } from "../../components/FormikField";
 import { MainNav } from "../../components/MainNav";
@@ -36,7 +37,7 @@ const SignupSchema = Yup.object().shape({
     "match",
     "Passwords do not match",
     function () {
-      return this.parent.password === this.parent.confirmPassword;
+      return this.parent.password === this.parent.confirm_password;
     }
   ),
   accept: Yup.string().required(
@@ -48,7 +49,7 @@ class CreateAccount extends React.Component {
   constructor(props) {
     super(props);
 
-    this.state = { error: "" };
+    this.state = { error: "", passwordFocused: false };
   }
 
   next = () => {
@@ -80,6 +81,10 @@ class CreateAccount extends React.Component {
       });
   };
 
+  onPasswordFocus = () => this.setState({ passwordFocused: true });
+
+  onPasswordBlur = () => this.setState({ passwordFocused: false });
+
   render() {
     return (
       <div className="gn-create_account">
@@ -94,17 +99,25 @@ class CreateAccount extends React.Component {
             onSubmit={this.onSubmit}
             validationSchema={SignupSchema}
           >
-            {() => {
+            {(props) => {
               return (
                 <Form>
                   <FormikField label="First Name" name="firstName" />
                   <FormikField label="Last Name" name="lastName" />
                   <FormikField label="Email" name="email" type="email" />
-                  <FormikField
-                    label="Password"
-                    name="password"
-                    type="password"
-                  />
+                  <div className="gn-create_account-password">
+                    <FormikField
+                      label="Password"
+                      name="password"
+                      type="password"
+                      onBlur={this.onPasswordBlur}
+                      onFocus={this.onPasswordFocus}
+                    />
+                    <PasswordTooltip
+                      isFocused={this.state.passwordFocused}
+                      password={props.values.password}
+                    />
+                  </div>
                   <FormikField
                     label="Confirm Password"
                     name="confirm_password"

@@ -4,7 +4,7 @@ import { Field, ErrorMessage } from "formik";
 import TextField from "@material-ui/core/TextField";
 
 function FormikField(props) {
-  const { label, name, required, type = "text" } = props;
+  const { label, name, required, type = "text", ...rest } = props;
   return (
     <div className="gn-formik_field">
       <Field
@@ -15,6 +15,7 @@ function FormikField(props) {
         name={name}
         helperText={<ErrorMessage name={name} />}
         type={type}
+        {...rest}
       />
     </div>
   );

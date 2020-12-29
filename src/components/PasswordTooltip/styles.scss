@@ -1,0 +1,75 @@
+.gn-password-tooltip {
+  background-color: white;
+  border-radius: 5px;
+  color: black;
+  padding: 14px 17px;
+  position: absolute;
+  right: -205px;
+  top: -45px;
+  width: 220px;
+
+  &.gn-password-tooltip-hidden {
+    display: none;
+  }
+
+  .gn-password-tooltip-heading {
+    font: 600 14px AvenirNext, sans-serif;
+    padding-bottom: 10px;
+  }
+
+  .gn-password-tooltip-validation {
+    font: 12px AvenirNext, sans-serif;
+    padding-bottom: 5px;
+    display: flex;
+    align-items: center;
+  }
+
+  .gn-password-tooltip-emphasis {
+    font-weight: 600;
+    margin: 0 2px;
+  }
+
+  .gn-password-tooltip-tail {
+    border-color: transparent white transparent transparent;
+    border-style: solid;
+    border-width: 17px;
+    display: inline-block;
+    height: 0;
+    left: -34px;
+    position: absolute;
+    top: 63px;
+    width: 0;
+  }
+}
+
+@media (max-width: 1250px) {
+  .gn-password-tooltip {
+    right: -95px;
+  }
+}
+
+@media (max-width: 700px) {
+  .gn-password-tooltip {
+    background-color: transparent;
+    color: white;
+    display: flex;
+    flex-flow: column wrap;
+    height: 55px;
+    padding: 5px;
+    position: static;
+    width: auto;
+
+    .gn-password-tooltip-heading {
+      display: none;
+    }
+
+    .gn-password-tooltip-validation {
+      font-size: 10px;
+      padding-bottom: 5px;
+    }
+
+    .gn-icon {
+      margin-right: 5px;
+    }
+  }
+}
