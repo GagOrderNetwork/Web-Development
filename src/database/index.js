@@ -152,42 +152,6 @@ const data = {
         },
       ],
     },
-    {
-      number: 4,
-      channelName: "Live Fireplace",
-      episodes: [
-        {
-          videoId:
-            "https://www.youtube.com/watch?v=kOnIAoqQkd4&ab_channel=CatTrumpet",
-          title: "Fireplace with sounds 24/7",
-        },
-        {
-          videoId:
-            "https://www.youtube.com/watch?v=kOnIAoqQkd4&ab_channel=CatTrumpet",
-          title: "Fireplace with sounds 24/7",
-        },
-        {
-          videoId:
-            "https://www.youtube.com/watch?v=kOnIAoqQkd4&ab_channel=CatTrumpet",
-          title: "Fireplace with sounds 24/7",
-        },
-        {
-          videoId:
-            "https://www.youtube.com/watch?v=kOnIAoqQkd4&ab_channel=CatTrumpet",
-          title: "Fireplace with sounds 24/7",
-        },
-        {
-          videoId:
-            "https://www.youtube.com/watch?v=kOnIAoqQkd4&ab_channel=CatTrumpet",
-          title: "Fireplace with sounds 24/7",
-        },
-        {
-          videoId:
-            "https://www.youtube.com/watch?v=kOnIAoqQkd4&ab_channel=CatTrumpet",
-          title: "Fireplace with sounds 24/7",
-        },
-      ],
-    },
   ],
   "News/Business": [
     {
@@ -574,27 +538,27 @@ const data = {
       episodes: [
         {
           videoId: "https://www.youtube.com/watch?v=3e0FsU1N6OQ",
-          title: "Наживо останні новини світу та України",
+          title: "Новости",
         },
         {
           videoId: "https://www.youtube.com/watch?v=3e0FsU1N6OQ",
-          title: "Наживо останні новини світу та України",
+          title: "Новости",
         },
         {
           videoId: "https://www.youtube.com/watch?v=3e0FsU1N6OQ",
-          title: "Наживо останні новини світу та України",
+          title: "Новости",
         },
         {
           videoId: "https://www.youtube.com/watch?v=3e0FsU1N6OQ",
-          title: "Наживо останні новини світу та України",
+          title: "Новости",
         },
         {
           videoId: "https://www.youtube.com/watch?v=3e0FsU1N6OQ",
-          title: "Наживо останні новини світу та України",
+          title: "Новости",
         },
         {
           videoId: "https://www.youtube.com/watch?v=3e0FsU1N6OQ",
-          title: "Наживо останні новини світу та України",
+          title: "Новости",
         },
       ],
     },
@@ -833,68 +797,6 @@ const data = {
     },
     {
       number: 301,
-      channelName: "QVC2 Live",
-      channelIcon: qvc2,
-      episodes: [
-        {
-          videoId: "https://www.youtube.com/watch?v=_v_wMS-uACE?",
-          title: "QVC2 Live",
-        },
-        {
-          videoId: "https://www.youtube.com/watch?v=_v_wMS-uACE?",
-          title: "QVC2 Live",
-        },
-        {
-          videoId: "https://www.youtube.com/watch?v=_v_wMS-uACE?",
-          title: "QVC2 Live",
-        },
-        {
-          videoId: "https://www.youtube.com/watch?v=_v_wMS-uACE?",
-          title: "QVC2 Live",
-        },
-        {
-          videoId: "https://www.youtube.com/watch?v=_v_wMS-uACE?",
-          title: "QVC2 Live",
-        },
-        {
-          videoId: "https://www.youtube.com/watch?v=_v_wMS-uACE?",
-          title: "QVC2 Live",
-        },
-      ],
-    },
-    {
-      number: 302,
-      channelName: "QVC3 Live",
-      channelIcon: qvc3,
-      episodes: [
-        {
-          videoId: "https://www.youtube.com/watch?v=Qt2c93O1p_c?",
-          title: "QVC3 Live",
-        },
-        {
-          videoId: "https://www.youtube.com/watch?v=Qt2c93O1p_c?",
-          title: "QVC3 Live",
-        },
-        {
-          videoId: "https://www.youtube.com/watch?v=Qt2c93O1p_c?",
-          title: "QVC3 Live",
-        },
-        {
-          videoId: "https://www.youtube.com/watch?v=Qt2c93O1p_c?",
-          title: "QVC3 Live",
-        },
-        {
-          videoId: "https://www.youtube.com/watch?v=Qt2c93O1p_c?",
-          title: "QVC3 Live",
-        },
-        {
-          videoId: "https://www.youtube.com/watch?v=Qt2c93O1p_c?",
-          title: "QVC3 Live",
-        },
-      ],
-    },
-    {
-      number: 303,
       channelName: "Naturalista",
       episodes: [
         {
@@ -930,7 +832,7 @@ const data = {
       ],
     },
     {
-      number: 304,
+      number: 302,
       channelName: "Home Decor",
       episodes: [
         {
@@ -966,7 +868,7 @@ const data = {
       ],
     },
     {
-      number: 305,
+      number: 303,
       channelName: "Geaux Thrifting",
       episodes: [
         {
@@ -1002,7 +904,7 @@ const data = {
       ],
     },
     {
-      number: 306,
+      number: 304,
       channelName: "Beaute 101",
       channelIcon: beaute,
       episodes: [
@@ -1039,7 +941,7 @@ const data = {
       ],
     },
     {
-      number: 307,
+      number: 305,
       channelName: "Geaux Travel",
       episodes: [
         {
@@ -1075,7 +977,7 @@ const data = {
       ],
     },
     {
-      number: 308,
+      number: 306,
       channelName: " DIY Art",
       episodes: [
         {
@@ -1111,7 +1013,7 @@ const data = {
       ],
     },
     {
-      number: 309,
+      number: 307,
       channelName: "Geauxing Home",
       episodes: [
         {
@@ -1287,27 +1189,27 @@ const data = {
       channelName: "Geaux HipHop (16+)",
       episodes: [
         {
-          videoId: "https://dai.ly/x7tae7z",
+          videoId: "https://www.wim.tv/embed/?cast=b22969b4-7a94-4ce9-a6e0-870b60da6f89&autostart=true",
           title: "HipHop",
         },
         {
-          videoId: "https://dai.ly/x7tae7z",
+          videoId: "https://www.wim.tv/embed/?cast=b22969b4-7a94-4ce9-a6e0-870b60da6f89&autostart=true",
           title: "HipHop",
         },
         {
-          videoId: "https://dai.ly/x7tae7z",
+          videoId: "https://www.wim.tv/embed/?cast=b22969b4-7a94-4ce9-a6e0-870b60da6f89&autostart=true",
           title: "HipHop",
         },
         {
-          videoId: "https://dai.ly/x7tae7z",
+          videoId: "https://www.wim.tv/embed/?cast=b22969b4-7a94-4ce9-a6e0-870b60da6f89&autostart=true",
           title: "HipHop",
         },
         {
-          videoId: "https://dai.ly/x7tae7z",
+          videoId: "https://www.wim.tv/embed/?cast=b22969b4-7a94-4ce9-a6e0-870b60da6f89&autostart=true",
           title: "HipHop",
         },
         {
-          videoId: "https://dai.ly/x7tae7z",
+          videoId: "https://www.wim.tv/embed/?cast=b22969b4-7a94-4ce9-a6e0-870b60da6f89&autostart=true",
           title: "HipHop",
         },
       ],
@@ -1376,75 +1278,75 @@ const data = {
     },
     {
       number: 407,
-      channelName: "Game Chops",
-      channelIcon: gamechops,
+      channelName: "Frequenzy Rock",
+      channelIcon: frequenzy,
       episodes: [
         {
           videoId:
-            "https://www.youtube.com/watch?v=P1k4jGwhKF0&ab_channel=GameChops",
-          title: "Video Game Study Lounge Music",
+            "https://www.youtube.com/watch?v=5X18D-EbjUc&feature=emb_title&ab_channel=FREQUENZY",
+          title: "Rock",
         },
         {
           videoId:
-            "https://www.youtube.com/watch?v=P1k4jGwhKF0&ab_channel=GameChops",
-          title: "Video Game Study Lounge Music",
+            "https://www.youtube.com/watch?v=5X18D-EbjUc&feature=emb_title&ab_channel=FREQUENZY",
+          title: "Rock",
         },
         {
           videoId:
-            "https://www.youtube.com/watch?v=P1k4jGwhKF0&ab_channel=GameChops",
-          title: "Video Game Study Lounge Music",
+            "https://www.youtube.com/watch?v=5X18D-EbjUc&feature=emb_title&ab_channel=FREQUENZY",
+          title: "Rock",
         },
         {
           videoId:
-            "https://www.youtube.com/watch?v=P1k4jGwhKF0&ab_channel=GameChops",
-          title: "Video Game Study Lounge Music",
+            "https://www.youtube.com/watch?v=5X18D-EbjUc&feature=emb_title&ab_channel=FREQUENZY",
+          title: "Rock",
         },
         {
           videoId:
-            "https://www.youtube.com/watch?v=P1k4jGwhKF0&ab_channel=GameChops",
-          title: "Video Game Study Lounge Music",
+            "https://www.youtube.com/watch?v=5X18D-EbjUc&feature=emb_title&ab_channel=FREQUENZY",
+          title: "Rock",
         },
         {
           videoId:
-            "https://www.youtube.com/watch?v=P1k4jGwhKF0&ab_channel=GameChops",
-          title: "Video Game Study Lounge Music",
+            "https://www.youtube.com/watch?v=5X18D-EbjUc&feature=emb_title&ab_channel=FREQUENZY",
+          title: "Rock",
         },
       ],
     },
     {
       number: 408,
-      channelName: "Frequenzy",
+      channelName: "Frequenzy Indie",
       channelIcon: frequenzy,
       episodes: [
         {
           videoId:
             "https://www.youtube.com/watch?v=1itSqkbXIlU&ab_channel=FREQUENZY",
-          title: "Indie Tunes by Frequenzy",
+          title: "Indie",
         },
         {
           videoId:
             "https://www.youtube.com/watch?v=1itSqkbXIlU&ab_channel=FREQUENZY",
-          title: "Indie Tunes by Frequenzy",
+          title: "Indie",
         },
         {
           videoId:
             "https://www.youtube.com/watch?v=1itSqkbXIlU&ab_channel=FREQUENZY",
-          title: "Indie Tunes by Frequenzy",
+          title: "Indie",
         },
         {
           videoId:
             "https://www.youtube.com/watch?v=1itSqkbXIlU&ab_channel=FREQUENZY",
-          title: "Indie Tunes by Frequenzy",
+          title: "Indie",
         },
         {
           videoId:
             "https://www.youtube.com/watch?v=1itSqkbXIlU&ab_channel=FREQUENZY",
-          title: "Indie Tunes by Frequenzy",
+          title: "Indie",
         },
         {
           videoId:
             "https://www.youtube.com/watch?v=1itSqkbXIlU&ab_channel=FREQUENZY",
-          title: "Indie Tunes by Frequenzy",
+          title: "Indie",
         },
       ],
     },
@@ -1673,37 +1575,6 @@ const data = {
       ],
     },
     {
-      number: 416,
-      channelName: "The World",
-      channelIcon: earthtv,
-      episodes: [
-        {
-          videoId: "hhttps://www.youtube.com/watch?v=JlqrHo-Rsi0",
-          title: "EarthTV",
-        },
-        {
-          videoId: "hhttps://www.youtube.com/watch?v=JlqrHo-Rsi0",
-          title: "EarthTV",
-        },
-        {
-          videoId: "hhttps://www.youtube.com/watch?v=JlqrHo-Rsi0",
-          title: "EarthTV",
-        },
-        {
-          videoId: "hhttps://www.youtube.com/watch?v=JlqrHo-Rsi0",
-          title: "EarthTV",
-        },
-        {
-          videoId: "hhttps://www.youtube.com/watch?v=JlqrHo-Rsi0",
-          title: "EarthTV",
-        },
-        {
-          videoId: "hhttps://www.youtube.com/watch?v=JlqrHo-Rsi0",
-          title: "EarthTV",
-        },
-      ],
-    },
-    {
       number: 417,
       channelName: "Calming Nature Music",
       episodes: [
@@ -1760,37 +1631,6 @@ const data = {
         {
           videoId: "https://www.youtube.com/watch?v=C9v3sZypcn4",
           title: "Relaxing Meditation Sleep Music",
-        },
-      ],
-    },
-    {
-      number: 419,
-      channelName: "Fallout76 Appalachia Radio ",
-      channelIcon: falloutradio,
-      episodes: [
-        {
-          videoId: "https://www.youtube.com/watch?v=iZZ-y_z6zLQ",
-          title: "24/7 Old World Radio",
-        },
-        {
-          videoId: "https://www.youtube.com/watch?v=iZZ-y_z6zLQ",
-          title: "24/7 Old World Radio",
-        },
-        {
-          videoId: "https://www.youtube.com/watch?v=iZZ-y_z6zLQ",
-          title: "24/7 Old World Radio",
-        },
-        {
-          videoId: "https://www.youtube.com/watch?v=iZZ-y_z6zLQ",
-          title: "24/7 Old World Radio",
-        },
-        {
-          videoId: "https://www.youtube.com/watch?v=iZZ-y_z6zLQ",
-          title: "24/7 Old World Radio",
-        },
-        {
-          videoId: "https://www.youtube.com/watch?v=iZZ-y_z6zLQ",
-          title: "24/7 Old World Radio",
         },
       ],
     },
@@ -1862,37 +1702,6 @@ const data = {
     },
     {
       number: 422,
-      channelName: "Revere Worship",
-      channelIcon: revere,
-      episodes: [
-        {
-          videoId: "https://www.youtube.com/watch?v=JEK03-EzyHk",
-          title: "Revere Worship 27/7 Live Stream",
-        },
-        {
-          videoId: "https://www.youtube.com/watch?v=JEK03-EzyHk",
-          title: "Revere Worship 27/7 Live Stream",
-        },
-        {
-          videoId: "https://www.youtube.com/watch?v=JEK03-EzyHk",
-          title: "Revere Worship 27/7 Live Stream",
-        },
-        {
-          videoId: "https://www.youtube.com/watch?v=JEK03-EzyHk",
-          title: "Revere Worship 27/7 Live Stream",
-        },
-        {
-          videoId: "https://www.youtube.com/watch?v=JEK03-EzyHk",
-          title: "Revere Worship 27/7 Live Stream",
-        },
-        {
-          videoId: "https://www.youtube.com/watch?v=JEK03-EzyHk",
-          title: "Revere Worship 27/7 Live Stream",
-        },
-      ],
-    },
-    {
-      number: 423,
       channelName: "Gaming Music Mix (16+)",
       episodes: [
         {
@@ -1921,6 +1730,72 @@ const data = {
         },
       ],
     },
+    {
+      number: 423,
+      channelName: "Music for Dogs",
+      episodes: [
+        {
+          videoId: "https://www.youtube.com/watch?v=thOcsZaOEUw&ab_channel=RelaxMyDog-RelaxingMusicforDogs",
+          title: "For Dogs",
+        },
+        {
+          videoId: "https://www.youtube.com/watch?v=thOcsZaOEUw&ab_channel=RelaxMyDog-RelaxingMusicforDogs",
+          title: "For Dogs",
+        },
+        {
+          videoId: "https://www.youtube.com/watch?v=thOcsZaOEUw&ab_channel=RelaxMyDog-RelaxingMusicforDogs",
+          title: "For Dogs",
+        },
+        {
+          videoId: "https://www.youtube.com/watch?v=thOcsZaOEUw&ab_channel=RelaxMyDog-RelaxingMusicforDogs",
+          title: "For Dogs",
+        },
+        {
+          videoId: "https://www.youtube.com/watch?v=thOcsZaOEUw&ab_channel=RelaxMyDog-RelaxingMusicforDogs",
+          title: "For Dogs",
+        },
+        {
+          videoId: "https://www.youtube.com/watch?v=thOcsZaOEUw&ab_channel=RelaxMyDog-RelaxingMusicforDogs",
+          title: "For Dogs",
+        },
+      ],
+    },
+    {
+      number: 465,
+      channelName: "The Dive",
+      episodes: [
+        {
+          videoId:
+            "https://dai.ly/x7wdujr",
+          title: "Geaux Music Live",
+        },
+        {
+          videoId:
+            "https://dai.ly/x7wdujr",
+          title: "Geaux Music Live",
+        },
+        {
+          videoId:
+            "https://dai.ly/x7wdujr",
+          title: "Geaux Music Live",
+        },
+        {
+          videoId:
+            "https://dai.ly/x7wdujr",
+          title: "Geaux Music Live",
+        },
+        {
+          videoId:
+            "https://dai.ly/x7wdujr",
+          title: "Geaux Music Live",
+        },
+        {
+          videoId:
+            "https://dai.ly/x7wdujr",
+          title: "Geaux Music Live",
+        },
+      ],
+    },
   ],
   "Science/Tech": [
     {
@@ -1929,27 +1804,27 @@ const data = {
       channelIcon: xset,
       episodes: [
         {
-          videoId: "https://dai.ly/x7wdujr",
+          videoId: "https://www.wim.tv/embed/?cast=a0644550-4817-4def-a260-44bff253a949&autostart=true&muted=true",
           title: "XSET Gaming",
         },
         {
-          videoId: "https://dai.ly/x7wdujr",
+          videoId: "https://www.wim.tv/embed/?cast=a0644550-4817-4def-a260-44bff253a949&autostart=true&muted=true",
           title: "XSET Gaming",
         },
         {
-          videoId: "https://dai.ly/x7wdujr",
+          videoId: "https://www.wim.tv/embed/?cast=a0644550-4817-4def-a260-44bff253a949&autostart=true&muted=true",
           title: "XSET Gaming",
         },
         {
-          videoId: "https://dai.ly/x7wdujr",
+          videoId: "https://www.wim.tv/embed/?cast=a0644550-4817-4def-a260-44bff253a949&autostart=true&muted=true",
           title: "XSET Gaming",
         },
         {
-          videoId: "https://dai.ly/x7wdujr",
+          videoId: "https://www.wim.tv/embed/?cast=a0644550-4817-4def-a260-44bff253a949&autostart=true&muted=true",
           title: "XSET Gaming",
         },
         {
-          videoId: "https://dai.ly/x7wdujr",
+          videoId: "https://www.wim.tv/embed/?cast=a0644550-4817-4def-a260-44bff253a949&autostart=true&muted=true",
           title: "XSET Gaming",
         },
       ],
@@ -2527,32 +2402,32 @@ const data = {
         {
           videoId:
             "https://www.youtube.com/watch?v=Uy1KnGEVpTA&ab_channel=ExploreOceans",
-          title: "Underwater Manatess EXPLORE.org",
+          title: "Manatess EXPLORE.org",
         },
         {
           videoId:
             "https://www.youtube.com/watch?v=Uy1KnGEVpTA&ab_channel=ExploreOceans",
-          title: "Underwater Manatess EXPLORE.org",
+          title: "Manatess EXPLORE.org",
         },
         {
           videoId:
             "https://www.youtube.com/watch?v=Uy1KnGEVpTA&ab_channel=ExploreOceans",
-          title: "Underwater Manatess EXPLORE.org",
+          title: "Manatess EXPLORE.org",
         },
         {
           videoId:
             "https://www.youtube.com/watch?v=Uy1KnGEVpTA&ab_channel=ExploreOceans",
-          title: "Underwater Manatess EXPLORE.org",
+          title: "Manatess EXPLORE.org",
         },
         {
           videoId:
             "https://www.youtube.com/watch?v=Uy1KnGEVpTA&ab_channel=ExploreOceans",
-          title: "Underwater Manatess EXPLORE.org",
+          title: "Manatess EXPLORE.org",
         },
         {
           videoId:
             "https://www.youtube.com/watch?v=Uy1KnGEVpTA&ab_channel=ExploreOceans",
-          title: "Underwater Manatess EXPLORE.org",
+          title: "Manatess EXPLORE.org",
         },
       ],
     },
