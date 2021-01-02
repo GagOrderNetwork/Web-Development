@@ -10,13 +10,11 @@ import daaitv from "../assets/icons/daaitv.png";
 import earthtv from "../assets/icons/earth-tv.png";
 import ebrutv from "../assets/icons/ebrutv.png";
 import explore from "../assets/icons/explore.png";
-import falloutradio from "../assets/icons/falloutradio.png";
 import franceinfo from "../assets/icons/franceinfo.png";
 import frequenzy from "../assets/icons/frequenzy.png";
 import gamechops from "../assets/icons/GameChops.png";
 import gx from "../assets/icons/gx.png";
 import hometeam from "../assets/icons/hometeam.png";
-import hsn from "../assets/icons/hsn.png";
 import hype from "../assets/icons/HYPE.png";
 import japanews from "../assets/icons/japanews.png";
 import juju from "../assets/icons/juju.png";
@@ -28,9 +26,6 @@ import nasa2 from "../assets/icons/nasa2.png";
 import ndtv from "../assets/icons/ndtv.png";
 import newsone from "../assets/icons/newsone.png";
 import paldoga from "../assets/icons/paldoga.png";
-import qvc2 from "../assets/icons/QVC2.png";
-import qvc3 from "../assets/icons/QVC3.png";
-import revere from "../assets/icons/revere.png";
 import rtarabic from "../assets/icons/RTArabic.png";
 import skynews from "../assets/icons/skynewslogo.png";
 import somoytv from "../assets/icons/Somoytv.png";
@@ -346,37 +341,6 @@ const data = {
       ],
     },
     {
-      number: 106,
-      channelName: "Liverpool TV",
-      channelIcon: liverpooltv,
-      episodes: [
-        {
-          videoId: "https://www.dailymotion.com/video/x702gf3",
-          title: "Local Liverpool News",
-        },
-        {
-          videoId: "https://www.dailymotion.com/video/x702gf3",
-          title: "Local Liverpool News",
-        },
-        {
-          videoId: "https://www.dailymotion.com/video/x702gf3",
-          title: "Local Liverpool News",
-        },
-        {
-          videoId: "https://www.dailymotion.com/video/x702gf3",
-          title: "Local Liverpool News",
-        },
-        {
-          videoId: "https://www.dailymotion.com/video/x702gf3",
-          title: "Local Liverpool News",
-        },
-        {
-          videoId: "https://www.dailymotion.com/video/x702gf3",
-          title: "Local Liverpool News",
-        },
-      ],
-    },
-    {
       number: 107,
       channelName: "SKY News",
       channelIcon: skynews,
@@ -634,7 +598,7 @@ const data = {
   Kids: [
     {
       number: 200,
-      channelName: "Cat Tales",
+      channelName: "Tom and Friends",
       channelIcon: tomfriends,
       episodes: [
         {
@@ -702,32 +666,32 @@ const data = {
         {
           videoId:
             "https://www.youtube.com/watch?v=keIt6LJEC44&ab_channel=TalkingTomHeroes",
-          title: "Talking Tom Heroes 24/7",
+          title: "Tom Heroes 24/7",
         },
         {
           videoId:
             "https://www.youtube.com/watch?v=keIt6LJEC44&ab_channel=TalkingTomHeroes",
-          title: "Talking Tom Heroes 24/7",
+          title: "Tom Heroes 24/7",
         },
         {
           videoId:
             "https://www.youtube.com/watch?v=keIt6LJEC44&ab_channel=TalkingTomHeroes",
-          title: "Talking Tom Heroes 24/7",
+          title: "Tom Heroes 24/7",
         },
         {
           videoId:
             "https://www.youtube.com/watch?v=keIt6LJEC44&ab_channel=TalkingTomHeroes",
-          title: "Talking Tom Heroes 24/7",
+          title: "Tom Heroes 24/7",
         },
         {
           videoId:
             "https://www.youtube.com/watch?v=keIt6LJEC44&ab_channel=TalkingTomHeroes",
-          title: "Talking Tom Heroes 24/7",
+          title: "Tom Heroes 24/7",
         },
         {
           videoId:
             "https://www.youtube.com/watch?v=keIt6LJEC44&ab_channel=TalkingTomHeroes",
-          title: "Talking Tom Heroes 24/7",
+          title: "Tom Heroes 24/7",
         },
       ],
     },
@@ -764,145 +728,6 @@ const data = {
     },
   ],
   "Health/Lifestyle": [
-    {
-      number: 300,
-      channelName: "HSN",
-      channelIcon: hsn,
-      episodes: [
-        {
-          videoId: "https://www.youtube.com/watch?v=1ph8qQnjXts?",
-          title: "HSN Live",
-        },
-        {
-          videoId: "https://www.youtube.com/watch?v=1ph8qQnjXts?",
-          title: "HSN Live",
-        },
-        {
-          videoId: "https://www.youtube.com/watch?v=1ph8qQnjXts?",
-          title: "HSN Live",
-        },
-        {
-          videoId: "https://www.youtube.com/watch?v=1ph8qQnjXts?",
-          title: "HSN Live",
-        },
-        {
-          videoId: "https://www.youtube.com/watch?v=1ph8qQnjXts?",
-          title: "HSN Live",
-        },
-        {
-          videoId: "https://www.youtube.com/watch?v=1ph8qQnjXts?",
-          title: "HSN Live",
-        },
-      ],
-    },
-    {
-      number: 301,
-      channelName: "Naturalista",
-      episodes: [
-        {
-          videoId:
-            "https://www.youtube.com/watch?v=videoseries?list=PLS7PdlYEvYYM4Q9A4G-NNAPZ7Fl7SiXBj&",
-          title: "Natural Hair Advice",
-        },
-        {
-          videoId:
-            "https://www.youtube.com/watch?v=videoseries?list=PLS7PdlYEvYYM4Q9A4G-NNAPZ7Fl7SiXBj&",
-          title: "Natural Hair Advice",
-        },
-        {
-          videoId:
-            "https://www.youtube.com/watch?v=videoseries?list=PLS7PdlYEvYYM4Q9A4G-NNAPZ7Fl7SiXBj&",
-          title: "Natural Hair Advice",
-        },
-        {
-          videoId:
-            "https://www.youtube.com/watch?v=videoseries?list=PLS7PdlYEvYYM4Q9A4G-NNAPZ7Fl7SiXBj&",
-          title: "Natural Hair Advice",
-        },
-        {
-          videoId:
-            "https://www.youtube.com/watch?v=videoseries?list=PLS7PdlYEvYYM4Q9A4G-NNAPZ7Fl7SiXBj&",
-          title: "Natural Hair Advice",
-        },
-        {
-          videoId:
-            "https://www.youtube.com/watch?v=videoseries?list=PLS7PdlYEvYYM4Q9A4G-NNAPZ7Fl7SiXBj&",
-          title: "Natural Hair Advice",
-        },
-      ],
-    },
-    {
-      number: 302,
-      channelName: "Home Decor",
-      episodes: [
-        {
-          videoId:
-            "https://www.youtube.com/watch?v=videoseries?list=PLS7PdlYEvYYM5fkeGzSSlU3x1MC9mobCj&",
-          title: "DIY Home Decor",
-        },
-        {
-          videoId:
-            "https://www.youtube.com/watch?v=videoseries?list=PLS7PdlYEvYYM5fkeGzSSlU3x1MC9mobCj&",
-          title: "DIY Home Decor",
-        },
-        {
-          videoId:
-            "https://www.youtube.com/watch?v=videoseries?list=PLS7PdlYEvYYM5fkeGzSSlU3x1MC9mobCj&",
-          title: "DIY Home Decor",
-        },
-        {
-          videoId:
-            "https://www.youtube.com/watch?v=videoseries?list=PLS7PdlYEvYYM5fkeGzSSlU3x1MC9mobCj&",
-          title: "DIY Home Decor",
-        },
-        {
-          videoId:
-            "https://www.youtube.com/watch?v=videoseries?list=PLS7PdlYEvYYM5fkeGzSSlU3x1MC9mobCj&",
-          title: "DIY Home Decor",
-        },
-        {
-          videoId:
-            "https://www.youtube.com/watch?v=videoseries?list=PLS7PdlYEvYYM5fkeGzSSlU3x1MC9mobCj&",
-          title: "DIY Home Decor",
-        },
-      ],
-    },
-    {
-      number: 303,
-      channelName: "Geaux Thrifting",
-      episodes: [
-        {
-          videoId:
-            "https://www.youtube.com/watch?v=videoseries?list=PLS7PdlYEvYYMrFVh9Cn4o48hTrCtR1pPy&",
-          title: "Thrift Flip",
-        },
-        {
-          videoId:
-            "https://www.youtube.com/watch?v=videoseries?list=PLS7PdlYEvYYMrFVh9Cn4o48hTrCtR1pPy&",
-          title: "Thrift Flip",
-        },
-        {
-          videoId:
-            "https://www.youtube.com/watch?v=videoseries?list=PLS7PdlYEvYYMrFVh9Cn4o48hTrCtR1pPy&",
-          title: "Thrift Flip",
-        },
-        {
-          videoId:
-            "https://www.youtube.com/watch?v=videoseries?list=PLS7PdlYEvYYMrFVh9Cn4o48hTrCtR1pPy&",
-          title: "Thrift Flip",
-        },
-        {
-          videoId:
-            "https://www.youtube.com/watch?v=videoseries?list=PLS7PdlYEvYYMrFVh9Cn4o48hTrCtR1pPy&",
-          title: "Thrift Flip",
-        },
-        {
-          videoId:
-            "https://www.youtube.com/watch?v=videoseries?list=PLS7PdlYEvYYMrFVh9Cn4o48hTrCtR1pPy&",
-          title: "Thrift Flip",
-        },
-      ],
-    },
     {
       number: 304,
       channelName: "Beaute 101",
@@ -942,37 +767,37 @@ const data = {
     },
     {
       number: 305,
-      channelName: "Geaux Travel",
+      channelName: "Onward",
       episodes: [
         {
           videoId:
             "https://www.wim.tv/embed/?cast=896831c2-7621-4bd1-b524-9221f2a40375&autostart=true",
-          title: "Travel Far and Wide",
+          title: "World Traveling",
         },
         {
           videoId:
             "https://www.wim.tv/embed/?cast=896831c2-7621-4bd1-b524-9221f2a40375&autostart=true",
-          title: "Travel Far and Wide",
+          title: "World Traveling",
         },
         {
           videoId:
             "https://www.wim.tv/embed/?cast=896831c2-7621-4bd1-b524-9221f2a40375&autostart=true",
-          title: "Travel Far and Wide",
+          title: "World Traveling",
         },
         {
           videoId:
             "https://www.wim.tv/embed/?cast=896831c2-7621-4bd1-b524-9221f2a40375&autostart=true",
-          title: "Travel Far and Wide",
+          title: "World Traveling",
         },
         {
           videoId:
             "https://www.wim.tv/embed/?cast=896831c2-7621-4bd1-b524-9221f2a40375&autostart=true",
-          title: "Travel Far and Wide",
+          title: "World Traveling",
         },
         {
           videoId:
             "https://www.wim.tv/embed/?cast=896831c2-7621-4bd1-b524-9221f2a40375&autostart=true",
-          title: "Travel Far and Wide",
+          title: "World Traveling",
         },
       ],
     },
@@ -1012,44 +837,7 @@ const data = {
         },
       ],
     },
-    {
-      number: 307,
-      channelName: "Geauxing Home",
-      episodes: [
-        {
-          videoId:
-            "https://www.youtube.com/watch?v=videoseries?list=PLS7PdlYEvYYOFe1mXqR39oXbKcpYupNNx&",
-          title: "HomeTalk",
-        },
-        {
-          videoId:
-            "https://www.youtube.com/watch?v=videoseries?list=PLS7PdlYEvYYOFe1mXqR39oXbKcpYupNNx&",
-          title: "HomeTalk",
-        },
-        {
-          videoId:
-            "https://www.youtube.com/watch?v=videoseries?list=PLS7PdlYEvYYOFe1mXqR39oXbKcpYupNNx&",
-          title: "HomeTalk",
-        },
-        {
-          videoId:
-            "https://www.youtube.com/watch?v=videoseries?list=PLS7PdlYEvYYOFe1mXqR39oXbKcpYupNNx&",
-          title: "HomeTalk",
-        },
-        {
-          videoId:
-            "https://www.youtube.com/watch?v=videoseries?list=PLS7PdlYEvYYOFe1mXqR39oXbKcpYupNNx&",
-          title: "HomeTalk",
-        },
-        {
-          videoId:
-            "https://www.youtube.com/watch?v=videoseries?list=PLS7PdlYEvYYOFe1mXqR39oXbKcpYupNNx&",
-          title: "HomeTalk",
-        },
-      ],
-    },
   ],
-
   Music: [
     {
       number: 400,
@@ -1084,7 +872,7 @@ const data = {
     },
     {
       number: 401,
-      channelName: "Issa Vibe (16+)",
+      channelName: "R&B/HipHop (16+)",
       episodes: [
         {
           videoId: "https://www.youtube.com/watch?v=L9Q1HUdUMp0?",
@@ -1185,63 +973,32 @@ const data = {
       ],
     },
     {
-      number: 404,
-      channelName: "Geaux HipHop (16+)",
-      episodes: [
-        {
-          videoId: "https://www.wim.tv/embed/?cast=b22969b4-7a94-4ce9-a6e0-870b60da6f89&autostart=true",
-          title: "HipHop",
-        },
-        {
-          videoId: "https://www.wim.tv/embed/?cast=b22969b4-7a94-4ce9-a6e0-870b60da6f89&autostart=true",
-          title: "HipHop",
-        },
-        {
-          videoId: "https://www.wim.tv/embed/?cast=b22969b4-7a94-4ce9-a6e0-870b60da6f89&autostart=true",
-          title: "HipHop",
-        },
-        {
-          videoId: "https://www.wim.tv/embed/?cast=b22969b4-7a94-4ce9-a6e0-870b60da6f89&autostart=true",
-          title: "HipHop",
-        },
-        {
-          videoId: "https://www.wim.tv/embed/?cast=b22969b4-7a94-4ce9-a6e0-870b60da6f89&autostart=true",
-          title: "HipHop",
-        },
-        {
-          videoId: "https://www.wim.tv/embed/?cast=b22969b4-7a94-4ce9-a6e0-870b60da6f89&autostart=true",
-          title: "HipHop",
-        },
-      ],
-    },
-
-    {
       number: 405,
       channelName: "Shuffle Dance Music (16+)",
       episodes: [
         {
           videoId: "https://www.youtube.com/watch?v=qWf-FPFmVw0",
-          title: "Best Electro House & Bass Boosted Mix",
+          title: "Electro House & Bass Mix",
         },
         {
           videoId: "https://www.youtube.com/watch?v=qWf-FPFmVw0",
-          title: "Best Electro House & Bass Boosted Mix",
+          title: "Electro House & Bass Mix",
         },
         {
           videoId: "https://www.youtube.com/watch?v=qWf-FPFmVw0",
-          title: "Best Electro House & Bass Boosted Mix",
+          title: "Electro House & Bass Mix",
         },
         {
           videoId: "https://www.youtube.com/watch?v=qWf-FPFmVw0",
-          title: "Best Electro House & Bass Boosted Mix",
+          title: "Electro House & Bass Mix",
         },
         {
           videoId: "https://www.youtube.com/watch?v=qWf-FPFmVw0",
-          title: "Best Electro House & Bass Boosted Mix",
+          title: "Electro House & Bass Mix",
         },
         {
           videoId: "https://www.youtube.com/watch?v=qWf-FPFmVw0",
-          title: "Best Electro House & Bass Boosted Mix",
+          title: "Electro House & Bass Mix",
         },
       ],
     },
@@ -1252,33 +1009,33 @@ const data = {
       episodes: [
         {
           videoId: "https://www.dailymotion.com/video/x6s18p8",
-          title: "UK and overseas music",
+          title: "UK & overseas music",
         },
         {
           videoId: "https://www.dailymotion.com/video/x6s18p8",
-          title: "UK and overseas music",
+          title: "UK & overseas music",
         },
         {
           videoId: "https://www.dailymotion.com/video/x6s18p8",
-          title: "UK and overseas music",
+          title: "UK & overseas music",
         },
         {
           videoId: "https://www.dailymotion.com/video/x6s18p8",
-          title: "UK and overseas music",
+          title: "UK & overseas music",
         },
         {
           videoId: "https://www.dailymotion.com/video/x6s18p8",
-          title: "UK and overseas music",
+          title: "UK & overseas music",
         },
         {
           videoId: "https://www.dailymotion.com/video/x6s18p8",
-          title: "UK and overseas music",
+          title: "UK & overseas music",
         },
       ],
     },
     {
       number: 407,
-      channelName: "Frequenzy Rock",
+      channelName: "Frequenzy Rock (16+)",
       channelIcon: frequenzy,
       episodes: [
         {
@@ -1315,7 +1072,7 @@ const data = {
     },
     {
       number: 408,
-      channelName: "Frequenzy Indie",
+      channelName: "Frequenzy Indie (16+)",
       channelIcon: frequenzy,
       episodes: [
         {
@@ -1352,7 +1109,7 @@ const data = {
     },
     {
       number: 409,
-      channelName: "Best Radio 1 (16+)",
+      channelName: "BestRadio1 (16+)",
       channelIcon: br1,
       episodes: [
         {
@@ -1423,27 +1180,27 @@ const data = {
       episodes: [
         {
           videoId: "https://www.youtube.com/watch?v=dGfdGZ8cH-o",
-          title: "24/7 Metal Music SOLITUDE PRODUCTIONS",
+          title: "Metal Music SOLITUDE PRODUCTIONS",
         },
         {
           videoId: "https://www.youtube.com/watch?v=dGfdGZ8cH-o",
-          title: "24/7 Metal Music SOLITUDE PRODUCTIONS",
+          title: "Metal Music SOLITUDE PRODUCTIONS",
         },
         {
           videoId: "https://www.youtube.com/watch?v=dGfdGZ8cH-o",
-          title: "24/7 Metal Music SOLITUDE PRODUCTIONS",
+          title: "Metal Music SOLITUDE PRODUCTIONS",
         },
         {
           videoId: "https://www.youtube.com/watch?v=dGfdGZ8cH-o",
-          title: "24/7 Metal Music SOLITUDE PRODUCTIONS",
+          title: "Metal Music SOLITUDE PRODUCTIONS",
         },
         {
           videoId: "https://www.youtube.com/watch?v=dGfdGZ8cH-o",
-          title: "24/7 Metal Music SOLITUDE PRODUCTIONS",
+          title: "Metal Music SOLITUDE PRODUCTIONS",
         },
         {
           videoId: "https://www.youtube.com/watch?v=dGfdGZ8cH-o",
-          title: "24/7 Metal Music SOLITUDE PRODUCTIONS",
+          title: "Metal Music SOLITUDE PRODUCTIONS",
         },
       ],
     },
@@ -1580,27 +1337,27 @@ const data = {
       episodes: [
         {
           videoId: "https://www.youtube.com/watch?v=P7d1H83IcjE",
-          title: "World's Most Beautiful Places",
+          title: "Most Beautiful Places",
         },
         {
           videoId: "https://www.youtube.com/watch?v=P7d1H83IcjE",
-          title: "World's Most Beautiful Places",
+          title: "Most Beautiful Places",
         },
         {
           videoId: "https://www.youtube.com/watch?v=P7d1H83IcjE",
-          title: "World's Most Beautiful Places",
+          title: "Most Beautiful Places",
         },
         {
           videoId: "https://www.youtube.com/watch?v=P7d1H83IcjE",
-          title: "World's Most Beautiful Places",
+          title: "Most Beautiful Places",
         },
         {
           videoId: "https://www.youtube.com/watch?v=P7d1H83IcjE",
-          title: "World's Most Beautiful Places",
+          title: "Most Beautiful Places",
         },
         {
           videoId: "https://www.youtube.com/watch?v=P7d1H83IcjE",
-          title: "World's Most Beautiful Places",
+          title: "Most Beautiful Places",
         },
       ],
     },
@@ -1706,27 +1463,27 @@ const data = {
       episodes: [
         {
           videoId: "https://www.youtube.com/watch?v=eosLoIMzW7E",
-          title: "24/7 Live Stream EDM Gaming Music",
+          title: "EDM Gaming Music 24/7",
         },
         {
           videoId: "https://www.youtube.com/watch?v=eosLoIMzW7E",
-          title: "24/7 Live Stream EDM Gaming Music",
+          title: "EDM Gaming Music 24/7",
         },
         {
           videoId: "https://www.youtube.com/watch?v=eosLoIMzW7E",
-          title: "24/7 Live Stream EDM Gaming Music",
+          title: "EDM Gaming Music 24/7",
         },
         {
           videoId: "https://www.youtube.com/watch?v=eosLoIMzW7E",
-          title: "24/7 Live Stream EDM Gaming Music",
+          title: "EDM Gaming Music 24/7",
         },
         {
           videoId: "https://www.youtube.com/watch?v=eosLoIMzW7E",
-          title: "24/7 Live Stream EDM Gaming Music",
+          title: "EDM Gaming Music 24/7",
         },
         {
           videoId: "https://www.youtube.com/watch?v=eosLoIMzW7E",
-          title: "24/7 Live Stream EDM Gaming Music",
+          title: "EDM Gaming Music 24/7",
         },
       ],
     },
@@ -1757,6 +1514,36 @@ const data = {
         {
           videoId: "https://www.youtube.com/watch?v=thOcsZaOEUw&ab_channel=RelaxMyDog-RelaxingMusicforDogs",
           title: "For Dogs",
+        },
+      ],
+    },
+    {
+      number: 460,
+      channelName: "Beatnick (16+)",
+      episodes: [
+        {
+          videoId: "https://www.wim.tv/embed/?cast=b22969b4-7a94-4ce9-a6e0-870b60da6f89&autostart=true",
+          title: "BeatClub",
+        },
+        {
+          videoId: "https://www.wim.tv/embed/?cast=b22969b4-7a94-4ce9-a6e0-870b60da6f89&autostart=true",
+          title: "MuseumTV",
+        },
+        {
+          videoId: "https://www.wim.tv/embed/?cast=b22969b4-7a94-4ce9-a6e0-870b60da6f89&autostart=true",
+          title: "BeatClub",
+        },
+        {
+          videoId: "https://www.wim.tv/embed/?cast=b22969b4-7a94-4ce9-a6e0-870b60da6f89&autostart=true",
+          title: "MuseumTV",
+        },
+        {
+          videoId: "https://www.wim.tv/embed/?cast=b22969b4-7a94-4ce9-a6e0-870b60da6f89&autostart=true",
+          title: "BeatClub",
+        },
+        {
+          videoId: "https://www.wim.tv/embed/?cast=b22969b4-7a94-4ce9-a6e0-870b60da6f89&autostart=true",
+          title: "MuseumTV",
         },
       ],
     },
@@ -2034,7 +1821,7 @@ const data = {
     },
   ],
 
-  "Sports/Activities": [
+  "Sports": [
     {
       number: 600,
       channelName: "Motor Sports Italiano",
