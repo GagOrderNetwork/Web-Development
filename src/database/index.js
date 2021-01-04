@@ -45,27 +45,27 @@ const data = {
       episodes: [
         {
           videoId:
-            "https://www.youtube.com/watch?v=Ph_GRKvvqK4&list=PLXQmsxcbaFYMd3kXcNCmeoBPzN04Pg1Cw&ab_channel=onairgag",
+            "https://www.wim.tv/embed/?cast=c6d90fc6-12f1-45fa-a89b-1ad6be6b7308&autostart=true",
           title: "GeauxInfo",
         },
         {
           videoId:
-            "https://www.youtube.com/watch?v=Ph_GRKvvqK4&list=PLXQmsxcbaFYMd3kXcNCmeoBPzN04Pg1Cw&ab_channel=onairgag",
+            "https://www.wim.tv/embed/?cast=c6d90fc6-12f1-45fa-a89b-1ad6be6b7308&autostart=true",
           title: "GeauxInfo",
         },
         {
           videoId:
-            "https://www.youtube.com/watch?v=Ph_GRKvvqK4&list=PLXQmsxcbaFYMd3kXcNCmeoBPzN04Pg1Cw&ab_channel=onairgag",
+            "https://www.wim.tv/embed/?cast=c6d90fc6-12f1-45fa-a89b-1ad6be6b7308&autostart=true",
           title: "GeauxInfo",
         },
         {
           videoId:
-            "https://www.youtube.com/watch?v=Ph_GRKvvqK4&list=PLXQmsxcbaFYMd3kXcNCmeoBPzN04Pg1Cw&ab_channel=onairgag",
+            "https://www.wim.tv/embed/?cast=c6d90fc6-12f1-45fa-a89b-1ad6be6b7308&autostart=true",
           title: "GeauxInfo",
         },
         {
           videoId:
-            "https://www.youtube.com/watch?v=Ph_GRKvvqK4&list=PLXQmsxcbaFYMd3kXcNCmeoBPzN04Pg1Cw&ab_channel=onairgag",
+            "https://www.wim.tv/embed/?cast=c6d90fc6-12f1-45fa-a89b-1ad6be6b7308&autostart=true",
           title: "GeauxInfo",
         },
         {
