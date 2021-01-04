@@ -45,32 +45,32 @@ const data = {
       episodes: [
         {
           videoId:
-            "https://www.youtube.com/watch?v=gPPBOpTcHT8&list=PLXQmsxcbaFYM4tRm4WNRRgecVL5ha6df0&ab_channel=onairgag",
+            "https://www.youtube.com/watch?v=Ph_GRKvvqK4&list=PLXQmsxcbaFYM4tRm4WNRRgecVL5ha6df0&ab_channel=onairgag",
           title: "GeauxInfo",
         },
         {
           videoId:
-            "https://www.youtube.com/watch?v=gPPBOpTcHT8&list=PLXQmsxcbaFYM4tRm4WNRRgecVL5ha6df0&ab_channel=onairgag",
+            "https://www.youtube.com/watch?v=Ph_GRKvvqK4&list=PLXQmsxcbaFYM4tRm4WNRRgecVL5ha6df0&ab_channel=onairgag",
           title: "GeauxInfo",
         },
         {
           videoId:
-            "https://www.youtube.com/watch?v=gPPBOpTcHT8&list=PLXQmsxcbaFYM4tRm4WNRRgecVL5ha6df0&ab_channel=onairgag",
+            "https://www.youtube.com/watch?v=Ph_GRKvvqK4&list=PLXQmsxcbaFYM4tRm4WNRRgecVL5ha6df0&ab_channel=onairgag",
           title: "GeauxInfo",
         },
         {
           videoId:
-            "https://www.youtube.com/watch?v=gPPBOpTcHT8&list=PLXQmsxcbaFYM4tRm4WNRRgecVL5ha6df0&ab_channel=onairgag",
+            "https://www.youtube.com/watch?v=Ph_GRKvvqK4&list=PLXQmsxcbaFYM4tRm4WNRRgecVL5ha6df0&ab_channel=onairgag",
           title: "GeauxInfo",
         },
         {
           videoId:
-            "https://www.youtube.com/watch?v=gPPBOpTcHT8&list=PLXQmsxcbaFYM4tRm4WNRRgecVL5ha6df0&ab_channel=onairgag",
+            "https://www.youtube.com/watch?v=Ph_GRKvvqK4&list=PLXQmsxcbaFYM4tRm4WNRRgecVL5ha6df0&ab_channel=onairgag",
           title: "GeauxInfo",
         },
         {
           videoId:
-            "https://www.youtube.com/watch?v=gPPBOpTcHT8&list=PLXQmsxcbaFYM4tRm4WNRRgecVL5ha6df0&ab_channel=onairgag",
+            "https://www.youtube.com/watch?v=Ph_GRKvvqK4&list=PLXQmsxcbaFYM4tRm4WNRRgecVL5ha6df0&ab_channel=onairgag",
           title: "GeauxInfo",
         },
       ],
@@ -182,7 +182,7 @@ const data = {
     },
     {
       number: 101,
-      channelName: "Geaux Business",
+      channelName: "GeauxBusiness",
       episodes: [
         {
           videoId: "https://www.wim.tv/embed/?cast=8520fa0e-4bb2-419b-baf2-01676853f5da&autostart=true&muted=1",
@@ -565,32 +565,32 @@ const data = {
         {
           videoId:
             "https://www.wim.tv/embed/?cast=25862b63-bdbc-4651-9b60-53091882cfe8&autostart=true",
-          title: "Arzamas.academy",
+          title: "ArzamasAcademy",
         },
         {
           videoId:
             "https://www.wim.tv/embed/?cast=25862b63-bdbc-4651-9b60-53091882cfe8&autostart=true",
-          title: "Arzamas.academy",
+          title: "ArzamasAcademy",
         },
         {
           videoId:
             "https://www.wim.tv/embed/?cast=25862b63-bdbc-4651-9b60-53091882cfe8&autostart=true",
-          title: "Arzamas.academy",
+          title: "ArzamasAcademy",
         },
         {
           videoId:
             "https://www.wim.tv/embed/?cast=25862b63-bdbc-4651-9b60-53091882cfe8&autostart=true",
-          title: "Arzamas.academy",
+          title: "ArzamasAcademy",
         },
         {
           videoId:
             "https://www.wim.tv/embed/?cast=25862b63-bdbc-4651-9b60-53091882cfe8&autostart=true",
-          title: "Arzamas.academy",
+          title: "ArzamasAademy",
         },
         {
           videoId:
             "https://www.wim.tv/embed/?cast=25862b63-bdbc-4651-9b60-53091882cfe8&autostart=true",
-          title: "Arzamas.academy",
+          title: "ArzamasAcademy",
         },
       ],
     },
@@ -598,37 +598,6 @@ const data = {
   Kids: [
     {
       number: 200,
-      channelName: "Tom and Friends",
-      channelIcon: tomfriends,
-      episodes: [
-        {
-          videoId: "https://www.youtube.com/watch?v=PbP0_yYXcHU?",
-          title: "Talking Tom and Friends",
-        },
-        {
-          videoId: "https://www.youtube.com/watch?v=PbP0_yYXcHU?",
-          title: "Talking Tom and Friends",
-        },
-        {
-          videoId: "https://www.youtube.com/watch?v=PbP0_yYXcHU?",
-          title: "Talking Tom and Friends",
-        },
-        {
-          videoId: "https://www.youtube.com/watch?v=PbP0_yYXcHU?",
-          title: "Talking Tom and Friends",
-        },
-        {
-          videoId: "https://www.youtube.com/watch?v=PbP0_yYXcHU?",
-          title: "Talking Tom and Friends",
-        },
-        {
-          videoId: "https://www.youtube.com/watch?v=PbP0_yYXcHU?",
-          title: "Talking Tom and Friends",
-        },
-      ],
-    },
-    {
-      number: 201,
       channelName: "Booba",
       channelIcon: booba,
       episodes: [
@@ -655,6 +624,37 @@ const data = {
         {
           videoId: "https://www.youtube.com/watch?v=XK8METRgK_U",
           title: "Booba 24/7",
+        },
+      ],
+    },
+    {
+      number: 201,
+      channelName: "Tom and Friends",
+      channelIcon: tomfriends,
+      episodes: [
+        {
+          videoId: "https://www.youtube.com/watch?v=PbP0_yYXcHU?",
+          title: "Talking Tom and Friends",
+        },
+        {
+          videoId: "https://www.youtube.com/watch?v=PbP0_yYXcHU?",
+          title: "Talking Tom and Friends",
+        },
+        {
+          videoId: "https://www.youtube.com/watch?v=PbP0_yYXcHU?",
+          title: "Talking Tom and Friends",
+        },
+        {
+          videoId: "https://www.youtube.com/watch?v=PbP0_yYXcHU?",
+          title: "Talking Tom and Friends",
+        },
+        {
+          videoId: "https://www.youtube.com/watch?v=PbP0_yYXcHU?",
+          title: "Talking Tom and Friends",
+        },
+        {
+          videoId: "https://www.youtube.com/watch?v=PbP0_yYXcHU?",
+          title: "Talking Tom and Friends",
         },
       ],
     },
@@ -736,32 +736,32 @@ const data = {
         {
           videoId:
             "https://www.wim.tv/embed/?cast=59a5d503-8874-43be-837e-297524a57e9d&autostart=true",
-          title: "Skin care tutorials",
+          title: "Beaute",
         },
         {
           videoId:
             "https://www.wim.tv/embed/?cast=59a5d503-8874-43be-837e-297524a57e9d&autostart=true",
-          title: "Skin care tutorials",
+          title: "Beaute",
         },
         {
           videoId:
             "https://www.wim.tv/embed/?cast=59a5d503-8874-43be-837e-297524a57e9d&autostart=true",
-          title: "Skin care tutorials",
+          title: "Beaute",
         },
         {
           videoId:
             "https://www.wim.tv/embed/?cast=59a5d503-8874-43be-837e-297524a57e9d&autostart=true",
-          title: "Skin care tutorials",
+          title: "Beaute",
         },
         {
           videoId:
             "https://www.wim.tv/embed/?cast=59a5d503-8874-43be-837e-297524a57e9d&autostart=true",
-          title: "Skin care tutorials",
+          title: "Beaute",
         },
         {
           videoId:
             "https://www.wim.tv/embed/?cast=59a5d503-8874-43be-837e-297524a57e9d&autostart=true",
-          title: "Skin care tutorials",
+          title: "Beaute",
         },
       ],
     },
@@ -803,7 +803,7 @@ const data = {
     },
     {
       number: 302,
-      channelName: " DIY Art",
+      channelName: "DIY Art",
       episodes: [
         {
           videoId:
@@ -841,32 +841,32 @@ const data = {
   Music: [
     {
       number: 400,
-      channelName: "Lofi Hip Hop",
+      channelName: "Lofi Hip/Hop",
       channelIcon: lofi,
       episodes: [
         {
           videoId: "https://www.youtube.com/watch?v=5qap5aO4i9A?",
-          title: "lofi hip hop radio 24/7",
+          title: "Lofi Hip/Hop 24/7",
         },
         {
           videoId: "https://www.youtube.com/watch?v=5qap5aO4i9A?",
-          title: "lofi hip hop radio 24/7",
+          title: "Lofi Hip/Hop 24/7",
         },
         {
           videoId: "https://www.youtube.com/watch?v=5qap5aO4i9A?",
-          title: "lofi hip hop radio 24/7",
+          title: "Lofi Hip/Hop 24/7",
         },
         {
           videoId: "https://www.youtube.com/watch?v=5qap5aO4i9A?",
-          title: "lofi hip hop radio 24/7",
+          title: "Lofi Hip/Hop 24/7",
         },
         {
           videoId: "https://www.youtube.com/watch?v=5qap5aO4i9A?",
-          title: "lofi hip hop radio 24/7",
+          title: "Lofi Hip/Hop 24/7",
         },
         {
           videoId: "https://www.youtube.com/watch?v=5qap5aO4i9A?",
-          title: "lofi hip hop radio 24/7",
+          title: "Lofi Hip/Hop 24/7",
         },
       ],
     },
@@ -876,27 +876,27 @@ const data = {
       episodes: [
         {
           videoId: "https://www.youtube.com/watch?v=L9Q1HUdUMp0?",
-          title: "R&B / Hip-Hop Radio",
+          title: "Chill Hip/Hop Radio",
         },
         {
           videoId: "https://www.youtube.com/watch?v=L9Q1HUdUMp0?",
-          title: "R&B / Hip-Hop Radio",
+          title: "Chill Hip/Hop Radio",
         },
         {
           videoId: "https://www.youtube.com/watch?v=L9Q1HUdUMp0?",
-          title: "R&B / Hip-Hop Radio",
+          title: "Chill Hip/Hop Radio",
         },
         {
           videoId: "https://www.youtube.com/watch?v=L9Q1HUdUMp0?",
-          title: "R&B / Hip-Hop Radio",
+          title: "Chill Hip/Hop Radio",
         },
         {
           videoId: "https://www.youtube.com/watch?v=L9Q1HUdUMp0?",
-          title: "R&B / Hip-Hop Radio",
+          title: "Chill Hip/Hop Radio",
         },
         {
           videoId: "https://www.youtube.com/watch?v=L9Q1HUdUMp0?",
-          title: "R&B / Hip-Hop Radio",
+          title: "Chill Hip/Hop Radio",
         },
       ],
     },
@@ -907,32 +907,32 @@ const data = {
         {
           videoId:
             "https://www.youtube.com/watch?v=tNkZsRW7h2c&ab_channel=RelaxationAmbientMusic",
-          title: "Space Ambient Music 24/7",
+          title: "Space Background Music 24/7",
         },
         {
           videoId:
             "https://www.youtube.com/watch?v=tNkZsRW7h2c&ab_channel=RelaxationAmbientMusic",
-          title: "Space Ambient Music 24/7",
+          title: "Space Background Music 24/7",
         },
         {
           videoId:
             "https://www.youtube.com/watch?v=tNkZsRW7h2c&ab_channel=RelaxationAmbientMusic",
-          title: "Space Ambient Music 24/7",
+          title: "Space Background Music 24/7",
         },
         {
           videoId:
             "https://www.youtube.com/watch?v=tNkZsRW7h2c&ab_channel=RelaxationAmbientMusic",
-          title: "Space Ambient Music 24/7",
+          title: "Space Background Music 24/7",
         },
         {
           videoId:
             "https://www.youtube.com/watch?v=tNkZsRW7h2c&ab_channel=RelaxationAmbientMusic",
-          title: "Space Ambient Music 24/7",
+          title: "Space Background Music 24/7",
         },
         {
           videoId:
             "https://www.youtube.com/watch?v=tNkZsRW7h2c&ab_channel=RelaxationAmbientMusic",
-          title: "Space Ambient Music 24/7",
+          title: "Space Background Music 24/7",
         },
       ],
     },
@@ -1303,31 +1303,31 @@ const data = {
     },
     {
       number: 415,
-      channelName: "Relaxing Underwater Music",
+      channelName: "Relaxing Music",
       episodes: [
         {
           videoId: "https://www.youtube.com/watch?v=UQRDv3HtmUA",
-          title: "Soothing clips & music",
+          title: "Soothing Clips/Music",
         },
         {
           videoId: "https://www.youtube.com/watch?v=UQRDv3HtmUA",
-          title: "Soothing clips & music",
+          title: "Soothing Clips/Music",
         },
         {
           videoId: "https://www.youtube.com/watch?v=UQRDv3HtmUA",
-          title: "Soothing clips & music",
+          title: "Soothing Clips/Music",
         },
         {
           videoId: "https://www.youtube.com/watch?v=UQRDv3HtmUA",
-          title: "Soothing clips & music",
+          title: "Soothing Clips/Music",
         },
         {
           videoId: "https://www.youtube.com/watch?v=UQRDv3HtmUA",
-          title: "Soothing clips & music",
+          title: "Soothing Clips/Music",
         },
         {
           videoId: "https://www.youtube.com/watch?v=UQRDv3HtmUA",
-          title: "Soothing clips & music",
+          title: "Soothing Clips/Music",
         },
       ],
     },
@@ -1337,57 +1337,57 @@ const data = {
       episodes: [
         {
           videoId: "https://www.youtube.com/watch?v=P7d1H83IcjE",
-          title: "Beautiful Places",
+          title: "BeautifulPlaces",
         },
         {
           videoId: "https://www.youtube.com/watch?v=P7d1H83IcjE",
-          title: "Beautiful Places",
+          title: "BeautifulPlaces",
         },
         {
           videoId: "https://www.youtube.com/watch?v=P7d1H83IcjE",
-          title: "Beautiful Places",
+          title: "BeautifulPlaces",
         },
         {
           videoId: "https://www.youtube.com/watch?v=P7d1H83IcjE",
-          title: "Beautiful Places",
+          title: "BeautifulPlaces",
         },
         {
           videoId: "https://www.youtube.com/watch?v=P7d1H83IcjE",
-          title: "Beautiful Places",
+          title: "BeautifulPlaces",
         },
         {
           videoId: "https://www.youtube.com/watch?v=P7d1H83IcjE",
-          title: "Beautiful Places",
+          title: "BeautifulPlaces",
         },
       ],
     },
     {
       number: 418,
-      channelName: "Native American Flute & Rain",
+      channelName: "Native Flute ",
       episodes: [
         {
           videoId: "https://www.youtube.com/watch?v=C9v3sZypcn4",
-          title: "Relaxing Meditation Sleep Music",
+          title: "RelaxingMeditationMusic",
         },
         {
           videoId: "https://www.youtube.com/watch?v=C9v3sZypcn4",
-          title: "Relaxing Meditation Sleep Music",
+          title: "RelaxingMeditationMusic",
         },
         {
           videoId: "https://www.youtube.com/watch?v=C9v3sZypcn4",
-          title: "Relaxing Meditation Sleep Music",
+          title: "RelaxingMeditationMusic",
         },
         {
           videoId: "https://www.youtube.com/watch?v=C9v3sZypcn4",
-          title: "Relaxing Meditation Sleep Music",
+          title: "RelaxingMeditationMusic",
         },
         {
           videoId: "https://www.youtube.com/watch?v=C9v3sZypcn4",
-          title: "Relaxing Meditation Sleep Music",
+          title: "RelaxingMeditationMusic",
         },
         {
           videoId: "https://www.youtube.com/watch?v=C9v3sZypcn4",
-          title: "Relaxing Meditation Sleep Music",
+          title: "RelaxingMeditationMusic",
         },
       ],
     },
@@ -1463,27 +1463,27 @@ const data = {
       episodes: [
         {
           videoId: "https://www.youtube.com/watch?v=eosLoIMzW7E",
-          title: "EDM Gaming Music 24/7",
+          title: "EDM Music 24/7",
         },
         {
           videoId: "https://www.youtube.com/watch?v=eosLoIMzW7E",
-          title: "EDM Gaming Music 24/7",
+          title: "EDM Music 24/7",
         },
         {
           videoId: "https://www.youtube.com/watch?v=eosLoIMzW7E",
-          title: "EDM Gaming Music 24/7",
+          title: "EDM Music 24/7",
         },
         {
           videoId: "https://www.youtube.com/watch?v=eosLoIMzW7E",
-          title: "EDM Gaming Music 24/7",
+          title: "EDM Music 24/7",
         },
         {
           videoId: "https://www.youtube.com/watch?v=eosLoIMzW7E",
-          title: "EDM Gaming Music 24/7",
+          title: "EDM Music 24/7",
         },
         {
           videoId: "https://www.youtube.com/watch?v=eosLoIMzW7E",
-          title: "EDM Gaming Music 24/7",
+          title: "EDM Music 24/7",
         },
       ],
     },
@@ -1696,27 +1696,27 @@ const data = {
       episodes: [
         {
           videoId: "https://www.youtube.com/watch?v=nA9UZF-SZoQ?",
-          title: "Space and Universe",
+          title: "Space & Universe",
         },
         {
           videoId: "https://www.youtube.com/watch?v=nA9UZF-SZoQ?",
-          title: "Space and Universe",
+          title: "Space & Universe",
         },
         {
           videoId: "https://www.youtube.com/watch?v=nA9UZF-SZoQ?",
-          title: "Space and Universe",
+          title: "Space & niverse",
         },
         {
           videoId: "https://www.youtube.com/watch?v=nA9UZF-SZoQ?",
-          title: "Space and Universe",
+          title: "Space & Universe",
         },
         {
           videoId: "https://www.youtube.com/watch?v=nA9UZF-SZoQ?",
-          title: "Space and Universe",
+          title: "Space & Universe",
         },
         {
           videoId: "https://www.youtube.com/watch?v=nA9UZF-SZoQ?",
-          title: "Space and Universe",
+          title: "Space & Universe",
         },
       ],
     },
@@ -1790,32 +1790,32 @@ const data = {
         {
           videoId:
             "https://www.wim.tv/embed/?cast=b4468c68-25b7-4a49-8612-dcd74445516a&autostart=true",
-          title: "African History, culture and worldview",
+          title: "African History culture and worldview",
         },
         {
           videoId:
             "https://www.wim.tv/embed/?cast=b4468c68-25b7-4a49-8612-dcd74445516a&autostart=true",
-          title: "African History, culture and worldview",
+          title: "African History culture and worldview",
         },
         {
           videoId:
             "https://www.wim.tv/embed/?cast=b4468c68-25b7-4a49-8612-dcd74445516a&autostart=true",
-          title: "African History, culture and worldview",
+          title: "African History culture and worldview",
         },
         {
           videoId:
             "https://www.wim.tv/embed/?cast=b4468c68-25b7-4a49-8612-dcd74445516a&autostart=true",
-          title: "African History, culture and worldview",
+          title: "African History culture and worldview",
         },
         {
           videoId:
             "https://www.wim.tv/embed/?cast=b4468c68-25b7-4a49-8612-dcd74445516a&autostart=true",
-          title: "African History, culture and worldview",
+          title: "African History culture and worldview",
         },
         {
           videoId:
             "https://www.wim.tv/embed/?cast=b4468c68-25b7-4a49-8612-dcd74445516a&autostart=true",
-          title: "African History, culture and worldview",
+          title: "African History culture and worldview",
         },
       ],
     },
