@@ -45,69 +45,69 @@ const data = {
       episodes: [
         {
           videoId:
-            "https://www.wim.tv/embed/?cast=c6d90fc6-12f1-45fa-a89b-1ad6be6b7308&autostart=true",
+            "https://www.youtube.com/watch?v=gPPBOpTcHT8&list=PLXQmsxcbaFYM4tRm4WNRRgecVL5ha6df0&ab_channel=onairgag",
           title: "GeauxInfo",
         },
         {
           videoId:
-            "https://www.wim.tv/embed/?cast=c6d90fc6-12f1-45fa-a89b-1ad6be6b7308&autostart=true",
+            "https://www.youtube.com/watch?v=gPPBOpTcHT8&list=PLXQmsxcbaFYM4tRm4WNRRgecVL5ha6df0&ab_channel=onairgag",
           title: "GeauxInfo",
         },
         {
           videoId:
-            "https://www.wim.tv/embed/?cast=c6d90fc6-12f1-45fa-a89b-1ad6be6b7308&autostart=true",
+            "https://www.youtube.com/watch?v=gPPBOpTcHT8&list=PLXQmsxcbaFYM4tRm4WNRRgecVL5ha6df0&ab_channel=onairgag",
           title: "GeauxInfo",
         },
         {
           videoId:
-            "https://www.wim.tv/embed/?cast=c6d90fc6-12f1-45fa-a89b-1ad6be6b7308&autostart=true",
+            "https://www.youtube.com/watch?v=gPPBOpTcHT8&list=PLXQmsxcbaFYM4tRm4WNRRgecVL5ha6df0&ab_channel=onairgag",
           title: "GeauxInfo",
         },
         {
           videoId:
-            "https://www.wim.tv/embed/?cast=c6d90fc6-12f1-45fa-a89b-1ad6be6b7308&autostart=true",
+            "https://www.youtube.com/watch?v=gPPBOpTcHT8&list=PLXQmsxcbaFYM4tRm4WNRRgecVL5ha6df0&ab_channel=onairgag",
           title: "GeauxInfo",
         },
         {
           videoId:
-            "https://www.wim.tv/embed/?cast=c6d90fc6-12f1-45fa-a89b-1ad6be6b7308&autostart=true",
+            "https://www.youtube.com/watch?v=gPPBOpTcHT8&list=PLXQmsxcbaFYM4tRm4WNRRgecVL5ha6df0&ab_channel=onairgag",
           title: "GeauxInfo",
         },
       ],
     },
     {
       number: 2,
-      channelName: "Geaux Spotlight",
+      channelName: "Spotlight",
       episodes: [
         {
           videoId:
             "https://www.wim.tv/embed/?cast=2ea00799-3b7a-4fb1-8e9e-276eb83edc6a&autostart=true",
-          title: "Creator Showcase",
+          title: "CreatorShowcase",
         },
         {
           videoId:
             "https://www.wim.tv/embed/?cast=2ea00799-3b7a-4fb1-8e9e-276eb83edc6a&autostart=true",
-          title: "Creator Showcase",
+          title: "CreatorShowcase",
         },
         {
           videoId:
             "https://www.wim.tv/embed/?cast=2ea00799-3b7a-4fb1-8e9e-276eb83edc6a&autostart=true",
-          title: "Creator Showcase",
+          title: "CreatorShowcase",
         },
         {
           videoId:
             "https://www.wim.tv/embed/?cast=2ea00799-3b7a-4fb1-8e9e-276eb83edc6a&autostart=true",
-          title: "Creator Showcase",
+          title: "CreatorShowcase",
         },
         {
           videoId:
             "https://www.wim.tv/embed/?cast=2ea00799-3b7a-4fb1-8e9e-276eb83edc6a&autostart=true",
-          title: "Creator Showcase",
+          title: "CreatorShowcase",
         },
         {
           videoId:
             "https://www.wim.tv/embed/?cast=2ea00799-3b7a-4fb1-8e9e-276eb83edc6a&autostart=true",
-          title: "Creator Showcase",
+          title: "CreatorShowcase",
         },
       ],
     },
@@ -182,36 +182,98 @@ const data = {
     },
     {
       number: 101,
-      channelName: "Getting Started",
+      channelName: "Geaux Business",
       episodes: [
         {
-          videoId: "https://www.dailymotion.com/video/x7tb1xo",
-          title: "GeauxBusiness",
+          videoId: "https://www.wim.tv/embed/?cast=8520fa0e-4bb2-419b-baf2-01676853f5da&autostart=true&muted=1",
+          title: "Getting Started",
         },
         {
-          videoId: "https://www.dailymotion.com/video/x7tb1xo",
-          title: "GeauxBusiness",
+          videoId: "https://www.wim.tv/embed/?cast=8520fa0e-4bb2-419b-baf2-01676853f5da&autostart=true&muted=1",
+          title: "Getting Started",
         },
         {
-          videoId: "https://www.dailymotion.com/video/x7tb1xo",
-          title: "GeauxBusiness",
+          videoId: "https://www.wim.tv/embed/?cast=8520fa0e-4bb2-419b-baf2-01676853f5da&autostart=true&muted=1",
+          title: "Getting Started",
         },
         {
-          videoId: "https://www.dailymotion.com/video/x7tb1xo",
-          title: "GeauxBusiness",
+          videoId: "https://www.wim.tv/embed/?cast=8520fa0e-4bb2-419b-baf2-01676853f5da&autostart=true&muted=1",
+          title: "Getting Started",
         },
         {
-          videoId: "https://www.dailymotion.com/video/x7tb1xo",
-          title: "GeauxBusiness",
+          videoId: "https://www.wim.tv/embed/?cast=8520fa0e-4bb2-419b-baf2-01676853f5da&autostart=true&muted=1",
+          title: "Getting Started",
         },
         {
-          videoId: "https://www.dailymotion.com/video/x7tb1xo",
-          title: "GeauxBusiness",
+          videoId: "https://www.wim.tv/embed/?cast=8520fa0e-4bb2-419b-baf2-01676853f5da&autostart=true&muted=1",
+          title: "Getting Started",
         },
       ],
     },
     {
       number: 102,
+      channelName: "SKY News",
+      channelIcon: skynews,
+      episodes: [
+        {
+          videoId: "https://www.youtube.com/watch?v=9Auq9mYxFEE?",
+          title: "Sky News",
+        },
+        {
+          videoId: "https://www.youtube.com/watch?v=9Auq9mYxFEE?",
+          title: "Sky News",
+        },
+        {
+          videoId: "https://www.youtube.com/watch?v=9Auq9mYxFEE?",
+          title: "Sky News",
+        },
+        {
+          videoId: "https://www.youtube.com/watch?v=9Auq9mYxFEE?",
+          title: "Sky News",
+        },
+        {
+          videoId: "https://www.youtube.com/watch?v=9Auq9mYxFEE?",
+          title: "Sky News",
+        },
+        {
+          videoId: "https://www.youtube.com/watch?v=9Auq9mYxFEE?",
+          title: "Sky News",
+        },
+      ],
+    },
+    {
+      number: 103,
+      channelName: "AfricaNews",
+      channelIcon: africanews,
+      episodes: [
+        {
+          videoId: "https://www.dailymotion.com/video/x6i7vf8",
+          title: "Pan-African media",
+        },
+        {
+          videoId: "https://www.dailymotion.com/video/x6i7vf8",
+          title: "Pan-African media",
+        },
+        {
+          videoId: "https://www.dailymotion.com/video/x6i7vf8",
+          title: "Pan-African media",
+        },
+        {
+          videoId: "https://www.dailymotion.com/video/x6i7vf8",
+          title: "Pan-African media",
+        },
+        {
+          videoId: "https://www.dailymotion.com/video/x6i7vf8",
+          title: "Pan-African media",
+        },
+        {
+          videoId: "https://www.dailymotion.com/video/x6i7vf8",
+          title: "Pan-African media",
+        },
+      ],
+    },
+    {
+      number: 104,
       channelName: "Bloomberg HT",
       channelIcon: bloomht,
       episodes: [
@@ -242,7 +304,7 @@ const data = {
       ],
     },
     {
-      number: 103,
+      number: 105,
       channelName: "NDTV India",
       channelIcon: ndtv,
       episodes: [
@@ -273,7 +335,7 @@ const data = {
       ],
     },
     {
-      number: 104,
+      number: 106,
       channelName: "JapaNews24",
       channelIcon: japanews,
       episodes: [
@@ -310,7 +372,7 @@ const data = {
       ],
     },
     {
-      number: 105,
+      number: 107,
       channelName: "Mathrubhumi News",
       channelIcon: mathnews,
       episodes: [
@@ -337,37 +399,6 @@ const data = {
         {
           videoId: "https://www.youtube.com/watch?v=irF-4N_fHjs",
           title: "മലയാളം: മാതൃഭൂമി ന്യൂസ്",
-        },
-      ],
-    },
-    {
-      number: 107,
-      channelName: "SKY News",
-      channelIcon: skynews,
-      episodes: [
-        {
-          videoId: "https://www.youtube.com/watch?v=9Auq9mYxFEE?",
-          title: "Sky News",
-        },
-        {
-          videoId: "https://www.youtube.com/watch?v=9Auq9mYxFEE?",
-          title: "Sky News",
-        },
-        {
-          videoId: "https://www.youtube.com/watch?v=9Auq9mYxFEE?",
-          title: "Sky News",
-        },
-        {
-          videoId: "https://www.youtube.com/watch?v=9Auq9mYxFEE?",
-          title: "Sky News",
-        },
-        {
-          videoId: "https://www.youtube.com/watch?v=9Auq9mYxFEE?",
-          title: "Sky News",
-        },
-        {
-          videoId: "https://www.youtube.com/watch?v=9Auq9mYxFEE?",
-          title: "Sky News",
         },
       ],
     },
@@ -435,37 +466,6 @@ const data = {
     },
     {
       number: 110,
-      channelName: "Africanews",
-      channelIcon: africanews,
-      episodes: [
-        {
-          videoId: "https://www.dailymotion.com/video/x6i7vf8",
-          title: "pan-African media",
-        },
-        {
-          videoId: "https://www.dailymotion.com/video/x6i7vf8",
-          title: "pan-African media",
-        },
-        {
-          videoId: "https://www.dailymotion.com/video/x6i7vf8",
-          title: "pan-African media",
-        },
-        {
-          videoId: "https://www.dailymotion.com/video/x6i7vf8",
-          title: "pan-African media",
-        },
-        {
-          videoId: "https://www.dailymotion.com/video/x6i7vf8",
-          title: "pan-African media",
-        },
-        {
-          videoId: "https://www.dailymotion.com/video/x6i7vf8",
-          title: "pan-African media",
-        },
-      ],
-    },
-    {
-      number: 111,
       channelName: "DaAi World Live",
       channelIcon: daaitv,
       episodes: [
@@ -496,7 +496,7 @@ const data = {
       ],
     },
     {
-      number: 112,
+      number: 111,
       channelName: "NewsOne",
       channelIcon: newsone,
       episodes: [
@@ -523,6 +523,37 @@ const data = {
         {
           videoId: "https://www.youtube.com/watch?v=3e0FsU1N6OQ",
           title: "Новости",
+        },
+      ],
+    },
+    {
+      number: 112,
+      channelName: "RT Arabic",
+      channelIcon: rtarabic,
+      episodes: [
+        {
+          videoId: "https://www.youtube.com/watch?v=3AokIYKBz8I",
+          title: "RT Arabic 24/7",
+        },
+        {
+          videoId: "https://www.youtube.com/watch?v=3AokIYKBz8I",
+          title: "RT Arabic 24/7",
+        },
+        {
+          videoId: "https://www.youtube.com/watch?v=3AokIYKBz8I",
+          title: "RT Arabic 24/7",
+        },
+        {
+          videoId: "https://www.youtube.com/watch?v=3AokIYKBz8I",
+          title: "RT Arabic 24/7",
+        },
+        {
+          videoId: "https://www.youtube.com/watch?v=3AokIYKBz8I",
+          title: "RT Arabic 24/7",
+        },
+        {
+          videoId: "https://www.youtube.com/watch?v=3AokIYKBz8I",
+          title: "RT Arabic 24/7",
         },
       ],
     },
@@ -560,37 +591,6 @@ const data = {
           videoId:
             "https://www.wim.tv/embed/?cast=25862b63-bdbc-4651-9b60-53091882cfe8&autostart=true",
           title: "Arzamas.academy",
-        },
-      ],
-    },
-    {
-      number: 114,
-      channelName: "RT Arabic",
-      channelIcon: rtarabic,
-      episodes: [
-        {
-          videoId: "https://www.youtube.com/watch?v=3AokIYKBz8I",
-          title: "RT Arabic 24/7",
-        },
-        {
-          videoId: "https://www.youtube.com/watch?v=3AokIYKBz8I",
-          title: "RT Arabic 24/7",
-        },
-        {
-          videoId: "https://www.youtube.com/watch?v=3AokIYKBz8I",
-          title: "RT Arabic 24/7",
-        },
-        {
-          videoId: "https://www.youtube.com/watch?v=3AokIYKBz8I",
-          title: "RT Arabic 24/7",
-        },
-        {
-          videoId: "https://www.youtube.com/watch?v=3AokIYKBz8I",
-          title: "RT Arabic 24/7",
-        },
-        {
-          videoId: "https://www.youtube.com/watch?v=3AokIYKBz8I",
-          title: "RT Arabic 24/7",
         },
       ],
     },
@@ -729,44 +729,44 @@ const data = {
   ],
   "Health/Lifestyle": [
     {
-      number: 304,
+      number: 300,
       channelName: "Beaute 101",
       channelIcon: beaute,
       episodes: [
         {
           videoId:
             "https://www.wim.tv/embed/?cast=59a5d503-8874-43be-837e-297524a57e9d&autostart=true",
-          title: "Beaute",
+          title: "Skin care tutorials",
         },
         {
           videoId:
             "https://www.wim.tv/embed/?cast=59a5d503-8874-43be-837e-297524a57e9d&autostart=true",
-          title: "Beaute",
+          title: "Skin care tutorials",
         },
         {
           videoId:
             "https://www.wim.tv/embed/?cast=59a5d503-8874-43be-837e-297524a57e9d&autostart=true",
-          title: "Beaute",
+          title: "Skin care tutorials",
         },
         {
           videoId:
             "https://www.wim.tv/embed/?cast=59a5d503-8874-43be-837e-297524a57e9d&autostart=true",
-          title: "Beaute",
+          title: "Skin care tutorials",
         },
         {
           videoId:
             "https://www.wim.tv/embed/?cast=59a5d503-8874-43be-837e-297524a57e9d&autostart=true",
-          title: "Beaute",
+          title: "Skin care tutorials",
         },
         {
           videoId:
             "https://www.wim.tv/embed/?cast=59a5d503-8874-43be-837e-297524a57e9d&autostart=true",
-          title: "Beaute",
+          title: "Skin care tutorials",
         },
       ],
     },
     {
-      number: 305,
+      number: 301,
       channelName: "Onward",
       episodes: [
         {
@@ -802,7 +802,7 @@ const data = {
       ],
     },
     {
-      number: 306,
+      number: 302,
       channelName: " DIY Art",
       episodes: [
         {
@@ -1176,7 +1176,7 @@ const data = {
     },
     {
       number: 411,
-      channelName: "DOOM Metal Music",
+      channelName: "SOLITUDE PRODUCTIONS",
       episodes: [
         {
           videoId: "https://www.youtube.com/watch?v=dGfdGZ8cH-o",
@@ -1206,7 +1206,7 @@ const data = {
     },
     {
       number: 412,
-      channelName: "Best Turkish Music",
+      channelName: "Turkish Music",
       channelIcon: paldoga,
       episodes: [
         {
@@ -1337,27 +1337,27 @@ const data = {
       episodes: [
         {
           videoId: "https://www.youtube.com/watch?v=P7d1H83IcjE",
-          title: "Most Beautiful Places",
+          title: "Beautiful Places",
         },
         {
           videoId: "https://www.youtube.com/watch?v=P7d1H83IcjE",
-          title: "Most Beautiful Places",
+          title: "Beautiful Places",
         },
         {
           videoId: "https://www.youtube.com/watch?v=P7d1H83IcjE",
-          title: "Most Beautiful Places",
+          title: "Beautiful Places",
         },
         {
           videoId: "https://www.youtube.com/watch?v=P7d1H83IcjE",
-          title: "Most Beautiful Places",
+          title: "Beautiful Places",
         },
         {
           videoId: "https://www.youtube.com/watch?v=P7d1H83IcjE",
-          title: "Most Beautiful Places",
+          title: "Beautiful Places",
         },
         {
           videoId: "https://www.youtube.com/watch?v=P7d1H83IcjE",
-          title: "Most Beautiful Places",
+          title: "Beautiful Places",
         },
       ],
     },
@@ -1397,27 +1397,27 @@ const data = {
       episodes: [
         {
           videoId: "https://www.youtube.com/watch?v=WYetg3AuLE4",
-          title: "Uplifting Trance Radio 24/7",
+          title: "Trance Radio 24/7",
         },
         {
           videoId: "https://www.youtube.com/watch?v=WYetg3AuLE4",
-          title: "Uplifting Trance Radio 24/7",
+          title: "Trance Radio 24/7",
         },
         {
           videoId: "https://www.youtube.com/watch?v=WYetg3AuLE4",
-          title: "Uplifting Trance Radio 24/7",
+          title: "Trance Radio 24/7",
         },
         {
           videoId: "https://www.youtube.com/watch?v=WYetg3AuLE4",
-          title: "Uplifting Trance Radio 24/7",
+          title: "Trance Radio 24/7",
         },
         {
           videoId: "https://www.youtube.com/watch?v=WYetg3AuLE4",
-          title: "Uplifting Trance Radio 24/7",
+          title: "Trance Radio 24/7",
         },
         {
           videoId: "https://www.youtube.com/watch?v=WYetg3AuLE4",
-          title: "Uplifting Trance Radio 24/7",
+          title: "Trance Radio 24/7",
         },
       ],
     },
@@ -1428,32 +1428,32 @@ const data = {
         {
           videoId:
             "https://www.youtube.com/watch?v=C6_ql03n-vQ&ab_channel=RazNitzanMusic",
-          title: "Uplifting Vocal Trance Radio 24/7",
+          title: "Vocal Trance Radio 24/7",
         },
         {
           videoId:
             "https://www.youtube.com/watch?v=C6_ql03n-vQ&ab_channel=RazNitzanMusic",
-          title: "Uplifting Vocal Trance Radio 24/7",
+          title: "Vocal Trance Radio 24/7",
         },
         {
           videoId:
             "https://www.youtube.com/watch?v=C6_ql03n-vQ&ab_channel=RazNitzanMusic",
-          title: "Uplifting Vocal Trance Radio 24/7",
+          title: "Vocal Trance Radio 24/7",
         },
         {
           videoId:
             "https://www.youtube.com/watch?v=C6_ql03n-vQ&ab_channel=RazNitzanMusic",
-          title: "Uplifting Vocal Trance Radio 24/7",
+          title: "Vocal Trance Radio 24/7",
         },
         {
           videoId:
             "https://www.youtube.com/watch?v=C6_ql03n-vQ&ab_channel=RazNitzanMusic",
-          title: "Uplifting Vocal Trance Radio 24/7",
+          title: "Vocal Trance Radio 24/7",
         },
         {
           videoId:
             "https://www.youtube.com/watch?v=C6_ql03n-vQ&ab_channel=RazNitzanMusic",
-          title: "Uplifting Vocal Trance Radio 24/7",
+          title: "Vocal Trance Radio 24/7",
         },
       ],
     },
@@ -1489,31 +1489,31 @@ const data = {
     },
     {
       number: 423,
-      channelName: "Music for Dogs",
+      channelName: "For Dogs",
       episodes: [
         {
           videoId: "https://www.youtube.com/watch?v=thOcsZaOEUw&ab_channel=RelaxMyDog-RelaxingMusicforDogs",
-          title: "For Dogs",
+          title: "Music for Dogs",
         },
         {
           videoId: "https://www.youtube.com/watch?v=thOcsZaOEUw&ab_channel=RelaxMyDog-RelaxingMusicforDogs",
-          title: "For Dogs",
+          title: "Music for Dogs",
         },
         {
           videoId: "https://www.youtube.com/watch?v=thOcsZaOEUw&ab_channel=RelaxMyDog-RelaxingMusicforDogs",
-          title: "For Dogs",
+          title: "Music for Dogs",
         },
         {
           videoId: "https://www.youtube.com/watch?v=thOcsZaOEUw&ab_channel=RelaxMyDog-RelaxingMusicforDogs",
-          title: "For Dogs",
+          title: "Music for Dogs",
         },
         {
           videoId: "https://www.youtube.com/watch?v=thOcsZaOEUw&ab_channel=RelaxMyDog-RelaxingMusicforDogs",
-          title: "For Dogs",
+          title: "Music for Dogs",
         },
         {
           videoId: "https://www.youtube.com/watch?v=thOcsZaOEUw&ab_channel=RelaxMyDog-RelaxingMusicforDogs",
-          title: "For Dogs",
+          title: "Music for Dogs",
         },
       ],
     },

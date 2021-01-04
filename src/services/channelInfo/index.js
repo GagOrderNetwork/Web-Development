@@ -6,7 +6,7 @@ const initialState = {
   channelName: "GeauxInfo",
   channelNumber: 411,
   channelIcon: gx,
-  videoId: "https://www.wim.tv/embed/?cast=c6d90fc6-12f1-45fa-a89b-1ad6be6b7308&autostart=true",
+  videoId: "https://www.youtube.com/watch?v=gPPBOpTcHT8&list=PLXQmsxcbaFYM4tRm4WNRRgecVL5ha6df0&ab_channel=onairgag",
 };
 
 /* ACTION TYPES */
