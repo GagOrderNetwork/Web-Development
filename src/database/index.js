@@ -907,32 +907,32 @@ const data = {
         {
           videoId:
             "https://www.youtube.com/watch?v=tNkZsRW7h2c&ab_channel=RelaxationAmbientMusic",
-          title: "Space Background Music 24/7",
+          title: "Space Music 24/7",
         },
         {
           videoId:
             "https://www.youtube.com/watch?v=tNkZsRW7h2c&ab_channel=RelaxationAmbientMusic",
-          title: "Space Background Music 24/7",
+          title: "Space Music 24/7",
         },
         {
           videoId:
             "https://www.youtube.com/watch?v=tNkZsRW7h2c&ab_channel=RelaxationAmbientMusic",
-          title: "Space Background Music 24/7",
+          title: "Space Music 24/7",
         },
         {
           videoId:
             "https://www.youtube.com/watch?v=tNkZsRW7h2c&ab_channel=RelaxationAmbientMusic",
-          title: "Space Background Music 24/7",
+          title: "Space Music 24/7",
         },
         {
           videoId:
             "https://www.youtube.com/watch?v=tNkZsRW7h2c&ab_channel=RelaxationAmbientMusic",
-          title: "Space Background Music 24/7",
+          title: "Space Music 24/7",
         },
         {
           videoId:
             "https://www.youtube.com/watch?v=tNkZsRW7h2c&ab_channel=RelaxationAmbientMusic",
-          title: "Space Background Music 24/7",
+          title: "Space Music 24/7",
         },
       ],
     },
@@ -1277,27 +1277,27 @@ const data = {
         {
           videoId:
             "https://www.youtube.com/watch?v=XBPjVzSoepo&ab_channel=SpaceVideos",
-          title: "Earth From Space in ISS",
+          title: "Earth from ISS",
         },
         {
           videoId:
             "https://www.youtube.com/watch?v=XBPjVzSoepo&ab_channel=SpaceVideos",
-          title: "Earth From Space in ISS",
+          title: "Earth from ISS",
         },
         {
           videoId:
             "https://www.youtube.com/watch?v=XBPjVzSoepo&ab_channel=SpaceVideos",
-          title: "Earth From Space in ISS",
+          title: "Earth from ISS",
         },
         {
           videoId:
             "https://www.youtube.com/watch?v=XBPjVzSoepo&ab_channel=SpaceVideos",
-          title: "Earth From Space in ISS",
+          title: "Earth from ISS",
         },
         {
           videoId:
             "https://www.youtube.com/watch?v=XBPjVzSoepo&ab_channel=SpaceVideos",
-          title: "Earth From Space in ISS",
+          title: "Earth from ISS",
         },
       ],
     },
@@ -1307,27 +1307,27 @@ const data = {
       episodes: [
         {
           videoId: "https://www.youtube.com/watch?v=UQRDv3HtmUA",
-          title: "Soothing Clips/Music",
+          title: "Soothing Clips",
         },
         {
           videoId: "https://www.youtube.com/watch?v=UQRDv3HtmUA",
-          title: "Soothing Clips/Music",
+          title: "Soothing Clips",
         },
         {
           videoId: "https://www.youtube.com/watch?v=UQRDv3HtmUA",
-          title: "Soothing Clips/Music",
+          title: "Soothing Clips",
         },
         {
           videoId: "https://www.youtube.com/watch?v=UQRDv3HtmUA",
-          title: "Soothing Clips/Music",
+          title: "Soothing Clips",
         },
         {
           videoId: "https://www.youtube.com/watch?v=UQRDv3HtmUA",
-          title: "Soothing Clips/Music",
+          title: "Soothing Clips",
         },
         {
           videoId: "https://www.youtube.com/watch?v=UQRDv3HtmUA",
-          title: "Soothing Clips/Music",
+          title: "Soothing Clips",
         },
       ],
     },
