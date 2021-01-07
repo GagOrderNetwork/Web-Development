@@ -45,32 +45,32 @@ const data = {
       episodes: [
         {
           videoId:
-            "https://www.wim.tv/embed/?cast=c6d90fc6-12f1-45fa-a89b-1ad6be6b7308&autostart=true",
+            "https://www.youtube.com/watch?v=Ph_GRKvvqK4&list=PLXQmsxcbaFYNpyqFpmZDszZSmRqogb52B&ab&autoplay=true",
           title: "GeauxInfo",
         },
         {
           videoId:
-            "https://www.wim.tv/embed/?cast=c6d90fc6-12f1-45fa-a89b-1ad6be6b7308&autostart=true",
+            "https://www.youtube.com/watch?v=Ph_GRKvvqK4&list=PLXQmsxcbaFYNpyqFpmZDszZSmRqogb52B&ab&autoplay=true",
           title: "GeauxInfo",
         },
         {
           videoId:
-            "https://www.wim.tv/embed/?cast=c6d90fc6-12f1-45fa-a89b-1ad6be6b7308&autostart=true",
+            "https://www.youtube.com/watch?v=Ph_GRKvvqK4&list=PLXQmsxcbaFYNpyqFpmZDszZSmRqogb52B&ab&autoplay=true",
           title: "GeauxInfo",
         },
         {
           videoId:
-            "https://www.wim.tv/embed/?cast=c6d90fc6-12f1-45fa-a89b-1ad6be6b7308&autostart=true",
+            "https://www.youtube.com/watch?v=Ph_GRKvvqK4&list=PLXQmsxcbaFYNpyqFpmZDszZSmRqogb52B&ab&autoplay=true",
           title: "GeauxInfo",
         },
         {
           videoId:
-            "https://www.wim.tv/embed/?cast=c6d90fc6-12f1-45fa-a89b-1ad6be6b7308&autostart=true",
+            "https://www.youtube.com/watch?v=Ph_GRKvvqK4&list=PLXQmsxcbaFYNpyqFpmZDszZSmRqogb52B&ab&autoplay=true",
           title: "GeauxInfo",
         },
         {
           videoId:
-            "hhttps://www.youtube.com/watch?v=Ph_GRKvvqK4&list=PLXQmsxcbaFYMd3kXcNCmeoBPzN04Pg1Cw&ab_channel=onairgag",
+            "https://www.youtube.com/watch?v=Ph_GRKvvqK4&list=PLXQmsxcbaFYNpyqFpmZDszZSmRqogb52B&ab&autoplay=true",
           title: "GeauxInfo",
         },
       ],
@@ -1838,22 +1838,22 @@ const data = {
         },
         {
           videoId:
-            "https://www.wim.tv/embed/?cast=98755cb8-6595-4037-8c4c-790e6ec1b586&autostart=true",
+            "https://www.wim.tv/embed/?cast=98755cb8-6595-4037-8c4c-790e6ec1b586&autoplay=true&muted=true",
           title: "Italian Sports",
         },
         {
           videoId:
-            "https://www.wim.tv/embed/?cast=98755cb8-6595-4037-8c4c-790e6ec1b586&autostart=true",
+            "https://www.wim.tv/embed/?cast=98755cb8-6595-4037-8c4c-790e6ec1b586&autoplay=true&muted=true",
           title: "Italian Sports",
         },
         {
           videoId:
-            "https://www.wim.tv/embed/?cast=98755cb8-6595-4037-8c4c-790e6ec1b586&autostart=true",
+            "https://www.wim.tv/embed/?cast=98755cb8-6595-4037-8c4c-790e6ec1b586&autoplay=true&muted=true",
           title: "Italian Sports",
         },
         {
           videoId:
-            "https://www.wim.tv/embed/?cast=98755cb8-6595-4037-8c4c-790e6ec1b586&autostart=true",
+            "https://www.wim.tv/embed/?cast=98755cb8-6595-4037-8c4c-790e6ec1b586&autoplay=true&muted=true",
           title: "Italian Sports",
         },
       ],
@@ -1864,32 +1864,32 @@ const data = {
       episodes: [
         {
           videoId:
-            "https://www.wim.tv/embed/?cast=099a5381-23af-40e6-821f-58aa38bdfd8b&autostart=true",
+            "https://www.wim.tv/embed/?cast=099a5381-23af-40e6-821f-58aa38bdfd8b&autostart=true&background=fals",
           title: "Palinsesto Comunicare Produzioni",
         },
         {
           videoId:
-            "https://www.wim.tv/embed/?cast=099a5381-23af-40e6-821f-58aa38bdfd8b&autostart=true",
+            "https://www.wim.tv/embed/?cast=099a5381-23af-40e6-821f-58aa38bdfd8b&autostart=true&background=false",
           title: "Palinsesto Comunicare Produzioni",
         },
         {
           videoId:
-            "https://www.wim.tv/embed/?cast=099a5381-23af-40e6-821f-58aa38bdfd8b&autostart=true",
+            "https://www.wim.tv/embed/?cast=099a5381-23af-40e6-821f-58aa38bdfd8b&autostart=true&background=fals",
           title: "Palinsesto Comunicare Produzioni",
         },
         {
           videoId:
-            "https://www.wim.tv/embed/?cast=099a5381-23af-40e6-821f-58aa38bdfd8b&autostart=true",
+            "https://www.wim.tv/embed/?cast=099a5381-23af-40e6-821f-58aa38bdfd8b&autostart=true&background=fals",
           title: "Palinsesto Comunicare Produzioni",
         },
         {
           videoId:
-            "https://www.wim.tv/embed/?cast=099a5381-23af-40e6-821f-58aa38bdfd8b&autostart=true",
+            "https://www.wim.tv/embed/?cast=099a5381-23af-40e6-821f-58aa38bdfd8b&autostart=true&background=fals",
           title: "Palinsesto Comunicare Produzioni",
         },
         {
           videoId:
-            "https://www.wim.tv/embed/?cast=099a5381-23af-40e6-821f-58aa38bdfd8b&autostart=true",
+            "https://www.wim.tv/embed/?cast=099a5381-23af-40e6-821f-58aa38bdfd8b&autostart=true&background=false",
           title: "Palinsesto Comunicare Produzioni",
         },
       ],
