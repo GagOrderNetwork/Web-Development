@@ -45,32 +45,32 @@ const data = {
       episodes: [
         {
           videoId:
-            "https://www.youtube.com/watch?v=Ph_GRKvvqK4&list=PLXQmsxcbaFYNpyqFpmZDszZSmRqogb52B&ab&autoplay=true",
+            "https://www.youtube.com/watch?v=Ph_GRKvvqK4&list=PLXQmsxcbaFYNpyqFpmZDszZSmRqogb52B&ab&autoplay=1&mute=1&vq=hd1080",
           title: "GeauxInfo",
         },
         {
           videoId:
-            "https://www.youtube.com/watch?v=Ph_GRKvvqK4&list=PLXQmsxcbaFYNpyqFpmZDszZSmRqogb52B&ab&autoplay=true",
+            "https://www.youtube.com/watch?v=Ph_GRKvvqK4&list=PLXQmsxcbaFYNpyqFpmZDszZSmRqogb52B&ab&autoplay=1&mute=1&vq=hd1080",
           title: "GeauxInfo",
         },
         {
           videoId:
-            "https://www.youtube.com/watch?v=Ph_GRKvvqK4&list=PLXQmsxcbaFYNpyqFpmZDszZSmRqogb52B&ab&autoplay=true",
+            "https://www.youtube.com/watch?v=Ph_GRKvvqK4&list=PLXQmsxcbaFYNpyqFpmZDszZSmRqogb52B&ab&autoplay=1&mute=1&vq=hd1080",
           title: "GeauxInfo",
         },
         {
           videoId:
-            "https://www.youtube.com/watch?v=Ph_GRKvvqK4&list=PLXQmsxcbaFYNpyqFpmZDszZSmRqogb52B&ab&autoplay=true",
+            "https://www.youtube.com/watch?v=Ph_GRKvvqK4&list=PLXQmsxcbaFYNpyqFpmZDszZSmRqogb52B&ab&autoplay=1&mute=1&vq=hd1080",
           title: "GeauxInfo",
         },
         {
           videoId:
-            "https://www.youtube.com/watch?v=Ph_GRKvvqK4&list=PLXQmsxcbaFYNpyqFpmZDszZSmRqogb52B&ab&autoplay=true",
+            "https://www.youtube.com/watch?v=Ph_GRKvvqK4&list=PLXQmsxcbaFYNpyqFpmZDszZSmRqogb52B&ab&autoplay=1&mute=1&vq=hd1080",
           title: "GeauxInfo",
         },
         {
           videoId:
-            "https://www.youtube.com/watch?v=Ph_GRKvvqK4&list=PLXQmsxcbaFYNpyqFpmZDszZSmRqogb52B&ab&autoplay=true",
+            "https://www.youtube.com/watch?v=Ph_GRKvvqK4&list=PLXQmsxcbaFYNpyqFpmZDszZSmRqogb52B&ab&autoplay=1&mute=1&vq=hd1080",
           title: "GeauxInfo",
         },
       ],
@@ -81,32 +81,32 @@ const data = {
       episodes: [
         {
           videoId:
-            "https://www.wim.tv/embed/?cast=2ea00799-3b7a-4fb1-8e9e-276eb83edc6a&autostart=true",
+            "https://www.wim.tv/embed/?cast=2ea00799-3b7a-4fb1-8e9e-276eb83edc6a&autoplay=true",
           title: "CreatorShowcase",
         },
         {
           videoId:
-            "https://www.wim.tv/embed/?cast=2ea00799-3b7a-4fb1-8e9e-276eb83edc6a&autostart=true",
+            "https://www.wim.tv/embed/?cast=2ea00799-3b7a-4fb1-8e9e-276eb83edc6a&autoplay=true",
           title: "CreatorShowcase",
         },
         {
           videoId:
-            "https://www.wim.tv/embed/?cast=2ea00799-3b7a-4fb1-8e9e-276eb83edc6a&autostart=true",
+            "https://www.wim.tv/embed/?cast=2ea00799-3b7a-4fb1-8e9e-276eb83edc6a&autoplay=true",
           title: "CreatorShowcase",
         },
         {
           videoId:
-            "https://www.wim.tv/embed/?cast=2ea00799-3b7a-4fb1-8e9e-276eb83edc6a&autostart=true",
+            "https://www.wim.tv/embed/?cast=2ea00799-3b7a-4fb1-8e9e-276eb83edc6a&autoplay=true",
           title: "CreatorShowcase",
         },
         {
           videoId:
-            "https://www.wim.tv/embed/?cast=2ea00799-3b7a-4fb1-8e9e-276eb83edc6a&autostart=true",
+            "https://www.wim.tv/embed/?cast=2ea00799-3b7a-4fb1-8e9e-276eb83edc6a&autoplay=true",
           title: "CreatorShowcase",
         },
         {
           videoId:
-            "https://www.wim.tv/embed/?cast=2ea00799-3b7a-4fb1-8e9e-276eb83edc6a&autostart=true",
+            "https://www.wim.tv/embed/?cast=2ea00799-3b7a-4fb1-8e9e-276eb83edc6a&autoplay=true",
           title: "CreatorShowcase",
         },
       ],
@@ -117,32 +117,32 @@ const data = {
       episodes: [
         {
           videoId:
-            "https://www.wim.tv/embed/?cast=f3e73191-573d-4320-8203-f3f870229e42&autostart=true",
+            "https://www.wim.tv/embed/?cast=f3e73191-573d-4320-8203-f3f870229e42&autoplay=true&muted=true",
           title: "Various Short films",
         },
         {
           videoId:
-            "https://www.wim.tv/embed/?cast=f3e73191-573d-4320-8203-f3f870229e42&autostart=true",
+            "https://www.wim.tv/embed/?cast=f3e73191-573d-4320-8203-f3f870229e42&autoplay=true&muted=true",
           title: "Various Short films",
         },
         {
           videoId:
-            "https://www.wim.tv/embed/?cast=f3e73191-573d-4320-8203-f3f870229e42&autostart=true",
+            "https://www.wim.tv/embed/?cast=f3e73191-573d-4320-8203-f3f870229e42&autoplay=true&muted=true",
           title: "Various Short films",
         },
         {
           videoId:
-            "https://www.wim.tv/embed/?cast=f3e73191-573d-4320-8203-f3f870229e42&autostart=true",
+            "https://www.wim.tv/embed/?cast=f3e73191-573d-4320-8203-f3f870229e42&autoplay=true&muted=true",
           title: "Various Short films",
         },
         {
           videoId:
-            "https://www.wim.tv/embed/?cast=f3e73191-573d-4320-8203-f3f870229e42&autostart=true",
+            "https://www.wim.tv/embed/?cast=f3e73191-573d-4320-8203-f3f870229e42&autoplay=true&muted=true",
           title: "Various Short films",
         },
         {
           videoId:
-            "https://www.wim.tv/embed/?cast=f3e73191-573d-4320-8203-f3f870229e42&autostart=true",
+            "https://www.wim.tv/embed/?cast=f3e73191-573d-4320-8203-f3f870229e42&autoplay=true&muted=true",
           title: "Various Short films",
         },
       ],
@@ -216,7 +216,7 @@ const data = {
       channelIcon: skynews,
       episodes: [
         {
-          videoId: "https://www.youtube.com/watch?v=9Auq9mYxFEE?",
+          videoId: "https://www.youtube.com/watch?v=9Auq9mYxFEE?&vq=hd1080",
           title: "Sky News",
         },
         {
