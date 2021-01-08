@@ -81,32 +81,32 @@ const data = {
       episodes: [
         {
           videoId:
-            "https://www.wim.tv/embed/?cast=2ea00799-3b7a-4fb1-8e9e-276eb83edc6a&autoplay=true",
+            "https://www.wim.tv/embed/?cast=2ea00799-3b7a-4fb1-8e9e-276eb83edc6a&autostart=true",
+           title: "CreatorShowcase",
+        },
+        {
+          videoId:
+            "https://www.wim.tv/embed/?cast=2ea00799-3b7a-4fb1-8e9e-276eb83edc6a&autostart=true",
           title: "CreatorShowcase",
         },
         {
           videoId:
-            "https://www.wim.tv/embed/?cast=2ea00799-3b7a-4fb1-8e9e-276eb83edc6a&autoplay=true",
+            "https://www.wim.tv/embed/?cast=2ea00799-3b7a-4fb1-8e9e-276eb83edc6a&autostart=true",
           title: "CreatorShowcase",
         },
         {
           videoId:
-            "https://www.wim.tv/embed/?cast=2ea00799-3b7a-4fb1-8e9e-276eb83edc6a&autoplay=true",
+            "https://www.wim.tv/embed/?cast=2ea00799-3b7a-4fb1-8e9e-276eb83edc6a&autostart=true",
           title: "CreatorShowcase",
         },
         {
           videoId:
-            "https://www.wim.tv/embed/?cast=2ea00799-3b7a-4fb1-8e9e-276eb83edc6a&autoplay=true",
+            "https://www.wim.tv/embed/?cast=2ea00799-3b7a-4fb1-8e9e-276eb83edc6a&autostart=true",
           title: "CreatorShowcase",
         },
         {
           videoId:
-            "https://www.wim.tv/embed/?cast=2ea00799-3b7a-4fb1-8e9e-276eb83edc6a&autoplay=true",
-          title: "CreatorShowcase",
-        },
-        {
-          videoId:
-            "https://www.wim.tv/embed/?cast=2ea00799-3b7a-4fb1-8e9e-276eb83edc6a&autoplay=true",
+            "https://www.wim.tv/embed/?cast=2ea00799-3b7a-4fb1-8e9e-276eb83edc6a&autostart=true",
           title: "CreatorShowcase",
         },
       ],
@@ -117,32 +117,32 @@ const data = {
       episodes: [
         {
           videoId:
-            "https://www.wim.tv/embed/?cast=f3e73191-573d-4320-8203-f3f870229e42&autoplay=true&muted=true",
+            "https://www.wim.tv/embed/?cast=f3e73191-573d-4320-8203-f3f870229e42&autostart=true",
           title: "Various Short films",
         },
         {
           videoId:
-            "https://www.wim.tv/embed/?cast=f3e73191-573d-4320-8203-f3f870229e42&autoplay=true&muted=true",
+            "https://www.wim.tv/embed/?cast=f3e73191-573d-4320-8203-f3f870229e42&autoplay=true",
           title: "Various Short films",
         },
         {
           videoId:
-            "https://www.wim.tv/embed/?cast=f3e73191-573d-4320-8203-f3f870229e42&autoplay=true&muted=true",
+            "https://www.wim.tv/embed/?cast=f3e73191-573d-4320-8203-f3f870229e42&autoplay=true",
           title: "Various Short films",
         },
         {
           videoId:
-            "https://www.wim.tv/embed/?cast=f3e73191-573d-4320-8203-f3f870229e42&autoplay=true&muted=true",
+            "https://www.wim.tv/embed/?cast=f3e73191-573d-4320-8203-f3f870229e42&autoplay=true",
           title: "Various Short films",
         },
         {
           videoId:
-            "https://www.wim.tv/embed/?cast=f3e73191-573d-4320-8203-f3f870229e42&autoplay=true&muted=true",
+            "https://www.wim.tv/embed/?cast=f3e73191-573d-4320-8203-f3f870229e42&autoplay=true",
           title: "Various Short films",
         },
         {
           videoId:
-            "https://www.wim.tv/embed/?cast=f3e73191-573d-4320-8203-f3f870229e42&autoplay=true&muted=true",
+            "https://www.wim.tv/embed/?cast=f3e73191-573d-4320-8203-f3f870229e42&autoplay=true",
           title: "Various Short films",
         },
       ],
@@ -220,23 +220,23 @@ const data = {
           title: "Sky News",
         },
         {
-          videoId: "https://www.youtube.com/watch?v=9Auq9mYxFEE?",
+          videoId: "https://www.youtube.com/watch?v=9Auq9mYxFEE?&vq=hd1080",
           title: "Sky News",
         },
         {
-          videoId: "https://www.youtube.com/watch?v=9Auq9mYxFEE?",
+          videoId: "https://www.youtube.com/watch?v=9Auq9mYxFEE?&vq=hd1080",
           title: "Sky News",
         },
         {
-          videoId: "https://www.youtube.com/watch?v=9Auq9mYxFEE?",
+          videoId: "https://www.youtube.com/watch?v=9Auq9mYxFEE?&vq=hd1080",
           title: "Sky News",
         },
         {
-          videoId: "https://www.youtube.com/watch?v=9Auq9mYxFEE?",
+          videoId: "https://www.youtube.com/watch?v=9Auq9mYxFEE?&vq=hd1080",
           title: "Sky News",
         },
         {
-          videoId: "https://www.youtube.com/watch?v=9Auq9mYxFEE?",
+          videoId: "https://www.youtube.com/watch?v=9Auq9mYxFEE?&vq=hd1080",
           title: "Sky News",
         },
       ],
@@ -278,27 +278,27 @@ const data = {
       channelIcon: bloomht,
       episodes: [
         {
-          videoId: "https://www.youtube.com/watch?v=uVvzcXNhhVg",
+          videoId: "https://www.youtube.com/watch?v=uVvzcXNhhVg&vq=hd1080",
           title: "Bloomberg HT Canli Yayin 24/7",
         },
         {
-          videoId: "https://www.youtube.com/watch?v=uVvzcXNhhVg",
+          videoId: "https://www.youtube.com/watch?v=uVvzcXNhhVg&vq=hd1080",
           title: "Bloomberg HT Canli Yayin 24/7",
         },
         {
-          videoId: "https://www.youtube.com/watch?v=uVvzcXNhhVg",
+          videoId: "https://www.youtube.com/watch?v=uVvzcXNhhVg&vq=hd1080",
           title: "Bloomberg HT Canli Yayin 24/7",
         },
         {
-          videoId: "https://www.youtube.com/watch?v=uVvzcXNhhVg",
+          videoId: "https://www.youtube.com/watch?v=uVvzcXNhhVg&vq=hd1080",
           title: "Bloomberg HT Canli Yayin 24/7",
         },
         {
-          videoId: "https://www.youtube.com/watch?v=uVvzcXNhhVg",
+          videoId: "https://www.youtube.com/watch?v=uVvzcXNhhVg&vq=hd1080",
           title: "Bloomberg HT Canli Yayin 24/7",
         },
         {
-          videoId: "https://www.youtube.com/watch?v=uVvzcXNhhVg",
+          videoId: "https://www.youtube.com/watch?v=uVvzcXNhhVg&vq=hd1080",
           title: "Bloomberg HT Canli Yayin 24/7",
         },
       ],
@@ -309,27 +309,27 @@ const data = {
       channelIcon: ndtv,
       episodes: [
         {
-          videoId: "https://www.youtube.com/watch?v=l9ViEIip9q4",
+          videoId: "https://www.youtube.com/watch?v=l9ViEIip9q4&vq=hd1080",
           title: "NDTV News in Hindi",
         },
         {
-          videoId: "https://www.youtube.com/watch?v=l9ViEIip9q4",
+          videoId: "https://www.youtube.com/watch?v=l9ViEIip9q4&vq=hd1080",
           title: "NDTV News in Hindi",
         },
         {
-          videoId: "https://www.youtube.com/watch?v=l9ViEIip9q4",
+          videoId: "https://www.youtube.com/watch?v=l9ViEIip9q4&vq=hd1080",
           title: "NDTV News in Hindi",
         },
         {
-          videoId: "https://www.youtube.com/watch?v=l9ViEIip9q4",
+          videoId: "https://www.youtube.com/watch?v=l9ViEIip9q4&vq=hd1080",
           title: "NDTV News in Hindi",
         },
         {
-          videoId: "https://www.youtube.com/watch?v=l9ViEIip9q4",
+          videoId: "https://www.youtube.com/watch?v=l9ViEIip9q4&vq=hd1080",
           title: "NDTV News in Hindi",
         },
         {
-          videoId: "https://www.youtube.com/watch?v=l9ViEIip9q4",
+          videoId: "https://www.youtube.com/watch?v=l9ViEIip9q4&vq=hd1080",
           title: "NDTV News in Hindi",
         },
       ],
@@ -341,32 +341,32 @@ const data = {
       episodes: [
         {
           videoId:
-            "https://www.youtube.com/watch?v=coYw-eVU0Ks&ab_channel=ANNnewsCH",
+            "https://www.youtube.com/watch?v=coYw-eVU0Ks&ab_channel=ANNnewsCH&vq=hd1080",
           title: "ANNnewsCH",
         },
         {
           videoId:
-            "https://www.youtube.com/watch?v=coYw-eVU0Ks&ab_channel=ANNnewsCH",
+            "https://www.youtube.com/watch?v=coYw-eVU0Ks&ab_channel=ANNnewsCH&vq=hd1080",
           title: "ANNnewsCH",
         },
         {
           videoId:
-            "https://www.youtube.com/watch?v=coYw-eVU0Ks&ab_channel=ANNnewsCH",
+            "https://www.youtube.com/watch?v=coYw-eVU0Ks&ab_channel=ANNnewsCH&vq=hd1080",
           title: "ANNnewsCH",
         },
         {
           videoId:
-            "https://www.youtube.com/watch?v=coYw-eVU0Ks&ab_channel=ANNnewsCH",
+            "https://www.youtube.com/watch?v=coYw-eVU0Ks&ab_channel=ANNnewsCH&vq=hd1080",
           title: "ANNnewsCH",
         },
         {
           videoId:
-            "https://www.youtube.com/watch?v=coYw-eVU0Ks&ab_channel=ANNnewsCH",
+            "https://www.youtube.com/watch?v=coYw-eVU0Ks&ab_channel=ANNnewsCH&vq=hd1080",
           title: "ANNnewsCH",
         },
         {
           videoId:
-            "https://www.youtube.com/watch?v=coYw-eVU0Ks&ab_channel=ANNnewsCH",
+            "https://www.youtube.com/watch?v=coYw-eVU0Ks&ab_channel=ANNnewsCH&vq=hd1080",
           title: "ANNnewsCH",
         },
       ],
@@ -377,27 +377,27 @@ const data = {
       channelIcon: mathnews,
       episodes: [
         {
-          videoId: "https://www.youtube.com/watch?v=irF-4N_fHjs",
+          videoId: "https://www.youtube.com/watch?v=irF-4N_fHjs&vq=hd1080",
           title: "മലയാളം: മാതൃഭൂമി ന്യൂസ്",
         },
         {
-          videoId: "https://www.youtube.com/watch?v=irF-4N_fHjs",
+          videoId: "https://www.youtube.com/watch?v=irF-4N_fHjs&vq=hd1080",
           title: "മലയാളം: മാതൃഭൂമി ന്യൂസ്",
         },
         {
-          videoId: "https://www.youtube.com/watch?v=irF-4N_fHjs",
+          videoId: "https://www.youtube.com/watch?v=irF-4N_fHjs&vq=hd1080",
           title: "മലയാളം: മാതൃഭൂമി ന്യൂസ്",
         },
         {
-          videoId: "https://www.youtube.com/watch?v=irF-4N_fHjs",
+          videoId: "https://www.youtube.com/watch?v=irF-4N_fHjs&vq=hd1080",
           title: "മലയാളം: മാതൃഭൂമി ന്യൂസ്",
         },
         {
-          videoId: "https://www.youtube.com/watch?v=irF-4N_fHjs",
+          videoId: "https://www.youtube.com/watch?v=irF-4N_fHjs&vq=hd1080",
           title: "മലയാളം: മാതൃഭൂമി ന്യൂസ്",
         },
         {
-          videoId: "https://www.youtube.com/watch?v=irF-4N_fHjs",
+          videoId: "https://www.youtube.com/watch?v=irF-4N_fHjs&vq=hd1080",
           title: "മലയാളം: മാതൃഭൂമി ന്യൂസ്",
         },
       ],
@@ -408,27 +408,27 @@ const data = {
       channelIcon: somoytv,
       episodes: [
         {
-          videoId: "https://www.youtube.com/watch?v=KgiwN7ddb2U?",
+          videoId: "https://www.youtube.com/watch?v=KgiwN7ddb2U?&vq=hd1080",
           title: "Somoy TV Bangladesh Live 24/7",
         },
         {
-          videoId: "https://www.youtube.com/watch?v=KgiwN7ddb2U?",
+          videoId: "https://www.youtube.com/watch?v=KgiwN7ddb2U?&vq=hd1080",
           title: "Somoy TV Bangladesh Live 24/7",
         },
         {
-          videoId: "https://www.youtube.com/watch?v=KgiwN7ddb2U?",
+          videoId: "https://www.youtube.com/watch?v=KgiwN7ddb2U?&vq=hd1080",
           title: "Somoy TV Bangladesh Live 24/7",
         },
         {
-          videoId: "https://www.youtube.com/watch?v=KgiwN7ddb2U?",
+          videoId: "https://www.youtube.com/watch?v=KgiwN7ddb2U?&vq=hd1080",
           title: "Somoy TV Bangladesh Live 24/7",
         },
         {
-          videoId: "https://www.youtube.com/watch?v=KgiwN7ddb2U?",
+          videoId: "https://www.youtube.com/watch?v=KgiwN7ddb2U?&vq=hd1080",
           title: "Somoy TV Bangladesh Live 24/7",
         },
         {
-          videoId: "https://www.youtube.com/watch?v=KgiwN7ddb2U?",
+          videoId: "https://www.youtube.com/watch?v=KgiwN7ddb2U?&vq=hd1080",
           title: "Somoy TV Bangladesh Live 24/7",
         },
       ],
@@ -439,27 +439,27 @@ const data = {
       channelIcon: franceinfo,
       episodes: [
         {
-          videoId: "https://www.youtube.com/watch?v=wwNZKfBLAsc?",
+          videoId: "https://www.youtube.com/watch?v=wwNZKfBLAsc?&vq=hd1080",
           title: "FranceInfo 24/7",
         },
         {
-          videoId: "https://www.youtube.com/watch?v=wwNZKfBLAsc?",
+          videoId: "https://www.youtube.com/watch?v=wwNZKfBLAsc?&vq=hd1080",
           title: "FranceInfo 24/7",
         },
         {
-          videoId: "https://www.youtube.com/watch?v=wwNZKfBLAsc?",
+          videoId: "https://www.youtube.com/watch?v=wwNZKfBLAsc?&vq=hd1080",
           title: "FranceInfo 24/7",
         },
         {
-          videoId: "https://www.youtube.com/watch?v=wwNZKfBLAsc?",
+          videoId: "https://www.youtube.com/watch?v=wwNZKfBLAsc?&vq=hd1080",
           title: "FranceInfo 24/7",
         },
         {
-          videoId: "https://www.youtube.com/watch?v=wwNZKfBLAsc?",
+          videoId: "https://www.youtube.com/watch?v=wwNZKfBLAsc?&vq=hd1080",
           title: "FranceInfo 24/7",
         },
         {
-          videoId: "https://www.youtube.com/watch?v=wwNZKfBLAsc?",
+          videoId: "https://www.youtube.com/watch?v=wwNZKfBLAsc?&vq=hd1080",
           title: "FranceInfo 24/7",
         },
       ],
@@ -501,27 +501,27 @@ const data = {
       channelIcon: newsone,
       episodes: [
         {
-          videoId: "https://www.youtube.com/watch?v=3e0FsU1N6OQ",
+          videoId: "https://www.youtube.com/watch?v=3e0FsU1N6OQ&vq=hd1080",
           title: "Новости",
         },
         {
-          videoId: "https://www.youtube.com/watch?v=3e0FsU1N6OQ",
+          videoId: "https://www.youtube.com/watch?v=3e0FsU1N6OQ&vq=hd1080",
           title: "Новости",
         },
         {
-          videoId: "https://www.youtube.com/watch?v=3e0FsU1N6OQ",
+          videoId: "https://www.youtube.com/watch?v=3e0FsU1N6OQ&vq=hd1080",
           title: "Новости",
         },
         {
-          videoId: "https://www.youtube.com/watch?v=3e0FsU1N6OQ",
+          videoId: "https://www.youtube.com/watch?v=3e0FsU1N6OQ&vq=hd1080",
           title: "Новости",
         },
         {
-          videoId: "https://www.youtube.com/watch?v=3e0FsU1N6OQ",
+          videoId: "https://www.youtube.com/watch?v=3e0FsU1N6OQ&vq=hd1080",
           title: "Новости",
         },
         {
-          videoId: "https://www.youtube.com/watch?v=3e0FsU1N6OQ",
+          videoId: "https://www.youtube.com/watch?v=3e0FsU1N6OQ&vq=hd1080",
           title: "Новости",
         },
       ],
@@ -532,27 +532,27 @@ const data = {
       channelIcon: rtarabic,
       episodes: [
         {
-          videoId: "https://www.youtube.com/watch?v=3AokIYKBz8I",
+          videoId: "https://www.youtube.com/watch?v=3AokIYKBz8I&vq=hd1080",
           title: "RT Arabic 24/7",
         },
         {
-          videoId: "https://www.youtube.com/watch?v=3AokIYKBz8I",
+          videoId: "https://www.youtube.com/watch?v=3AokIYKBz8I&vq=hd1080",
           title: "RT Arabic 24/7",
         },
         {
-          videoId: "https://www.youtube.com/watch?v=3AokIYKBz8I",
+          videoId: "https://www.youtube.com/watch?v=3AokIYKBz8I&vq=hd1080",
           title: "RT Arabic 24/7",
         },
         {
-          videoId: "https://www.youtube.com/watch?v=3AokIYKBz8I",
+          videoId: "https://www.youtube.com/watch?v=3AokIYKBz8I&vq=hd1080",
           title: "RT Arabic 24/7",
         },
         {
-          videoId: "https://www.youtube.com/watch?v=3AokIYKBz8I",
+          videoId: "https://www.youtube.com/watch?v=3AokIYKBz8I&vq=hd1080",
           title: "RT Arabic 24/7",
         },
         {
-          videoId: "https://www.youtube.com/watch?v=3AokIYKBz8I",
+          videoId: "https://www.youtube.com/watch?v=3AokIYKBz8I&vq=hd1080",
           title: "RT Arabic 24/7",
         },
       ],
@@ -1838,22 +1838,22 @@ const data = {
         },
         {
           videoId:
-            "https://www.wim.tv/embed/?cast=98755cb8-6595-4037-8c4c-790e6ec1b586&autoplay=true&muted=true",
+            "https://www.wim.tv/embed/?cast=98755cb8-6595-4037-8c4c-790e6ec1b586&autostart=true",
           title: "Italian Sports",
         },
         {
           videoId:
-            "https://www.wim.tv/embed/?cast=98755cb8-6595-4037-8c4c-790e6ec1b586&autoplay=true&muted=true",
+            "https://www.wim.tv/embed/?cast=98755cb8-6595-4037-8c4c-790e6ec1b586&autostart=true",
           title: "Italian Sports",
         },
         {
           videoId:
-            "https://www.wim.tv/embed/?cast=98755cb8-6595-4037-8c4c-790e6ec1b586&autoplay=true&muted=true",
+            "https://www.wim.tv/embed/?cast=98755cb8-6595-4037-8c4c-790e6ec1b586&autostart=true",
           title: "Italian Sports",
         },
         {
           videoId:
-            "https://www.wim.tv/embed/?cast=98755cb8-6595-4037-8c4c-790e6ec1b586&autoplay=true&muted=true",
+            "https://www.wim.tv/embed/?cast=98755cb8-6595-4037-8c4c-790e6ec1b586&autostart=true",
           title: "Italian Sports",
         },
       ],
@@ -1864,7 +1864,7 @@ const data = {
       episodes: [
         {
           videoId:
-            "https://www.wim.tv/embed/?cast=099a5381-23af-40e6-821f-58aa38bdfd8b&autostart=true&background=fals",
+            "https://www.wim.tv/embed/?cast=099a5381-23af-40e6-821f-58aa38bdfd8b&autostart=true&background=false",
           title: "Palinsesto Comunicare Produzioni",
         },
         {
@@ -1874,17 +1874,17 @@ const data = {
         },
         {
           videoId:
-            "https://www.wim.tv/embed/?cast=099a5381-23af-40e6-821f-58aa38bdfd8b&autostart=true&background=fals",
+            "https://www.wim.tv/embed/?cast=099a5381-23af-40e6-821f-58aa38bdfd8b&autostart=true&background=false",
           title: "Palinsesto Comunicare Produzioni",
         },
         {
           videoId:
-            "https://www.wim.tv/embed/?cast=099a5381-23af-40e6-821f-58aa38bdfd8b&autostart=true&background=fals",
+            "https://www.wim.tv/embed/?cast=099a5381-23af-40e6-821f-58aa38bdfd8b&autostart=true&background=false",
           title: "Palinsesto Comunicare Produzioni",
         },
         {
           videoId:
-            "https://www.wim.tv/embed/?cast=099a5381-23af-40e6-821f-58aa38bdfd8b&autostart=true&background=fals",
+            "https://www.wim.tv/embed/?cast=099a5381-23af-40e6-821f-58aa38bdfd8b&autostart=true&background=false",
           title: "Palinsesto Comunicare Produzioni",
         },
         {
