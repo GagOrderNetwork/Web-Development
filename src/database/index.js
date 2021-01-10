@@ -403,37 +403,6 @@ const data = {
       ],
     },
     {
-      number: 108,
-      channelName: "Somoy TV",
-      channelIcon: somoytv,
-      episodes: [
-        {
-          videoId: "https://www.youtube.com/watch?v=KgiwN7ddb2U?&vq=hd1080",
-          title: "Somoy TV Bangladesh Live 24/7",
-        },
-        {
-          videoId: "https://www.youtube.com/watch?v=KgiwN7ddb2U?&vq=hd1080",
-          title: "Somoy TV Bangladesh Live 24/7",
-        },
-        {
-          videoId: "https://www.youtube.com/watch?v=KgiwN7ddb2U?&vq=hd1080",
-          title: "Somoy TV Bangladesh Live 24/7",
-        },
-        {
-          videoId: "https://www.youtube.com/watch?v=KgiwN7ddb2U?&vq=hd1080",
-          title: "Somoy TV Bangladesh Live 24/7",
-        },
-        {
-          videoId: "https://www.youtube.com/watch?v=KgiwN7ddb2U?&vq=hd1080",
-          title: "Somoy TV Bangladesh Live 24/7",
-        },
-        {
-          videoId: "https://www.youtube.com/watch?v=KgiwN7ddb2U?&vq=hd1080",
-          title: "Somoy TV Bangladesh Live 24/7",
-        },
-      ],
-    },
-    {
       number: 109,
       channelName: "FranceInfo",
       channelIcon: franceinfo,
@@ -735,32 +704,32 @@ const data = {
       episodes: [
         {
           videoId:
-            "https://www.wim.tv/embed/?cast=59a5d503-8874-43be-837e-297524a57e9d&autostart=true",
+            "https://www.wim.tv/embed/?cast=59a5d503-8874-43be-837e-297524a57e9d&autostart=true&vq=hd1080",
           title: "Beaute",
         },
         {
           videoId:
-            "https://www.wim.tv/embed/?cast=59a5d503-8874-43be-837e-297524a57e9d&autostart=true",
+            "https://www.wim.tv/embed/?cast=59a5d503-8874-43be-837e-297524a57e9d&autostart=true&vq=hd1080",
           title: "Beaute",
         },
         {
           videoId:
-            "https://www.wim.tv/embed/?cast=59a5d503-8874-43be-837e-297524a57e9d&autostart=true",
+            "https://www.wim.tv/embed/?cast=59a5d503-8874-43be-837e-297524a57e9d&autostart=true&vq=hd1080",
           title: "Beaute",
         },
         {
           videoId:
-            "https://www.wim.tv/embed/?cast=59a5d503-8874-43be-837e-297524a57e9d&autostart=true",
+            "https://www.wim.tv/embed/?cast=59a5d503-8874-43be-837e-297524a57e9d&autostart=true&vq=hd1080",
           title: "Beaute",
         },
         {
           videoId:
-            "https://www.wim.tv/embed/?cast=59a5d503-8874-43be-837e-297524a57e9d&autostart=true",
+            "https://www.wim.tv/embed/?cast=59a5d503-8874-43be-837e-297524a57e9d&autostart=true&vq=hd1080",
           title: "Beaute",
         },
         {
           videoId:
-            "https://www.wim.tv/embed/?cast=59a5d503-8874-43be-837e-297524a57e9d&autostart=true",
+            "https://www.wim.tv/embed/?cast=59a5d503-8874-43be-837e-297524a57e9d&autostart=true&vq=hd1080",
           title: "Beaute",
         },
       ],
@@ -937,67 +906,31 @@ const data = {
       ],
     },
     {
-      number: 403,
-      channelName: "Synthwave",
-      episodes: [
-        {
-          videoId:
-            "https://www.youtube.com/watch?v=QSJz-cpquos&ab_channel=tpyxaart",
-          title: "Retro Electro Radio",
-        },
-        {
-          videoId:
-            "https://www.youtube.com/watch?v=QSJz-cpquos&ab_channel=tpyxaart",
-          title: "Retro Electro Radio",
-        },
-        {
-          videoId:
-            "https://www.youtube.com/watch?v=QSJz-cpquos&ab_channel=tpyxaart",
-          title: "Retro Electro Radio",
-        },
-        {
-          videoId:
-            "https://www.youtube.com/watch?v=QSJz-cpquos&ab_channel=tpyxaart",
-          title: "Retro Electro Radio",
-        },
-        {
-          videoId:
-            "https://www.youtube.com/watch?v=QSJz-cpquos&ab_channel=tpyxaart",
-          title: "Retro Electro Radio",
-        },
-        {
-          videoId:
-            "https://www.youtube.com/watch?v=QSJz-cpquos&ab_channel=tpyxaart",
-          title: "Retro Electro Radio",
-        },
-      ],
-    },
-    {
       number: 405,
       channelName: "Shuffle Dance Music (16+)",
       episodes: [
         {
-          videoId: "https://www.youtube.com/watch?v=qWf-FPFmVw0",
+          videoId: "https://www.youtube.com/watch?v=qWf-FPFmVw0&vq=hd1080",
           title: "Electro House & Bass Mix",
         },
         {
-          videoId: "https://www.youtube.com/watch?v=qWf-FPFmVw0",
+          videoId: "https://www.youtube.com/watch?v=qWf-FPFmVw0&vq=hd1080",
           title: "Electro House & Bass Mix",
         },
         {
-          videoId: "https://www.youtube.com/watch?v=qWf-FPFmVw0",
+          videoId: "https://www.youtube.com/watch?v=qWf-FPFmVw0&vq=hd1080",
           title: "Electro House & Bass Mix",
         },
         {
-          videoId: "https://www.youtube.com/watch?v=qWf-FPFmVw0",
+          videoId: "https://www.youtube.com/watch?v=qWf-FPFmVw0&vq=hd1080",
           title: "Electro House & Bass Mix",
         },
         {
-          videoId: "https://www.youtube.com/watch?v=qWf-FPFmVw0",
+          videoId: "https://www.youtube.com/watch?v=qWf-FPFmVw0&vq=hd1080",
           title: "Electro House & Bass Mix",
         },
         {
-          videoId: "https://www.youtube.com/watch?v=qWf-FPFmVw0",
+          videoId: "https://www.youtube.com/watch?v=qWf-FPFmVw0&vq=hd1080",
           title: "Electro House & Bass Mix",
         },
       ],
@@ -1108,37 +1041,6 @@ const data = {
       ],
     },
     {
-      number: 409,
-      channelName: "BestRadio1 (16+)",
-      channelIcon: br1,
-      episodes: [
-        {
-          videoId: "https://www.youtube.com/watch?v=kGKkUN50R0c",
-          title: "Radio Pop Music",
-        },
-        {
-          videoId: "https://www.youtube.com/watch?v=kGKkUN50R0c",
-          title: "Radio Pop Music",
-        },
-        {
-          videoId: "https://www.youtube.com/watch?v=kGKkUN50R0c",
-          title: "Radio Pop Music",
-        },
-        {
-          videoId: "https://www.youtube.com/watch?v=kGKkUN50R0c",
-          title: "Radio Pop Music",
-        },
-        {
-          videoId: "https://www.youtube.com/watch?v=kGKkUN50R0c",
-          title: "Radio Pop Music",
-        },
-        {
-          videoId: "https://www.youtube.com/watch?v=kGKkUN50R0c",
-          title: "Radio Pop Music",
-        },
-      ],
-    },
-    {
       number: 410,
       channelName: "Fimbul Radio",
       episodes: [
@@ -1240,27 +1142,27 @@ const data = {
       channelName: "Rolling Venice",
       episodes: [
         {
-          videoId: "https://www.youtube.com/watch?v=ph1vpnYIxJk",
+          videoId: "https://www.youtube.com/watch?v=ph1vpnYIxJk&vq=hd1080",
           title: "Venice with classical music",
         },
         {
-          videoId: "https://www.youtube.com/watch?v=ph1vpnYIxJk",
+          videoId: "https://www.youtube.com/watch?v=ph1vpnYIxJk&vq=hd1080",
           title: "Venice with classical music",
         },
         {
-          videoId: "https://www.youtube.com/watch?v=ph1vpnYIxJk",
+          videoId: "https://www.youtube.com/watch?v=ph1vpnYIxJk&vq=hd1080",
           title: "Venice with classical music",
         },
         {
-          videoId: "https://www.youtube.com/watch?v=ph1vpnYIxJk",
+          videoId: "https://www.youtube.com/watch?v=ph1vpnYIxJk&vq=hd1080",
           title: "Venice with classical music",
         },
         {
-          videoId: "https://www.youtube.com/watch?v=ph1vpnYIxJk",
+          videoId: "https://www.youtube.com/watch?v=ph1vpnYIxJk&vq=hd1080",
           title: "Venice with classical music",
         },
         {
-          videoId: "https://www.youtube.com/watch?v=ph1vpnYIxJk",
+          videoId: "https://www.youtube.com/watch?v=ph1vpnYIxJk&vq=hd1080",
           title: "Venice with classical music",
         },
       ],
@@ -1492,27 +1394,27 @@ const data = {
       channelName: "For Dogs",
       episodes: [
         {
-          videoId: "https://www.youtube.com/watch?v=thOcsZaOEUw&ab_channel=RelaxMyDog-RelaxingMusicforDogs",
+          videoId: "https://www.youtube.com/watch?v=thOcsZaOEUw&ab_channel=RelaxMyDog-RelaxingMusicforDogs&vq=hd1080",
           title: "Music for Dogs",
         },
         {
-          videoId: "https://www.youtube.com/watch?v=thOcsZaOEUw&ab_channel=RelaxMyDog-RelaxingMusicforDogs",
+          videoId: "https://www.youtube.com/watch?v=thOcsZaOEUw&ab_channel=RelaxMyDog-RelaxingMusicforDogs&vq=hd1080",
           title: "Music for Dogs",
         },
         {
-          videoId: "https://www.youtube.com/watch?v=thOcsZaOEUw&ab_channel=RelaxMyDog-RelaxingMusicforDogs",
+          videoId: "https://www.youtube.com/watch?v=thOcsZaOEUw&ab_channel=RelaxMyDog-RelaxingMusicforDogs&vq=hd1080",
           title: "Music for Dogs",
         },
         {
-          videoId: "https://www.youtube.com/watch?v=thOcsZaOEUw&ab_channel=RelaxMyDog-RelaxingMusicforDogs",
+          videoId: "https://www.youtube.com/watch?v=thOcsZaOEUw&ab_channel=RelaxMyDog-RelaxingMusicforDogs&vq=hd1080",
           title: "Music for Dogs",
         },
         {
-          videoId: "https://www.youtube.com/watch?v=thOcsZaOEUw&ab_channel=RelaxMyDog-RelaxingMusicforDogs",
+          videoId: "https://www.youtube.com/watch?v=thOcsZaOEUw&ab_channel=RelaxMyDog-RelaxingMusicforDogs&vq=hd1080",
           title: "Music for Dogs",
         },
         {
-          videoId: "https://www.youtube.com/watch?v=thOcsZaOEUw&ab_channel=RelaxMyDog-RelaxingMusicforDogs",
+          videoId: "https://www.youtube.com/watch?v=thOcsZaOEUw&ab_channel=RelaxMyDog-RelaxingMusicforDogs&vq=hd1080",
           title: "Music for Dogs",
         },
       ],
@@ -1757,27 +1659,27 @@ const data = {
       channelIcon: ytnscience,
       episodes: [
         {
-          videoId: "https://www.youtube.com/watch?v=GyBgbzdkiH8?",
+          videoId: "https://www.youtube.com/watch?v=GyBgbzdkiH8?&vq=hd1080",
           title: "Korean Science Channel",
         },
         {
-          videoId: "https://www.youtube.com/watch?v=GyBgbzdkiH8?",
+          videoId: "https://www.youtube.com/watch?v=GyBgbzdkiH8?&vq=hd1080",
           title: "Korean Science Channel",
         },
         {
-          videoId: "https://www.youtube.com/watch?v=GyBgbzdkiH8?",
+          videoId: "https://www.youtube.com/watch?v=GyBgbzdkiH8?&vq=hd1080",
           title: "Korean Science Channel",
         },
         {
-          videoId: "https://www.youtube.com/watch?v=GyBgbzdkiH8?",
+          videoId: "https://www.youtube.com/watch?v=GyBgbzdkiH8?&vq=hd1080",
           title: "Korean Science Channel",
         },
         {
-          videoId: "https://www.youtube.com/watch?v=GyBgbzdkiH8?",
+          videoId: "https://www.youtube.com/watch?v=GyBgbzdkiH8?&vq=hd1080",
           title: "Korean Science Channel",
         },
         {
-          videoId: "https://www.youtube.com/watch?v=GyBgbzdkiH8?",
+          videoId: "https://www.youtube.com/watch?v=GyBgbzdkiH8?&vq=hd1080",
           title: "Korean Science Channel",
         },
       ],
