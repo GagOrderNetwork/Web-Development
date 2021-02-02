@@ -1398,7 +1398,7 @@ const data = {
         },
         {
           videoId: "https://www.wim.tv/embed/?cast=b22969b4-7a94-4ce9-a6e0-870b60da6f89&autostart=true",
-          title: "MuseumTV",
+          title: "Beatclub",
         },
         {
           videoId: "https://www.wim.tv/embed/?cast=b22969b4-7a94-4ce9-a6e0-870b60da6f89&autostart=true",
@@ -1406,7 +1406,7 @@ const data = {
         },
         {
           videoId: "https://www.wim.tv/embed/?cast=b22969b4-7a94-4ce9-a6e0-870b60da6f89&autostart=true",
-          title: "MuseumTV",
+          title: "BeatClub",
         },
         {
           videoId: "https://www.wim.tv/embed/?cast=b22969b4-7a94-4ce9-a6e0-870b60da6f89&autostart=true",
@@ -1414,7 +1414,7 @@ const data = {
         },
         {
           videoId: "https://www.wim.tv/embed/?cast=b22969b4-7a94-4ce9-a6e0-870b60da6f89&autostart=true",
-          title: "MuseumTV",
+          title: "BeatClub",
         },
       ],
     },
@@ -1735,32 +1735,32 @@ const data = {
       episodes: [
         {
           videoId:
-            "https://platform.wim.tv/embed/?cast=099a5381-23af-40e6-821f-58aa38bdfd8b&autostart=true",
+            "https://www.wim.tv/embed/?cast=099a5381-23af-40e6-821f-58aa38bdfd8b&autostart=true",
           title: "Palinsesto Comunicare Produzioni",
         },
         {
           videoId:
-            "https://platform.wim.tv/embed/?cast=099a5381-23af-40e6-821f-58aa38bdfd8b&autostart=true",
+            "https://www.wim.tv/embed/?cast=099a5381-23af-40e6-821f-58aa38bdfd8b&autostart=true",
           title: "Palinsesto Comunicare Produzioni",
         },
         {
           videoId:
-            "https://platform.wim.tv/embed/?cast=099a5381-23af-40e6-821f-58aa38bdfd8b&autostart=true",
+            "https://www.wim.tv/embed/?cast=099a5381-23af-40e6-821f-58aa38bdfd8b&autostart=true",
           title: "Palinsesto Comunicare Produzioni",
         },
         {
           videoId:
-            "https://platform.wim.tv/embed/?cast=099a5381-23af-40e6-821f-58aa38bdfd8b&autostart=true",
+            "https://www.wim.tv/embed/?cast=099a5381-23af-40e6-821f-58aa38bdfd8b&autostart=true",
           title: "Palinsesto Comunicare Produzioni",
         },
         {
           videoId:
-            "https://platform.wim.tv/embed/?cast=099a5381-23af-40e6-821f-58aa38bdfd8b&autostart=true",
+            "https://www.wim.tv/embed/?cast=099a5381-23af-40e6-821f-58aa38bdfd8b&autostart=true",
           title: "Palinsesto Comunicare Produzioni",
         },
         {
           videoId:
-            "https://platform.wim.tv/embed/?cast=099a5381-23af-40e6-821f-58aa38bdfd8b&autostart=true",
+            "https://www.wim.tv/embed/?cast=099a5381-23af-40e6-821f-58aa38bdfd8b&autostart=true",
           title: "Palinsesto Comunicare Produzioni",
         },
       ],
