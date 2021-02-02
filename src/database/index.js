@@ -18,7 +18,6 @@ import hometeam from "../assets/icons/hometeam.png";
 import hype from "../assets/icons/HYPE.png";
 import japanews from "../assets/icons/japanews.png";
 import juju from "../assets/icons/juju.png";
-import liverpooltv from "../assets/icons/liverpooltv.png";
 import lofi from "../assets/icons/lofi.png";
 import mathnews from "../assets/icons/mathnews.png";
 import nasa1 from "../assets/icons/nasa1.png";
@@ -430,37 +429,6 @@ const data = {
         {
           videoId: "https://www.youtube.com/watch?v=wwNZKfBLAsc?&vq=hd1080",
           title: "FranceInfo 24/7",
-        },
-      ],
-    },
-    {
-      number: 110,
-      channelName: "DaAi World Live",
-      channelIcon: daaitv,
-      episodes: [
-        {
-          videoId: "https://www.dailymotion.com/video/x5crdro",
-          title: "DaIi TV",
-        },
-        {
-          videoId: "https://www.dailymotion.com/video/x5crdro",
-          title: "DaIi TV",
-        },
-        {
-          videoId: "https://www.dailymotion.com/video/x5crdro",
-          title: "DaIi TV",
-        },
-        {
-          videoId: "https://www.dailymotion.com/video/x5crdro",
-          title: "DaIi TV",
-        },
-        {
-          videoId: "https://www.dailymotion.com/video/x5crdro",
-          title: "DaIi TV",
-        },
-        {
-          videoId: "https://www.dailymotion.com/video/x5crdro",
-          title: "DaIi TV",
         },
       ],
     },
@@ -1154,42 +1122,6 @@ const data = {
       ],
     },
     {
-      number: 411,
-      channelName: "Fimbul Radio",
-      episodes: [
-        {
-          videoId:
-            "https://www.youtube.com/watch?v=2snGxzABIWo&ab_channel=Danheim",
-          title: "Viking Music 24/7",
-        },
-        {
-          videoId:
-            "https://www.youtube.com/watch?v=2snGxzABIWo&ab_channel=Danheim",
-          title: "Viking Music 24/7",
-        },
-        {
-          videoId:
-            "https://www.youtube.com/watch?v=2snGxzABIWo&ab_channel=Danheim",
-          title: "Viking Music 24/7",
-        },
-        {
-          videoId:
-            "https://www.youtube.com/watch?v=2snGxzABIWo&ab_channel=Danheim",
-          title: "Viking Music 24/7",
-        },
-        {
-          videoId:
-            "https://www.youtube.com/watch?v=2snGxzABIWo&ab_channel=Danheim",
-          title: "Viking Music 24/7",
-        },
-        {
-          videoId:
-            "https://www.youtube.com/watch?v=2snGxzABIWo&ab_channel=Danheim",
-          title: "Viking Music 24/7",
-        },
-      ],
-    },
-    {
       number: 412,
       channelName: "Frequenzy Funk/Jazz (16+)",
       channelIcon: frequenzy,
@@ -1728,32 +1660,32 @@ const data = {
       episodes: [
         {
           videoId:
-            "https://www.wim.tv/embed/?cast=b4468c68-25b7-4a49-8612-dcd74445516a&autostart=true",
+            "https://platform.wim.tv/embed/?cast=b4468c68-25b7-4a49-8612-dcd74445516a&autostart=true",
           title: "African History culture and worldview",
         },
         {
           videoId:
-            "https://www.wim.tv/embed/?cast=b4468c68-25b7-4a49-8612-dcd74445516a&autostart=true",
+            "https://platform.wim.tv/embed/?cast=b4468c68-25b7-4a49-8612-dcd74445516a&autostart=true",
           title: "African History culture and worldview",
         },
         {
           videoId:
-            "https://www.wim.tv/embed/?cast=b4468c68-25b7-4a49-8612-dcd74445516a&autostart=true",
+            "https://platform.wim.tv/embed/?cast=b4468c68-25b7-4a49-8612-dcd74445516a&autostart=true",
           title: "African History culture and worldview",
         },
         {
           videoId:
-            "https://www.wim.tv/embed/?cast=b4468c68-25b7-4a49-8612-dcd74445516a&autostart=true",
+            "https://platform.wim.tv/embed/?cast=b4468c68-25b7-4a49-8612-dcd74445516a&autostart=true",
           title: "African History culture and worldview",
         },
         {
           videoId:
-            "https://www.wim.tv/embed/?cast=b4468c68-25b7-4a49-8612-dcd74445516a&autostart=true",
+            "https://platform.wim.tv/embed/?cast=b4468c68-25b7-4a49-8612-dcd74445516a&autostart=true",
           title: "African History culture and worldview",
         },
         {
           videoId:
-            "https://www.wim.tv/embed/?cast=b4468c68-25b7-4a49-8612-dcd74445516a&autostart=true",
+            "https://platform.wim.tv/embed/?cast=b4468c68-25b7-4a49-8612-dcd74445516a&autostart=true",
           title: "African History culture and worldview",
         },
       ],
@@ -1803,32 +1735,32 @@ const data = {
       episodes: [
         {
           videoId:
-            "https://www.wim.tv/embed/?cast=099a5381-23af-40e6-821f-58aa38bdfd8b&autostart=true&background=false",
+            "https://platform.wim.tv/embed/?cast=099a5381-23af-40e6-821f-58aa38bdfd8b&autostart=true",
           title: "Palinsesto Comunicare Produzioni",
         },
         {
           videoId:
-            "https://www.wim.tv/embed/?cast=099a5381-23af-40e6-821f-58aa38bdfd8b&autostart=true&background=false",
+            "https://platform.wim.tv/embed/?cast=099a5381-23af-40e6-821f-58aa38bdfd8b&autostart=true",
           title: "Palinsesto Comunicare Produzioni",
         },
         {
           videoId:
-            "https://www.wim.tv/embed/?cast=099a5381-23af-40e6-821f-58aa38bdfd8b&autostart=true&background=false",
+            "https://platform.wim.tv/embed/?cast=099a5381-23af-40e6-821f-58aa38bdfd8b&autostart=true",
           title: "Palinsesto Comunicare Produzioni",
         },
         {
           videoId:
-            "https://www.wim.tv/embed/?cast=099a5381-23af-40e6-821f-58aa38bdfd8b&autostart=true&background=false",
+            "https://platform.wim.tv/embed/?cast=099a5381-23af-40e6-821f-58aa38bdfd8b&autostart=true",
           title: "Palinsesto Comunicare Produzioni",
         },
         {
           videoId:
-            "https://www.wim.tv/embed/?cast=099a5381-23af-40e6-821f-58aa38bdfd8b&autostart=true&background=false",
+            "https://platform.wim.tv/embed/?cast=099a5381-23af-40e6-821f-58aa38bdfd8b&autostart=true",
           title: "Palinsesto Comunicare Produzioni",
         },
         {
           videoId:
-            "https://www.wim.tv/embed/?cast=099a5381-23af-40e6-821f-58aa38bdfd8b&autostart=true&background=false",
+            "https://platform.wim.tv/embed/?cast=099a5381-23af-40e6-821f-58aa38bdfd8b&autostart=true",
           title: "Palinsesto Comunicare Produzioni",
         },
       ],
