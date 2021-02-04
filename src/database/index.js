@@ -76,42 +76,6 @@ const data = {
     },
     {
       number: 2,
-      channelName: "Spotlight",
-      episodes: [
-        {
-          videoId:
-            "https://www.wim.tv/embed/?cast=2ea00799-3b7a-4fb1-8e9e-276eb83edc6a&autostart=true",
-           title: "CreatorShowcase",
-        },
-        {
-          videoId:
-            "https://www.wim.tv/embed/?cast=2ea00799-3b7a-4fb1-8e9e-276eb83edc6a&autostart=true",
-          title: "CreatorShowcase",
-        },
-        {
-          videoId:
-            "https://www.wim.tv/embed/?cast=2ea00799-3b7a-4fb1-8e9e-276eb83edc6a&autostart=true",
-          title: "CreatorShowcase",
-        },
-        {
-          videoId:
-            "https://www.wim.tv/embed/?cast=2ea00799-3b7a-4fb1-8e9e-276eb83edc6a&autostart=true",
-          title: "CreatorShowcase",
-        },
-        {
-          videoId:
-            "https://www.wim.tv/embed/?cast=2ea00799-3b7a-4fb1-8e9e-276eb83edc6a&autostart=true",
-          title: "CreatorShowcase",
-        },
-        {
-          videoId:
-            "https://www.wim.tv/embed/?cast=2ea00799-3b7a-4fb1-8e9e-276eb83edc6a&autostart=true",
-          title: "CreatorShowcase",
-        },
-      ],
-    },
-    {
-      number: 3,
       channelName: "Geaux Shorts",
       episodes: [
         {
@@ -147,7 +111,7 @@ const data = {
       ],
     },
   ],
-  "News/Business": [
+  "Business/News": [
     {
       number: 100,
       channelName: "HYPE",
@@ -211,6 +175,36 @@ const data = {
     },
     {
       number: 102,
+      channelName: "TD Ameritrade Network",
+      episodes: [
+        {
+          videoId: "https://www.youtube.com/watch?v=92mKFs2-VoE&ab_channel=TDAmeritradeNetwork&vq=hd1080",
+          title: "TD Ameritrade Network",
+        },
+        {
+          videoId: "https://www.youtube.com/watch?v=92mKFs2-VoE&ab_channel=TDAmeritradeNetwork&vq=hd1080",
+          title: "TD Ameritrade Network",
+        },
+        {
+          videoId: "https://www.youtube.com/watch?v=92mKFs2-VoE&ab_channel=TDAmeritradeNetwork&vq=hd1080",
+          title: "TD Ameritrade Network",
+        },
+        {
+          videoId: "https://www.youtube.com/watch?v=92mKFs2-VoE&ab_channel=TDAmeritradeNetwork&vq=hd1080",
+          title: "TD Ameritrade Network",
+        },
+        {
+          videoId: "https://www.youtube.com/watch?v=92mKFs2-VoE&ab_channel=TDAmeritradeNetwork&vq=hd1080",
+          title: "TD Ameritrade Network",
+        },
+        {
+          videoId: "https://www.youtube.com/watch?v=92mKFs2-VoE&ab_channel=TDAmeritradeNetwork&vq=hd1080",
+          title: "TD Ameritrade Network",
+        },
+      ],
+    },
+    {
+      number: 103,
       channelName: "SKY News",
       channelIcon: skynews,
       episodes: [
@@ -241,7 +235,7 @@ const data = {
       ],
     },
     {
-      number: 103,
+      number: 104,
       channelName: "AfricaNews",
       channelIcon: africanews,
       episodes: [
@@ -272,7 +266,7 @@ const data = {
       ],
     },
     {
-      number: 104,
+      number: 105,
       channelName: "Bloomberg HT",
       channelIcon: bloomht,
       episodes: [
@@ -303,7 +297,7 @@ const data = {
       ],
     },
     {
-      number: 105,
+      number: 106,
       channelName: "NDTV India",
       channelIcon: ndtv,
       episodes: [
@@ -334,7 +328,7 @@ const data = {
       ],
     },
     {
-      number: 106,
+      number: 107,
       channelName: "JapaNews24",
       channelIcon: japanews,
       episodes: [
@@ -371,7 +365,7 @@ const data = {
       ],
     },
     {
-      number: 107,
+      number: 108,
       channelName: "Mathrubhumi News",
       channelIcon: mathnews,
       episodes: [
@@ -433,7 +427,7 @@ const data = {
       ],
     },
     {
-      number: 111,
+      number: 110,
       channelName: "NewsOne",
       channelIcon: newsone,
       episodes: [
@@ -464,7 +458,7 @@ const data = {
       ],
     },
     {
-      number: 112,
+      number: 111,
       channelName: "RT Arabic",
       channelIcon: rtarabic,
       episodes: [
@@ -491,43 +485,6 @@ const data = {
         {
           videoId: "https://www.youtube.com/watch?v=3AokIYKBz8I&vq=hd1080",
           title: "RT Arabic 24/7",
-        },
-      ],
-    },
-    {
-      number: 113,
-      channelName: "Arzamas Academy",
-      channelIcon: arzamas,
-      episodes: [
-        {
-          videoId:
-            "https://www.wim.tv/embed/?cast=25862b63-bdbc-4651-9b60-53091882cfe8&autostart=true",
-          title: "ArzamasAcademy",
-        },
-        {
-          videoId:
-            "https://www.wim.tv/embed/?cast=25862b63-bdbc-4651-9b60-53091882cfe8&autostart=true",
-          title: "ArzamasAcademy",
-        },
-        {
-          videoId:
-            "https://www.wim.tv/embed/?cast=25862b63-bdbc-4651-9b60-53091882cfe8&autostart=true",
-          title: "ArzamasAcademy",
-        },
-        {
-          videoId:
-            "https://www.wim.tv/embed/?cast=25862b63-bdbc-4651-9b60-53091882cfe8&autostart=true",
-          title: "ArzamasAcademy",
-        },
-        {
-          videoId:
-            "https://www.wim.tv/embed/?cast=25862b63-bdbc-4651-9b60-53091882cfe8&autostart=true",
-          title: "ArzamasAademy",
-        },
-        {
-          videoId:
-            "https://www.wim.tv/embed/?cast=25862b63-bdbc-4651-9b60-53091882cfe8&autostart=true",
-          title: "ArzamasAcademy",
         },
       ],
     },
@@ -634,6 +591,42 @@ const data = {
     },
     {
       number: 203,
+      channelName: "Hasbro Presents",
+      episodes: [
+        {
+          videoId:
+            "https://www.youtube.com/watch?v=EJtiYK9ZVeI&ab_channel=Hasbro",
+          title: "G.I. Joe",
+        },
+        {
+          videoId:
+            "https://www.youtube.com/watch?v=EJtiYK9ZVeI&ab_channel=Hasbro",
+          title: "G.I. Joe",
+        },
+        {
+          videoId:
+            "https://www.youtube.com/watch?v=EJtiYK9ZVeI&ab_channel=Hasbro",
+          title: "G.I. Joe",
+        },
+        {
+          videoId:
+            "https://www.youtube.com/watch?v=EJtiYK9ZVeI&ab_channel=Hasbro",
+          title: "G.I. Joe",
+        },
+        {
+          videoId:
+            "https://www.youtube.com/watch?v=EJtiYK9ZVeI&ab_channel=Hasbro",
+          title: "G.I. Joe",
+        },
+        {
+          videoId:
+            "https://www.youtube.com/watch?v=EJtiYK9ZVeI&ab_channel=Hasbro",
+          title: "G.I. Joe",
+        },
+      ],
+    },
+    {
+      number: 204,
       channelName: "Ubungo Kids",
       channelIcon: ubongo,
       episodes: [
@@ -1122,7 +1115,7 @@ const data = {
       ],
     },
     {
-      number: 412,
+      number: 411,
       channelName: "Frequenzy Funk/Jazz (16+)",
       channelIcon: frequenzy,
       episodes: [
@@ -1159,7 +1152,7 @@ const data = {
       ],
     },
     {
-      number: 413,
+      number: 412,
       channelName: "Frequenzy Rock (16+)",
       channelIcon: frequenzy,
       episodes: [
@@ -1196,7 +1189,7 @@ const data = {
       ],
     },
     {
-      number: 414,
+      number: 413,
       channelName: "Frequenzy Indie (16+)",
       channelIcon: frequenzy,
       episodes: [
@@ -1232,6 +1225,42 @@ const data = {
           },
         ],
       },
+      {
+        number: 414,
+        channelName: "Synthwave Radio (16+)",
+        episodes: [
+          {
+            videoId:
+              "https://www.youtube.com/watch?v=Yv4dVgTc1-g&ab_channel=NightrideFM",
+            title: "Retrowave Music 24/7",
+          },
+          {
+            videoId:
+              "https://www.youtube.com/watch?v=Yv4dVgTc1-g&ab_channel=NightrideFM",
+            title: "Retrowave Music 24/7",
+          },
+          {
+            videoId:
+              "https://www.youtube.com/watch?v=Yv4dVgTc1-g&ab_channel=NightrideFM",
+            title: "Retrowave Music 24/7",
+          },
+          {
+            videoId:
+              "https://www.youtube.com/watch?v=Yv4dVgTc1-g&ab_channel=NightrideFM",
+            title: "Retrowave Music 24/7",
+          },
+          {
+            videoId:
+              "https://www.youtube.com/watch?v=Yv4dVgTc1-g&ab_channel=NightrideFM",
+            title: "Retrowave Music 24/7",
+          },
+          {
+            videoId:
+              "https://www.youtube.com/watch?v=Yv4dVgTc1-g&ab_channel=NightrideFM",
+            title: "Retrowave Music 24/7",
+            },
+          ],
+        },
     {
         number: 415,
         channelName: "SOLITUDE PRODUCTIONS",
@@ -1653,48 +1682,86 @@ const data = {
         },
       ],
     },
+  ],
+  "Educational": [
     {
-      number: 506,
+      number: 600,
       channelName: "Hometeam History",
       channelIcon: hometeam,
       episodes: [
         {
           videoId:
-            "https://platform.wim.tv/embed/?cast=b4468c68-25b7-4a49-8612-dcd74445516a&autostart=true",
+            "https://www.wim.tv/embed/?cast=b4468c68-25b7-4a49-8612-dcd74445516a&autostart=true",
           title: "African History culture and worldview",
         },
         {
           videoId:
-            "https://platform.wim.tv/embed/?cast=b4468c68-25b7-4a49-8612-dcd74445516a&autostart=true",
+            "https://www.wim.tv/embed/?cast=b4468c68-25b7-4a49-8612-dcd74445516a&autostart=true",
           title: "African History culture and worldview",
         },
         {
           videoId:
-            "https://platform.wim.tv/embed/?cast=b4468c68-25b7-4a49-8612-dcd74445516a&autostart=true",
+            "https://www.wim.tv/embed/?cast=b4468c68-25b7-4a49-8612-dcd74445516a&autostart=true",
           title: "African History culture and worldview",
         },
         {
           videoId:
-            "https://platform.wim.tv/embed/?cast=b4468c68-25b7-4a49-8612-dcd74445516a&autostart=true",
+            "https://www.wim.tv/embed/?cast=b4468c68-25b7-4a49-8612-dcd74445516a&autostart=true",
           title: "African History culture and worldview",
         },
         {
           videoId:
-            "https://platform.wim.tv/embed/?cast=b4468c68-25b7-4a49-8612-dcd74445516a&autostart=true",
+            "https://www.wim.tv/embed/?cast=b4468c68-25b7-4a49-8612-dcd74445516a&autostart=true",
           title: "African History culture and worldview",
         },
         {
           videoId:
-            "https://platform.wim.tv/embed/?cast=b4468c68-25b7-4a49-8612-dcd74445516a&autostart=true",
+            "https://www.wim.tv/embed/?cast=b4468c68-25b7-4a49-8612-dcd74445516a&autostart=true",
           title: "African History culture and worldview",
         },
       ],
     },
-  ],
-
-  "Sports": [
     {
-      number: 600,
+      number: 601,
+      channelName: "Arzamas Academy",
+      channelIcon: arzamas,
+      episodes: [
+        {
+          videoId:
+            "https://www.wim.tv/embed/?cast=25862b63-bdbc-4651-9b60-53091882cfe8&autostart=true",
+          title: "ArzamasAcademy",
+        },
+        {
+          videoId:
+            "https://www.wim.tv/embed/?cast=25862b63-bdbc-4651-9b60-53091882cfe8&autostart=true",
+          title: "ArzamasAcademy",
+        },
+        {
+          videoId:
+            "https://www.wim.tv/embed/?cast=25862b63-bdbc-4651-9b60-53091882cfe8&autostart=true",
+          title: "ArzamasAcademy",
+        },
+        {
+          videoId:
+            "https://www.wim.tv/embed/?cast=25862b63-bdbc-4651-9b60-53091882cfe8&autostart=true",
+          title: "ArzamasAcademy",
+        },
+        {
+          videoId:
+            "https://www.wim.tv/embed/?cast=25862b63-bdbc-4651-9b60-53091882cfe8&autostart=true",
+          title: "ArzamasAademy",
+        },
+        {
+          videoId:
+            "https://www.wim.tv/embed/?cast=25862b63-bdbc-4651-9b60-53091882cfe8&autostart=true",
+          title: "ArzamasAcademy",
+        },
+      ],
+    },
+  ],
+    "Sports": [
+    {
+      number: 700,
       channelName: "Motor Sports Italiano",
       episodes: [
         {
@@ -1730,7 +1797,7 @@ const data = {
       ],
     },
     {
-      number: 601,
+      number: 701,
       channelName: "SelfieTV.IT",
       episodes: [
         {
@@ -1768,7 +1835,7 @@ const data = {
   ],
   "Explore.org": [
     {
-      number: 700,
+      number: 800,
       channelName: "Santa Monica Beach Cam",
       channelIcon: explore,
       episodes: [
@@ -1799,7 +1866,7 @@ const data = {
       ],
     },
     {
-      number: 701,
+      number: 801,
       channelName: "Aquarium of the Pacific",
       channelIcon: explore,
       episodes: [
@@ -1830,7 +1897,7 @@ const data = {
       ],
     },
     {
-      number: 702,
+      number: 802,
       channelName: "Raptor Resource Project",
       channelIcon: explore,
       episodes: [
@@ -1861,7 +1928,7 @@ const data = {
       ],
     },
     {
-      number: 703,
+      number: 803,
       channelName: "Brooke Falls",
       channelIcon: explore,
       episodes: [
@@ -1898,7 +1965,7 @@ const data = {
       ],
     },
     {
-      number: 704,
+      number: 804,
       channelName: "Warrior Canine Connection",
       channelIcon: explore,
       episodes: [
@@ -1929,7 +1996,7 @@ const data = {
       ],
     },
     {
-      number: 705,
+      number: 805,
       channelName: "Big Cat Rescue",
       channelIcon: explore,
       episodes: [
@@ -1960,7 +2027,7 @@ const data = {
       ],
     },
     {
-      number: 706,
+      number: 806,
       channelName: "Kitten Rescue",
       channelIcon: explore,
       episodes: [
@@ -1991,7 +2058,7 @@ const data = {
       ],
     },
     {
-      number: 707,
+      number: 807,
       channelName: "Aquarium of the Pacific",
       channelIcon: explore,
       episodes: [
@@ -2022,7 +2089,7 @@ const data = {
       ],
     },
     {
-      number: 708,
+      number: 808,
       channelName: "OrcaLab",
       channelIcon: explore,
       episodes: [
@@ -2053,7 +2120,7 @@ const data = {
       ],
     },
     {
-      number: 709,
+      number: 809,
       channelName: "Homosassa Springs",
       channelIcon: explore,
       episodes: [
@@ -2090,7 +2157,7 @@ const data = {
       ],
     },
     {
-      number: 710,
+      number: 810,
       channelName: "Wolong Grove",
       channelIcon: explore,
       episodes: [
@@ -2121,7 +2188,7 @@ const data = {
       ],
     },
     {
-      number: 711,
+      number: 811,
       channelName: "Donkey Hill",
       channelIcon: explore,
       episodes: [
@@ -2153,5 +2220,4 @@ const data = {
     },
   ],
 };
-
 export { data };
