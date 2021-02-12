@@ -2,36 +2,47 @@
 import africanews from "../assets/icons/Africanews.png";
 import arzamas from "../assets/icons/arzamas.png";
 import balogo from "../assets/icons/balogo.png";
+import beatclub from "../assets/icons/beatclub.png";
 import beaute from "../assets/icons/beaute.png";
 import bloomht from "../assets/icons/bloomht.png";
 import booba from "../assets/icons/booba.jpg";
 import br1 from "../assets/icons/br1.png";
 import daaitv from "../assets/icons/daaitv.png";
-import earthtv from "../assets/icons/earth-tv.png";
+import earthviews from "../assets/icons/earthviews.png";
 import ebrutv from "../assets/icons/ebrutv.png";
 import explore from "../assets/icons/explore.png";
+import fordogs from "../assets/icons/fordogs.png";
 import franceinfo from "../assets/icons/franceinfo.png";
 import frequenzy from "../assets/icons/frequenzy.png";
-import gamechops from "../assets/icons/GameChops.png";
 import gx from "../assets/icons/gx.png";
+import hasbro from "../assets/icons/hasbro.png";
 import hometeam from "../assets/icons/hometeam.png";
 import hype from "../assets/icons/HYPE.png";
 import japanews from "../assets/icons/japanews.png";
 import juju from "../assets/icons/juju.png";
 import lofi from "../assets/icons/lofi.png";
 import mathnews from "../assets/icons/mathnews.png";
+import ms360 from "../assets/icons/ms360.png";
 import nasa1 from "../assets/icons/nasa1.png";
 import nasa2 from "../assets/icons/nasa2.png";
+import nativeflute from "../assets/icons/nativeflute.png";
 import ndtv from "../assets/icons/ndtv.png";
 import newsone from "../assets/icons/newsone.png";
+import nt from "../assets/icons/nt.png";
 import paldoga from "../assets/icons/paldoga.png";
+import raznitzen from "../assets/icons/raznitzen.png";
 import rtarabic from "../assets/icons/RTArabic.png";
+import selfietv from "../assets/icons/selfietv.png";
 import skynews from "../assets/icons/skynewslogo.png";
+import solitude from "../assets/icons/solitude.png";
 import somoytv from "../assets/icons/Somoytv.png";
+import synthwave from "../assets/icons/synthwave.png";
+import td from "../assets/icons/td.png";
 import tech from "../assets/icons/tech.png";
 import tomfriends from "../assets/icons/tomfriends.png";
 import tomheroes from "../assets/icons/tomheroes.png";
 import ubongo from "../assets/icons/Ubongo.png";
+import venice from "../assets/icons/venice.png";
 import xset from "../assets/icons/xset.png";
 import ytnscience from "../assets/icons/ytnscience.png";
 
@@ -176,29 +187,30 @@ const data = {
     {
       number: 102,
       channelName: "TD Ameritrade Network",
+      channelIcon: td,
       episodes: [
         {
-          videoId: "https://www.youtube.com/watch?v=92mKFs2-VoE&ab_channel=TDAmeritradeNetwork&vq=hd1080",
+          videoId: "https://www.youtube.com/watch?v=Vjj1Pa2Wtt0&ab_channel=TDAmeritradeNetwork&vq=hd1080",
           title: "TD Ameritrade Network",
         },
         {
-          videoId: "https://www.youtube.com/watch?v=92mKFs2-VoE&ab_channel=TDAmeritradeNetwork&vq=hd1080",
+          videoId: "https://www.youtube.com/watch?v=Vjj1Pa2Wtt0&ab_channel=TDAmeritradeNetwork&vq=hd1080",
           title: "TD Ameritrade Network",
         },
         {
-          videoId: "https://www.youtube.com/watch?v=92mKFs2-VoE&ab_channel=TDAmeritradeNetwork&vq=hd1080",
+          videoId: "https://www.youtube.com/watch?v=Vjj1Pa2Wtt0&ab_channel=TDAmeritradeNetwork&vq=hd1080",
           title: "TD Ameritrade Network",
         },
         {
-          videoId: "https://www.youtube.com/watch?v=92mKFs2-VoE&ab_channel=TDAmeritradeNetwork&vq=hd1080",
+          videoId: "https://www.youtube.com/watch?v=Vjj1Pa2Wtt0&ab_channel=TDAmeritradeNetwork&vq=hd1080",
           title: "TD Ameritrade Network",
         },
         {
-          videoId: "https://www.youtube.com/watch?v=92mKFs2-VoE&ab_channel=TDAmeritradeNetwork&vq=hd1080",
+          videoId: "https://www.youtube.com/watch?v=Vjj1Pa2Wtt0&ab_channel=TDAmeritradeNetwork&vq=hd1080",
           title: "TD Ameritrade Network",
         },
         {
-          videoId: "https://www.youtube.com/watch?v=92mKFs2-VoE&ab_channel=TDAmeritradeNetwork&vq=hd1080",
+          videoId: "https://www.youtube.com/watch?v=Vjj1Pa2Wtt0&ab_channel=TDAmeritradeNetwork&vq=hd1080",
           title: "TD Ameritrade Network",
         },
       ],
@@ -592,6 +604,7 @@ const data = {
     {
       number: 203,
       channelName: "Hasbro Presents",
+      channelIcon: hasbro,
       episodes: [
         {
           videoId:
@@ -772,6 +785,7 @@ const data = {
     {
       number: 400,
       channelName: "Earth Views",
+      channelIcon: earthviews,
       episodes: [
         {
           videoId:
@@ -874,6 +888,7 @@ const data = {
     {
       number: 403,
       channelName: "Rolling Venice",
+      channelIcon: venice,
       episodes: [
         {
           videoId: "https://www.youtube.com/watch?v=ph1vpnYIxJk&vq=hd1080",
@@ -934,6 +949,7 @@ const data = {
     {
       number: 405,
       channelName: "Native Flute ",
+      channelIcon: nativeflute,
       episodes: [
         {
           videoId: "https://www.youtube.com/watch?v=C9v3sZypcn4",
@@ -964,6 +980,7 @@ const data = {
     {
       number: 406,
       channelName: "For Dogs",
+     channelIcon: fordogs,
       episodes: [
         {
           videoId: "https://www.youtube.com/watch?v=thOcsZaOEUw&ab_channel=RelaxMyDog-RelaxingMusicforDogs&vq=hd1080",
@@ -1228,6 +1245,7 @@ const data = {
       {
         number: 414,
         channelName: "Synthwave Radio (16+)",
+        channelIcon: synthwave,
         episodes: [
           {
             videoId:
@@ -1264,6 +1282,7 @@ const data = {
     {
         number: 415,
         channelName: "SOLITUDE PRODUCTIONS",
+        channelIcon: solitude,
         episodes: [
           {
             videoId: "https://www.youtube.com/watch?v=dGfdGZ8cH-o",
@@ -1294,6 +1313,7 @@ const data = {
     {
       number: 416,
       channelName: "Shuffle Dance Music (16+)",
+      channelIcon: nt,
       episodes: [
         {
           videoId: "https://www.youtube.com/watch?v=qWf-FPFmVw0&vq=hd1080",
@@ -1324,6 +1344,7 @@ const data = {
     {
       number: 417,
       channelName: "Gaming Music Mix (16+)",
+      channelIcon: nt,
       episodes: [
         {
           videoId: "https://www.youtube.com/watch?v=eosLoIMzW7E",
@@ -1354,6 +1375,7 @@ const data = {
     {
       number: 418,
       channelName: "Trance Music Mix",
+      channelIcon: raznitzen,
       episodes: [
         {
           videoId: "https://www.youtube.com/watch?v=WYetg3AuLE4",
@@ -1384,6 +1406,7 @@ const data = {
     {
       number: 419,
       channelName: "Vocal Trance Radio",
+      channelIcon: raznitzen,
       episodes: [
         {
           videoId:
@@ -1420,6 +1443,7 @@ const data = {
     {
       number: 460,
       channelName: "Beatnick (16+)",
+      channelIcon: beatclub,
       episodes: [
         {
           videoId: "https://www.wim.tv/embed/?cast=b22969b4-7a94-4ce9-a6e0-870b60da6f89&autostart=true",
@@ -1763,6 +1787,7 @@ const data = {
     {
       number: 700,
       channelName: "Motor Sports Italiano",
+      channelIcon: ms360,
       episodes: [
         {
           videoId:
@@ -1799,6 +1824,7 @@ const data = {
     {
       number: 701,
       channelName: "SelfieTV.IT",
+      channelIcon: selfietv,
       episodes: [
         {
           videoId:
@@ -2215,6 +2241,30 @@ const data = {
         {
           videoId: "https://www.youtube.com/watch?v=FUkxWre2yRU",
           title: "Donkey Hill Cam EXPLORE.org",
+        },
+      ],
+    },
+    {
+      number: 999,
+      channelName: "Touch Purchase Demo Test",
+      episodes: [
+        {
+          videoId: "https://www.dailymotion.com/video/x7z8ktu",
+        },
+        {
+          videoId: "https://www.dailymotion.com/video/x7z8ktu",
+        },
+        {
+          videoId: "https://www.dailymotion.com/video/x7z8ktu",
+        },
+        {
+          videoId: "https://www.dailymotion.com/video/x7z8ktu",
+        },
+        {
+          videoId: "https://www.dailymotion.com/video/x7z8ktu",
+        },
+        {
+          videoId: "https://www.dailymotion.com/video/x7z8ktu",
         },
       ],
     },
