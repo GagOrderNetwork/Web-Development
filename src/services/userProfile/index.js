@@ -2,7 +2,6 @@ import { combineReducers } from "redux";
 import { createSelector } from "reselect";
 
 const initialState = {
-  userId: "",
   userProducts: [],
 };
 
@@ -22,7 +21,7 @@ export const userProfile = combineReducers({
 
 /* OTHER REDUCERS */
 
-function userInfo(state = initialState, action) {
+function userInfo(state = "", action) {
   switch (action.type) {
     case "SET_ID":
       return {

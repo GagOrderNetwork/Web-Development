@@ -1,0 +1,24 @@
+.gn-player_row {
+  height: 8vh;
+  width: 100%;
+  display: flex;
+  flex-wrap: nowrap;
+
+  .gn-player_row-block {
+    flex: 1 1 130px;
+    border: 0.5px solid yellow;
+  }
+
+  .gn-player_row-block-interactive {
+    flex: 1 1 130px;
+    border: 0.5px solid red;
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
+
+  @media screen and (max-width: 720px) {
+    height: 4.25vh;
+  }
+}

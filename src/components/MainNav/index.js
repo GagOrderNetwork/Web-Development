@@ -3,6 +3,7 @@ import React from "react";
 import Logo from "./geauxlogo.jpg";
 import Avatar from "./avatar2.0.png";
 import { If } from "../If";
+import ChannelRating from "../ChannelRating";
 import ShoppingCart from "../ShoppingCart";
 import { Link } from "react-router-dom";
 
@@ -23,6 +24,7 @@ function MainNav(props) {
 
       <If test={props.userId}>
         <div className="gn-main_nav-account">
+          {/* <ChannelRating /> */}
           <ShoppingCart />
           <div className="gn-main_nav-avatar">
             <img src={Avatar} />

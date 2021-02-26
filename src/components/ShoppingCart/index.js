@@ -41,17 +41,15 @@ class ShoppingCart extends React.Component {
           </If>
           <If test={this.props.productInfo.length > 0}>
             {this.props.productInfo.map((product, index) => (
-              <div key={index + product.prod.name.substring(2)}>
+              <div key={index + product.name.substring(2)}>
                 <div className="gn-shopping_cart-products">
-                  <p>Name: {product.prod.name}</p>
-                  <p className="gn-product-price">
-                    Price: {product.prod.price}{" "}
-                  </p>
+                  <p>Name: {product.name}</p>
+                  <p className="gn-product-price">Price: {product.price} </p>
                 </div>
                 <p>
                   <a
                     className="gn-product-link"
-                    href={product.prod.link}
+                    href={product.link}
                     rel="noopener noreferrer"
                     target="_blank"
                   >

@@ -7,39 +7,44 @@ html {
   border-bottom: 2px solid black;
 
   // For shopping cart items
-  .gn-player-clickable {
-    height: 1px;
-    width: 1px;
-    margin: 0 auto;
-    position: relative;
+  // .gn-player-clickable {
+  //   height: 1px;
+  //   width: 1px;
+  //   margin: 0 auto;
+  //   position: relative;
+  // }
+
+  .gn-player-touch_grid {
+    position: absolute;
+    width: 100%;
   }
 
-  .gn-player-product-one {
-    height: 45px;
-    width: 250px;
-    position: absolute;
-    top: 100px;
-    left: -175px;
-    cursor: pointer;
-  }
+  // .gn-player-product-one {
+  //   height: 45px;
+  //   width: 250px;
+  //   position: absolute;
+  //   top: 100px;
+  //   left: -175px;
+  //   cursor: pointer;
+  // }
 
-  .gn-player-product-two {
-    height: 60px;
-    width: 138px;
-    position: absolute;
-    top: 340px;
-    left: -100px;
-    cursor: pointer;
-  }
+  // .gn-player-product-two {
+  //   height: 60px;
+  //   width: 138px;
+  //   position: absolute;
+  //   top: 340px;
+  //   left: -100px;
+  //   cursor: pointer;
+  // }
 
-  .gn-player-product-three {
-    height: 50px;
-    width: 400px;
-    position: absolute;
-    top: 50px;
-    left: 100px;
-    cursor: pointer;
-  }
+  // .gn-player-product-three {
+  //   height: 50px;
+  //   width: 400px;
+  //   position: absolute;
+  //   top: 50px;
+  //   left: 100px;
+  //   cursor: pointer;
+  // }
 
   .gn-player-video {
     pointer-events: none;

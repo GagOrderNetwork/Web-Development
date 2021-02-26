@@ -1,24 +1,21 @@
 @import url("https://fonts.googleapis.com/css?family=Lucida:200,400,400i,700&display=swap");
 
-.gn-shopping_cart {
+.gn-channel_rating {
   padding-top: 4px;
 
-  &.gn-shopping_cart-full {
-    svg {
-      color: #85bb65;
-    }
-  }
-
-  .gn-shopping_cart-icon {
+  .gn-channel_rating-text {
     position: relative;
+    color: white;
+    cursor: pointer;
   }
 
-  .gn-shopping_cart-container {
+  .gn-channel_rating-container {
     position: absolute;
     display: none;
     background-color: black;
     padding: 10px;
     z-index: 1;
+    width: 75px;
 
     h4 {
       font: 400 21px Lucida, sans-serif;
@@ -32,7 +29,17 @@
     }
   }
 
-  .gn-shopping_cart-container-open {
+  .gn-channel_rating-block {
+    color: white;
+    text-align: center;
+    cursor: pointer;
+
+    &:hover {
+      background-color: #1777a3;
+    }
+  }
+
+  .gn-channel_rating-container-open {
     display: block;
   }
 

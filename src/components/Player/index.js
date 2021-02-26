@@ -9,6 +9,7 @@ import { classMap } from "../../util/classMap";
 import { If } from "../If";
 import { Grid, Slider } from "@material-ui/core";
 import { Fullscreen, VolumeDown, VolumeUp } from "@material-ui/icons";
+import PlayerRow from "./Row";
 
 import { productData } from "./productData";
 
@@ -54,31 +55,14 @@ class Player extends React.Component {
     return (
       <div className="gn-player">
         <If test={this.props.userId && productInfo.videoId}>
-          <div className="gn-player-clickable">
-            <div
-              className="gn-player-product-one"
-              onClick={() =>
-                this.props.setUserProduct({
-                  product: { prod: productInfo.productOne },
-                })
-              }
-            />
-            <div
-              className="gn-player-product-two"
-              onClick={() =>
-                this.props.setUserProduct({
-                  product: { prod: productInfo.productTwo },
-                })
-              }
-            />
-            <div
-              className="gn-player-product-three"
-              onClick={() =>
-                this.props.setUserProduct({
-                  product: { prod: productInfo.productThree },
-                })
-              }
-            />
+          <div className="gn-player-touch_grid">
+            <PlayerRow row="row-1" productInfo={productInfo} />
+            <PlayerRow row="row-2" productInfo={productInfo} />
+            <PlayerRow row="row-3" productInfo={productInfo} />
+            <PlayerRow row="row-4" productInfo={productInfo} />
+            <PlayerRow row="row-5" productInfo={productInfo} />
+            <PlayerRow row="row-6" productInfo={productInfo} />
+            <PlayerRow row="row-7" productInfo={productInfo} />
           </div>
         </If>
         <If test={!this.props.videoId.includes("https://www.wim.tv/")}>
