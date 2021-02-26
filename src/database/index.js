@@ -469,37 +469,6 @@ const data = {
         },
       ],
     },
-    {
-      number: 111,
-      channelName: "RT Arabic",
-      channelIcon: rtarabic,
-      episodes: [
-        {
-          videoId: "https://www.youtube.com/watch?v=3AokIYKBz8I&vq=hd1080",
-          title: "RT Arabic 24/7",
-        },
-        {
-          videoId: "https://www.youtube.com/watch?v=3AokIYKBz8I&vq=hd1080",
-          title: "RT Arabic 24/7",
-        },
-        {
-          videoId: "https://www.youtube.com/watch?v=3AokIYKBz8I&vq=hd1080",
-          title: "RT Arabic 24/7",
-        },
-        {
-          videoId: "https://www.youtube.com/watch?v=3AokIYKBz8I&vq=hd1080",
-          title: "RT Arabic 24/7",
-        },
-        {
-          videoId: "https://www.youtube.com/watch?v=3AokIYKBz8I&vq=hd1080",
-          title: "RT Arabic 24/7",
-        },
-        {
-          videoId: "https://www.youtube.com/watch?v=3AokIYKBz8I&vq=hd1080",
-          title: "RT Arabic 24/7",
-        },
-      ],
-    },
   ],
   Kids: [
     {
@@ -741,6 +710,42 @@ const data = {
           videoId:
             "https://www.wim.tv/embed/?cast=896831c2-7621-4bd1-b524-9221f2a40375&autostart=true",
           title: "World Traveling",
+        },
+      ],
+    },
+    {
+      number: 301,
+      channelName: "Woman Talk",
+      episodes: [
+        {
+          videoId:
+            "https://www.wim.tv/embed/?cast=fc64f7c2-08b0-4c31-a81d-a82dcdf057e6&autostart=true&muted=1",
+          title: "Woman Talk",
+        },
+        {
+          videoId:
+            "https://www.wim.tv/embed/?cast=fc64f7c2-08b0-4c31-a81d-a82dcdf057e6&autostart=true&muted=1",
+          title: "Woman Talk",
+        },
+        {
+          videoId:
+            "https://www.wim.tv/embed/?cast=fc64f7c2-08b0-4c31-a81d-a82dcdf057e6&autostart=true&muted=1",
+          title: "Woman Talk",
+        },
+        {
+          videoId:
+            "https://www.wim.tv/embed/?cast=fc64f7c2-08b0-4c31-a81d-a82dcdf057e6&autostart=true&muted=1",
+          title: "Woman Talk",
+        },
+        {
+          videoId:
+            "https://www.wim.tv/embed/?cast=fc64f7c2-08b0-4c31-a81d-a82dcdf057e6&autostart=true&muted=1",
+          title: "Woman Talk",
+        },
+        {
+          videoId:
+            "https://www.wim.tv/embed/?cast=fc64f7c2-08b0-4c31-a81d-a82dcdf057e6&autostart=true&muted=1",
+          title: "Woman Talk",
         },
       ],
     },
@@ -1785,43 +1790,6 @@ const data = {
   ],
     "Sports": [
     {
-      number: 700,
-      channelName: "Motor Sports Italiano",
-      channelIcon: ms360,
-      episodes: [
-        {
-          videoId:
-            "https://www.wim.tv/embed/?cast=98755cb8-6595-4037-8c4c-790e6ec1b586&autostart=true",
-          title: "Italian Sports",
-        },
-        {
-          videoId:
-            "https://www.wim.tv/embed/?cast=98755cb8-6595-4037-8c4c-790e6ec1b586&autostart=true",
-          title: "Italian Sports",
-        },
-        {
-          videoId:
-            "https://www.wim.tv/embed/?cast=98755cb8-6595-4037-8c4c-790e6ec1b586&autostart=true",
-          title: "Italian Sports",
-        },
-        {
-          videoId:
-            "https://www.wim.tv/embed/?cast=98755cb8-6595-4037-8c4c-790e6ec1b586&autostart=true",
-          title: "Italian Sports",
-        },
-        {
-          videoId:
-            "https://www.wim.tv/embed/?cast=98755cb8-6595-4037-8c4c-790e6ec1b586&autostart=true",
-          title: "Italian Sports",
-        },
-        {
-          videoId:
-            "https://www.wim.tv/embed/?cast=98755cb8-6595-4037-8c4c-790e6ec1b586&autostart=true",
-          title: "Italian Sports",
-        },
-      ],
-    },
-    {
       number: 701,
       channelName: "SelfieTV.IT",
       channelIcon: selfietv,
@@ -2179,37 +2147,6 @@ const data = {
           videoId:
             "https://www.youtube.com/watch?v=Uy1KnGEVpTA&ab_channel=ExploreOceans",
           title: "Manatess EXPLORE.org",
-        },
-      ],
-    },
-    {
-      number: 810,
-      channelName: "Wolong Grove",
-      channelIcon: explore,
-      episodes: [
-        {
-          videoId: "https://www.youtube.com/watch?v=Gm3bQVANtVo",
-          title: "Panda Cam EXPLORE.org",
-        },
-        {
-          videoId: "https://www.youtube.com/watch?v=Gm3bQVANtVo",
-          title: "Panda Cam EXPLORE.org",
-        },
-        {
-          videoId: "https://www.youtube.com/watch?v=Gm3bQVANtVo",
-          title: "Panda Cam EXPLORE.org",
-        },
-        {
-          videoId: "https://www.youtube.com/watch?v=Gm3bQVANtVo",
-          title: "Panda Cam EXPLORE.org",
-        },
-        {
-          videoId: "https://www.youtube.com/watch?v=Gm3bQVANtVo",
-          title: "Panda Cam EXPLORE.org",
-        },
-        {
-          videoId: "https://www.youtube.com/watch?v=Gm3bQVANtVo",
-          title: "Panda Cam EXPLORE.org",
         },
       ],
     },
