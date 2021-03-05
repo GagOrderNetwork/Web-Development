@@ -185,37 +185,6 @@ const data = {
       ],
     },
     {
-      number: 102,
-      channelName: "TD Ameritrade Network",
-      channelIcon: td,
-      episodes: [
-        {
-          videoId: "https://www.youtube.com/watch?v=Vjj1Pa2Wtt0&ab_channel=TDAmeritradeNetwork&vq=hd1080",
-          title: "TD Ameritrade Network",
-        },
-        {
-          videoId: "https://www.youtube.com/watch?v=Vjj1Pa2Wtt0&ab_channel=TDAmeritradeNetwork&vq=hd1080",
-          title: "TD Ameritrade Network",
-        },
-        {
-          videoId: "https://www.youtube.com/watch?v=Vjj1Pa2Wtt0&ab_channel=TDAmeritradeNetwork&vq=hd1080",
-          title: "TD Ameritrade Network",
-        },
-        {
-          videoId: "https://www.youtube.com/watch?v=Vjj1Pa2Wtt0&ab_channel=TDAmeritradeNetwork&vq=hd1080",
-          title: "TD Ameritrade Network",
-        },
-        {
-          videoId: "https://www.youtube.com/watch?v=Vjj1Pa2Wtt0&ab_channel=TDAmeritradeNetwork&vq=hd1080",
-          title: "TD Ameritrade Network",
-        },
-        {
-          videoId: "https://www.youtube.com/watch?v=Vjj1Pa2Wtt0&ab_channel=TDAmeritradeNetwork&vq=hd1080",
-          title: "TD Ameritrade Network",
-        },
-      ],
-    },
-    {
       number: 103,
       channelName: "SKY News",
       channelIcon: skynews,
@@ -2110,43 +2079,6 @@ const data = {
         {
           videoId: "https://www.youtube.com/watch?v=5jcU2MVkEy8",
           title: "Underwater Cam EXPLORE.org",
-        },
-      ],
-    },
-    {
-      number: 809,
-      channelName: "Homosassa Springs",
-      channelIcon: explore,
-      episodes: [
-        {
-          videoId:
-            "https://www.youtube.com/watch?v=Uy1KnGEVpTA&ab_channel=ExploreOceans",
-          title: "Manatess EXPLORE.org",
-        },
-        {
-          videoId:
-            "https://www.youtube.com/watch?v=Uy1KnGEVpTA&ab_channel=ExploreOceans",
-          title: "Manatess EXPLORE.org",
-        },
-        {
-          videoId:
-            "https://www.youtube.com/watch?v=Uy1KnGEVpTA&ab_channel=ExploreOceans",
-          title: "Manatess EXPLORE.org",
-        },
-        {
-          videoId:
-            "https://www.youtube.com/watch?v=Uy1KnGEVpTA&ab_channel=ExploreOceans",
-          title: "Manatess EXPLORE.org",
-        },
-        {
-          videoId:
-            "https://www.youtube.com/watch?v=Uy1KnGEVpTA&ab_channel=ExploreOceans",
-          title: "Manatess EXPLORE.org",
-        },
-        {
-          videoId:
-            "https://www.youtube.com/watch?v=Uy1KnGEVpTA&ab_channel=ExploreOceans",
-          title: "Manatess EXPLORE.org",
         },
       ],
     },
