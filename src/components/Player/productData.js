@@ -2,13 +2,13 @@ const productData = [
   {
     videoId: "https://www.dailymotion.com/video/x7z8ktu",
 
-    block: "row-6-block-4",
+    block: "row-3-block-6",
 
     product: {
-      name: "Reclaimed Vintage Inspired Real Suede Biker Jacket",
-      price: "$107",
+      name: "My Tresses Purple Label Unprocessed Human Hair Full Wig",
+      price: "$41.99",
       link:
-        "https://www.asos.com/us/reclaimed-vintage/reclaimed-vintage-inspired-real-suede-biker-jacket/prd/9055746?affid=10607&pubref=&transaction_id=&browsecountry=US&currencyid=2&irgwc=1&clickid=_mbbdgur690kfqyrpkk0sohznyn2xpsnik9gzfwt100&affid=25379&pubref=97233",
+        "https://www.samsbeauty.com/service/My-Tresses-Purple-Label-Unprocessed-Human-Hair-Full-Wig-Wet-N-Wavy-Loose-Deep-Bob-g-33031917.html",
     },
   },
 
