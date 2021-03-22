@@ -34,11 +34,9 @@ class Guide extends React.Component {
           <div onClick={this.onCategoryClick}>All</div>
           <div onClick={this.onCategoryClick}>Business/News</div>
           <div onClick={this.onCategoryClick}>Kids</div>
-          <div onClick={this.onCategoryClick}>Health/Lifestyle</div>
+          <div onClick={this.onCategoryClick}>Discover</div>
           <div onClick={this.onCategoryClick}>Music</div>
           <div onClick={this.onCategoryClick}>Science/Tech</div>
-          <div onClick={this.onCategoryClick}>Educational</div>
-          <div onClick={this.onCategoryClick}>Sports</div>
           <div onClick={this.onCategoryClick}>Explore.org</div>
         </div>
         <div className="gn-tv-guide-list">

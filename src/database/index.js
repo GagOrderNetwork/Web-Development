@@ -1,25 +1,17 @@
 // Mock Database with some JSON data
 import africanews from "../assets/icons/Africanews.png";
-import arzamas from "../assets/icons/arzamas.png";
 import balogo from "../assets/icons/balogo.png";
 import beatclub from "../assets/icons/beatclub.png";
-import beaute from "../assets/icons/beaute.png";
-import bloomht from "../assets/icons/bloomht.png";
 import booba from "../assets/icons/booba.jpg";
 import br1 from "../assets/icons/br1.png";
 import daaitv from "../assets/icons/daaitv.png";
 import earthviews from "../assets/icons/earthviews.png";
 import ebrutv from "../assets/icons/ebrutv.png";
 import explore from "../assets/icons/explore.png";
-import fordogs from "../assets/icons/fordogs.png";
 import franceinfo from "../assets/icons/franceinfo.png";
 import frequenzy from "../assets/icons/frequenzy.png";
 import gx from "../assets/icons/gx.png";
-import hasbro from "../assets/icons/hasbro.png";
-import hometeam from "../assets/icons/hometeam.png";
-import hype from "../assets/icons/HYPE.png";
 import japanews from "../assets/icons/japanews.png";
-import juju from "../assets/icons/juju.png";
 import lofi from "../assets/icons/lofi.png";
 import mathnews from "../assets/icons/mathnews.png";
 import ms360 from "../assets/icons/ms360.png";
@@ -32,18 +24,14 @@ import nt from "../assets/icons/nt.png";
 import paldoga from "../assets/icons/paldoga.png";
 import raznitzen from "../assets/icons/raznitzen.png";
 import rtarabic from "../assets/icons/RTArabic.png";
-import selfietv from "../assets/icons/selfietv.png";
 import skynews from "../assets/icons/skynewslogo.png";
 import solitude from "../assets/icons/solitude.png";
 import somoytv from "../assets/icons/Somoytv.png";
 import synthwave from "../assets/icons/synthwave.png";
 import td from "../assets/icons/td.png";
-import tech from "../assets/icons/tech.png";
 import tomfriends from "../assets/icons/tomfriends.png";
 import tomheroes from "../assets/icons/tomheroes.png";
-import ubongo from "../assets/icons/Ubongo.png";
 import venice from "../assets/icons/venice.png";
-import xset from "../assets/icons/xset.png";
 import ytnscience from "../assets/icons/ytnscience.png";
 
 const data = {
@@ -85,107 +73,40 @@ const data = {
         },
       ],
     },
-    {
-      number: 2,
-      channelName: "Geaux Shorts",
-      episodes: [
-        {
-          videoId:
-            "https://www.wim.tv/embed/?cast=f3e73191-573d-4320-8203-f3f870229e42&autostart=true",
-          title: "Various Short films",
-        },
-        {
-          videoId:
-            "https://www.wim.tv/embed/?cast=f3e73191-573d-4320-8203-f3f870229e42&autoplay=true",
-          title: "Various Short films",
-        },
-        {
-          videoId:
-            "https://www.wim.tv/embed/?cast=f3e73191-573d-4320-8203-f3f870229e42&autoplay=true",
-          title: "Various Short films",
-        },
-        {
-          videoId:
-            "https://www.wim.tv/embed/?cast=f3e73191-573d-4320-8203-f3f870229e42&autoplay=true",
-          title: "Various Short films",
-        },
-        {
-          videoId:
-            "https://www.wim.tv/embed/?cast=f3e73191-573d-4320-8203-f3f870229e42&autoplay=true",
-          title: "Various Short films",
-        },
-        {
-          videoId:
-            "https://www.wim.tv/embed/?cast=f3e73191-573d-4320-8203-f3f870229e42&autoplay=true",
-          title: "Various Short films",
-        },
-      ],
-    },
   ],
   "Business/News": [
     {
       number: 100,
-      channelName: "HYPE",
-      channelIcon: hype,
+      channelName: "Geaux Get It!",
       episodes: [
         {
           videoId: "https://www.dailymotion.com/video/x7wsg9r",
-          title: "HYPE VC",
+          title: "Business/Entrepreneurship",
         },
         {
           videoId: "https://www.dailymotion.com/video/x7wsg9r",
-          title: "HYPE VC",
+          title: "Business/Entrepreneurship",
         },
         {
           videoId: "https://www.dailymotion.com/video/x7wsg9r",
-          title: "HYPE VC",
+          title: "Business/Entrepreneurship",
         },
         {
           videoId: "https://www.dailymotion.com/video/x7wsg9r",
-          title: "HYPE VC",
+          title: "Business/Entrepreneurship",
         },
         {
           videoId: "https://www.dailymotion.com/video/x7wsg9r",
-          title: "HYPE VC",
+          title: "Business/Entrepreneurship",
         },
         {
           videoId: "https://www.dailymotion.com/video/x7wsg9r",
-          title: "HYPE VC",
+          title: "Business/Entrepreneurship",
         },
       ],
     },
     {
       number: 101,
-      channelName: "GeauxBusiness",
-      episodes: [
-        {
-          videoId: "https://www.wim.tv/embed/?cast=8520fa0e-4bb2-419b-baf2-01676853f5da&autostart=true&muted=1",
-          title: "Getting Started",
-        },
-        {
-          videoId: "https://www.wim.tv/embed/?cast=8520fa0e-4bb2-419b-baf2-01676853f5da&autostart=true&muted=1",
-          title: "Getting Started",
-        },
-        {
-          videoId: "https://www.wim.tv/embed/?cast=8520fa0e-4bb2-419b-baf2-01676853f5da&autostart=true&muted=1",
-          title: "Getting Started",
-        },
-        {
-          videoId: "https://www.wim.tv/embed/?cast=8520fa0e-4bb2-419b-baf2-01676853f5da&autostart=true&muted=1",
-          title: "Getting Started",
-        },
-        {
-          videoId: "https://www.wim.tv/embed/?cast=8520fa0e-4bb2-419b-baf2-01676853f5da&autostart=true&muted=1",
-          title: "Getting Started",
-        },
-        {
-          videoId: "https://www.wim.tv/embed/?cast=8520fa0e-4bb2-419b-baf2-01676853f5da&autostart=true&muted=1",
-          title: "Getting Started",
-        },
-      ],
-    },
-    {
-      number: 103,
       channelName: "SKY News",
       channelIcon: skynews,
       episodes: [
@@ -216,7 +137,7 @@ const data = {
       ],
     },
     {
-      number: 104,
+      number: 102,
       channelName: "AfricaNews",
       channelIcon: africanews,
       episodes: [
@@ -247,69 +168,7 @@ const data = {
       ],
     },
     {
-      number: 105,
-      channelName: "Bloomberg HT",
-      channelIcon: bloomht,
-      episodes: [
-        {
-          videoId: "https://www.youtube.com/watch?v=uVvzcXNhhVg&vq=hd1080",
-          title: "Bloomberg HT Canli Yayin 24/7",
-        },
-        {
-          videoId: "https://www.youtube.com/watch?v=uVvzcXNhhVg&vq=hd1080",
-          title: "Bloomberg HT Canli Yayin 24/7",
-        },
-        {
-          videoId: "https://www.youtube.com/watch?v=uVvzcXNhhVg&vq=hd1080",
-          title: "Bloomberg HT Canli Yayin 24/7",
-        },
-        {
-          videoId: "https://www.youtube.com/watch?v=uVvzcXNhhVg&vq=hd1080",
-          title: "Bloomberg HT Canli Yayin 24/7",
-        },
-        {
-          videoId: "https://www.youtube.com/watch?v=uVvzcXNhhVg&vq=hd1080",
-          title: "Bloomberg HT Canli Yayin 24/7",
-        },
-        {
-          videoId: "https://www.youtube.com/watch?v=uVvzcXNhhVg&vq=hd1080",
-          title: "Bloomberg HT Canli Yayin 24/7",
-        },
-      ],
-    },
-    {
-      number: 106,
-      channelName: "NDTV India",
-      channelIcon: ndtv,
-      episodes: [
-        {
-          videoId: "https://www.youtube.com/watch?v=l9ViEIip9q4&vq=hd1080",
-          title: "NDTV News in Hindi",
-        },
-        {
-          videoId: "https://www.youtube.com/watch?v=l9ViEIip9q4&vq=hd1080",
-          title: "NDTV News in Hindi",
-        },
-        {
-          videoId: "https://www.youtube.com/watch?v=l9ViEIip9q4&vq=hd1080",
-          title: "NDTV News in Hindi",
-        },
-        {
-          videoId: "https://www.youtube.com/watch?v=l9ViEIip9q4&vq=hd1080",
-          title: "NDTV News in Hindi",
-        },
-        {
-          videoId: "https://www.youtube.com/watch?v=l9ViEIip9q4&vq=hd1080",
-          title: "NDTV News in Hindi",
-        },
-        {
-          videoId: "https://www.youtube.com/watch?v=l9ViEIip9q4&vq=hd1080",
-          title: "NDTV News in Hindi",
-        },
-      ],
-    },
-    {
-      number: 107,
+      number: 103,
       channelName: "JapaNews24",
       channelIcon: japanews,
       episodes: [
@@ -346,7 +205,7 @@ const data = {
       ],
     },
     {
-      number: 108,
+      number: 104,
       channelName: "Mathrubhumi News",
       channelIcon: mathnews,
       episodes: [
@@ -377,7 +236,7 @@ const data = {
       ],
     },
     {
-      number: 109,
+      number: 105,
       channelName: "FranceInfo",
       channelIcon: franceinfo,
       episodes: [
@@ -408,7 +267,7 @@ const data = {
       ],
     },
     {
-      number: 110,
+      number: 106,
       channelName: "NewsOne",
       channelIcon: newsone,
       episodes: [
@@ -541,222 +400,111 @@ const data = {
     },
     {
       number: 203,
-      channelName: "Hasbro Presents",
-      channelIcon: hasbro,
-      episodes: [
-        {
-          videoId:
-            "https://www.youtube.com/watch?v=EJtiYK9ZVeI&ab_channel=Hasbro",
-          title: "G.I. Joe",
-        },
-        {
-          videoId:
-            "https://www.youtube.com/watch?v=EJtiYK9ZVeI&ab_channel=Hasbro",
-          title: "G.I. Joe",
-        },
-        {
-          videoId:
-            "https://www.youtube.com/watch?v=EJtiYK9ZVeI&ab_channel=Hasbro",
-          title: "G.I. Joe",
-        },
-        {
-          videoId:
-            "https://www.youtube.com/watch?v=EJtiYK9ZVeI&ab_channel=Hasbro",
-          title: "G.I. Joe",
-        },
-        {
-          videoId:
-            "https://www.youtube.com/watch?v=EJtiYK9ZVeI&ab_channel=Hasbro",
-          title: "G.I. Joe",
-        },
-        {
-          videoId:
-            "https://www.youtube.com/watch?v=EJtiYK9ZVeI&ab_channel=Hasbro",
-          title: "G.I. Joe",
-        },
-      ],
-    },
-    {
-      number: 204,
-      channelName: "Ubungo Kids",
-      channelIcon: ubongo,
+      channelName: "Geaux Kids",
       episodes: [
         {
           videoId: "https://www.dailymotion.com/video/x7tb1xt",
-          title: "Ubungo Kids 24/7",
+          title: "Kids 24/7",
         },
         {
           videoId: "https://www.dailymotion.com/video/x7tb1xt",
-          title: "Ubungo Kids 24/7",
+          title: "Kids 24/7",
         },
         {
           videoId: "https://www.dailymotion.com/video/x7tb1xt",
-          title: "Ubungo Kids 24/7",
+          title: "Kids 24/7",
         },
         {
           videoId: "https://www.dailymotion.com/video/x7tb1xt",
-          title: "Ubungo Kids 24/7",
+          title: "Kids 24/7",
         },
         {
           videoId: "https://www.dailymotion.com/video/x7tb1xt",
-          title: "Ubungo Kids 24/7",
+          title: "Kids 24/7",
         },
         {
           videoId: "https://www.dailymotion.com/video/x7tb1xt",
-          title: "Ubungo Kids 24/7",
+          title: "Kids 24/7",
         },
       ],
     },
   ],
-  "Health/Lifestyle": [
+  "Discover": [
     {
       number: 300,
-      channelName: "Beaute 101",
-      channelIcon: beaute,
+      channelName: "Expression",
       episodes: [
         {
           videoId:
-            "https://www.wim.tv/embed/?cast=59a5d503-8874-43be-837e-297524a57e9d&autostart=true&vq=hd1080",
-          title: "Beaute",
+            "https://www.dailymotion.com/video/x803ejq",
+          title: "Beauty/Creativity",
         },
         {
           videoId:
-            "https://www.wim.tv/embed/?cast=59a5d503-8874-43be-837e-297524a57e9d&autostart=true&vq=hd1080",
-          title: "Beaute",
+            "https://www.dailymotion.com/video/x803ejq",
+          title: "Beauty/Creativity",
         },
         {
           videoId:
-            "https://www.wim.tv/embed/?cast=59a5d503-8874-43be-837e-297524a57e9d&autostart=true&vq=hd1080",
-          title: "Beaute",
+            "https://www.dailymotion.com/video/x803ejq",
+          title: "Beauty/Creativity",
         },
         {
           videoId:
-            "https://www.wim.tv/embed/?cast=59a5d503-8874-43be-837e-297524a57e9d&autostart=true&vq=hd1080",
-          title: "Beaute",
+            "https://www.dailymotion.com/video/x803ejq",
+          title: "Beauty/Creativity",
         },
         {
           videoId:
-            "https://www.wim.tv/embed/?cast=59a5d503-8874-43be-837e-297524a57e9d&autostart=true&vq=hd1080",
-          title: "Beaute",
+            "https://www.dailymotion.com/video/x803ejq",
+          title: "Beauty/Creativity",
         },
         {
           videoId:
-            "https://www.wim.tv/embed/?cast=59a5d503-8874-43be-837e-297524a57e9d&autostart=true&vq=hd1080",
-          title: "Beaute",
+            "https://www.dailymotion.com/video/x803ejq",
+          title: "Beauty/Creativity",
         },
       ],
     },
     {
       number: 301,
-      channelName: "Onward",
+      channelName: "Expand",
       episodes: [
         {
           videoId:
-            "https://www.wim.tv/embed/?cast=896831c2-7621-4bd1-b524-9221f2a40375&autostart=true",
-          title: "World Traveling",
+            "https://www.dailymotion.com/video/x803ejw",
+          title: "Knowledge/Education",
         },
         {
           videoId:
-            "https://www.wim.tv/embed/?cast=896831c2-7621-4bd1-b524-9221f2a40375&autostart=true",
-          title: "World Traveling",
+            "https://www.dailymotion.com/video/x803ejw",
+          title: "Knowledge/Education",
         },
         {
           videoId:
-            "https://www.wim.tv/embed/?cast=896831c2-7621-4bd1-b524-9221f2a40375&autostart=true",
-          title: "World Traveling",
+            "https://www.dailymotion.com/video/x803ejw",
+          title: "Knowledge/Education",
         },
         {
           videoId:
-            "https://www.wim.tv/embed/?cast=896831c2-7621-4bd1-b524-9221f2a40375&autostart=true",
-          title: "World Traveling",
+            "https://www.dailymotion.com/video/x803ejw",
+          title: "Knowledge/Education",
         },
         {
           videoId:
-            "https://www.wim.tv/embed/?cast=896831c2-7621-4bd1-b524-9221f2a40375&autostart=true",
-          title: "World Traveling",
+            "https://www.dailymotion.com/video/x803ejw",
+          title: "Knowledge/Education",
         },
         {
           videoId:
-            "https://www.wim.tv/embed/?cast=896831c2-7621-4bd1-b524-9221f2a40375&autostart=true",
-          title: "World Traveling",
+            "https://www.dailymotion.com/video/x803ejw",
+          title: "Knowledge/Education",
         },
       ],
     },
-    {
-      number: 301,
-      channelName: "Woman Talk",
-      episodes: [
-        {
-          videoId:
-            "https://www.wim.tv/embed/?cast=fc64f7c2-08b0-4c31-a81d-a82dcdf057e6&autostart=true&muted=1",
-          title: "Woman Talk",
-        },
-        {
-          videoId:
-            "https://www.wim.tv/embed/?cast=fc64f7c2-08b0-4c31-a81d-a82dcdf057e6&autostart=true&muted=1",
-          title: "Woman Talk",
-        },
-        {
-          videoId:
-            "https://www.wim.tv/embed/?cast=fc64f7c2-08b0-4c31-a81d-a82dcdf057e6&autostart=true&muted=1",
-          title: "Woman Talk",
-        },
-        {
-          videoId:
-            "https://www.wim.tv/embed/?cast=fc64f7c2-08b0-4c31-a81d-a82dcdf057e6&autostart=true&muted=1",
-          title: "Woman Talk",
-        },
-        {
-          videoId:
-            "https://www.wim.tv/embed/?cast=fc64f7c2-08b0-4c31-a81d-a82dcdf057e6&autostart=true&muted=1",
-          title: "Woman Talk",
-        },
-        {
-          videoId:
-            "https://www.wim.tv/embed/?cast=fc64f7c2-08b0-4c31-a81d-a82dcdf057e6&autostart=true&muted=1",
-          title: "Woman Talk",
-        },
-      ],
-    },
-    {
-      number: 302,
-      channelName: "DIY Art",
-      episodes: [
-        {
-          videoId:
-            "https://www.wim.tv/embed/?cast=99fa84b4-ac13-469c-bba7-07d54c1faab4&autostart=true",
-          title: "DIY Art",
-        },
-        {
-          videoId:
-            "https://www.wim.tv/embed/?cast=99fa84b4-ac13-469c-bba7-07d54c1faab4&autostart=true",
-          title: "DIY Art",
-        },
-        {
-          videoId:
-            "https://www.wim.tv/embed/?cast=99fa84b4-ac13-469c-bba7-07d54c1faab4&autostart=true",
-          title: "DIY Art",
-        },
-        {
-          videoId:
-            "https://www.wim.tv/embed/?cast=99fa84b4-ac13-469c-bba7-07d54c1faab4&autostart=true",
-          title: "DIY Art",
-        },
-        {
-          videoId:
-            "https://www.wim.tv/embed/?cast=99fa84b4-ac13-469c-bba7-07d54c1faab4&autostart=true",
-          title: "DIY Art",
-        },
-        {
-          videoId:
-            "https://www.wim.tv/embed/?cast=99fa84b4-ac13-469c-bba7-07d54c1faab4&autostart=true",
-          title: "DIY Art",
-        },
-      ],
-    },
-  ],
-  Music: [
-    {
+    ],
+      Music: [
+      {
       number: 400,
       channelName: "Earth Views",
       channelIcon: earthviews,
@@ -953,37 +701,6 @@ const data = {
     },
     {
       number: 406,
-      channelName: "For Dogs",
-     channelIcon: fordogs,
-      episodes: [
-        {
-          videoId: "https://www.youtube.com/watch?v=thOcsZaOEUw&ab_channel=RelaxMyDog-RelaxingMusicforDogs&vq=hd1080",
-          title: "Music for Dogs",
-        },
-        {
-          videoId: "https://www.youtube.com/watch?v=thOcsZaOEUw&ab_channel=RelaxMyDog-RelaxingMusicforDogs&vq=hd1080",
-          title: "Music for Dogs",
-        },
-        {
-          videoId: "https://www.youtube.com/watch?v=thOcsZaOEUw&ab_channel=RelaxMyDog-RelaxingMusicforDogs&vq=hd1080",
-          title: "Music for Dogs",
-        },
-        {
-          videoId: "https://www.youtube.com/watch?v=thOcsZaOEUw&ab_channel=RelaxMyDog-RelaxingMusicforDogs&vq=hd1080",
-          title: "Music for Dogs",
-        },
-        {
-          videoId: "https://www.youtube.com/watch?v=thOcsZaOEUw&ab_channel=RelaxMyDog-RelaxingMusicforDogs&vq=hd1080",
-          title: "Music for Dogs",
-        },
-        {
-          videoId: "https://www.youtube.com/watch?v=thOcsZaOEUw&ab_channel=RelaxMyDog-RelaxingMusicforDogs&vq=hd1080",
-          title: "Music for Dogs",
-        },
-      ],
-    },
-    {
-      number: 407,
       channelName: "Lofi Hip/Hop",
       channelIcon: lofi,
       episodes: [
@@ -1014,7 +731,7 @@ const data = {
       ],
     },
     {
-      number: 408,
+      number: 407,
       channelName: "R&B/HipHop (16+)",
       episodes: [
         {
@@ -1044,38 +761,7 @@ const data = {
       ],
     },
     {
-      number: 409,
-      channelName: "Turkish Music",
-      channelIcon: paldoga,
-      episodes: [
-        {
-          videoId: "https://www.youtube.com/watch?v=xtMgvRYIQU8",
-          title: "Pal Doğa Radyo - En İyi Türkçe Şarkılar",
-        },
-        {
-          videoId: "https://www.youtube.com/watch?v=xtMgvRYIQU8",
-          title: "Pal Doğa Radyo - En İyi Türkçe Şarkılar",
-        },
-        {
-          videoId: "https://www.youtube.com/watch?v=xtMgvRYIQU8",
-          title: "Pal Doğa Radyo - En İyi Türkçe Şarkılar",
-        },
-        {
-          videoId: "https://www.youtube.com/watch?v=xtMgvRYIQU8",
-          title: "Pal Doğa Radyo - En İyi Türkçe Şarkılar",
-        },
-        {
-          videoId: "https://www.youtube.com/watch?v=xtMgvRYIQU8",
-          title: "Pal Doğa Radyo - En İyi Türkçe Şarkılar",
-        },
-        {
-          videoId: "https://www.youtube.com/watch?v=xtMgvRYIQU8",
-          title: "Pal Doğa Radyo - En İyi Türkçe Şarkılar",
-        },
-      ],
-    },
-    {
-      number: 410,
+      number: 408,
       channelName: "BritAsia TV (16+)",
       channelIcon: balogo,
       episodes: [
@@ -1106,7 +792,7 @@ const data = {
       ],
     },
     {
-      number: 411,
+      number: 409,
       channelName: "Frequenzy Funk/Jazz (16+)",
       channelIcon: frequenzy,
       episodes: [
@@ -1143,7 +829,7 @@ const data = {
       ],
     },
     {
-      number: 412,
+      number: 410,
       channelName: "Frequenzy Rock (16+)",
       channelIcon: frequenzy,
       episodes: [
@@ -1180,7 +866,7 @@ const data = {
       ],
     },
     {
-      number: 413,
+      number: 411,
       channelName: "Frequenzy Indie (16+)",
       channelIcon: frequenzy,
       episodes: [
@@ -1217,7 +903,7 @@ const data = {
         ],
       },
       {
-        number: 414,
+        number: 412,
         channelName: "Synthwave Radio (16+)",
         channelIcon: synthwave,
         episodes: [
@@ -1253,8 +939,8 @@ const data = {
             },
           ],
         },
-    {
-        number: 415,
+        {
+        number: 413,
         channelName: "SOLITUDE PRODUCTIONS",
         channelIcon: solitude,
         episodes: [
@@ -1284,8 +970,8 @@ const data = {
           },
         ],
       },
-    {
-      number: 416,
+      {
+      number: 414,
       channelName: "Shuffle Dance Music (16+)",
       channelIcon: nt,
       episodes: [
@@ -1316,7 +1002,7 @@ const data = {
       ],
     },
     {
-      number: 417,
+      number: 415,
       channelName: "Gaming Music Mix (16+)",
       channelIcon: nt,
       episodes: [
@@ -1347,7 +1033,7 @@ const data = {
       ],
     },
     {
-      number: 418,
+      number: 416,
       channelName: "Trance Music Mix",
       channelIcon: raznitzen,
       episodes: [
@@ -1378,7 +1064,7 @@ const data = {
       ],
     },
     {
-      number: 419,
+      number: 417,
       channelName: "Vocal Trance Radio",
       channelIcon: raznitzen,
       episodes: [
@@ -1416,32 +1102,32 @@ const data = {
     },
     {
       number: 460,
-      channelName: "Beatnick (16+)",
+      channelName: "Beat Club (16+)",
       channelIcon: beatclub,
       episodes: [
         {
-          videoId: "https://www.wim.tv/embed/?cast=b22969b4-7a94-4ce9-a6e0-870b60da6f89&autostart=true",
-          title: "BeatClub",
+          videoId: "https://www.dailymotion.com/video/x803ghd",
+          title: "The Stew Showcase",
         },
         {
-          videoId: "https://www.wim.tv/embed/?cast=b22969b4-7a94-4ce9-a6e0-870b60da6f89&autostart=true",
-          title: "Beatclub",
+          videoId: "https://www.dailymotion.com/video/x803ghd",
+          title: "The Stew Showcase",
         },
         {
-          videoId: "https://www.wim.tv/embed/?cast=b22969b4-7a94-4ce9-a6e0-870b60da6f89&autostart=true",
-          title: "BeatClub",
+          videoId: "https://www.dailymotion.com/video/x803ghd",
+          title: "The Stew Showcase",
         },
         {
-          videoId: "https://www.wim.tv/embed/?cast=b22969b4-7a94-4ce9-a6e0-870b60da6f89&autostart=true",
-          title: "BeatClub",
+          videoId: "https://www.dailymotion.com/video/x803ghd",
+          title: "The Stew Showcase",
         },
         {
-          videoId: "https://www.wim.tv/embed/?cast=b22969b4-7a94-4ce9-a6e0-870b60da6f89&autostart=true",
-          title: "BeatClub",
+          videoId: "https://www.dailymotion.com/video/x803ghd",
+          title: "The Stew Showcase",
         },
         {
-          videoId: "https://www.wim.tv/embed/?cast=b22969b4-7a94-4ce9-a6e0-870b60da6f89&autostart=true",
-          title: "BeatClub",
+          videoId: "https://www.dailymotion.com/video/x803ghd",
+          title: "The Stew Showcase",
         },
       ],
     },
@@ -1481,145 +1167,46 @@ const data = {
         },
       ],
     },
-  ],
+    ],
   "Science/Tech": [
     {
       number: 500,
-      channelName: "XSET (16+)",
-      channelIcon: xset,
+      channelName: "Geaux Fantasy",
       episodes: [
         {
-          videoId: "https://www.wim.tv/embed/?cast=a0644550-4817-4def-a260-44bff253a949&autostart=true&muted=true",
-          title: "XSET Gaming",
+          videoId:
+            "https://www.dailymotion.com/video/x803ekd",
+          title: "Fantasy/Fiction",
         },
         {
-          videoId: "https://www.wim.tv/embed/?cast=a0644550-4817-4def-a260-44bff253a949&autostart=true&muted=true",
-          title: "XSET Gaming",
+          videoId:
+            "https://www.dailymotion.com/video/x803ekd",
+          title: "Fantasy/Fiction",
         },
         {
-          videoId: "https://www.wim.tv/embed/?cast=a0644550-4817-4def-a260-44bff253a949&autostart=true&muted=true",
-          title: "XSET Gaming",
+          videoId:
+            "https://www.dailymotion.com/video/x803ekd",
+          title: "Fantasy/Fiction",
         },
         {
-          videoId: "https://www.wim.tv/embed/?cast=a0644550-4817-4def-a260-44bff253a949&autostart=true&muted=true",
-          title: "XSET Gaming",
+          videoId:
+            "https://www.dailymotion.com/video/x803ekd",
+          title: "Fantasy/Fiction",
         },
         {
-          videoId: "https://www.wim.tv/embed/?cast=a0644550-4817-4def-a260-44bff253a949&autostart=true&muted=true",
-          title: "XSET Gaming",
+          videoId:
+            "https://www.dailymotion.com/video/x803ekd",
+          title: "Fantasy/Fiction",
         },
         {
-          videoId: "https://www.wim.tv/embed/?cast=a0644550-4817-4def-a260-44bff253a949&autostart=true&muted=true",
-          title: "XSET Gaming",
+          videoId:
+            "https://www.dailymotion.com/video/x803ekd",
+          title: "Fantasy/Fiction",
         },
       ],
     },
     {
       number: 501,
-      channelName: "Everything Tech",
-      channelIcon: tech,
-      episodes: [
-        {
-          videoId:
-            "https://www.wim.tv/embed/?cast=cb4d1b62-5f9d-41f0-807c-8c0d2a07fe4c&autostart=true",
-          title: "Everything Tech",
-        },
-        {
-          videoId:
-            "https://www.wim.tv/embed/?cast=cb4d1b62-5f9d-41f0-807c-8c0d2a07fe4c&autostart=true",
-          title: "Everything Tech",
-        },
-        {
-          videoId:
-            "https://www.wim.tv/embed/?cast=cb4d1b62-5f9d-41f0-807c-8c0d2a07fe4c&autostart=true",
-          title: "Everything Tech",
-        },
-        {
-          videoId:
-            "https://www.wim.tv/embed/?cast=cb4d1b62-5f9d-41f0-807c-8c0d2a07fe4c&autostart=true",
-          title: "Everything Tech",
-        },
-        {
-          videoId:
-            "https://www.wim.tv/embed/?cast=cb4d1b62-5f9d-41f0-807c-8c0d2a07fe4c&autostart=true",
-          title: "Everything Tech",
-        },
-        {
-          videoId:
-            "https://www.wim.tv/embed/?cast=cb4d1b62-5f9d-41f0-807c-8c0d2a07fe4c&autostart=true",
-          title: "Everything Tech",
-        },
-      ],
-    },
-    {
-      number: 502,
-      channelName: "Geaux Fantasy",
-      channelIcon: juju,
-      episodes: [
-        {
-          videoId:
-            "https://www.wim.tv/embed/?cast=a9ae014d-6c64-4260-a3bd-3cc6dd04fec1&autostart=true",
-          title: "JuJu: The Web Series",
-        },
-        {
-          videoId:
-            "https://www.wim.tv/embed/?cast=a9ae014d-6c64-4260-a3bd-3cc6dd04fec1&autostart=true",
-          title: "JuJu: The Web Series",
-        },
-        {
-          videoId:
-            "https://www.wim.tv/embed/?cast=a9ae014d-6c64-4260-a3bd-3cc6dd04fec1&autostart=true",
-          title: "JuJu: The Web Series",
-        },
-        {
-          videoId:
-            "https://www.wim.tv/embed/?cast=a9ae014d-6c64-4260-a3bd-3cc6dd04fec1&autostart=true",
-          title: "JuJu: The Web Series",
-        },
-        {
-          videoId:
-            "https://www.wim.tv/embed/?cast=a9ae014d-6c64-4260-a3bd-3cc6dd04fec1&autostart=true",
-          title: "JuJu: The Web Series",
-        },
-        {
-          videoId:
-            "https://www.wim.tv/embed/?cast=a9ae014d-6c64-4260-a3bd-3cc6dd04fec1&autostart=true",
-          title: "JuJu: The Web Series",
-        },
-      ],
-    },
-    {
-      number: 503,
-      channelName: "étoile",
-      episodes: [
-        {
-          videoId: "https://www.youtube.com/watch?v=nA9UZF-SZoQ?",
-          title: "Space & Universe",
-        },
-        {
-          videoId: "https://www.youtube.com/watch?v=nA9UZF-SZoQ?",
-          title: "Space & Universe",
-        },
-        {
-          videoId: "https://www.youtube.com/watch?v=nA9UZF-SZoQ?",
-          title: "Space & niverse",
-        },
-        {
-          videoId: "https://www.youtube.com/watch?v=nA9UZF-SZoQ?",
-          title: "Space & Universe",
-        },
-        {
-          videoId: "https://www.youtube.com/watch?v=nA9UZF-SZoQ?",
-          title: "Space & Universe",
-        },
-        {
-          videoId: "https://www.youtube.com/watch?v=nA9UZF-SZoQ?",
-          title: "Space & Universe",
-        },
-      ],
-    },
-    {
-      number: 504,
       channelName: "NASA TV",
       channelIcon: nasa1,
       episodes: [
@@ -1650,7 +1237,7 @@ const data = {
       ],
     },
     {
-      number: 505,
+      number: 502,
       channelName: "YTN Science",
       channelIcon: ytnscience,
       episodes: [
@@ -1680,122 +1267,7 @@ const data = {
         },
       ],
     },
-  ],
-  "Educational": [
-    {
-      number: 600,
-      channelName: "Hometeam History",
-      channelIcon: hometeam,
-      episodes: [
-        {
-          videoId:
-            "https://www.wim.tv/embed/?cast=b4468c68-25b7-4a49-8612-dcd74445516a&autostart=true",
-          title: "African History culture and worldview",
-        },
-        {
-          videoId:
-            "https://www.wim.tv/embed/?cast=b4468c68-25b7-4a49-8612-dcd74445516a&autostart=true",
-          title: "African History culture and worldview",
-        },
-        {
-          videoId:
-            "https://www.wim.tv/embed/?cast=b4468c68-25b7-4a49-8612-dcd74445516a&autostart=true",
-          title: "African History culture and worldview",
-        },
-        {
-          videoId:
-            "https://www.wim.tv/embed/?cast=b4468c68-25b7-4a49-8612-dcd74445516a&autostart=true",
-          title: "African History culture and worldview",
-        },
-        {
-          videoId:
-            "https://www.wim.tv/embed/?cast=b4468c68-25b7-4a49-8612-dcd74445516a&autostart=true",
-          title: "African History culture and worldview",
-        },
-        {
-          videoId:
-            "https://www.wim.tv/embed/?cast=b4468c68-25b7-4a49-8612-dcd74445516a&autostart=true",
-          title: "African History culture and worldview",
-        },
-      ],
-    },
-    {
-      number: 601,
-      channelName: "Arzamas Academy",
-      channelIcon: arzamas,
-      episodes: [
-        {
-          videoId:
-            "https://www.wim.tv/embed/?cast=25862b63-bdbc-4651-9b60-53091882cfe8&autostart=true",
-          title: "ArzamasAcademy",
-        },
-        {
-          videoId:
-            "https://www.wim.tv/embed/?cast=25862b63-bdbc-4651-9b60-53091882cfe8&autostart=true",
-          title: "ArzamasAcademy",
-        },
-        {
-          videoId:
-            "https://www.wim.tv/embed/?cast=25862b63-bdbc-4651-9b60-53091882cfe8&autostart=true",
-          title: "ArzamasAcademy",
-        },
-        {
-          videoId:
-            "https://www.wim.tv/embed/?cast=25862b63-bdbc-4651-9b60-53091882cfe8&autostart=true",
-          title: "ArzamasAcademy",
-        },
-        {
-          videoId:
-            "https://www.wim.tv/embed/?cast=25862b63-bdbc-4651-9b60-53091882cfe8&autostart=true",
-          title: "ArzamasAademy",
-        },
-        {
-          videoId:
-            "https://www.wim.tv/embed/?cast=25862b63-bdbc-4651-9b60-53091882cfe8&autostart=true",
-          title: "ArzamasAcademy",
-        },
-      ],
-    },
-  ],
-    "Sports": [
-    {
-      number: 701,
-      channelName: "SelfieTV.IT",
-      channelIcon: selfietv,
-      episodes: [
-        {
-          videoId:
-            "https://www.wim.tv/embed/?cast=099a5381-23af-40e6-821f-58aa38bdfd8b&autostart=true",
-          title: "Palinsesto Comunicare Produzioni",
-        },
-        {
-          videoId:
-            "https://www.wim.tv/embed/?cast=099a5381-23af-40e6-821f-58aa38bdfd8b&autostart=true",
-          title: "Palinsesto Comunicare Produzioni",
-        },
-        {
-          videoId:
-            "https://www.wim.tv/embed/?cast=099a5381-23af-40e6-821f-58aa38bdfd8b&autostart=true",
-          title: "Palinsesto Comunicare Produzioni",
-        },
-        {
-          videoId:
-            "https://www.wim.tv/embed/?cast=099a5381-23af-40e6-821f-58aa38bdfd8b&autostart=true",
-          title: "Palinsesto Comunicare Produzioni",
-        },
-        {
-          videoId:
-            "https://www.wim.tv/embed/?cast=099a5381-23af-40e6-821f-58aa38bdfd8b&autostart=true",
-          title: "Palinsesto Comunicare Produzioni",
-        },
-        {
-          videoId:
-            "https://www.wim.tv/embed/?cast=099a5381-23af-40e6-821f-58aa38bdfd8b&autostart=true",
-          title: "Palinsesto Comunicare Produzioni",
-        },
-      ],
-    },
-  ],
+    ],
   "Explore.org": [
     {
       number: 800,
@@ -2083,7 +1555,7 @@ const data = {
       ],
     },
     {
-      number: 811,
+      number: 809,
       channelName: "Donkey Hill",
       channelIcon: explore,
       episodes: [
