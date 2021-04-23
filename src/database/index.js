@@ -12,6 +12,7 @@ import franceinfo from "../assets/icons/franceinfo.png";
 import frequenzy from "../assets/icons/frequenzy.png";
 import gx from "../assets/icons/gx.png";
 import japanews from "../assets/icons/japanews.png";
+import kids from "../assets/icons/kids.png";
 import lofi from "../assets/icons/lofi.png";
 import mathnews from "../assets/icons/mathnews.png";
 import ms360 from "../assets/icons/ms360.png";
@@ -27,8 +28,6 @@ import rtarabic from "../assets/icons/RTArabic.png";
 import skynews from "../assets/icons/skynewslogo.png";
 import solitude from "../assets/icons/solitude.png";
 import somoytv from "../assets/icons/Somoytv.png";
-import synthwave from "../assets/icons/synthwave.png";
-import td from "../assets/icons/td.png";
 import tomfriends from "../assets/icons/tomfriends.png";
 import tomheroes from "../assets/icons/tomheroes.png";
 import venice from "../assets/icons/venice.png";
@@ -43,7 +42,7 @@ const data = {
       episodes: [
         {
           videoId:
-            "https://www.youtube.com/watch?v=Ph_GRKvvqK4&list=PLXQmsxcbaFYNpyqFpmZDszZSmRqogb52B&ab&autoplay=1&mute=1&vq=hd1080",
+            "https://www.youtube.com/watch?v=Ph_GRKvvqK4&list=PLXQmsxcbaFYNpyqFpmZDszZSmRqogb52B&ab&autoplay=1&vq=hd1080",
           title: "GeauxInfo",
         },
         {
@@ -205,37 +204,6 @@ const data = {
       ],
     },
     {
-      number: 104,
-      channelName: "Mathrubhumi News",
-      channelIcon: mathnews,
-      episodes: [
-        {
-          videoId: "https://www.youtube.com/watch?v=irF-4N_fHjs&vq=hd1080",
-          title: "മലയാളം: മാതൃഭൂമി ന്യൂസ്",
-        },
-        {
-          videoId: "https://www.youtube.com/watch?v=irF-4N_fHjs&vq=hd1080",
-          title: "മലയാളം: മാതൃഭൂമി ന്യൂസ്",
-        },
-        {
-          videoId: "https://www.youtube.com/watch?v=irF-4N_fHjs&vq=hd1080",
-          title: "മലയാളം: മാതൃഭൂമി ന്യൂസ്",
-        },
-        {
-          videoId: "https://www.youtube.com/watch?v=irF-4N_fHjs&vq=hd1080",
-          title: "മലയാളം: മാതൃഭൂമി ന്യൂസ്",
-        },
-        {
-          videoId: "https://www.youtube.com/watch?v=irF-4N_fHjs&vq=hd1080",
-          title: "മലയാളം: മാതൃഭൂമി ന്യൂസ്",
-        },
-        {
-          videoId: "https://www.youtube.com/watch?v=irF-4N_fHjs&vq=hd1080",
-          title: "മലയാളം: മാതൃഭൂമി ന്യൂസ്",
-        },
-      ],
-    },
-    {
       number: 105,
       channelName: "FranceInfo",
       channelIcon: franceinfo,
@@ -299,37 +267,6 @@ const data = {
     },
   ],
   Kids: [
-    {
-      number: 200,
-      channelName: "Booba",
-      channelIcon: booba,
-      episodes: [
-        {
-          videoId: "https://www.youtube.com/watch?v=XK8METRgK_U",
-          title: "Booba 24/7",
-        },
-        {
-          videoId: "https://www.youtube.com/watch?v=XK8METRgK_U",
-          title: "Booba 24/7",
-        },
-        {
-          videoId: "https://www.youtube.com/watch?v=XK8METRgK_U",
-          title: "Booba 24/7",
-        },
-        {
-          videoId: "https://www.youtube.com/watch?v=XK8METRgK_U",
-          title: "Booba 24/7",
-        },
-        {
-          videoId: "https://www.youtube.com/watch?v=XK8METRgK_U",
-          title: "Booba 24/7",
-        },
-        {
-          videoId: "https://www.youtube.com/watch?v=XK8METRgK_U",
-          title: "Booba 24/7",
-        },
-      ],
-    },
     {
       number: 201,
       channelName: "Tom and Friends",
@@ -401,6 +338,7 @@ const data = {
     {
       number: 203,
       channelName: "Geaux Kids",
+      channelIcon: kids,
       episodes: [
         {
           videoId: "https://www.dailymotion.com/video/x7tb1xt",
@@ -639,36 +577,6 @@ const data = {
       ],
     },
     {
-      number: 404,
-      channelName: "Calming Nature Music",
-      episodes: [
-        {
-          videoId: "https://www.youtube.com/watch?v=P7d1H83IcjE",
-          title: "BeautifulPlaces",
-        },
-        {
-          videoId: "https://www.youtube.com/watch?v=P7d1H83IcjE",
-          title: "BeautifulPlaces",
-        },
-        {
-          videoId: "https://www.youtube.com/watch?v=P7d1H83IcjE",
-          title: "BeautifulPlaces",
-        },
-        {
-          videoId: "https://www.youtube.com/watch?v=P7d1H83IcjE",
-          title: "BeautifulPlaces",
-        },
-        {
-          videoId: "https://www.youtube.com/watch?v=P7d1H83IcjE",
-          title: "BeautifulPlaces",
-        },
-        {
-          videoId: "https://www.youtube.com/watch?v=P7d1H83IcjE",
-          title: "BeautifulPlaces",
-        },
-      ],
-    },
-    {
       number: 405,
       channelName: "Native Flute ",
       channelIcon: nativeflute,
@@ -902,43 +810,6 @@ const data = {
           },
         ],
       },
-      {
-        number: 412,
-        channelName: "Synthwave Radio (16+)",
-        channelIcon: synthwave,
-        episodes: [
-          {
-            videoId:
-              "https://www.youtube.com/watch?v=Yv4dVgTc1-g&ab_channel=NightrideFM",
-            title: "Retrowave Music 24/7",
-          },
-          {
-            videoId:
-              "https://www.youtube.com/watch?v=Yv4dVgTc1-g&ab_channel=NightrideFM",
-            title: "Retrowave Music 24/7",
-          },
-          {
-            videoId:
-              "https://www.youtube.com/watch?v=Yv4dVgTc1-g&ab_channel=NightrideFM",
-            title: "Retrowave Music 24/7",
-          },
-          {
-            videoId:
-              "https://www.youtube.com/watch?v=Yv4dVgTc1-g&ab_channel=NightrideFM",
-            title: "Retrowave Music 24/7",
-          },
-          {
-            videoId:
-              "https://www.youtube.com/watch?v=Yv4dVgTc1-g&ab_channel=NightrideFM",
-            title: "Retrowave Music 24/7",
-          },
-          {
-            videoId:
-              "https://www.youtube.com/watch?v=Yv4dVgTc1-g&ab_channel=NightrideFM",
-            title: "Retrowave Music 24/7",
-            },
-          ],
-        },
         {
         number: 413,
         channelName: "SOLITUDE PRODUCTIONS",
@@ -998,37 +869,6 @@ const data = {
         {
           videoId: "https://www.youtube.com/watch?v=qWf-FPFmVw0&vq=hd1080",
           title: "Electro House & Bass Mix",
-        },
-      ],
-    },
-    {
-      number: 415,
-      channelName: "Gaming Music Mix (16+)",
-      channelIcon: nt,
-      episodes: [
-        {
-          videoId: "https://www.youtube.com/watch?v=eosLoIMzW7E",
-          title: "EDM Music 24/7",
-        },
-        {
-          videoId: "https://www.youtube.com/watch?v=eosLoIMzW7E",
-          title: "EDM Music 24/7",
-        },
-        {
-          videoId: "https://www.youtube.com/watch?v=eosLoIMzW7E",
-          title: "EDM Music 24/7",
-        },
-        {
-          videoId: "https://www.youtube.com/watch?v=eosLoIMzW7E",
-          title: "EDM Music 24/7",
-        },
-        {
-          videoId: "https://www.youtube.com/watch?v=eosLoIMzW7E",
-          title: "EDM Music 24/7",
-        },
-        {
-          videoId: "https://www.youtube.com/watch?v=eosLoIMzW7E",
-          title: "EDM Music 24/7",
         },
       ],
     },
