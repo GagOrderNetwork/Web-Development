@@ -38,7 +38,7 @@
     "couchbase": "^2.6.11",
     "firebase-tools": "^8.0.2",
     "formik": "^2.1.4",
-    "lodash": "^4.17.15",
+    "lodash": "^4.17.21",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-player": "^1.14.2",
