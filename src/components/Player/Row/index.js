@@ -40,7 +40,7 @@ function PlayerRow(props) {
     return false;
   };
 
-  let clickDataArr = [props.productInfo];
+  let clickDataArr = props.productInfo;
   findCommonElement(row, clickDataArr);
 
   return (

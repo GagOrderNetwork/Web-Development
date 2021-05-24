@@ -45,7 +45,7 @@ class Player extends React.Component {
 
   render() {
     const productInfo =
-      productData.find((info) => info.videoId === this.props.videoId) || {};
+      productData.filter((info) => info.videoId === this.props.videoId) || [];
 
     const classes = classMap({
       "gn-player-volume-slider": true,
@@ -54,7 +54,9 @@ class Player extends React.Component {
 
     return (
       <div className="gn-player">
-        <If test={this.props.userId && productInfo.videoId}>
+        <If
+          test={this.props.userId && productInfo[0] && productInfo[0].videoId}
+        >
           <div className="gn-player-touch_grid">
             <PlayerRow row="row-1" productInfo={productInfo} />
             <PlayerRow row="row-2" productInfo={productInfo} />
@@ -65,7 +67,14 @@ class Player extends React.Component {
             <PlayerRow row="row-7" productInfo={productInfo} />
           </div>
         </If>
-        <If test={!this.props.videoId.includes("https://www.wim.tv/")}>
+        <If
+          test={
+            !this.props.videoId.includes("https://www.wim.tv/") &&
+            !this.props.videoId.includes(
+              "https://play.streamingvideoprovider.com/"
+            )
+          }
+        >
           <div className="gn-player-video">
             <ReactPlayer
               className="react-player"
@@ -77,7 +86,14 @@ class Player extends React.Component {
             />
           </div>
         </If>
-        <If test={this.props.videoId.includes("https://www.wim.tv/")}>
+        <If
+          test={
+            this.props.videoId.includes("https://www.wim.tv/") ||
+            this.props.videoId.includes(
+              "https://play.streamingvideoprovider.com/"
+            )
+          }
+        >
           <div className="gn-player-video-iframe">
             <iframe
               src={this.props.videoId}

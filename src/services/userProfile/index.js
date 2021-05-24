@@ -37,9 +37,9 @@ function userProducts(state = initialState, action) {
   switch (action.type) {
     case "ADD_PRODUCT":
       if (
-        !state.userProducts.find(
-          (x) => x.prod.name === action.info.product.prod.name
-        )
+        !state.userProducts.find((x) => {
+          x.name === action.info.product.name;
+        })
       ) {
         state.userProducts.push(action.info.product);
       }

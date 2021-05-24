@@ -367,39 +367,33 @@ const data = {
       ],
     },
   ],
-  "Discover": [
+  Discover: [
     {
       number: 300,
       channelName: "Expression",
       episodes: [
         {
-          videoId:
-            "https://www.dailymotion.com/video/x803ejq",
+          videoId: "https://www.dailymotion.com/video/x803ejq",
           title: "Beauty/Creativity",
         },
         {
-          videoId:
-            "https://www.dailymotion.com/video/x803ejq",
+          videoId: "https://www.dailymotion.com/video/x803ejq",
           title: "Beauty/Creativity",
         },
         {
-          videoId:
-            "https://www.dailymotion.com/video/x803ejq",
+          videoId: "https://www.dailymotion.com/video/x803ejq",
           title: "Beauty/Creativity",
         },
         {
-          videoId:
-            "https://www.dailymotion.com/video/x803ejq",
+          videoId: "https://www.dailymotion.com/video/x803ejq",
           title: "Beauty/Creativity",
         },
         {
-          videoId:
-            "https://www.dailymotion.com/video/x803ejq",
+          videoId: "https://www.dailymotion.com/video/x803ejq",
           title: "Beauty/Creativity",
         },
         {
-          videoId:
-            "https://www.dailymotion.com/video/x803ejq",
+          videoId: "https://www.dailymotion.com/video/x803ejq",
           title: "Beauty/Creativity",
         },
       ],
@@ -409,40 +403,34 @@ const data = {
       channelName: "Expand",
       episodes: [
         {
-          videoId:
-            "https://www.dailymotion.com/video/x803ejw",
+          videoId: "https://www.dailymotion.com/video/x803ejw",
           title: "Knowledge/Education",
         },
         {
-          videoId:
-            "https://www.dailymotion.com/video/x803ejw",
+          videoId: "https://www.dailymotion.com/video/x803ejw",
           title: "Knowledge/Education",
         },
         {
-          videoId:
-            "https://www.dailymotion.com/video/x803ejw",
+          videoId: "https://www.dailymotion.com/video/x803ejw",
           title: "Knowledge/Education",
         },
         {
-          videoId:
-            "https://www.dailymotion.com/video/x803ejw",
+          videoId: "https://www.dailymotion.com/video/x803ejw",
           title: "Knowledge/Education",
         },
         {
-          videoId:
-            "https://www.dailymotion.com/video/x803ejw",
+          videoId: "https://www.dailymotion.com/video/x803ejw",
           title: "Knowledge/Education",
         },
         {
-          videoId:
-            "https://www.dailymotion.com/video/x803ejw",
+          videoId: "https://www.dailymotion.com/video/x803ejw",
           title: "Knowledge/Education",
         },
       ],
     },
-    ],
-      Music: [
-      {
+  ],
+  Music: [
+    {
       number: 400,
       channelName: "Earth Views",
       channelIcon: earthviews,
@@ -807,41 +795,41 @@ const data = {
           videoId:
             "https://www.youtube.com/watch?v=1itSqkbXIlU&ab_channel=FREQUENZY",
           title: "Indie",
-          },
-        ],
-      },
+        },
+      ],
+    },
+    {
+      number: 413,
+      channelName: "SOLITUDE PRODUCTIONS",
+      channelIcon: solitude,
+      episodes: [
         {
-        number: 413,
-        channelName: "SOLITUDE PRODUCTIONS",
-        channelIcon: solitude,
-        episodes: [
-          {
-            videoId: "https://www.youtube.com/watch?v=dGfdGZ8cH-o",
-            title: "Metal Music SOLITUDE PRODUCTIONS",
-          },
-          {
-            videoId: "https://www.youtube.com/watch?v=dGfdGZ8cH-o",
-            title: "Metal Music SOLITUDE PRODUCTIONS",
-          },
-          {
-            videoId: "https://www.youtube.com/watch?v=dGfdGZ8cH-o",
-            title: "Metal Music SOLITUDE PRODUCTIONS",
-          },
-          {
-            videoId: "https://www.youtube.com/watch?v=dGfdGZ8cH-o",
-            title: "Metal Music SOLITUDE PRODUCTIONS",
-          },
-          {
-            videoId: "https://www.youtube.com/watch?v=dGfdGZ8cH-o",
-            title: "Metal Music SOLITUDE PRODUCTIONS",
-          },
-          {
-            videoId: "https://www.youtube.com/watch?v=dGfdGZ8cH-o",
-            title: "Metal Music SOLITUDE PRODUCTIONS",
-          },
-        ],
-      },
-      {
+          videoId: "https://www.youtube.com/watch?v=dGfdGZ8cH-o",
+          title: "Metal Music SOLITUDE PRODUCTIONS",
+        },
+        {
+          videoId: "https://www.youtube.com/watch?v=dGfdGZ8cH-o",
+          title: "Metal Music SOLITUDE PRODUCTIONS",
+        },
+        {
+          videoId: "https://www.youtube.com/watch?v=dGfdGZ8cH-o",
+          title: "Metal Music SOLITUDE PRODUCTIONS",
+        },
+        {
+          videoId: "https://www.youtube.com/watch?v=dGfdGZ8cH-o",
+          title: "Metal Music SOLITUDE PRODUCTIONS",
+        },
+        {
+          videoId: "https://www.youtube.com/watch?v=dGfdGZ8cH-o",
+          title: "Metal Music SOLITUDE PRODUCTIONS",
+        },
+        {
+          videoId: "https://www.youtube.com/watch?v=dGfdGZ8cH-o",
+          title: "Metal Music SOLITUDE PRODUCTIONS",
+        },
+      ],
+    },
+    {
       number: 414,
       channelName: "Shuffle Dance Music (16+)",
       channelIcon: nt,
@@ -976,71 +964,59 @@ const data = {
       channelName: "The Dive",
       episodes: [
         {
-          videoId:
-            "https://dai.ly/x7wdujr",
+          videoId: "https://dai.ly/x7wdujr",
           title: "Geaux Music Live",
         },
         {
-          videoId:
-            "https://dai.ly/x7wdujr",
+          videoId: "https://dai.ly/x7wdujr",
           title: "Geaux Music Live",
         },
         {
-          videoId:
-            "https://dai.ly/x7wdujr",
+          videoId: "https://dai.ly/x7wdujr",
           title: "Geaux Music Live",
         },
         {
-          videoId:
-            "https://dai.ly/x7wdujr",
+          videoId: "https://dai.ly/x7wdujr",
           title: "Geaux Music Live",
         },
         {
-          videoId:
-            "https://dai.ly/x7wdujr",
+          videoId: "https://dai.ly/x7wdujr",
           title: "Geaux Music Live",
         },
         {
-          videoId:
-            "https://dai.ly/x7wdujr",
+          videoId: "https://dai.ly/x7wdujr",
           title: "Geaux Music Live",
         },
       ],
     },
-    ],
+  ],
   "Science/Tech": [
     {
       number: 500,
       channelName: "Geaux Fantasy",
       episodes: [
         {
-          videoId:
-            "https://www.dailymotion.com/video/x803ekd",
+          videoId: "https://www.dailymotion.com/video/x803ekd",
           title: "Fantasy/Fiction",
         },
         {
-          videoId:
-            "https://www.dailymotion.com/video/x803ekd",
+          videoId: "https://www.dailymotion.com/video/x803ekd",
           title: "Fantasy/Fiction",
         },
         {
-          videoId:
-            "https://www.dailymotion.com/video/x803ekd",
+          videoId: "https://www.dailymotion.com/video/x803ekd",
           title: "Fantasy/Fiction",
         },
         {
-          videoId:
-            "https://www.dailymotion.com/video/x803ekd",
+          videoId: "https://www.dailymotion.com/video/x803ekd",
           title: "Fantasy/Fiction",
         },
         {
-          videoId:
-            "https://www.dailymotion.com/video/x803ekd",
+          videoId: "https://www.dailymotion.com/video/x803ekd",
           title: "Fantasy/Fiction",
         },
         {
-          videoId:
-            "https://www.dailymotion.com/video/x803ekd",
+          videoId: "https://www.dailymotion.com/video/x803ekd",
           title: "Fantasy/Fiction",
         },
       ],
@@ -1107,7 +1083,7 @@ const data = {
         },
       ],
     },
-    ],
+  ],
   "Explore.org": [
     {
       number: 800,
@@ -1446,6 +1422,36 @@ const data = {
         },
         {
           videoId: "https://www.dailymotion.com/video/x7z8ktu",
+        },
+      ],
+    },
+    {
+      number: 1000,
+      channelName: "Test channel New service",
+      episodes: [
+        {
+          videoId:
+            "https://play.streamingvideoprovider.com/popplayer.php?it=cz51jew0dz40&is_link=1&w=720&h=405&pause=0&title=Fantasy&skin=3&repeat=&brandNW=1&start_volume=50&bg_gradient1=%23ffffff&bg_gradient2=%23e9e9e9&fullscreen=1&fs_mode=2&skinAlpha=50&colorBase=%231277a3&colorIcon=%23ffffff&colorHighlight=%237f54f8&direct=false&no_ctrl=1&auto_hide=1&viewers_limit=0&cc_position=bottom&cc_positionOffset=70&cc_multiplier=0.03&cc_textColor=%23ffffff&cc_textOutlineColor=%23ffffff&cc_bkgColor=%23000000&cc_bkgAlpha=0.1&image=https%3A%2F%2Fmember.streamingvideoprovider.com%2Fpanel%2Fserver%2Fclip%3Fa%3DGenerateThumbnail%26clip_id%3D3920158%26size%3Dlarge&mainBg_Color=%23ffffff&aspect_ratio=16%3A9&play_button=0&play_button_style=static&sleek_player=1&stretch=1&auto_play=1&auto_play_type=unMute&floating_player=none&_ga=2.1183729.1905814336.1621193399-54578216.1619214486",
+        },
+        {
+          videoId:
+            "https://play.streamingvideoprovider.com/popplayer.php?it=cz51jew0dz40&is_link=1&w=720&h=405&pause=0&title=Fantasy&skin=3&repeat=&brandNW=1&start_volume=50&bg_gradient1=%23ffffff&bg_gradient2=%23e9e9e9&fullscreen=1&fs_mode=2&skinAlpha=50&colorBase=%231277a3&colorIcon=%23ffffff&colorHighlight=%237f54f8&direct=false&no_ctrl=1&auto_hide=1&viewers_limit=0&cc_position=bottom&cc_positionOffset=70&cc_multiplier=0.03&cc_textColor=%23ffffff&cc_textOutlineColor=%23ffffff&cc_bkgColor=%23000000&cc_bkgAlpha=0.1&image=https%3A%2F%2Fmember.streamingvideoprovider.com%2Fpanel%2Fserver%2Fclip%3Fa%3DGenerateThumbnail%26clip_id%3D3920158%26size%3Dlarge&mainBg_Color=%23ffffff&aspect_ratio=16%3A9&play_button=0&play_button_style=static&sleek_player=1&stretch=1&auto_play=1&auto_play_type=unMute&floating_player=none&_ga=2.1183729.1905814336.1621193399-54578216.1619214486",
+        },
+        {
+          videoId:
+            "https://play.streamingvideoprovider.com/popplayer.php?it=cz51jew0dz40&is_link=1&w=720&h=405&pause=0&title=Fantasy&skin=3&repeat=&brandNW=1&start_volume=50&bg_gradient1=%23ffffff&bg_gradient2=%23e9e9e9&fullscreen=1&fs_mode=2&skinAlpha=50&colorBase=%231277a3&colorIcon=%23ffffff&colorHighlight=%237f54f8&direct=false&no_ctrl=1&auto_hide=1&viewers_limit=0&cc_position=bottom&cc_positionOffset=70&cc_multiplier=0.03&cc_textColor=%23ffffff&cc_textOutlineColor=%23ffffff&cc_bkgColor=%23000000&cc_bkgAlpha=0.1&image=https%3A%2F%2Fmember.streamingvideoprovider.com%2Fpanel%2Fserver%2Fclip%3Fa%3DGenerateThumbnail%26clip_id%3D3920158%26size%3Dlarge&mainBg_Color=%23ffffff&aspect_ratio=16%3A9&play_button=0&play_button_style=static&sleek_player=1&stretch=1&auto_play=1&auto_play_type=unMute&floating_player=none&_ga=2.1183729.1905814336.1621193399-54578216.1619214486",
+        },
+        {
+          videoId:
+            "https://play.streamingvideoprovider.com/popplayer.php?it=cz51jew0dz40&is_link=1&w=720&h=405&pause=0&title=Fantasy&skin=3&repeat=&brandNW=1&start_volume=50&bg_gradient1=%23ffffff&bg_gradient2=%23e9e9e9&fullscreen=1&fs_mode=2&skinAlpha=50&colorBase=%231277a3&colorIcon=%23ffffff&colorHighlight=%237f54f8&direct=false&no_ctrl=1&auto_hide=1&viewers_limit=0&cc_position=bottom&cc_positionOffset=70&cc_multiplier=0.03&cc_textColor=%23ffffff&cc_textOutlineColor=%23ffffff&cc_bkgColor=%23000000&cc_bkgAlpha=0.1&image=https%3A%2F%2Fmember.streamingvideoprovider.com%2Fpanel%2Fserver%2Fclip%3Fa%3DGenerateThumbnail%26clip_id%3D3920158%26size%3Dlarge&mainBg_Color=%23ffffff&aspect_ratio=16%3A9&play_button=0&play_button_style=static&sleek_player=1&stretch=1&auto_play=1&auto_play_type=unMute&floating_player=none&_ga=2.1183729.1905814336.1621193399-54578216.1619214486",
+        },
+        {
+          videoId:
+            "https://play.streamingvideoprovider.com/popplayer.php?it=cz51jew0dz40&is_link=1&w=720&h=405&pause=0&title=Fantasy&skin=3&repeat=&brandNW=1&start_volume=50&bg_gradient1=%23ffffff&bg_gradient2=%23e9e9e9&fullscreen=1&fs_mode=2&skinAlpha=50&colorBase=%231277a3&colorIcon=%23ffffff&colorHighlight=%237f54f8&direct=false&no_ctrl=1&auto_hide=1&viewers_limit=0&cc_position=bottom&cc_positionOffset=70&cc_multiplier=0.03&cc_textColor=%23ffffff&cc_textOutlineColor=%23ffffff&cc_bkgColor=%23000000&cc_bkgAlpha=0.1&image=https%3A%2F%2Fmember.streamingvideoprovider.com%2Fpanel%2Fserver%2Fclip%3Fa%3DGenerateThumbnail%26clip_id%3D3920158%26size%3Dlarge&mainBg_Color=%23ffffff&aspect_ratio=16%3A9&play_button=0&play_button_style=static&sleek_player=1&stretch=1&auto_play=1&auto_play_type=unMute&floating_player=none&_ga=2.1183729.1905814336.1621193399-54578216.1619214486",
+        },
+        {
+          videoId:
+            "https://play.streamingvideoprovider.com/popplayer.php?it=cz51jew0dz40&is_link=1&w=720&h=405&pause=0&title=Fantasy&skin=3&repeat=&brandNW=1&start_volume=50&bg_gradient1=%23ffffff&bg_gradient2=%23e9e9e9&fullscreen=1&fs_mode=2&skinAlpha=50&colorBase=%231277a3&colorIcon=%23ffffff&colorHighlight=%237f54f8&direct=false&no_ctrl=1&auto_hide=1&viewers_limit=0&cc_position=bottom&cc_positionOffset=70&cc_multiplier=0.03&cc_textColor=%23ffffff&cc_textOutlineColor=%23ffffff&cc_bkgColor=%23000000&cc_bkgAlpha=0.1&image=https%3A%2F%2Fmember.streamingvideoprovider.com%2Fpanel%2Fserver%2Fclip%3Fa%3DGenerateThumbnail%26clip_id%3D3920158%26size%3Dlarge&mainBg_Color=%23ffffff&aspect_ratio=16%3A9&play_button=0&play_button_style=static&sleek_player=1&stretch=1&auto_play=1&auto_play_type=unMute&floating_player=none&_ga=2.1183729.1905814336.1621193399-54578216.1619214486",
         },
       ],
     },
