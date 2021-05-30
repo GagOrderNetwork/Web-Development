@@ -204,37 +204,6 @@ const data = {
       ],
     },
     {
-      number: 105,
-      channelName: "FranceInfo",
-      channelIcon: franceinfo,
-      episodes: [
-        {
-          videoId: "https://www.youtube.com/watch?v=wwNZKfBLAsc?&vq=hd1080",
-          title: "FranceInfo 24/7",
-        },
-        {
-          videoId: "https://www.youtube.com/watch?v=wwNZKfBLAsc?&vq=hd1080",
-          title: "FranceInfo 24/7",
-        },
-        {
-          videoId: "https://www.youtube.com/watch?v=wwNZKfBLAsc?&vq=hd1080",
-          title: "FranceInfo 24/7",
-        },
-        {
-          videoId: "https://www.youtube.com/watch?v=wwNZKfBLAsc?&vq=hd1080",
-          title: "FranceInfo 24/7",
-        },
-        {
-          videoId: "https://www.youtube.com/watch?v=wwNZKfBLAsc?&vq=hd1080",
-          title: "FranceInfo 24/7",
-        },
-        {
-          videoId: "https://www.youtube.com/watch?v=wwNZKfBLAsc?&vq=hd1080",
-          title: "FranceInfo 24/7",
-        },
-      ],
-    },
-    {
       number: 106,
       channelName: "NewsOne",
       channelIcon: newsone,
@@ -432,6 +401,42 @@ const data = {
   Music: [
     {
       number: 400,
+      channelName: "Audio Dramas",
+      episodes: [
+        {
+          videoId:
+            "https://play.streamingvideoprovider.com/popplayer.php?it=33q37v9x196o&is_link=1&w=1080&h=720&pause=0&title=AudioDramas&skin=3&repeat=&brandNW=1&start_volume=50&bg_gradient1=%23ffffff&bg_gradient2=%23e9e9e9&fullscreen=1&fs_mode=2&skinAlpha=50&colorBase=%231277a3&colorIcon=%23ffffff&colorHighlight=%237f54f8&direct=false&no_ctrl=1&auto_hide=1&viewers_limit=0&cc_position=bottom&cc_positionOffset=70&cc_multiplier=0.03&cc_textColor=%23ffffff&cc_textOutlineColor=%23ffffff&cc_bkgColor=%23000000&cc_bkgAlpha=0.1&image=https%3A%2F%2Fmember.streamingvideoprovider.com%2Fpanel%2Fserver%2Fclip%3Fa%3DGenerateThumbnail%26clip_id%3D3973769%26size%3Dlarge&mainBg_Color=%23ffffff&aspect_ratio=16%3A9&play_button=0&play_button_style=static&sleek_player=0&stretch=&auto_play=1&auto_play_type=unMute&floating_player=none",
+          title: "Audio Dramas",
+        },
+        {
+          videoId:
+            "https://play.streamingvideoprovider.com/popplayer.php?it=33q37v9x196o&is_link=1&w=1080&h=720&pause=0&title=AudioDramas&skin=3&repeat=&brandNW=1&start_volume=50&bg_gradient1=%23ffffff&bg_gradient2=%23e9e9e9&fullscreen=1&fs_mode=2&skinAlpha=50&colorBase=%231277a3&colorIcon=%23ffffff&colorHighlight=%237f54f8&direct=false&no_ctrl=1&auto_hide=1&viewers_limit=0&cc_position=bottom&cc_positionOffset=70&cc_multiplier=0.03&cc_textColor=%23ffffff&cc_textOutlineColor=%23ffffff&cc_bkgColor=%23000000&cc_bkgAlpha=0.1&image=https%3A%2F%2Fmember.streamingvideoprovider.com%2Fpanel%2Fserver%2Fclip%3Fa%3DGenerateThumbnail%26clip_id%3D3973769%26size%3Dlarge&mainBg_Color=%23ffffff&aspect_ratio=16%3A9&play_button=0&play_button_style=static&sleek_player=0&stretch=&auto_play=1&auto_play_type=unMute&floating_player=none",
+          title: "Audio Dramas",
+        },
+        {
+          videoId:
+            "https://play.streamingvideoprovider.com/popplayer.php?it=33q37v9x196o&is_link=1&w=1080&h=720&pause=0&title=AudioDramas&skin=3&repeat=&brandNW=1&start_volume=50&bg_gradient1=%23ffffff&bg_gradient2=%23e9e9e9&fullscreen=1&fs_mode=2&skinAlpha=50&colorBase=%231277a3&colorIcon=%23ffffff&colorHighlight=%237f54f8&direct=false&no_ctrl=1&auto_hide=1&viewers_limit=0&cc_position=bottom&cc_positionOffset=70&cc_multiplier=0.03&cc_textColor=%23ffffff&cc_textOutlineColor=%23ffffff&cc_bkgColor=%23000000&cc_bkgAlpha=0.1&image=https%3A%2F%2Fmember.streamingvideoprovider.com%2Fpanel%2Fserver%2Fclip%3Fa%3DGenerateThumbnail%26clip_id%3D3973769%26size%3Dlarge&mainBg_Color=%23ffffff&aspect_ratio=16%3A9&play_button=0&play_button_style=static&sleek_player=0&stretch=&auto_play=1&auto_play_type=unMute&floating_player=none",
+          title: "Audio Dramas",
+        },
+        {
+          videoId:
+            "https://play.streamingvideoprovider.com/popplayer.php?it=33q37v9x196o&is_link=1&w=1080&h=720&pause=0&title=AudioDramas&skin=3&repeat=&brandNW=1&start_volume=50&bg_gradient1=%23ffffff&bg_gradient2=%23e9e9e9&fullscreen=1&fs_mode=2&skinAlpha=50&colorBase=%231277a3&colorIcon=%23ffffff&colorHighlight=%237f54f8&direct=false&no_ctrl=1&auto_hide=1&viewers_limit=0&cc_position=bottom&cc_positionOffset=70&cc_multiplier=0.03&cc_textColor=%23ffffff&cc_textOutlineColor=%23ffffff&cc_bkgColor=%23000000&cc_bkgAlpha=0.1&image=https%3A%2F%2Fmember.streamingvideoprovider.com%2Fpanel%2Fserver%2Fclip%3Fa%3DGenerateThumbnail%26clip_id%3D3973769%26size%3Dlarge&mainBg_Color=%23ffffff&aspect_ratio=16%3A9&play_button=0&play_button_style=static&sleek_player=0&stretch=&auto_play=1&auto_play_type=unMute&floating_player=none",
+          title: "Audio Dramas",
+        },
+        {
+          videoId:
+            "https://play.streamingvideoprovider.com/popplayer.php?it=33q37v9x196o&is_link=1&w=1080&h=720&pause=0&title=AudioDramas&skin=3&repeat=&brandNW=1&start_volume=50&bg_gradient1=%23ffffff&bg_gradient2=%23e9e9e9&fullscreen=1&fs_mode=2&skinAlpha=50&colorBase=%231277a3&colorIcon=%23ffffff&colorHighlight=%237f54f8&direct=false&no_ctrl=1&auto_hide=1&viewers_limit=0&cc_position=bottom&cc_positionOffset=70&cc_multiplier=0.03&cc_textColor=%23ffffff&cc_textOutlineColor=%23ffffff&cc_bkgColor=%23000000&cc_bkgAlpha=0.1&image=https%3A%2F%2Fmember.streamingvideoprovider.com%2Fpanel%2Fserver%2Fclip%3Fa%3DGenerateThumbnail%26clip_id%3D3973769%26size%3Dlarge&mainBg_Color=%23ffffff&aspect_ratio=16%3A9&play_button=0&play_button_style=static&sleek_player=0&stretch=&auto_play=1&auto_play_type=unMute&floating_player=none",
+          title: "Audio Dramas",
+        },
+        {
+          videoId:
+            "https://play.streamingvideoprovider.com/popplayer.php?it=33q37v9x196o&is_link=1&w=1080&h=720&pause=0&title=AudioDramas&skin=3&repeat=&brandNW=1&start_volume=50&bg_gradient1=%23ffffff&bg_gradient2=%23e9e9e9&fullscreen=1&fs_mode=2&skinAlpha=50&colorBase=%231277a3&colorIcon=%23ffffff&colorHighlight=%237f54f8&direct=false&no_ctrl=1&auto_hide=1&viewers_limit=0&cc_position=bottom&cc_positionOffset=70&cc_multiplier=0.03&cc_textColor=%23ffffff&cc_textOutlineColor=%23ffffff&cc_bkgColor=%23000000&cc_bkgAlpha=0.1&image=https%3A%2F%2Fmember.streamingvideoprovider.com%2Fpanel%2Fserver%2Fclip%3Fa%3DGenerateThumbnail%26clip_id%3D3973769%26size%3Dlarge&mainBg_Color=%23ffffff&aspect_ratio=16%3A9&play_button=0&play_button_style=static&sleek_player=0&stretch=&auto_play=1&auto_play_type=unMute&floating_player=none",
+          title: "Audio Dramas",
+        },
+      ],
+    },
+    {
+      number: 401,
       channelName: "Earth Views",
       channelIcon: earthviews,
       episodes: [
@@ -468,7 +473,7 @@ const data = {
       ],
     },
     {
-      number: 401,
+      number: 402,
       channelName: "Space Ambient Music",
       episodes: [
         {
@@ -504,7 +509,7 @@ const data = {
       ],
     },
     {
-      number: 402,
+      number: 403,
       channelName: "Relaxing Music",
       episodes: [
         {
@@ -534,7 +539,7 @@ const data = {
       ],
     },
     {
-      number: 403,
+      number: 404,
       channelName: "Rolling Venice",
       channelIcon: venice,
       episodes: [
@@ -964,27 +969,27 @@ const data = {
       channelName: "The Dive",
       episodes: [
         {
-          videoId: "https://dai.ly/x7wdujr",
+          videoId: "https://play.streamingvideoprovider.com/popplayer.php?it=d6avm98x9uok&is_link=1&w=1080&h=720&pause=0&title=TheDive&skin=3&repeat=&brandNW=1&start_volume=50&bg_gradient1=%23ffffff&bg_gradient2=%23e9e9e9&fullscreen=1&fs_mode=2&skinAlpha=50&colorBase=%231277a3&colorIcon=%23ffffff&colorHighlight=%237f54f8&direct=false&no_ctrl=1&auto_hide=1&viewers_limit=0&cc_position=bottom&cc_positionOffset=70&cc_multiplier=0.03&cc_textColor=%23ffffff&cc_textOutlineColor=%23ffffff&cc_bkgColor=%23000000&cc_bkgAlpha=0.1&image=https%3A%2F%2Fmember.streamingvideoprovider.com%2Fpanel%2Fserver%2Fclip%3Fa%3DGenerateThumbnail%26clip_id%3D3920158%26size%3Dlarge&mainBg_Color=%23ffffff&aspect_ratio=16%3A9&play_button=0&play_button_style=static&sleek_player=0&stretch=&auto_play=1&auto_play_type=unMute&floating_player=none&_ga=2.1183729.1905814336.1621193399-54578216.1619214486",
           title: "Geaux Music Live",
         },
         {
-          videoId: "https://dai.ly/x7wdujr",
+          videoId: "https://play.streamingvideoprovider.com/popplayer.php?it=d6avm98x9uok&is_link=1&w=71080&h=720&pause=0&title=TheDive&skin=3&repeat=&brandNW=1&start_volume=50&bg_gradient1=%23ffffff&bg_gradient2=%23e9e9e9&fullscreen=1&fs_mode=2&skinAlpha=50&colorBase=%231277a3&colorIcon=%23ffffff&colorHighlight=%237f54f8&direct=false&no_ctrl=1&auto_hide=1&viewers_limit=0&cc_position=bottom&cc_positionOffset=70&cc_multiplier=0.03&cc_textColor=%23ffffff&cc_textOutlineColor=%23ffffff&cc_bkgColor=%23000000&cc_bkgAlpha=0.1&image=https%3A%2F%2Fmember.streamingvideoprovider.com%2Fpanel%2Fserver%2Fclip%3Fa%3DGenerateThumbnail%26clip_id%3D3920158%26size%3Dlarge&mainBg_Color=%23ffffff&aspect_ratio=16%3A9&play_button=0&play_button_style=static&sleek_player=0&stretch=&auto_play=1&auto_play_type=unMute&floating_player=none&_ga=2.1183729.1905814336.1621193399-54578216.1619214486",
           title: "Geaux Music Live",
         },
         {
-          videoId: "https://dai.ly/x7wdujr",
+          videoId: "https://play.streamingvideoprovider.com/popplayer.php?it=d6avm98x9uok&is_link=1&w=1080&h=720&pause=0&title=TheDive&skin=3&repeat=&brandNW=1&start_volume=50&bg_gradient1=%23ffffff&bg_gradient2=%23e9e9e9&fullscreen=1&fs_mode=2&skinAlpha=50&colorBase=%231277a3&colorIcon=%23ffffff&colorHighlight=%237f54f8&direct=false&no_ctrl=1&auto_hide=1&viewers_limit=0&cc_position=bottom&cc_positionOffset=70&cc_multiplier=0.03&cc_textColor=%23ffffff&cc_textOutlineColor=%23ffffff&cc_bkgColor=%23000000&cc_bkgAlpha=0.1&image=https%3A%2F%2Fmember.streamingvideoprovider.com%2Fpanel%2Fserver%2Fclip%3Fa%3DGenerateThumbnail%26clip_id%3D3920158%26size%3Dlarge&mainBg_Color=%23ffffff&aspect_ratio=16%3A9&play_button=0&play_button_style=static&sleek_player=0&stretch=&auto_play=1&auto_play_type=unMute&floating_player=none&_ga=2.1183729.1905814336.1621193399-54578216.1619214486",
           title: "Geaux Music Live",
         },
         {
-          videoId: "https://dai.ly/x7wdujr",
+          videoId: "https://play.streamingvideoprovider.com/popplayer.php?it=d6avm98x9uok&is_link=1&w=1080&h=720&pause=0&title=TheDive&skin=3&repeat=&brandNW=1&start_volume=50&bg_gradient1=%23ffffff&bg_gradient2=%23e9e9e9&fullscreen=1&fs_mode=2&skinAlpha=50&colorBase=%231277a3&colorIcon=%23ffffff&colorHighlight=%237f54f8&direct=false&no_ctrl=1&auto_hide=1&viewers_limit=0&cc_position=bottom&cc_positionOffset=70&cc_multiplier=0.03&cc_textColor=%23ffffff&cc_textOutlineColor=%23ffffff&cc_bkgColor=%23000000&cc_bkgAlpha=0.1&image=https%3A%2F%2Fmember.streamingvideoprovider.com%2Fpanel%2Fserver%2Fclip%3Fa%3DGenerateThumbnail%26clip_id%3D3920158%26size%3Dlarge&mainBg_Color=%23ffffff&aspect_ratio=16%3A9&play_button=0&play_button_style=static&sleek_player=0&stretch=&auto_play=1&auto_play_type=unMute&floating_player=none&_ga=2.1183729.1905814336.1621193399-54578216.1619214486",
           title: "Geaux Music Live",
         },
         {
-          videoId: "https://dai.ly/x7wdujr",
+          videoId: "https://play.streamingvideoprovider.com/popplayer.php?it=d6avm98x9uok&is_link=1&w=1080&h=720&pause=0&title=TheDive&skin=3&repeat=&brandNW=1&start_volume=50&bg_gradient1=%23ffffff&bg_gradient2=%23e9e9e9&fullscreen=1&fs_mode=2&skinAlpha=50&colorBase=%231277a3&colorIcon=%23ffffff&colorHighlight=%237f54f8&direct=false&no_ctrl=1&auto_hide=1&viewers_limit=0&cc_position=bottom&cc_positionOffset=70&cc_multiplier=0.03&cc_textColor=%23ffffff&cc_textOutlineColor=%23ffffff&cc_bkgColor=%23000000&cc_bkgAlpha=0.1&image=https%3A%2F%2Fmember.streamingvideoprovider.com%2Fpanel%2Fserver%2Fclip%3Fa%3DGenerateThumbnail%26clip_id%3D3920158%26size%3Dlarge&mainBg_Color=%23ffffff&aspect_ratio=16%3A9&play_button=0&play_button_style=static&sleek_player=0&stretch=&auto_play=1&auto_play_type=unMute&floating_player=none&_ga=2.1183729.1905814336.1621193399-54578216.1619214486",
           title: "Geaux Music Live",
         },
         {
-          videoId: "https://dai.ly/x7wdujr",
+          videoId: "https://play.streamingvideoprovider.com/popplayer.php?it=d6avm98x9uok&is_link=1&w=1080&h=720&pause=0&title=TheDive&skin=3&repeat=&brandNW=1&start_volume=50&bg_gradient1=%23ffffff&bg_gradient2=%23e9e9e9&fullscreen=1&fs_mode=2&skinAlpha=50&colorBase=%231277a3&colorIcon=%23ffffff&colorHighlight=%237f54f8&direct=false&no_ctrl=1&auto_hide=1&viewers_limit=0&cc_position=bottom&cc_positionOffset=70&cc_multiplier=0.03&cc_textColor=%23ffffff&cc_textOutlineColor=%23ffffff&cc_bkgColor=%23000000&cc_bkgAlpha=0.1&image=https%3A%2F%2Fmember.streamingvideoprovider.com%2Fpanel%2Fserver%2Fclip%3Fa%3DGenerateThumbnail%26clip_id%3D3920158%26size%3Dlarge&mainBg_Color=%23ffffff&aspect_ratio=16%3A9&play_button=0&play_button_style=static&sleek_player=0&stretch=&auto_play=1&auto_play_type=unMute&floating_player=none&_ga=2.1183729.1905814336.1621193399-54578216.1619214486",
           title: "Geaux Music Live",
         },
       ],
@@ -996,28 +1001,34 @@ const data = {
       channelName: "Geaux Fantasy",
       episodes: [
         {
-          videoId: "https://www.dailymotion.com/video/x803ekd",
-          title: "Fantasy/Fiction",
+          videoId:
+            "https://play.streamingvideoprovider.com/popplayer.php?it=cz51jew0dz40&is_link=1&w=720&h=405&pause=0&title=Fantasy&skin=3&repeat=&brandNW=1&start_volume=50&bg_gradient1=%23ffffff&bg_gradient2=%23e9e9e9&fullscreen=1&fs_mode=2&skinAlpha=50&colorBase=%231277a3&colorIcon=%23ffffff&colorHighlight=%237f54f8&direct=false&no_ctrl=1&auto_hide=1&viewers_limit=0&cc_position=bottom&cc_positionOffset=70&cc_multiplier=0.03&cc_textColor=%23ffffff&cc_textOutlineColor=%23ffffff&cc_bkgColor=%23000000&cc_bkgAlpha=0.1&image=https%3A%2F%2Fmember.streamingvideoprovider.com%2Fpanel%2Fserver%2Fclip%3Fa%3DGenerateThumbnail%26clip_id%3D3920158%26size%3Dlarge&mainBg_Color=%23ffffff&aspect_ratio=16%3A9&play_button=0&play_button_style=static&sleek_player=1&stretch=1&auto_play=1&auto_play_type=unMute&floating_player=none&_ga=2.1183729.1905814336.1621193399-54578216.1619214486",
+            title: "Fantasy/Fiction",
         },
         {
-          videoId: "https://www.dailymotion.com/video/x803ekd",
-          title: "Fantasy/Fiction",
+          videoId:
+            "https://play.streamingvideoprovider.com/popplayer.php?it=cz51jew0dz40&is_link=1&w=720&h=405&pause=0&title=Fantasy&skin=3&repeat=&brandNW=1&start_volume=50&bg_gradient1=%23ffffff&bg_gradient2=%23e9e9e9&fullscreen=1&fs_mode=2&skinAlpha=50&colorBase=%231277a3&colorIcon=%23ffffff&colorHighlight=%237f54f8&direct=false&no_ctrl=1&auto_hide=1&viewers_limit=0&cc_position=bottom&cc_positionOffset=70&cc_multiplier=0.03&cc_textColor=%23ffffff&cc_textOutlineColor=%23ffffff&cc_bkgColor=%23000000&cc_bkgAlpha=0.1&image=https%3A%2F%2Fmember.streamingvideoprovider.com%2Fpanel%2Fserver%2Fclip%3Fa%3DGenerateThumbnail%26clip_id%3D3920158%26size%3Dlarge&mainBg_Color=%23ffffff&aspect_ratio=16%3A9&play_button=0&play_button_style=static&sleek_player=1&stretch=1&auto_play=1&auto_play_type=unMute&floating_player=none&_ga=2.1183729.1905814336.1621193399-54578216.1619214486",
+            title: "Fantasy/Fiction",
         },
         {
-          videoId: "https://www.dailymotion.com/video/x803ekd",
-          title: "Fantasy/Fiction",
+          videoId:
+            "https://play.streamingvideoprovider.com/popplayer.php?it=cz51jew0dz40&is_link=1&w=720&h=405&pause=0&title=Fantasy&skin=3&repeat=&brandNW=1&start_volume=50&bg_gradient1=%23ffffff&bg_gradient2=%23e9e9e9&fullscreen=1&fs_mode=2&skinAlpha=50&colorBase=%231277a3&colorIcon=%23ffffff&colorHighlight=%237f54f8&direct=false&no_ctrl=1&auto_hide=1&viewers_limit=0&cc_position=bottom&cc_positionOffset=70&cc_multiplier=0.03&cc_textColor=%23ffffff&cc_textOutlineColor=%23ffffff&cc_bkgColor=%23000000&cc_bkgAlpha=0.1&image=https%3A%2F%2Fmember.streamingvideoprovider.com%2Fpanel%2Fserver%2Fclip%3Fa%3DGenerateThumbnail%26clip_id%3D3920158%26size%3Dlarge&mainBg_Color=%23ffffff&aspect_ratio=16%3A9&play_button=0&play_button_style=static&sleek_player=1&stretch=1&auto_play=1&auto_play_type=unMute&floating_player=none&_ga=2.1183729.1905814336.1621193399-54578216.1619214486",
+            title: "Fantasy/Fiction",
         },
         {
-          videoId: "https://www.dailymotion.com/video/x803ekd",
-          title: "Fantasy/Fiction",
+          videoId:
+            "https://play.streamingvideoprovider.com/popplayer.php?it=cz51jew0dz40&is_link=1&w=720&h=405&pause=0&title=Fantasy&skin=3&repeat=&brandNW=1&start_volume=50&bg_gradient1=%23ffffff&bg_gradient2=%23e9e9e9&fullscreen=1&fs_mode=2&skinAlpha=50&colorBase=%231277a3&colorIcon=%23ffffff&colorHighlight=%237f54f8&direct=false&no_ctrl=1&auto_hide=1&viewers_limit=0&cc_position=bottom&cc_positionOffset=70&cc_multiplier=0.03&cc_textColor=%23ffffff&cc_textOutlineColor=%23ffffff&cc_bkgColor=%23000000&cc_bkgAlpha=0.1&image=https%3A%2F%2Fmember.streamingvideoprovider.com%2Fpanel%2Fserver%2Fclip%3Fa%3DGenerateThumbnail%26clip_id%3D3920158%26size%3Dlarge&mainBg_Color=%23ffffff&aspect_ratio=16%3A9&play_button=0&play_button_style=static&sleek_player=1&stretch=1&auto_play=1&auto_play_type=unMute&floating_player=none&_ga=2.1183729.1905814336.1621193399-54578216.1619214486",
+            title: "Fantasy/Fiction",
         },
         {
-          videoId: "https://www.dailymotion.com/video/x803ekd",
-          title: "Fantasy/Fiction",
+          videoId:
+            "https://play.streamingvideoprovider.com/popplayer.php?it=cz51jew0dz40&is_link=1&w=720&h=405&pause=0&title=Fantasy&skin=3&repeat=&brandNW=1&start_volume=50&bg_gradient1=%23ffffff&bg_gradient2=%23e9e9e9&fullscreen=1&fs_mode=2&skinAlpha=50&colorBase=%231277a3&colorIcon=%23ffffff&colorHighlight=%237f54f8&direct=false&no_ctrl=1&auto_hide=1&viewers_limit=0&cc_position=bottom&cc_positionOffset=70&cc_multiplier=0.03&cc_textColor=%23ffffff&cc_textOutlineColor=%23ffffff&cc_bkgColor=%23000000&cc_bkgAlpha=0.1&image=https%3A%2F%2Fmember.streamingvideoprovider.com%2Fpanel%2Fserver%2Fclip%3Fa%3DGenerateThumbnail%26clip_id%3D3920158%26size%3Dlarge&mainBg_Color=%23ffffff&aspect_ratio=16%3A9&play_button=0&play_button_style=static&sleek_player=1&stretch=1&auto_play=1&auto_play_type=unMute&floating_player=none&_ga=2.1183729.1905814336.1621193399-54578216.1619214486",
+            title: "Fantasy/Fiction",
         },
         {
-          videoId: "https://www.dailymotion.com/video/x803ekd",
-          title: "Fantasy/Fiction",
+          videoId:
+            "https://play.streamingvideoprovider.com/popplayer.php?it=cz51jew0dz40&is_link=1&w=720&h=405&pause=0&title=Fantasy&skin=3&repeat=&brandNW=1&start_volume=50&bg_gradient1=%23ffffff&bg_gradient2=%23e9e9e9&fullscreen=1&fs_mode=2&skinAlpha=50&colorBase=%231277a3&colorIcon=%23ffffff&colorHighlight=%237f54f8&direct=false&no_ctrl=1&auto_hide=1&viewers_limit=0&cc_position=bottom&cc_positionOffset=70&cc_multiplier=0.03&cc_textColor=%23ffffff&cc_textOutlineColor=%23ffffff&cc_bkgColor=%23000000&cc_bkgAlpha=0.1&image=https%3A%2F%2Fmember.streamingvideoprovider.com%2Fpanel%2Fserver%2Fclip%3Fa%3DGenerateThumbnail%26clip_id%3D3920158%26size%3Dlarge&mainBg_Color=%23ffffff&aspect_ratio=16%3A9&play_button=0&play_button_style=static&sleek_player=1&stretch=1&auto_play=1&auto_play_type=unMute&floating_player=none&_ga=2.1183729.1905814336.1621193399-54578216.1619214486",
+            title: "Fantasy/Fiction",
         },
       ],
     },
@@ -1406,52 +1417,22 @@ const data = {
       channelName: "Touch Purchase Demo Test",
       episodes: [
         {
-          videoId: "https://www.dailymotion.com/video/x7z8ktu",
+          videoId: "https://play.streamingvideoprovider.com/popplayer.php??it=ek0lvdreu884&is_link=1&w=1080&h=720&pause=0&title=TouchTestDemo&skin=3&repeat=&brandNW=1&start_volume=50&bg_gradient1=%23ffffff&bg_gradient2=%23e9e9e9&fullscreen=1&fs_mode=2&skinAlpha=50&colorBase=%231277a3&colorIcon=%23ffffff&colorHighlight=%237f54f8&direct=false&no_ctrl=1&auto_hide=1&viewers_limit=0&cc_position=bottom&cc_positionOffset=70&cc_multiplier=0.03&cc_textColor=%23ffffff&cc_textOutlineColor=%23ffffff&cc_bkgColor=%23000000&cc_bkgAlpha=0.1&image=https%3A%2F%2Fmember.streamingvideoprovider.com%2Fpanel%2Fserver%2Fclip%3Fa%3DGenerateThumbnail%26clip_id%3D3973769%26size%3Dlarge&mainBg_Color=%23ffffff&aspect_ratio=16%3A9&play_button=0&play_button_style=static&sleek_player=0&stretch=&auto_play=1&auto_play_type=unMute&floating_player=none",
         },
         {
-          videoId: "https://www.dailymotion.com/video/x7z8ktu",
+          videoId: "https://play.streamingvideoprovider.com/popplayer.php??it=ek0lvdreu884&is_link=1&w=1080&h=720&pause=0&title=TouchTestDemo&skin=3&repeat=&brandNW=1&start_volume=50&bg_gradient1=%23ffffff&bg_gradient2=%23e9e9e9&fullscreen=1&fs_mode=2&skinAlpha=50&colorBase=%231277a3&colorIcon=%23ffffff&colorHighlight=%237f54f8&direct=false&no_ctrl=1&auto_hide=1&viewers_limit=0&cc_position=bottom&cc_positionOffset=70&cc_multiplier=0.03&cc_textColor=%23ffffff&cc_textOutlineColor=%23ffffff&cc_bkgColor=%23000000&cc_bkgAlpha=0.1&image=https%3A%2F%2Fmember.streamingvideoprovider.com%2Fpanel%2Fserver%2Fclip%3Fa%3DGenerateThumbnail%26clip_id%3D3973769%26size%3Dlarge&mainBg_Color=%23ffffff&aspect_ratio=16%3A9&play_button=0&play_button_style=static&sleek_player=0&stretch=&auto_play=1&auto_play_type=unMute&floating_player=none",
         },
         {
-          videoId: "https://www.dailymotion.com/video/x7z8ktu",
+          videoId: "https://play.streamingvideoprovider.com/popplayer.php??it=ek0lvdreu884&is_link=1&w=1080&h=720&pause=0&title=TouchTestDemo&skin=3&repeat=&brandNW=1&start_volume=50&bg_gradient1=%23ffffff&bg_gradient2=%23e9e9e9&fullscreen=1&fs_mode=2&skinAlpha=50&colorBase=%231277a3&colorIcon=%23ffffff&colorHighlight=%237f54f8&direct=false&no_ctrl=1&auto_hide=1&viewers_limit=0&cc_position=bottom&cc_positionOffset=70&cc_multiplier=0.03&cc_textColor=%23ffffff&cc_textOutlineColor=%23ffffff&cc_bkgColor=%23000000&cc_bkgAlpha=0.1&image=https%3A%2F%2Fmember.streamingvideoprovider.com%2Fpanel%2Fserver%2Fclip%3Fa%3DGenerateThumbnail%26clip_id%3D3973769%26size%3Dlarge&mainBg_Color=%23ffffff&aspect_ratio=16%3A9&play_button=0&play_button_style=static&sleek_player=0&stretch=&auto_play=1&auto_play_type=unMute&floating_player=none",
         },
         {
-          videoId: "https://www.dailymotion.com/video/x7z8ktu",
+          videoId: "https://play.streamingvideoprovider.com/popplayer.php??it=ek0lvdreu884&is_link=1&w=1080&h=720&pause=0&title=TouchTestDemo&skin=3&repeat=&brandNW=1&start_volume=50&bg_gradient1=%23ffffff&bg_gradient2=%23e9e9e9&fullscreen=1&fs_mode=2&skinAlpha=50&colorBase=%231277a3&colorIcon=%23ffffff&colorHighlight=%237f54f8&direct=false&no_ctrl=1&auto_hide=1&viewers_limit=0&cc_position=bottom&cc_positionOffset=70&cc_multiplier=0.03&cc_textColor=%23ffffff&cc_textOutlineColor=%23ffffff&cc_bkgColor=%23000000&cc_bkgAlpha=0.1&image=https%3A%2F%2Fmember.streamingvideoprovider.com%2Fpanel%2Fserver%2Fclip%3Fa%3DGenerateThumbnail%26clip_id%3D3973769%26size%3Dlarge&mainBg_Color=%23ffffff&aspect_ratio=16%3A9&play_button=0&play_button_style=static&sleek_player=0&stretch=&auto_play=1&auto_play_type=unMute&floating_player=none",
         },
         {
-          videoId: "https://www.dailymotion.com/video/x7z8ktu",
+          videoId: "https://play.streamingvideoprovider.com/popplayer.php??it=ek0lvdreu884&is_link=1&w=1080&h=720&pause=0&title=TouchTestDemo&skin=3&repeat=&brandNW=1&start_volume=50&bg_gradient1=%23ffffff&bg_gradient2=%23e9e9e9&fullscreen=1&fs_mode=2&skinAlpha=50&colorBase=%231277a3&colorIcon=%23ffffff&colorHighlight=%237f54f8&direct=false&no_ctrl=1&auto_hide=1&viewers_limit=0&cc_position=bottom&cc_positionOffset=70&cc_multiplier=0.03&cc_textColor=%23ffffff&cc_textOutlineColor=%23ffffff&cc_bkgColor=%23000000&cc_bkgAlpha=0.1&image=https%3A%2F%2Fmember.streamingvideoprovider.com%2Fpanel%2Fserver%2Fclip%3Fa%3DGenerateThumbnail%26clip_id%3D3973769%26size%3Dlarge&mainBg_Color=%23ffffff&aspect_ratio=16%3A9&play_button=0&play_button_style=static&sleek_player=0&stretch=&auto_play=1&auto_play_type=unMute&floating_player=none",
         },
         {
-          videoId: "https://www.dailymotion.com/video/x7z8ktu",
-        },
-      ],
-    },
-    {
-      number: 1000,
-      channelName: "Test channel New service",
-      episodes: [
-        {
-          videoId:
-            "https://play.streamingvideoprovider.com/popplayer.php?it=cz51jew0dz40&is_link=1&w=720&h=405&pause=0&title=Fantasy&skin=3&repeat=&brandNW=1&start_volume=50&bg_gradient1=%23ffffff&bg_gradient2=%23e9e9e9&fullscreen=1&fs_mode=2&skinAlpha=50&colorBase=%231277a3&colorIcon=%23ffffff&colorHighlight=%237f54f8&direct=false&no_ctrl=1&auto_hide=1&viewers_limit=0&cc_position=bottom&cc_positionOffset=70&cc_multiplier=0.03&cc_textColor=%23ffffff&cc_textOutlineColor=%23ffffff&cc_bkgColor=%23000000&cc_bkgAlpha=0.1&image=https%3A%2F%2Fmember.streamingvideoprovider.com%2Fpanel%2Fserver%2Fclip%3Fa%3DGenerateThumbnail%26clip_id%3D3920158%26size%3Dlarge&mainBg_Color=%23ffffff&aspect_ratio=16%3A9&play_button=0&play_button_style=static&sleek_player=1&stretch=1&auto_play=1&auto_play_type=unMute&floating_player=none&_ga=2.1183729.1905814336.1621193399-54578216.1619214486",
-        },
-        {
-          videoId:
-            "https://play.streamingvideoprovider.com/popplayer.php?it=cz51jew0dz40&is_link=1&w=720&h=405&pause=0&title=Fantasy&skin=3&repeat=&brandNW=1&start_volume=50&bg_gradient1=%23ffffff&bg_gradient2=%23e9e9e9&fullscreen=1&fs_mode=2&skinAlpha=50&colorBase=%231277a3&colorIcon=%23ffffff&colorHighlight=%237f54f8&direct=false&no_ctrl=1&auto_hide=1&viewers_limit=0&cc_position=bottom&cc_positionOffset=70&cc_multiplier=0.03&cc_textColor=%23ffffff&cc_textOutlineColor=%23ffffff&cc_bkgColor=%23000000&cc_bkgAlpha=0.1&image=https%3A%2F%2Fmember.streamingvideoprovider.com%2Fpanel%2Fserver%2Fclip%3Fa%3DGenerateThumbnail%26clip_id%3D3920158%26size%3Dlarge&mainBg_Color=%23ffffff&aspect_ratio=16%3A9&play_button=0&play_button_style=static&sleek_player=1&stretch=1&auto_play=1&auto_play_type=unMute&floating_player=none&_ga=2.1183729.1905814336.1621193399-54578216.1619214486",
-        },
-        {
-          videoId:
-            "https://play.streamingvideoprovider.com/popplayer.php?it=cz51jew0dz40&is_link=1&w=720&h=405&pause=0&title=Fantasy&skin=3&repeat=&brandNW=1&start_volume=50&bg_gradient1=%23ffffff&bg_gradient2=%23e9e9e9&fullscreen=1&fs_mode=2&skinAlpha=50&colorBase=%231277a3&colorIcon=%23ffffff&colorHighlight=%237f54f8&direct=false&no_ctrl=1&auto_hide=1&viewers_limit=0&cc_position=bottom&cc_positionOffset=70&cc_multiplier=0.03&cc_textColor=%23ffffff&cc_textOutlineColor=%23ffffff&cc_bkgColor=%23000000&cc_bkgAlpha=0.1&image=https%3A%2F%2Fmember.streamingvideoprovider.com%2Fpanel%2Fserver%2Fclip%3Fa%3DGenerateThumbnail%26clip_id%3D3920158%26size%3Dlarge&mainBg_Color=%23ffffff&aspect_ratio=16%3A9&play_button=0&play_button_style=static&sleek_player=1&stretch=1&auto_play=1&auto_play_type=unMute&floating_player=none&_ga=2.1183729.1905814336.1621193399-54578216.1619214486",
-        },
-        {
-          videoId:
-            "https://play.streamingvideoprovider.com/popplayer.php?it=cz51jew0dz40&is_link=1&w=720&h=405&pause=0&title=Fantasy&skin=3&repeat=&brandNW=1&start_volume=50&bg_gradient1=%23ffffff&bg_gradient2=%23e9e9e9&fullscreen=1&fs_mode=2&skinAlpha=50&colorBase=%231277a3&colorIcon=%23ffffff&colorHighlight=%237f54f8&direct=false&no_ctrl=1&auto_hide=1&viewers_limit=0&cc_position=bottom&cc_positionOffset=70&cc_multiplier=0.03&cc_textColor=%23ffffff&cc_textOutlineColor=%23ffffff&cc_bkgColor=%23000000&cc_bkgAlpha=0.1&image=https%3A%2F%2Fmember.streamingvideoprovider.com%2Fpanel%2Fserver%2Fclip%3Fa%3DGenerateThumbnail%26clip_id%3D3920158%26size%3Dlarge&mainBg_Color=%23ffffff&aspect_ratio=16%3A9&play_button=0&play_button_style=static&sleek_player=1&stretch=1&auto_play=1&auto_play_type=unMute&floating_player=none&_ga=2.1183729.1905814336.1621193399-54578216.1619214486",
-        },
-        {
-          videoId:
-            "https://play.streamingvideoprovider.com/popplayer.php?it=cz51jew0dz40&is_link=1&w=720&h=405&pause=0&title=Fantasy&skin=3&repeat=&brandNW=1&start_volume=50&bg_gradient1=%23ffffff&bg_gradient2=%23e9e9e9&fullscreen=1&fs_mode=2&skinAlpha=50&colorBase=%231277a3&colorIcon=%23ffffff&colorHighlight=%237f54f8&direct=false&no_ctrl=1&auto_hide=1&viewers_limit=0&cc_position=bottom&cc_positionOffset=70&cc_multiplier=0.03&cc_textColor=%23ffffff&cc_textOutlineColor=%23ffffff&cc_bkgColor=%23000000&cc_bkgAlpha=0.1&image=https%3A%2F%2Fmember.streamingvideoprovider.com%2Fpanel%2Fserver%2Fclip%3Fa%3DGenerateThumbnail%26clip_id%3D3920158%26size%3Dlarge&mainBg_Color=%23ffffff&aspect_ratio=16%3A9&play_button=0&play_button_style=static&sleek_player=1&stretch=1&auto_play=1&auto_play_type=unMute&floating_player=none&_ga=2.1183729.1905814336.1621193399-54578216.1619214486",
-        },
-        {
-          videoId:
-            "https://play.streamingvideoprovider.com/popplayer.php?it=cz51jew0dz40&is_link=1&w=720&h=405&pause=0&title=Fantasy&skin=3&repeat=&brandNW=1&start_volume=50&bg_gradient1=%23ffffff&bg_gradient2=%23e9e9e9&fullscreen=1&fs_mode=2&skinAlpha=50&colorBase=%231277a3&colorIcon=%23ffffff&colorHighlight=%237f54f8&direct=false&no_ctrl=1&auto_hide=1&viewers_limit=0&cc_position=bottom&cc_positionOffset=70&cc_multiplier=0.03&cc_textColor=%23ffffff&cc_textOutlineColor=%23ffffff&cc_bkgColor=%23000000&cc_bkgAlpha=0.1&image=https%3A%2F%2Fmember.streamingvideoprovider.com%2Fpanel%2Fserver%2Fclip%3Fa%3DGenerateThumbnail%26clip_id%3D3920158%26size%3Dlarge&mainBg_Color=%23ffffff&aspect_ratio=16%3A9&play_button=0&play_button_style=static&sleek_player=1&stretch=1&auto_play=1&auto_play_type=unMute&floating_player=none&_ga=2.1183729.1905814336.1621193399-54578216.1619214486",
+          videoId: "https://play.streamingvideoprovider.com/popplayer.php??it=ek0lvdreu884&is_link=1&w=1080&h=720&pause=0&title=TouchTestDemo&skin=3&repeat=&brandNW=1&start_volume=50&bg_gradient1=%23ffffff&bg_gradient2=%23e9e9e9&fullscreen=1&fs_mode=2&skinAlpha=50&colorBase=%231277a3&colorIcon=%23ffffff&colorHighlight=%237f54f8&direct=false&no_ctrl=1&auto_hide=1&viewers_limit=0&cc_position=bottom&cc_positionOffset=70&cc_multiplier=0.03&cc_textColor=%23ffffff&cc_textOutlineColor=%23ffffff&cc_bkgColor=%23000000&cc_bkgAlpha=0.1&image=https%3A%2F%2Fmember.streamingvideoprovider.com%2Fpanel%2Fserver%2Fclip%3Fa%3DGenerateThumbnail%26clip_id%3D3973769%26size%3Dlarge&mainBg_Color=%23ffffff&aspect_ratio=16%3A9&play_button=0&play_button_style=static&sleek_player=0&stretch=&auto_play=1&auto_play_type=unMute&floating_player=none",
         },
       ],
     },
