@@ -338,36 +338,6 @@ const data = {
   ],
   Discover: [
     {
-      number: 300,
-      channelName: "Expression",
-      episodes: [
-        {
-          videoId: "https://www.dailymotion.com/video/x803ejq",
-          title: "Beauty/Creativity",
-        },
-        {
-          videoId: "https://www.dailymotion.com/video/x803ejq",
-          title: "Beauty/Creativity",
-        },
-        {
-          videoId: "https://www.dailymotion.com/video/x803ejq",
-          title: "Beauty/Creativity",
-        },
-        {
-          videoId: "https://www.dailymotion.com/video/x803ejq",
-          title: "Beauty/Creativity",
-        },
-        {
-          videoId: "https://www.dailymotion.com/video/x803ejq",
-          title: "Beauty/Creativity",
-        },
-        {
-          videoId: "https://www.dailymotion.com/video/x803ejq",
-          title: "Beauty/Creativity",
-        },
-      ],
-    },
-    {
       number: 301,
       channelName: "Expand",
       episodes: [
