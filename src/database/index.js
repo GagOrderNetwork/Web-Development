@@ -2,32 +2,21 @@
 import africanews from "../assets/icons/Africanews.png";
 import balogo from "../assets/icons/balogo.png";
 import beatclub from "../assets/icons/beatclub.png";
-import booba from "../assets/icons/booba.jpg";
 import br1 from "../assets/icons/br1.png";
-import daaitv from "../assets/icons/daaitv.png";
 import earthviews from "../assets/icons/earthviews.png";
-import ebrutv from "../assets/icons/ebrutv.png";
 import explore from "../assets/icons/explore.png";
-import franceinfo from "../assets/icons/franceinfo.png";
 import frequenzy from "../assets/icons/frequenzy.png";
 import gx from "../assets/icons/gx.png";
 import japanews from "../assets/icons/japanews.png";
 import kids from "../assets/icons/kids.png";
 import lofi from "../assets/icons/lofi.png";
-import mathnews from "../assets/icons/mathnews.png";
-import ms360 from "../assets/icons/ms360.png";
 import nasa1 from "../assets/icons/nasa1.png";
-import nasa2 from "../assets/icons/nasa2.png";
 import nativeflute from "../assets/icons/nativeflute.png";
-import ndtv from "../assets/icons/ndtv.png";
 import newsone from "../assets/icons/newsone.png";
 import nt from "../assets/icons/nt.png";
-import paldoga from "../assets/icons/paldoga.png";
 import raznitzen from "../assets/icons/raznitzen.png";
-import rtarabic from "../assets/icons/RTArabic.png";
 import skynews from "../assets/icons/skynewslogo.png";
 import solitude from "../assets/icons/solitude.png";
-import somoytv from "../assets/icons/Somoytv.png";
 import tomfriends from "../assets/icons/tomfriends.png";
 import tomheroes from "../assets/icons/tomheroes.png";
 import venice from "../assets/icons/venice.png";
@@ -337,6 +326,36 @@ const data = {
     },
   ],
   Discover: [
+    {
+      number: 300,
+      channelName: "Expressions",
+      episodes: [
+        {
+          videoId: "https://play.streamingvideoprovider.com/popplayer.php?it=ezex445346go&is_link=1&w=1080&h=720&pause=0&title=Expressions&skin=3&repeat=&brandNW=1&start_volume=50&bg_gradient1=%23ffffff&bg_gradient2=%23e9e9e9&fullscreen=1&fs_mode=2&skinAlpha=50&colorBase=%231277a3&colorIcon=%23ffffff&colorHighlight=%237f54f8&direct=false&no_ctrl=1&auto_hide=1&viewers_limit=0&cc_position=bottom&cc_positionOffset=70&cc_multiplier=0.03&cc_textColor=%23ffffff&cc_textOutlineColor=%23ffffff&cc_bkgColor=%23000000&cc_bkgAlpha=0.1&image=https%3A%2F%2Fmember.streamingvideoprovider.com%2Fpanel%2Fserver%2Fclip%3Fa%3DGenerateThumbnail%26clip_id%3D3973769%26size%3Dlarge&mainBg_Color=%23ffffff&aspect_ratio=16%3A9&play_button=0&play_button_style=static&sleek_player=0&stretch=&auto_play=1&auto_play_type=unMute&floating_player=none",
+          title: "Art/Creativity",
+        },
+        {
+          videoId: "https://play.streamingvideoprovider.com/popplayer.php?it=ezex445346go&is_link=1&w=1080&h=720&pause=0&title=Expressions&skin=3&repeat=&brandNW=1&start_volume=50&bg_gradient1=%23ffffff&bg_gradient2=%23e9e9e9&fullscreen=1&fs_mode=2&skinAlpha=50&colorBase=%231277a3&colorIcon=%23ffffff&colorHighlight=%237f54f8&direct=false&no_ctrl=1&auto_hide=1&viewers_limit=0&cc_position=bottom&cc_positionOffset=70&cc_multiplier=0.03&cc_textColor=%23ffffff&cc_textOutlineColor=%23ffffff&cc_bkgColor=%23000000&cc_bkgAlpha=0.1&image=https%3A%2F%2Fmember.streamingvideoprovider.com%2Fpanel%2Fserver%2Fclip%3Fa%3DGenerateThumbnail%26clip_id%3D3973769%26size%3Dlarge&mainBg_Color=%23ffffff&aspect_ratio=16%3A9&play_button=0&play_button_style=static&sleek_player=0&stretch=&auto_play=1&auto_play_type=unMute&floating_player=none",
+          title: "Art/Creativity",
+        },
+        {
+          videoId: "https://play.streamingvideoprovider.com/popplayer.php?it=ezex445346go&is_link=1&w=1080&h=720&pause=0&title=Expressions&skin=3&repeat=&brandNW=1&start_volume=50&bg_gradient1=%23ffffff&bg_gradient2=%23e9e9e9&fullscreen=1&fs_mode=2&skinAlpha=50&colorBase=%231277a3&colorIcon=%23ffffff&colorHighlight=%237f54f8&direct=false&no_ctrl=1&auto_hide=1&viewers_limit=0&cc_position=bottom&cc_positionOffset=70&cc_multiplier=0.03&cc_textColor=%23ffffff&cc_textOutlineColor=%23ffffff&cc_bkgColor=%23000000&cc_bkgAlpha=0.1&image=https%3A%2F%2Fmember.streamingvideoprovider.com%2Fpanel%2Fserver%2Fclip%3Fa%3DGenerateThumbnail%26clip_id%3D3973769%26size%3Dlarge&mainBg_Color=%23ffffff&aspect_ratio=16%3A9&play_button=0&play_button_style=static&sleek_player=0&stretch=&auto_play=1&auto_play_type=unMute&floating_player=none",
+          title: "Art/Creativity",
+        },
+        {
+          videoId: "https://play.streamingvideoprovider.com/popplayer.php?it=ezex445346go&is_link=1&w=1080&h=720&pause=0&title=Expressions&skin=3&repeat=&brandNW=1&start_volume=50&bg_gradient1=%23ffffff&bg_gradient2=%23e9e9e9&fullscreen=1&fs_mode=2&skinAlpha=50&colorBase=%231277a3&colorIcon=%23ffffff&colorHighlight=%237f54f8&direct=false&no_ctrl=1&auto_hide=1&viewers_limit=0&cc_position=bottom&cc_positionOffset=70&cc_multiplier=0.03&cc_textColor=%23ffffff&cc_textOutlineColor=%23ffffff&cc_bkgColor=%23000000&cc_bkgAlpha=0.1&image=https%3A%2F%2Fmember.streamingvideoprovider.com%2Fpanel%2Fserver%2Fclip%3Fa%3DGenerateThumbnail%26clip_id%3D3973769%26size%3Dlarge&mainBg_Color=%23ffffff&aspect_ratio=16%3A9&play_button=0&play_button_style=static&sleek_player=0&stretch=&auto_play=1&auto_play_type=unMute&floating_player=none",
+          title: "Art/Creativity",
+        },
+        {
+          videoId: "https://play.streamingvideoprovider.com/popplayer.php?it=ezex445346go&is_link=1&w=1080&h=720&pause=0&title=Expressions&skin=3&repeat=&brandNW=1&start_volume=50&bg_gradient1=%23ffffff&bg_gradient2=%23e9e9e9&fullscreen=1&fs_mode=2&skinAlpha=50&colorBase=%231277a3&colorIcon=%23ffffff&colorHighlight=%237f54f8&direct=false&no_ctrl=1&auto_hide=1&viewers_limit=0&cc_position=bottom&cc_positionOffset=70&cc_multiplier=0.03&cc_textColor=%23ffffff&cc_textOutlineColor=%23ffffff&cc_bkgColor=%23000000&cc_bkgAlpha=0.1&image=https%3A%2F%2Fmember.streamingvideoprovider.com%2Fpanel%2Fserver%2Fclip%3Fa%3DGenerateThumbnail%26clip_id%3D3973769%26size%3Dlarge&mainBg_Color=%23ffffff&aspect_ratio=16%3A9&play_button=0&play_button_style=static&sleek_player=0&stretch=&auto_play=1&auto_play_type=unMute&floating_player=none",
+          title: "Art/Creativity",
+        },
+        {
+          videoId: "https://play.streamingvideoprovider.com/popplayer.php?it=ezex445346go&is_link=1&w=1080&h=720&pause=0&title=Expressions&skin=3&repeat=&brandNW=1&start_volume=50&bg_gradient1=%23ffffff&bg_gradient2=%23e9e9e9&fullscreen=1&fs_mode=2&skinAlpha=50&colorBase=%231277a3&colorIcon=%23ffffff&colorHighlight=%237f54f8&direct=false&no_ctrl=1&auto_hide=1&viewers_limit=0&cc_position=bottom&cc_positionOffset=70&cc_multiplier=0.03&cc_textColor=%23ffffff&cc_textOutlineColor=%23ffffff&cc_bkgColor=%23000000&cc_bkgAlpha=0.1&image=https%3A%2F%2Fmember.streamingvideoprovider.com%2Fpanel%2Fserver%2Fclip%3Fa%3DGenerateThumbnail%26clip_id%3D3973769%26size%3Dlarge&mainBg_Color=%23ffffff&aspect_ratio=16%3A9&play_button=0&play_button_style=static&sleek_player=0&stretch=&auto_play=1&auto_play_type=unMute&floating_player=none",
+          title: "Art/Creativity",
+        },
+      ],
+    },
     {
       number: 301,
       channelName: "Expand",
@@ -1350,22 +1369,22 @@ const data = {
       channelName: "Touch Purchase Demo Test",
       episodes: [
         {
-          videoId: "https://play.streamingvideoprovider.com/popplayer.php?it=ek0lvdreu884&is_link=1&w=1080&h=720&pause=0&title=TouchTestDemo&skin=3&repeat=&brandNW=1&start_volume=50&bg_gradient1=%23ffffff&bg_gradient2=%23e9e9e9&fullscreen=1&fs_mode=2&skinAlpha=50&colorBase=%231277a3&colorIcon=%23ffffff&colorHighlight=%237f54f8&direct=false&no_ctrl=1&auto_hide=1&viewers_limit=0&cc_position=bottom&cc_positionOffset=70&cc_multiplier=0.03&cc_textColor=%23ffffff&cc_textOutlineColor=%23ffffff&cc_bkgColor=%23000000&cc_bkgAlpha=0.1&image=https%3A%2F%2Fmember.streamingvideoprovider.com%2Fpanel%2Fserver%2Fclip%3Fa%3DGenerateThumbnail%26clip_id%3D3973769%26size%3Dlarge&mainBg_Color=%23ffffff&aspect_ratio=16%3A9&play_button=0&play_button_style=static&sleek_player=0&stretch=&auto_play=1&auto_play_type=unMute&floating_player=none",
+          videoId: "https://www.youtube.com/watch?v=gllg354gOi0&list=PLXQmsxcbaFYPMSqfiykmiev-INdfsgsM5",
         },
         {
-          videoId: "https://play.streamingvideoprovider.com/popplayer.php?it=ek0lvdreu884&is_link=1&w=1080&h=720&pause=0&title=TouchTestDemo&skin=3&repeat=&brandNW=1&start_volume=50&bg_gradient1=%23ffffff&bg_gradient2=%23e9e9e9&fullscreen=1&fs_mode=2&skinAlpha=50&colorBase=%231277a3&colorIcon=%23ffffff&colorHighlight=%237f54f8&direct=false&no_ctrl=1&auto_hide=1&viewers_limit=0&cc_position=bottom&cc_positionOffset=70&cc_multiplier=0.03&cc_textColor=%23ffffff&cc_textOutlineColor=%23ffffff&cc_bkgColor=%23000000&cc_bkgAlpha=0.1&image=https%3A%2F%2Fmember.streamingvideoprovider.com%2Fpanel%2Fserver%2Fclip%3Fa%3DGenerateThumbnail%26clip_id%3D3973769%26size%3Dlarge&mainBg_Color=%23ffffff&aspect_ratio=16%3A9&play_button=0&play_button_style=static&sleek_player=0&stretch=&auto_play=1&auto_play_type=unMute&floating_player=none",
+          videoId: "https://www.youtube.com/watch?v=gllg354gOi0&list=PLXQmsxcbaFYPMSqfiykmiev-INdfsgsM5",
         },
         {
-          videoId: "https://play.streamingvideoprovider.com/popplayer.php?it=ek0lvdreu884&is_link=1&w=1080&h=720&pause=0&title=TouchTestDemo&skin=3&repeat=&brandNW=1&start_volume=50&bg_gradient1=%23ffffff&bg_gradient2=%23e9e9e9&fullscreen=1&fs_mode=2&skinAlpha=50&colorBase=%231277a3&colorIcon=%23ffffff&colorHighlight=%237f54f8&direct=false&no_ctrl=1&auto_hide=1&viewers_limit=0&cc_position=bottom&cc_positionOffset=70&cc_multiplier=0.03&cc_textColor=%23ffffff&cc_textOutlineColor=%23ffffff&cc_bkgColor=%23000000&cc_bkgAlpha=0.1&image=https%3A%2F%2Fmember.streamingvideoprovider.com%2Fpanel%2Fserver%2Fclip%3Fa%3DGenerateThumbnail%26clip_id%3D3973769%26size%3Dlarge&mainBg_Color=%23ffffff&aspect_ratio=16%3A9&play_button=0&play_button_style=static&sleek_player=0&stretch=&auto_play=1&auto_play_type=unMute&floating_player=none",
+          videoId: "https://www.youtube.com/watch?v=gllg354gOi0&list=PLXQmsxcbaFYPMSqfiykmiev-INdfsgsM5",
         },
         {
-          videoId: "https://play.streamingvideoprovider.com/popplayer.php?it=ek0lvdreu884&is_link=1&w=1080&h=720&pause=0&title=TouchTestDemo&skin=3&repeat=&brandNW=1&start_volume=50&bg_gradient1=%23ffffff&bg_gradient2=%23e9e9e9&fullscreen=1&fs_mode=2&skinAlpha=50&colorBase=%231277a3&colorIcon=%23ffffff&colorHighlight=%237f54f8&direct=false&no_ctrl=1&auto_hide=1&viewers_limit=0&cc_position=bottom&cc_positionOffset=70&cc_multiplier=0.03&cc_textColor=%23ffffff&cc_textOutlineColor=%23ffffff&cc_bkgColor=%23000000&cc_bkgAlpha=0.1&image=https%3A%2F%2Fmember.streamingvideoprovider.com%2Fpanel%2Fserver%2Fclip%3Fa%3DGenerateThumbnail%26clip_id%3D3973769%26size%3Dlarge&mainBg_Color=%23ffffff&aspect_ratio=16%3A9&play_button=0&play_button_style=static&sleek_player=0&stretch=&auto_play=1&auto_play_type=unMute&floating_player=none",
+          videoId: "https://www.youtube.com/watch?v=gllg354gOi0&list=PLXQmsxcbaFYPMSqfiykmiev-INdfsgsM5",
         },
         {
-          videoId: "https://play.streamingvideoprovider.com/popplayer.php?it=ek0lvdreu884&is_link=1&w=1080&h=720&pause=0&title=TouchTestDemo&skin=3&repeat=&brandNW=1&start_volume=50&bg_gradient1=%23ffffff&bg_gradient2=%23e9e9e9&fullscreen=1&fs_mode=2&skinAlpha=50&colorBase=%231277a3&colorIcon=%23ffffff&colorHighlight=%237f54f8&direct=false&no_ctrl=1&auto_hide=1&viewers_limit=0&cc_position=bottom&cc_positionOffset=70&cc_multiplier=0.03&cc_textColor=%23ffffff&cc_textOutlineColor=%23ffffff&cc_bkgColor=%23000000&cc_bkgAlpha=0.1&image=https%3A%2F%2Fmember.streamingvideoprovider.com%2Fpanel%2Fserver%2Fclip%3Fa%3DGenerateThumbnail%26clip_id%3D3973769%26size%3Dlarge&mainBg_Color=%23ffffff&aspect_ratio=16%3A9&play_button=0&play_button_style=static&sleek_player=0&stretch=&auto_play=1&auto_play_type=unMute&floating_player=none",
+          videoId: "https://www.youtube.com/watch?v=gllg354gOi0&list=PLXQmsxcbaFYPMSqfiykmiev-INdfsgsM5",
         },
         {
-          videoId: "https://play.streamingvideoprovider.com/popplayer.php?it=ek0lvdreu884&is_link=1&w=1080&h=720&pause=0&title=TouchTestDemo&skin=3&repeat=&brandNW=1&start_volume=50&bg_gradient1=%23ffffff&bg_gradient2=%23e9e9e9&fullscreen=1&fs_mode=2&skinAlpha=50&colorBase=%231277a3&colorIcon=%23ffffff&colorHighlight=%237f54f8&direct=false&no_ctrl=1&auto_hide=1&viewers_limit=0&cc_position=bottom&cc_positionOffset=70&cc_multiplier=0.03&cc_textColor=%23ffffff&cc_textOutlineColor=%23ffffff&cc_bkgColor=%23000000&cc_bkgAlpha=0.1&image=https%3A%2F%2Fmember.streamingvideoprovider.com%2Fpanel%2Fserver%2Fclip%3Fa%3DGenerateThumbnail%26clip_id%3D3973769%26size%3Dlarge&mainBg_Color=%23ffffff&aspect_ratio=16%3A9&play_button=0&play_button_style=static&sleek_player=0&stretch=&auto_play=1&auto_play_type=unMute&floating_player=none",
+          videoId: "https://www.youtube.com/watch?v=gllg354gOi0&list=PLXQmsxcbaFYPMSqfiykmiev-INdfsgsM5",
         },
       ],
     },
